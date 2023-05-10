@@ -1,0 +1,1103 @@
+version = 4.2
+
+
+//
+// Saved by sw version: 2017.4 DEV
+// Save timestamp: 23-Oct-2017 @ 01:48:38 PM
+//
+
+model "indm_closed_loop_control_3level_inverter" {
+    configuration {
+        hil_device = "HIL402"
+        hil_configuration_id = 1
+        simulation_method = exact
+        simulation_time_step = auto
+        simulation_discret_scaling = 1.0
+        dsp_timer_periods = 100e-6, 50e-3
+        ss_calc_method = "systematic elimination"
+        enb_pole_shift = True
+        enb_gds_oversampling = True
+        show_modes = False
+        cpl_stb = False
+        enb_dep_sw_detect = False
+        code_section = "internal memory"
+        data_section = "internal memory"
+        sys_sp_rate_1 = 0.0001
+        sys_sp_rate_2 = 0.05
+        sys_real_type_precision = "default"
+        user_real_type_precision = "default"
+        sys_cpu_optimization = "high"
+        user_cpu_optimization = "high"
+    }
+
+    
+    component Subsystem Root {
+
+        
+        component mchn_ind "indm" {
+            
+            Jm = "0.4"
+            Llr = "0.001245"
+            Lls = "0.001245"
+            Lm = "0.04717"
+            Rr = "0.108"
+            Rs = "0.09871"
+            Rsnb_stator = "2459.39241097"
+            enb_sig_out = "True"
+            execution_rate = "s_time"
+            friction_coeff = "0.0248"
+            pms = "pms"
+	    
+        }
+        [
+            position = 8824, 7904
+        ]
+        
+        component gen_c_function "Vf controller" {
+            
+            global_variables = "real f;real t;real theta_A;real theta_B;real theta_C;real V_f_ratio;real V;"
+            in_terminal_dimensions_str = "w_in inherit;"
+            in_terminal_properties = "real w_in;"
+            init_fnc = "/*Begin code section*/
+        t = 0.0;
+        theta_A = 0.0; // 0.0 deg
+        theta_B = -2.0*M_PI/3.0; //-120 deg
+        theta_C = 2.0*M_PI/3.0; //120 deg
+        V_f_ratio = 1/(w_el_max /( 2 * M_PI));
+        /*End code section*/"
+            no_feed_inputs = "[u'']"
+            no_feed_outputs = "[u'']"
+            out_terminal_dimensions_str = "sine_wave_A inherit;sine_wave_B inherit;sine_wave_C inherit;w inherit;"
+            out_terminal_properties = "real sine_wave_A;real sine_wave_B;real sine_wave_C;inherit w;"
+            output_fnc = "/*Begin code section*/
+        // Limiting
+        w = w_in * pms;
+        if (w > w_el_max)
+            w = w_el_max;
+        if (w < 0.0)
+            w = 0.0;
+        
+        V = w * V_f_ratio / (2 * M_PI);
+        
+        // Generating 3-phase sine wave
+        sine_wave_A = V * sin(w * t + theta_A);
+        sine_wave_B = V * sin(w * t + theta_B);
+        sine_wave_C = V * sin(w * t + theta_C);
+        /*End code section*/"
+            parameters = "real s_time;real w_el_max;real pms;"
+            update_fnc = "/*Begin code section*/
+        t = t + s_time;
+        
+        if ((w*t) > (2 * M_PI)){
+            t = t - 2*M_PI/w;
+        }
+        /*End code section*/"
+	    
+        }
+        [
+            position = 8616, 7512
+        ]
+        
+        component gen_probe Speed_ref {
+            
+	    
+        }
+        [
+            position = 8192, 7440
+        ]
+        
+        component gen_sum Sum4 {
+            
+            signs = "+-"
+	    
+        }
+        [
+            position = 8248, 7504
+        ]
+        
+        component gen_probe "Speed error" {
+            
+	    
+        }
+        [
+            position = 8328, 7440
+        ]
+        
+        component gen_probe PI_out {
+            
+	    
+        }
+        [
+            position = 8440, 7440
+        ]
+        
+        component gen_probe sine_ph_A1 {
+            
+	    
+        }
+        [
+            position = 8688, 7440
+        ]
+        
+        component gen_probe sine_ph_B1 {
+            
+	    
+        }
+        [
+            position = 8752, 7440
+        ]
+        
+        component gen_probe sine_ph_C1 {
+            
+	    
+        }
+        [
+            position = 8816, 7440
+        ]
+        
+        component src_voltage Vdc_1 {
+            
+	    
+        }
+        [
+            position = 8064, 7856
+            rotation = right
+        ]
+        
+        component src_voltage Vdc_2 {
+            
+	    
+        }
+        [
+            position = 8064, 7960
+            rotation = right
+        ]
+        
+        component msr_current Ia {
+            
+	    
+        }
+        [
+            position = 8680, 7808
+        ]
+        
+        component msr_current Ib {
+            
+	    
+        }
+        [
+            position = 8680, 7904
+        ]
+        
+        component msr_current Ic {
+            
+	    
+        }
+        [
+            position = 8680, 8000
+        ]
+        
+        component msr_voltage Vbc {
+            
+	    
+        }
+        [
+            position = 8536, 8072
+            rotation = right
+        ]
+        
+        component msr_voltage Vca {
+            
+	    
+        }
+        [
+            position = 8624, 8072
+            rotation = right
+        ]
+        
+        component msr_voltage Vab {
+            
+	    
+        }
+        [
+            position = 8456, 8072
+            rotation = right
+        ]
+        
+        component src_scada_input PWM_En {
+            
+            def_value = "1"
+            execution_rate = "s_time"
+            format = "int"
+            max = "1"
+            min = "0"
+            signal_type = "int"
+            unit = ""
+	    
+        }
+        [
+            position = 8008, 7400
+        ]
+        
+        component gen_terminator Termination1 {
+            
+	    
+        }
+        [
+            position = 9176, 7912
+        ]
+        
+        component gen_sum Sum2 {
+            
+	    
+        }
+        [
+            position = 8512, 7512
+        ]
+        
+        component gen_probe w_el {
+            
+	    
+        }
+        [
+            position = 8968, 7536
+        ]
+        
+        component src_scada_input Mechanical_speed {
+            
+            execution_rate = "s_time"
+            max = "w_el_max/pms"
+            min = "0"
+            unit = ""
+	    
+        }
+        [
+            position = 8008, 7496
+        ]
+        
+        component pas_resistor R1 {
+            
+            resistance = "1e-3"
+	    
+        }
+        [
+            position = 8144, 7808
+        ]
+        
+        component pas_resistor R2 {
+            
+            resistance = "1e-3"
+	    
+        }
+        [
+            position = 8144, 7904
+        ]
+        
+        component pas_resistor R3 {
+            
+            resistance = "1e-3"
+	    
+        }
+        [
+            position = 8144, 8000
+        ]
+        
+        component Subsystem Tunable_PI {
+            layout = dynamic
+    
+            
+            component gen_product Product3 {
+                
+    	    
+            }
+            [
+                position = 8192, 8216
+            ]
+            
+            component src_scada_input Kp {
+                
+                execution_rate = "s_time"
+                unit = ""
+    	    
+            }
+            [
+                position = 8048, 8104
+            ]
+            
+            component gen_product Product2 {
+                
+    	    
+            }
+            [
+                position = 8192, 8112
+            ]
+            
+            component gen_sum Sum2 {
+                
+                signs = "++"
+    	    
+            }
+            [
+                position = 8336, 8184
+            ]
+            
+            component src_scada_input Ki {
+                
+                execution_rate = "s_time"
+                unit = ""
+    	    
+            }
+            [
+                position = 8048, 8264
+            ]
+            
+            component gen_integrator Integrator1 {
+                
+                limit_lower = "0"
+                limit_upper = "314"
+    	    
+            }
+            [
+                position = 8112, 8208
+            ]
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            port Out1 {
+                
+                position = right:1
+                kind = sp
+                direction = in
+                sp_type {
+                    default = inherit
+                    readonly = True
+                }
+            }
+            [
+                position = 8408, 8184
+            ]
+            
+            port In2 {
+                
+                position = left:1
+                kind = sp
+                direction = out
+                sp_type {
+                    default = auto
+                    readonly = True
+                }
+            }
+            [
+                position = 7976, 8176
+            ]
+            
+            junction Junction1 sp
+            [
+                position = 8064, 8176
+            ]
+            connect Integrator1.in Junction1 as Connection260
+            
+            connect Integrator1.out Product3.in as Connection254
+            
+            connect Junction1 In2 as Connection259
+            
+            connect Ki.out Product3.in1 as Connection251
+            
+            connect Product2.in1 Junction1 as Connection258
+            
+            connect Product2.in Kp.out as Connection252
+            
+            connect Product2.out Sum2.in as Connection250
+            
+            connect Product3.out Sum2.in1 as Connection253
+            
+            connect Sum2.out Out1 as Connection256
+            
+            
+    
+            
+        }
+        [
+            position = 8352, 7504
+            size = 48, 48
+        ]
+        component "core/Three Phase NPC Inverter" "Three Phase NPC Inverter1" {
+            
+            ctrl_src = "Internal modulator"
+        }
+        [
+            position = 8288, 7904
+            size = 127, 256
+        ]
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        tag Goto1 {
+            value = "PWM_En"
+            scope = global
+            kind = sp
+            direction = in
+        }
+        [
+            position = 8088, 7400
+            hide_name = True
+        ]
+        
+        tag From6 {
+            value = "PWM_En"
+            scope = global
+            kind = sp
+            direction = out
+        }
+        [
+            position = 8208, 7752
+            hide_name = True
+        ]
+        
+        tag From9 {
+            value = "sine_ph_A1"
+            scope = global
+            kind = sp
+            direction = out
+        }
+        [
+            position = 8208, 7728
+            hide_name = True
+        ]
+        
+        tag From12 {
+            value = "sine_ph_B1"
+            scope = global
+            kind = sp
+            direction = out
+        }
+        [
+            position = 8208, 7704
+            hide_name = True
+        ]
+        
+        tag From13 {
+            value = "sine_ph_C1"
+            scope = global
+            kind = sp
+            direction = out
+        }
+        [
+            position = 8208, 7680
+            hide_name = True
+        ]
+        
+        tag From14 {
+            value = "w"
+            scope = global
+            kind = sp
+            direction = out
+        }
+        [
+            position = 8144, 7584
+        ]
+        
+        tag Goto14 {
+            value = "w"
+            scope = global
+            kind = sp
+            direction = in
+        }
+        [
+            position = 9168, 7824
+        ]
+        
+        tag Goto10 {
+            value = "sine_ph_B1"
+            scope = global
+            kind = sp
+            direction = in
+        }
+        [
+            position = 8896, 7440
+            rotation = left
+            hide_name = True
+        ]
+        
+        tag Goto8 {
+            value = "sine_ph_A1"
+            scope = global
+            kind = sp
+            direction = in
+        }
+        [
+            position = 8864, 7440
+            rotation = left
+            hide_name = True
+        ]
+        
+        tag Goto9 {
+            value = "sine_ph_C1"
+            scope = global
+            kind = sp
+            direction = in
+        }
+        [
+            position = 8928, 7440
+            rotation = left
+            hide_name = True
+        ]
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        comment Comment1 START <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:12pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Controller</p></body></html>    ENDCOMMENT 
+        [
+            position = 8440, 7352
+        ]
+        
+        comment Comment2 START <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:12pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Power Stage</p></body></html>    ENDCOMMENT 
+        [
+            position = 8456, 7712
+        ]
+        
+        junction Junction42 sp
+        [
+            position = 8656, 7488
+        ]
+        
+        junction Junction43 sp
+        [
+            position = 8720, 7504
+        ]
+        
+        junction Junction44 sp
+        [
+            position = 8784, 7520
+        ]
+        
+        junction Junction57 pe
+        [
+            position = 8624, 8000
+        ]
+        
+        junction Junction59 pe
+        [
+            position = 8536, 7904
+        ]
+        
+        junction Junction64 pe
+        [
+            position = 8584, 7808
+        ]
+        
+        junction Junction72 sp
+        [
+            position = 8288, 7504
+        ]
+        
+        junction Junction73 sp
+        [
+            position = 8400, 7504
+        ]
+        
+        junction Junction75 sp
+        [
+            position = 8144, 7496
+        ]
+        
+        junction Junction77 pe
+        [
+            position = 8496, 8000
+        ]
+        
+        junction Junction78 pe
+        [
+            position = 8424, 7904
+        ]
+        
+        junction Junction79 pe
+        [
+            position = 8456, 7808
+        ]
+        
+        junction Junction81 sp
+        [
+            position = 8208, 7584
+        ]
+        
+        junction Junction82 pe
+        [
+            position = 8064, 7904
+        ]
+        connect From12 "Three Phase NPC Inverter1.InB" as Connection572
+        
+        connect From13 "Three Phase NPC Inverter1.InC" as Connection573
+        
+        connect From14 Junction81 as Connection602
+        
+        connect From6 "Three Phase NPC Inverter1.En" as Connection570
+        
+        connect From9 "Three Phase NPC Inverter1.InA" as Connection571
+        
+        connect Goto14 "indm.speed_out" as Connection599
+        
+        connect Ia.n_node "indm.a_in" as Connection88
+        
+        connect Ib.n_node "indm.b_in" as Connection90
+        
+        connect Ic.n_node "indm.c_in" as Connection92
+        
+        connect Junction42 Goto8 as Connection604
+        [
+            breakpoints =8656, 7488;8656, 7488;8656, 7488;8824, 7488;8824, 7488;8864, 7488;8864, 7488;8864, 7488;8864, 7488;8864, 7488;8864, 7488;8864, 7488
+        ]
+        connect Junction42 "Vf controller.sine_wave_A" as Connection399
+        
+        connect Junction43 Goto10 as Connection605
+        [
+            breakpoints =8720, 7504;8896, 7504
+        ]
+        connect Junction43 "Vf controller.sine_wave_B" as Connection402
+        
+        connect Junction44 Goto9 as Connection603
+        [
+            breakpoints =8784, 7520;8784, 7520;8784, 7520;8824, 7520;8824, 7520;8928, 7520;8928, 7520
+        ]
+        connect Junction57 Ic.p_node as Connection465
+        
+        connect Junction59 Ib.p_node as Connection475
+        
+        connect Junction59 Junction78 as Connection581
+        [
+            breakpoints =8536, 7904
+        ]
+        connect Junction64 Ia.p_node as Connection493
+        [
+            breakpoints =8584, 7808;8584, 7808
+        ]
+        connect Junction64 Junction79 as Connection584
+        [
+            breakpoints =8584, 7808;8568, 7808
+        ]
+        connect Junction72 "Speed error.in" as Connection534
+        [
+            breakpoints =8288, 7504;8288, 7504
+        ]
+        connect Junction73 Tunable_PI.Out1 as Connection544
+        [
+            breakpoints =8400, 7504
+        ]
+        connect Junction75 Sum4.in as Connection557
+        
+        connect Junction77 Junction57 as Connection579
+        [
+            breakpoints =8496, 8000;8496, 8000;8624, 8000
+        ]
+        connect Junction78 Vab.n_node as Connection582
+        [
+            breakpoints =8416, 7904;8416, 8128;8456, 8128
+        ]
+        connect Junction79 Vab.p_node as Connection585
+        [
+            breakpoints =8456, 7808;8456, 7808;8456, 7808
+        ]
+        connect Junction81 Sum4.in1 as Connection601
+        
+        connect Junction82 Vdc_1.n_node as Connection609
+        [
+            breakpoints =8064, 7904;8064, 7912;8064, 7904;8064, 7904
+        ]
+        connect Mechanical_speed.out Junction75 as Connection556
+        [
+            breakpoints =8112, 7496
+        ]
+        connect PI_out.in Junction73 as Connection543
+        
+        connect PWM_En.out Goto1 as Connection490
+        
+        connect R1.p_node Vdc_1.p_node as Connection612
+        
+        connect R2.p_node Junction82 as Connection614
+        
+        connect R3.p_node Vdc_2.n_node as Connection616
+        
+        connect Speed_ref.in Junction75 as Connection558
+        
+        connect Sum2.in Junction73 as Connection545
+        
+        connect Sum2.in1 Junction81 as Connection600
+        [
+            breakpoints =8448, 7584;8208, 7584
+        ]
+        connect Sum2.out "Vf controller.w_in" as Connection546
+        
+        connect Sum4.out Junction72 as Connection533
+        
+        connect Termination1.in "indm.torque_out" as Connection536
+        
+        connect "Three Phase NPC Inverter1.C" Junction77 as Connection580
+        
+        connect "Three Phase NPC Inverter1.B" Junction78 as Connection583
+        
+        connect "Three Phase NPC Inverter1.A" Junction79 as Connection586
+        
+        connect "Three Phase NPC Inverter1.DC+" R1.n_node as Connection611
+        
+        connect "Three Phase NPC Inverter1.DCn" R2.n_node as Connection613
+        
+        connect "Three Phase NPC Inverter1.DC-" R3.n_node as Connection615
+        
+        connect Tunable_PI.In2 Junction72 as Connection535
+        
+        connect Vbc.p_node Junction59 as Connection476
+        
+        connect Vbc.n_node Junction77 as Connection578
+        [
+            breakpoints =8536, 8128;8496, 8128
+        ]
+        connect Vca.p_node Junction57 as Connection466
+        
+        connect Vca.n_node Junction64 as Connection494
+        [
+            breakpoints =8624, 8128;8584, 8128
+        ]
+        connect Vdc_2.p_node Junction82 as Connection608
+        
+        connect "Vf controller.sine_wave_C" Junction44 as Connection408
+        [
+            breakpoints =8776, 7520
+        ]
+        connect sine_ph_A1.in Junction42 as Connection400
+        
+        connect sine_ph_B1.in Junction43 as Connection403
+        
+        connect sine_ph_C1.in Junction44 as Connection410
+        
+        connect w_el.in "Vf controller.w" as Connection392
+        
+        
+
+        
+    }
+
+    
+    
+    default {
+        
+        gen_c_function {
+            in_terminal_properties = "real in;"
+            in_terminal_labels = ""
+            out_terminal_properties = "real out;"
+            out_terminal_labels = ""
+            no_feed_inputs = ""
+            no_feed_outputs = ""
+            in_terminal_dimensions = ""
+            in_terminal_dimensions_str = ""
+            out_terminal_dimensions = ""
+            out_terminal_dimensions_str = ""
+            output_fnc = ""
+            update_fnc = ""
+            init_fnc = ""
+            global_variables = ""
+            parameters = ""
+            execution_rate = "inherit"
+        }
+        
+        gen_integrator {
+            show_reset = "none"
+            show_init_condition = "internal"
+            init_value = "0"
+            limit_output = "False"
+            limit_upper = "inf"
+            limit_lower = "-inf"
+            show_state = "False"
+            state_port_type = "inherit"
+            execution_rate = "inherit"
+        }
+        
+        gen_probe {
+            addr = "0"
+            override_signal_name = "False"
+            signal_name = ""
+            signal_type = "generic"
+            execution_rate = "inherit"
+        }
+        
+        gen_product {
+            signs = "2"
+            execution_rate = "inherit"
+        }
+        
+        gen_sum {
+            signs = "2"
+            execution_rate = "inherit"
+        }
+        
+        gen_terminator {
+            execution_rate = "inherit"
+        }
+        
+        mchn_ind {
+            Rs = "13.12"
+            Rr = "11.202"
+            Lls = "0.0276"
+            Llr = "0.0194"
+            Lm = "0.3482"
+            pms = "2"
+            Jm = "10e-6"
+            friction_coeff = "0"
+            unconstrained_angle = "disabled"
+            load_src = "Control panel / external"
+            ext_mdl_load_type = "torque"
+            load_ai_pin_addr = "1"
+            load_ai_offset = "0"
+            load_ai_gain = "1"
+            enc_ppr = "1024"
+            res_pole_pairs = "1"
+            res_carr_source = "internal"
+            res_int_carr_f = "5e+3"
+            res_ai_pin_addr = "1"
+            res_ai_offset = "0"
+            res_ai_gain = "1"
+            Rsnb_stator = "20e3"
+            calculate_max_snubber = "Calculate"
+            enb_sig_out = "False"
+            execution_rate = "100e-6"
+            machine_id = "0"
+            me_speed_out_addr = "0"
+            el_torque_out_addr = "0"
+        }
+        
+        msr_current {
+            sig_output = "False"
+            execution_rate = "100e-6"
+            bw_limit = "False"
+            frequency = "10e3"
+            comparator_enable = "False"
+            operator = "greater"
+            threshold = "0"
+            cmp_abs_value = "False"
+            feed_forward = "false"
+            addr = "0"
+            nd_msr_estimation = "false"
+            dev_cpl_msr = "false"
+            host_device = "0"
+            output_to_device = "0"
+            dev_cpl_index = "0"
+            dev_cpl_var_nb = "0"
+            visible = "True"
+            override_signal_name = "False"
+            signal_name = ""
+        }
+        
+        msr_voltage {
+            sig_output = "False"
+            bw_limit = "False"
+            frequency = "10e3"
+            comparator_enable = "False"
+            operator = "greater"
+            threshold = "0"
+            cmp_abs_value = "False"
+            feed_forward = "false"
+            execution_rate = "100e-6"
+            addr = "0"
+            nd_msr_estimation = "false"
+            dev_cpl_msr = "false"
+            host_device = "0"
+            output_to_device = "0"
+            dev_cpl_index = "0"
+            dev_cpl_var_nb = "0"
+            visible = "True"
+            override_signal_name = "False"
+            signal_name = ""
+        }
+        
+        pas_resistor {
+            resistance = "1"
+        }
+        
+        src_scada_input {
+            addr = "0"
+            format = "real"
+            override_signal_name = "False"
+            signal_name = ""
+            signal_type = "real"
+            min = "-1e6"
+            max = "1e6"
+            def_value = "0"
+            unit = " "
+            execution_rate = "100e-6"
+        }
+        
+        src_voltage {
+            type = "signal generator"
+            param_set = ""
+            dev_cpl_msr = "false"
+            host_device = "0"
+            input_from_device = "0"
+            dev_cpl_index = "0"
+            dev_cpl_var_nb = "0"
+            snb_type_u = "none"
+            R2 = "0.1"
+            L1 = "0.1"
+            fixed_snb_u = "false"
+            cpd_visible = "True"
+        }
+        
+        "core/Three Phase NPC Inverter" {
+            ctrl_src = "Digital input per switch"
+            carrier_freq = "10000.0"
+            carr_ph_offset = "0.0"
+            d_time = "5e-6"
+            ref_sig_min_max = "[-1.0, 1.0]"
+            execution_rate = "inherit"
+            Sa_1 = "1"
+            Sa_1_logic = "active high"
+            Sa_2 = "2"
+            Sa_2_logic = "active high"
+            Sa_3 = "3"
+            Sa_3_logic = "active high"
+            Sa_4 = "4"
+            Sa_4_logic = "active high"
+            Sb_1 = "5"
+            Sb_1_logic = "active high"
+            Sb_2 = "6"
+            Sb_2_logic = "active high"
+            Sb_3 = "7"
+            Sb_3_logic = "active high"
+            Sb_4 = "8"
+            Sb_4_logic = "active high"
+            Sc_1 = "9"
+            Sc_1_logic = "active high"
+            Sc_2 = "10"
+            Sc_2_logic = "active high"
+            Sc_3 = "11"
+            Sc_3_logic = "active high"
+            Sc_4 = "12"
+            Sc_4_logic = "active high"
+            pwm_enabling = "False"
+            pwm_enable_di = "13"
+            pwm_enable_inv = "active high"
+            show_monitoring = "false"
+            _control_property = "all high"
+        }
+    }
+
+    CODE model_init
+        # Numpy module is imported as 'np'
+        # Scipy module is imported as 'sp'
+        
+        s_time = 100e-6 # Signal processing execution rate
+        
+        w_el_max = 314 # [rad/sec] = 314/(2pi) = 50Hz
+        
+        pms = 2 # machine number of pole pairs
+    ENDCODE
+}

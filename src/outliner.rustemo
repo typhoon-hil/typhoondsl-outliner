@@ -1,0 +1,54 @@
+Model: ModelKW name=Name OBrace
+        configuration=Configuration
+        elements=Element0
+    CBrace
+;
+
+Element: Component | Handler | Block;
+Element0 {shift}: Element1 | EMPTY;
+Element1: Element1 Element | Element;
+
+Component: ComponentKW component_type=TypeName name=Name ID? OBrace
+                     elements=Element0
+           CBrace
+;
+Configuration: ConfigurationKW Block;
+Block: OBrace Element0 CBrace;
+Handler:
+  CodeKW name=ID
+  TillEndCodeKW
+  EndCodeKW
+;
+
+TypeName: Name | ID;
+
+// Comments
+Layout: LayoutItem*;
+LayoutItem: Comment | Anything;
+Comment: OComment Cornc* CComment | CommentLine;
+Cornc: Comment | NotComment;
+
+
+
+terminals
+
+OBrace: ;
+CBrace: ;
+ComponentKW: ;
+ConfigurationKW: ;
+CodeKW:;
+EndCodeKW:;
+ModelKW: ;
+NotKW: ;
+ID:;
+TillEndCodeKW:;
+Anything:;
+
+// /("(\\"|[^"])*")|(\'(\\\'|[^\'])*\')|(\w|\+|-)+/
+Name: ;
+
+// Comments
+CommentLine: ; //   /\/\/.*/
+OComment: ; //  '/*'
+CComment: ; //    '*/'
+NotComment: ; //    /((\*[^\/])|[^\s*\/]|\/[^\*])+/
