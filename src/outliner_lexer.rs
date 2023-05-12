@@ -194,7 +194,7 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                 }
             })
             .map(|(kind, value)| {
-                log!("{}", "Match!".bold().green());
+                log!("  {}", "Match!".bold().green());
                 Token {
                     kind,
                     value,
