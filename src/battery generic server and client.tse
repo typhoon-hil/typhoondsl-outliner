@@ -1,0 +1,3004 @@
+version = 4.2
+
+//
+// Saved by sw version: 2022.4 DEV
+//
+
+model "battery generic server and client" {
+    configuration {
+        hil_device = "HIL404"
+        hil_configuration_id = 1
+        simulation_method = exact
+        simulation_time_step = 1e-6
+        simulation_discret_scaling = 1.0
+        dsp_timer_periods = 100e-6, 50e-3
+        ss_calc_method = "systematic elimination"
+        enb_pole_shift = True
+        enb_gds_oversampling = True
+        show_modes = False
+        device_ao_limit_enable = False
+        reset_analog_outputs_on_sim_stop = True
+        reset_digital_outputs_on_sim_stop = True
+        vhil_adio_loopback = False
+        cpl_stb = False
+        enb_dep_sw_detect = False
+        code_section = "internal memory"
+        data_section = "internal memory"
+        sys_sp_rate_1 = 0.0001
+        sys_sp_rate_2 = 0.05
+        sys_real_type_precision = "default"
+        user_real_type_precision = "default"
+        sys_cpu_optimization = "high"
+        user_cpu_optimization = "high"
+        user_cpu_part_option = "default"
+        matrix_based_reduction = True
+        cpl_dynamics_analysis = False
+        export_ss_to_pickle = False
+        ground_scope_core = False
+        dss_num_tol = 1e-15
+        cce_platform = "generic"
+        cce_use_relative_names = False
+        cce_type_mapping_real = "double"
+        cce_type_mapping_uint = "unsigned int"
+        cce_type_mapping_int = "int"
+        cce_directory = ""
+        cce_custom_type_int = ""
+        cce_custom_type_uint = ""
+        cce_custom_type_real = ""
+        tunable_params = "component defined"
+        sp_compiler_type = "C compiler"
+        sig_stim = "off"
+        export_resource_list = ""
+        export_dependency_list = ""
+        export_out_file = ""
+        export_lock_top_level = True
+        export_encrypt_library = True
+        export_encrypt_resources = True
+    }
+
+    component Subsystem Root {
+        component "core/Grid" Grid1 {
+            resistance_cont = "10.0"
+        }
+        [
+            position = 8176, 8136
+            rotation = down
+            size = 144, 136
+        ]
+
+        component "core/Constant Impedance Load" "Constant Impedance Load1" {
+            SAB = "20000.0/3"
+            SAn = "20000.0/3"
+            SBC = "20000.0/3"
+            SBn = "20000.0/3"
+            SCA = "20000.0/3"
+            SCn = "20000.0/3"
+            Sn_3ph = "20e3"
+            VAB = "2300"
+            VAn = "2300/(3**0.5)"
+            VBC = "2300"
+            VBn = "2300/(3**0.5)"
+            VCA = "2300"
+            VCn = "2300/(3**0.5)"
+            Vn_3ph = "2300"
+            fn = "50"
+        }
+        [
+            position = 8480, 8552
+            size = 184, 152
+        ]
+
+        component "core/Triple Pole Single Throw Contactor" S1 {
+        }
+        [
+            position = 8480, 8392
+            rotation = right
+            size = 64, 256
+        ]
+
+        component "core/Grid UI" "Grid UI1" {
+        }
+        [
+            position = 8024, 8136
+            rotation = down
+            scale = -1, 1
+            size = 56, 136
+        ]
+
+        component Subsystem "Battery ESS (Generic) UI1" {
+            layout = dynamic
+            component gen_probe Enable_fb {
+            }
+            [
+                position = 8016, 7848
+            ]
+
+            component src_scada_input "Reset alarms" {
+                execution_rate = "inherit"
+                max = "1"
+                min = "0"
+                unit = ""
+            }
+            [
+                position = 8744, 6976
+            ]
+
+            component src_scada_input "Frequency droop offset" {
+                execution_rate = "inherit"
+                unit = "pu"
+            }
+            [
+                position = 9680, 6840
+            ]
+
+            component src_scada_input "Max SOC" {
+                def_value = "90"
+                execution_rate = "inherit"
+                max = "100"
+                min = "0"
+                unit = "%"
+            }
+            [
+                position = 9680, 7040
+            ]
+
+            component src_scada_input "Min SOC" {
+                def_value = "10"
+                execution_rate = "inherit"
+                max = "100"
+                min = "0"
+                unit = "%"
+            }
+            [
+                position = 9680, 7096
+            ]
+
+            component src_scada_input "Voltage droop coeff" {
+                def_value = "4"
+                execution_rate = "inherit"
+                max = "100"
+                min = "0.0"
+                unit = "%"
+            }
+            [
+                position = 9680, 6968
+            ]
+
+            component src_scada_input "Frequency droop coeff" {
+                def_value = "2"
+                execution_rate = "inherit"
+                max = "100"
+                min = "0.0"
+                unit = "%"
+            }
+            [
+                position = 9680, 6904
+            ]
+
+            component gen_probe Qmeas_kVAr {
+                streaming_en = "True"
+            }
+            [
+                position = 7480, 8120
+            ]
+
+            component gen_probe Qa_meas_kVAr {
+            }
+            [
+                position = 7440, 8136
+            ]
+
+            component gen_probe PFmeas {
+            }
+            [
+                position = 7312, 8200
+            ]
+
+            component gen_probe Smeas_kVA {
+            }
+            [
+                position = 7352, 8184
+            ]
+
+            component gen_probe Pa_meas_kW {
+            }
+            [
+                position = 7576, 8072
+            ]
+
+            component gen_probe Pc_meas_kW {
+            }
+            [
+                position = 7504, 8104
+            ]
+
+            component gen_probe Pnom_kW {
+            }
+            [
+                position = 7896, 7912
+            ]
+
+            component gen_probe Qref_fb_kVAr {
+                streaming_en = "True"
+            }
+            [
+                position = 7936, 7896
+            ]
+
+            component gen_probe Snom_kVA {
+            }
+            [
+                position = 7824, 7944
+            ]
+
+            component gen_probe Qb_meas_kVAr {
+            }
+            [
+                position = 7408, 8152
+            ]
+
+            component gen_probe Fmeas_Hz {
+                streaming_en = "True"
+            }
+            [
+                position = 7640, 8040
+            ]
+
+            component gen_probe Pref_fb_kW {
+                streaming_en = "True"
+            }
+            [
+                position = 7960, 7880
+            ]
+
+            component gen_probe Qnom_kVAr {
+            }
+            [
+                position = 7856, 7928
+            ]
+
+            component gen_probe Qc_meas_kVAr {
+            }
+            [
+                position = 7376, 8168
+            ]
+
+            component "core/DER (Generic) Control Join" "DER (Generic) Control Join1" {
+                Converter_mode = "True"
+                Enable = "True"
+                F_alarm_lower_limit = "True"
+                F_alarm_upper_limit = "True"
+                Fref = "True"
+                Fref_rate_of_change = "True"
+                Frequency_droop_coeff = "True"
+                Frequency_droop_offset = "True"
+                HzWatt_enable = "True"
+                I_alarm_upper_limit = "True"
+                LVRT_P_set = "True"
+                LVRT_Q_contribution = "True"
+                LVRT_enable = "True"
+                Max_SOC = "True"
+                Min_SOC = "True"
+                Pref = "True"
+                Pref_rate_of_change = "True"
+                Qref = "True"
+                Qref_rate_of_change = "True"
+                Reset_alarms = "True"
+                S_alarm_upper_limit = "True"
+                V_alarm_lower_limit = "True"
+                V_alarm_upper_limit = "True"
+                VoltVAr_enable = "True"
+                VoltWatt_enable = "True"
+                Voltage_droop_coeff = "True"
+                Vrms_ref = "True"
+                Vrms_ref_rate_of_change = "True"
+            }
+            [
+                position = 10016, 7184
+                size = 192, 464
+            ]
+
+            component gen_probe Vgrid_rms_meas_kV {
+            }
+            [
+                position = 7672, 8024
+            ]
+
+            component gen_probe Pb_meas_kW {
+            }
+            [
+                position = 7544, 8088
+            ]
+
+            component gen_probe Pmeas_kW {
+                streaming_en = "True"
+            }
+            [
+                position = 7608, 8056
+            ]
+
+            component gen_probe Fnom_Hz {
+            }
+            [
+                position = 7760, 7976
+            ]
+
+            component gen_probe Vnom_LL_V {
+            }
+            [
+                position = 7792, 7960
+            ]
+
+            component gen_probe Converter_mode_fb {
+            }
+            [
+                position = 7984, 7864
+            ]
+
+            component gen_probe Fref_fb_Hz {
+                streaming_en = "True"
+            }
+            [
+                position = 7696, 8008
+            ]
+
+            component gen_probe Vrms_ref_fb_V {
+                streaming_en = "True"
+            }
+            [
+                position = 7736, 7992
+            ]
+
+            component gen_probe MCB_status {
+            }
+            [
+                position = 7128, 8296
+            ]
+
+            component gen_probe SOH {
+            }
+            [
+                position = 7216, 8248
+            ]
+
+            component gen_probe alarm_msg {
+            }
+            [
+                position = 7056, 8328
+            ]
+
+            component gen_probe state {
+            }
+            [
+                position = 7088, 8312
+            ]
+
+            component gen_probe Ibatt_A {
+            }
+            [
+                position = 7152, 8280
+            ]
+
+            component gen_probe Vbatt_V {
+            }
+            [
+                position = 7184, 8264
+            ]
+
+            component gen_probe SOC {
+            }
+            [
+                position = 7248, 8232
+            ]
+
+            component gen_probe Vconv_rms_meas_V {
+            }
+            [
+                position = 7280, 8216
+            ]
+
+            component src_scada_input "Vrms_ref rate of change" {
+                def_value = "0.1"
+                execution_rate = "inherit"
+                min = "0"
+                unit = "pu/s"
+            }
+            [
+                position = 9680, 7264
+            ]
+
+            component src_scada_input "Fref rate of change" {
+                def_value = "0.02"
+                execution_rate = "inherit"
+                min = "0"
+                unit = "pu/s"
+            }
+            [
+                position = 9680, 7328
+            ]
+
+            component src_scada_input "Initial SOC" {
+                def_value = "50"
+                execution_rate = "inherit"
+                max = "100"
+                min = "0"
+                unit = "%"
+            }
+            [
+                position = 8672, 9192
+            ]
+
+            component src_scada_input "Pref rate of change" {
+                def_value = "0.1"
+                execution_rate = "inherit"
+                min = "0"
+                unit = "pu/s"
+            }
+            [
+                position = 9680, 7160
+            ]
+
+            component src_scada_input "Qref rate of change" {
+                def_value = "0.1"
+                execution_rate = "inherit"
+                min = "0"
+                unit = "pu/s"
+            }
+            [
+                position = 9680, 7216
+            ]
+
+            component src_scada_input "Initial SOH" {
+                def_value = "90"
+                execution_rate = "inherit"
+                max = "100"
+                min = "0.1"
+                unit = "%"
+            }
+            [
+                position = 8672, 9248
+            ]
+
+            component "core/DER (Generic) Output Split" "DER (Generic) Output Split1" {
+                Batt_cap_nom_Ah = "True"
+                Converter_mode_fb = "True"
+                Enable_fb = "True"
+                Fmeas_Hz = "True"
+                Fnom_Hz = "True"
+                Fref_fb_Hz = "True"
+                Ibatt_A = "True"
+                Lvrt_active_status = "True"
+                MCB_status = "True"
+                PFmeas = "True"
+                Pa_meas_kW = "True"
+                Pb_meas_kW = "True"
+                Pc_meas_kW = "True"
+                Pmeas_kW = "True"
+                Pnom_kW = "True"
+                Pref_fb_kW = "True"
+                Qa_meas_kVAr = "True"
+                Qb_meas_kVAr = "True"
+                Qc_meas_kVAr = "True"
+                Qmeas_kVAr = "True"
+                Qnom_kVAr = "True"
+                Qref_fb_kVAr = "True"
+                SOC = "True"
+                SOH = "True"
+                Smeas_kVA = "True"
+                Snom_kVA = "True"
+                Vbatt_V = "True"
+                Vconv_rms_meas_V = "True"
+                Vgrid_rms_meas_kV = "True"
+                Vnom_LL_V = "True"
+                Vrms_ref_fb_V = "True"
+                alarm_msg = "True"
+                state = "True"
+            }
+            [
+                position = 6840, 8104
+                size = 128, 544
+            ]
+
+            component gen_probe Batt_cap_nom_Ah {
+            }
+            [
+                position = 7024, 8344
+            ]
+
+            component src_scada_input "LVRT enable" {
+                execution_rate = "inherit"
+                max = "1"
+                min = "0"
+                unit = ""
+            }
+            [
+                position = 9680, 7384
+            ]
+
+            component src_scada_input "LVRT Q contribution" {
+                def_value = "2"
+                execution_rate = "inherit"
+                max = "100"
+                min = "0"
+                unit = "%"
+            }
+            [
+                position = 9680, 7448
+            ]
+
+            component src_scada_input "LVRT P set" {
+                execution_rate = "inherit"
+                max = "1"
+                min = "0"
+                unit = "pu"
+            }
+            [
+                position = 9680, 7512
+            ]
+
+            component gen_probe LVRT_active_status {
+            }
+            [
+                position = 6992, 8360
+            ]
+
+            component "core/DER (Generic) External Join" "DER (Generic) External Join1" {
+                Initial_SOC = "True"
+                Initial_SOH = "True"
+            }
+            [
+                position = 8928, 9216
+                size = 192, 64
+            ]
+
+            component src_scada_input "V alarm upper limit" {
+                def_value = "1.5"
+                execution_rate = "inherit"
+                min = "1"
+                unit = "pu"
+            }
+            [
+                position = 9680, 7568
+            ]
+
+            component src_scada_input "V alarm lower limit" {
+                def_value = "0.5"
+                execution_rate = "inherit"
+                max = "1"
+                min = "0"
+                unit = "pu"
+            }
+            [
+                position = 9680, 7624
+            ]
+
+            component src_scada_input "F alarm upper limit" {
+                def_value = "1.5"
+                execution_rate = "inherit"
+                min = "1"
+                unit = "pu"
+            }
+            [
+                position = 9680, 7680
+            ]
+
+            component src_scada_input "F alarm lower limit" {
+                def_value = "0.5"
+                execution_rate = "inherit"
+                max = "1"
+                min = "0"
+                unit = "pu"
+            }
+            [
+                position = 9680, 7736
+            ]
+
+            component src_scada_input "S alarm upper limit" {
+                def_value = "1.5"
+                execution_rate = "inherit"
+                min = "1"
+                unit = "pu"
+            }
+            [
+                position = 9680, 7792
+            ]
+
+            component src_scada_input "I alarm upper limit" {
+                def_value = "1.5"
+                execution_rate = "inherit"
+                min = "1"
+                unit = "pu"
+            }
+            [
+                position = 9680, 7848
+            ]
+
+            component src_scada_input "VoltVAr enable" {
+                execution_rate = "inherit"
+                max = "1"
+                min = "0"
+                unit = ""
+            }
+            [
+                position = 9680, 7904
+            ]
+
+            component src_scada_input "HzWatt enable" {
+                execution_rate = "inherit"
+                max = "1"
+                min = "0"
+                unit = ""
+            }
+            [
+                position = 9680, 7960
+            ]
+
+            component src_scada_input "VoltWatt enable" {
+                execution_rate = "inherit"
+                max = "1"
+                min = "0"
+                unit = ""
+            }
+            [
+                position = 9680, 8032
+            ]
+
+            component src_scada_input Modbus {
+                def_value = "1"
+                execution_rate = "inherit"
+                unit = ""
+            }
+            [
+                position = 8944, 6704
+            ]
+
+            component src_constant Constant1 {
+                execution_rate = "Ts_slow"
+                value = "0"
+            }
+            [
+                position = 8504, 6744
+                hide_name = True
+            ]
+
+            component gen_probe In {
+            }
+            [
+                position = 9072, 6704
+                rotation = left
+            ]
+
+            component "core/ModBus Device" "ModBus Device1" {
+                configuration = "config_Batt"
+                defines = "{\'configuration\': {\'ip_addr\': \'192.168.0.250\', \'port\': 502, \'slave_id\': 2, \'default_device\': False, \'reg_map\': {\'coils\': [], \'discretes\': [], \'holdings\': [{\'name\': \'holding_out_0\', \'addr\': 2000, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'word_order\': \'BE\', \'value\': \'0x0\', \'val_spec\': \'model\', \'get_hil_val\': False, \'set_hil_val\': True, \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'out\'}, {\'name\': \'holding_out_1\', \'addr\': 2001, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'word_order\': \'BE\', \'value\': \'0x1\', \'val_spec\': \'model\', \'get_hil_val\': False, \'set_hil_val\': True, \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'out\'}, {\'name\': \'holding_out_2\', \'addr\': 2002, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': \'0x1770\', \'get_hil_val\': False, \'set_hil_val\': True, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'out\'}, {\'name\': \'holding_out_3\', \'addr\': 2003, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': \'0xbb80\', \'get_hil_val\': False, \'set_hil_val\': True, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'out\'}, {\'name\': \'holding_out_4\', \'addr\': 2004, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': \'0x0\', \'get_hil_val\': False, \'set_hil_val\': True, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'out\'}, {\'name\': \'holding_out_5\', \'addr\': 2005, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': \'0x0\', \'get_hil_val\': False, \'set_hil_val\': True, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'out\'}], \'registers\': [{\'name\': \'register_0\', \'addr\': 0, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'word_order\': \'BE\', \'value\': 0, \'val_spec\': \'model\', \'get_hil_val\': True, \'set_hil_val\': False, \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'in\'}, {\'name\': \'register_1\', \'addr\': 1, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': 0, \'get_hil_val\': True, \'set_hil_val\': False, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'in\'}, {\'name\': \'register_2\', \'addr\': 2, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': 0, \'get_hil_val\': True, \'set_hil_val\': False, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'in\'}, {\'name\': \'register_3\', \'addr\': 3, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': 0, \'get_hil_val\': True, \'set_hil_val\': False, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'in\'}, {\'name\': \'register_4\', \'addr\': 4, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': 0, \'get_hil_val\': True, \'set_hil_val\': False, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'in\'}, {\'name\': \'register_5\', \'addr\': 5, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': 0, \'get_hil_val\': True, \'set_hil_val\': False, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'in\'}, {\'name\': \'register_6\', \'addr\': 6, \'hil_addr\': 0, \'length\': 1, \'data_type\': \'UINT\', \'value\': 0, \'get_hil_val\': True, \'set_hil_val\': False, \'word_order\': \'BE\', \'val_spec\': \'model\', \'scale\': 1, \'min\': None, \'max\': None, \'update\': \'cont\', \'io_type\': \'in\'}]}}, \'reg_num\': {\'coil\': 0, \'discrete\': 0, \'holding_16\': 6, \'holding_32\': 0, \'holding_64\': 0, \'register_16\': 7, \'register_32\': 0, \'register_64\': 0, \'coil_in_mdl_ctrl\': 0, \'coil_out_mdl_ctrl\': 0, \'discrete_mdl_ctrl\': 0, \'holding_in_mdl_ctrl\': 0, \'holding_out_mdl_ctrl\': 6, \'register_mdl_ctrl\': 7}}"
+                execution_rate = "Ts_slow"
+            }
+            [
+                position = 8672, 6768
+                size = 184, 184
+            ]
+
+            component sys_signal_switch "Signal switch1" {
+                threshold = "0"
+            }
+            [
+                position = 9016, 6808
+                hide_name = True
+            ]
+
+            component Subsystem signal_selection1 {
+                layout = dynamic
+                component gen_bus_split "Bus Split4" {
+                    outputs = "5"
+                }
+                [
+                    position = 7816, 8304
+                    hide_name = True
+                ]
+
+                component gen_bus_join "Bus Join1" {
+                    inputs = "5"
+                }
+                [
+                    position = 8264, 8304
+                ]
+
+                component gen_gain Gain1 {
+                }
+                [
+                    position = 8048, 8248
+                ]
+
+                component gen_gain Gain2 {
+                    gain = "0.01"
+                }
+                [
+                    position = 8048, 8288
+                ]
+
+                component gen_gain Gain3 {
+                    gain = "0.01"
+                }
+                [
+                    position = 8048, 8320
+                ]
+
+                component gen_gain Gain4 {
+                    gain = "0.01"
+                }
+                [
+                    position = 8048, 8360
+                ]
+
+                component gen_gain Gain5 {
+                    gain = "0.01"
+                }
+                [
+                    position = 8048, 8392
+                ]
+
+                port Out {
+                    position = right:1
+                    kind = sp
+                    direction =  in
+                    sp_type {
+                        default = inherit
+                        readonly = True
+                    }
+                }
+                [
+                    position = 8400, 8240
+                    rotation = left
+                ]
+
+                port In {
+                    position = left:1
+                    kind = sp
+                    direction =  out
+                    sp_type {
+                        default = auto
+                        readonly = True
+                    }
+                }
+                [
+                    position = 7744, 8304
+                ]
+
+                connect "Bus Split4.in" In as Connection950
+                connect "Bus Join1.out" Out as Connection951
+                connect "Bus Split4.out" Gain1.in as Connection952
+                connect Gain1.out "Bus Join1.in" as Connection953
+                connect Gain2.out "Bus Join1.in1" as Connection955
+                connect "Bus Split4.out1" Gain2.in as Connection956
+                connect "Bus Split4.out2" Gain3.in as Connection957
+                connect Gain3.out "Bus Join1.in2" as Connection958
+                connect "Bus Split4.out3" Gain4.in as Connection959
+                connect Gain4.out "Bus Join1.in3" as Connection960
+                connect "Bus Split4.out4" Gain5.in as Connection961
+                connect Gain5.out "Bus Join1.in4" as Connection962
+            }
+            [
+                position = 8824, 6840
+                size = 104, 48
+            ]
+
+            component gen_gain Gain1 {
+                gain = "100"
+            }
+            [
+                position = 8080, 6824
+                hide_name = True
+            ]
+
+            component gen_bus_join "Bus Join2" {
+                inputs = "23"
+            }
+            [
+                position = 8336, 7176
+                hide_name = True
+            ]
+
+            component gen_gain Gain2 {
+                gain = "100"
+            }
+            [
+                position = 8080, 6872
+                hide_name = True
+            ]
+
+            component gen_gain Gain3 {
+                gain = "10"
+            }
+            [
+                position = 8080, 6912
+                hide_name = True
+            ]
+
+            component gen_gain Gain4 {
+                gain = "100"
+            }
+            [
+                position = 8080, 6944
+                hide_name = True
+            ]
+
+            component gen_gain Gain5 {
+                gain = "100"
+            }
+            [
+                position = 8080, 6984
+                hide_name = True
+            ]
+
+            component gen_gain Gain6 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7024
+                hide_name = True
+            ]
+
+            component gen_bus_split "Bus Split1" {
+                outputs = "7"
+            }
+            [
+                position = 9160, 6808
+                hide_name = True
+            ]
+
+            component src_scada_input "Converter mode" {
+                execution_rate = "inherit"
+                max = "2"
+                min = "0"
+                unit = ""
+            }
+            [
+                position = 8744, 7024
+            ]
+
+            component src_scada_input Vrms_ref {
+                def_value = "1"
+                execution_rate = "inherit"
+                max = "1e8"
+                min = "0.0"
+                unit = "pu"
+            }
+            [
+                position = 8744, 7064
+            ]
+
+            component src_scada_input Fref {
+                def_value = "1"
+                execution_rate = "inherit"
+                max = "1e8"
+                min = "0.0"
+                unit = "pu"
+            }
+            [
+                position = 8744, 7104
+            ]
+
+            component src_scada_input Pref {
+                execution_rate = "inherit"
+                max = "1e8"
+                min = "-1e8"
+                unit = "pu"
+            }
+            [
+                position = 8744, 7144
+            ]
+
+            component src_scada_input Qref {
+                execution_rate = "inherit"
+                max = "1e8"
+                min = "-1e8"
+                unit = "pu"
+            }
+            [
+                position = 8744, 7200
+            ]
+
+            component gen_bus_join "Bus Join3" {
+                inputs = "7"
+            }
+            [
+                position = 8944, 7064
+                hide_name = True
+            ]
+
+            component src_scada_input on-set {
+                unit = ""
+            }
+            [
+                position = 6656, 9488
+            ]
+
+            component gen_probe PQref_fb-mult_read {
+            }
+            [
+                position = 7728, 9144
+            ]
+
+            component gen_probe state-client {
+            }
+            [
+                position = 7240, 9088
+            ]
+
+            component gen_bus_join "Bus Join1" {
+                inputs = "5"
+            }
+            [
+                position = 6944, 9208
+                hide_name = True
+            ]
+
+            component src_scada_input vi-set {
+                unit = ""
+            }
+            [
+                position = 6664, 9096
+            ]
+
+            component src_scada_input vrms-set {
+                unit = ""
+            }
+            [
+                position = 6664, 9152
+            ]
+
+            component src_scada_input f-set {
+                unit = ""
+            }
+            [
+                position = 6664, 9208
+            ]
+
+            component src_scada_input p-set {
+                unit = ""
+            }
+            [
+                position = 6664, 9272
+            ]
+
+            component src_scada_input q-set {
+                unit = ""
+            }
+            [
+                position = 6664, 9328
+            ]
+
+            component gen_bus_join "Bus Join4" {
+            }
+            [
+                position = 8112, 6696
+            ]
+
+            component gen_gain Gain7 {
+                gain = "100"
+            }
+            [
+                position = 8080, 6776
+                hide_name = True
+            ]
+
+            component gen_gain Gain8 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7064
+                hide_name = True
+            ]
+
+            component gen_gain Gain9 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7104
+                hide_name = True
+            ]
+
+            component gen_gain Gain10 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7144
+                hide_name = True
+            ]
+
+            component gen_gain Gain11 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7184
+                hide_name = True
+            ]
+
+            component gen_gain Gain12 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7224
+                hide_name = True
+            ]
+
+            component gen_gain Gain13 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7264
+                hide_name = True
+            ]
+
+            component gen_gain Gain14 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7304
+                hide_name = True
+            ]
+
+            component gen_gain Gain15 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7336
+                hide_name = True
+            ]
+
+            component gen_gain Gain16 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7368
+                hide_name = True
+            ]
+
+            component gen_gain Gain17 {
+            }
+            [
+                position = 8080, 7408
+                hide_name = True
+            ]
+
+            component gen_gain Gain18 {
+                gain = "10"
+            }
+            [
+                position = 8080, 7448
+                hide_name = True
+            ]
+
+            component gen_gain Gain19 {
+                gain = "100"
+            }
+            [
+                position = 8080, 7488
+                hide_name = True
+            ]
+
+            component gen_gain Gain20 {
+                gain = "10"
+            }
+            [
+                position = 8080, 7536
+                hide_name = True
+            ]
+
+            component gen_gain Gain21 {
+            }
+            [
+                position = 8080, 7576
+                hide_name = True
+            ]
+
+            component gen_gain Gain22 {
+            }
+            [
+                position = 8080, 7624
+                hide_name = True
+            ]
+
+            component gen_gain Gain23 {
+            }
+            [
+                position = 8080, 7664
+                hide_name = True
+            ]
+
+            component sys_hil_sp_marker "Signal Device Marker1" {
+            }
+            [
+                position = 8480, 6568
+                hide_name = True
+            ]
+
+            component sys_hil_sp_marker "Signal Device Marker2" {
+                hil_device_id = "1"
+            }
+            [
+                position = 7160, 9000
+                hide_name = True
+            ]
+
+            component "core/Modbus Client" "Modbus Client1" {
+                client_ip_address = "192.168.0.251"
+                request_names_dict = "{\'PQref_fb_mult\': {\'rename\': \'PQref_fb_mult\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'Fnom_hz\': {\'rename\': \'Fnom_hz\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'Vrmsref_fb\': {\'rename\': \'Vrmsref_fb\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'Fref_fb\': {\'rename\': \'Fref_fb\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'Vgridmeas\': {\'rename\': \'Vgridmeas\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'Fmeas\': {\'rename\': \'Fmeas\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'PQmeas_mult\': {\'rename\': \'PQmeas_mult\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'PFmeas\': {\'rename\': \'PFmeas\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'Vconv\': {\'rename\': \'Vconv\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'SOC\': {\'rename\': \'SOC\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'Vbatt\': {\'rename\': \'Vbatt\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'mode\': {\'rename\': \'mode\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'state\': {\'rename\': \'state\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'alarm\': {\'rename\': \'alarm\', \'delete\': False, \'function_code\': \'read input registers\', \'transmit_type\': \'on timer\'}, \'vgrid_enable_fb\': {\'rename\': \'vgrid_enable_fb\', \'delete\': False, \'function_code\': \'read coils\', \'transmit_type\': \'on timer\'}, \'MCBstat\': {\'rename\': \'MCBstat\', \'delete\': False, \'function_code\': \'read coils\', \'transmit_type\': \'on timer\'}, \'write_analogs\': {\'rename\': \'write_analogs\', \'delete\': False, \'function_code\': \'write multiple registers\', \'transmit_type\': \'on timer\'}, \'enable\': {\'rename\': \'enable\', \'delete\': False, \'function_code\': \'write single coil\', \'transmit_type\': \'on timer\'}, \'request0\': {\'rename\': \'alarmrs\', \'delete\': False, \'function_code\': \'write single coil\', \'transmit_type\': \'on timer\'}}"
+                requests = "[{\'name\': \'PQref_fb_mult\', \'function_code\': \'read input registers\', \'read_address\': 10, \'number_of_registers_to_read\': 2, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'Fnom_hz\', \'function_code\': \'read input registers\', \'read_address\': 12, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'Vrmsref_fb\', \'function_code\': \'read input registers\', \'read_address\': 13, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'Fref_fb\', \'function_code\': \'read input registers\', \'read_address\': 14, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'Vgridmeas\', \'function_code\': \'read input registers\', \'read_address\': 15, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'Fmeas\', \'function_code\': \'read input registers\', \'read_address\': 16, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'PQmeas_mult\', \'function_code\': \'read input registers\', \'read_address\': 17, \'number_of_registers_to_read\': 9, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'PFmeas\', \'function_code\': \'read input registers\', \'read_address\': 26, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'Vconv\', \'function_code\': \'read input registers\', \'read_address\': 27, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'SOC\', \'function_code\': \'read input registers\', \'read_address\': 28, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'Vbatt\', \'function_code\': \'read input registers\', \'read_address\': 29, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'mode\', \'function_code\': \'read input registers\', \'read_address\': 30, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'state\', \'function_code\': \'read input registers\', \'read_address\': 31, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'alarm\', \'function_code\': \'read input registers\', \'read_address\': 32, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'vgrid_enable_fb\', \'function_code\': \'read coils\', \'read_address\': 0, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'MCBstat\', \'function_code\': \'read coils\', \'read_address\': 1, \'number_of_registers_to_read\': 1, \'write_address\': 0, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'write_analogs\', \'function_code\': \'write multiple registers\', \'read_address\': 0, \'number_of_registers_to_read\': 1, \'write_address\': 2000, \'number_of_registers_to_write\': 5, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'enable\', \'function_code\': \'write single coil\', \'read_address\': 0, \'number_of_registers_to_read\': 1, \'write_address\': 1000, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}, {\'name\': \'alarmrs\', \'function_code\': \'write single coil\', \'read_address\': 0, \'number_of_registers_to_read\': 1, \'write_address\': 1001, \'number_of_registers_to_write\': 1, \'transmit_type\': \'on timer\', \'transmit_period\': 1000}]"
+                server_ip_address = "192.168.0.253"
+                slave_id = "2"
+            }
+            [
+                position = 7296, 9488
+                size = 472, 600
+            ]
+
+            component gen_probe Fnom_hz_read {
+            }
+            [
+                position = 7728, 9192
+            ]
+
+            component gen_probe Vrmsref_fb_read {
+            }
+            [
+                position = 7728, 9240
+            ]
+
+            component gen_probe Fref_fb_read {
+            }
+            [
+                position = 7728, 9280
+            ]
+
+            component gen_probe Vgridmeas_read {
+            }
+            [
+                position = 7728, 9328
+            ]
+
+            component gen_probe Fmeas_read {
+            }
+            [
+                position = 7728, 9376
+            ]
+
+            component gen_probe PQmeas-mult_read {
+            }
+            [
+                position = 7728, 9416
+            ]
+
+            component gen_probe PFmeas_read {
+            }
+            [
+                position = 7728, 9464
+            ]
+
+            component gen_probe Vconv_read {
+            }
+            [
+                position = 7728, 9512
+            ]
+
+            component gen_probe SOC_read {
+            }
+            [
+                position = 7728, 9552
+            ]
+
+            component gen_probe Vbatt_read {
+            }
+            [
+                position = 7728, 9592
+            ]
+
+            component gen_probe mode_read {
+            }
+            [
+                position = 7728, 9632
+            ]
+
+            component gen_probe state_read {
+            }
+            [
+                position = 7728, 9672
+            ]
+
+            component gen_probe alarm_read {
+            }
+            [
+                position = 7728, 9720
+            ]
+
+            component gen_probe Vgrid-enable-fb_read {
+            }
+            [
+                position = 7728, 9816
+            ]
+
+            component gen_probe MCBstat_read {
+            }
+            [
+                position = 7728, 9856
+            ]
+
+            component gen_probe writeclient {
+            }
+            [
+                position = 7040, 9104
+            ]
+
+            component gen_bus_join "Bus Join5" {
+                inputs = "3"
+            }
+            [
+                position = 8944, 6792
+                hide_name = True
+            ]
+
+            component src_scada_input Enable {
+                execution_rate = "inherit"
+                max = "2"
+                min = "0"
+                unit = ""
+            }
+            [
+                position = 8744, 6928
+            ]
+
+            component gen_terminator Termination1 {
+            }
+            [
+                position = 7560, 9088
+            ]
+
+            component src_scada_input alarmrs-set {
+                unit = ""
+            }
+            [
+                position = 6656, 9768
+            ]
+
+            component gen_bus_split "Bus Split2" {
+            }
+            [
+                position = 8856, 6736
+                hide_name = True
+            ]
+
+            port ui_in {
+                label = "ui_in"
+                position = right:1
+                kind = sp
+                direction =  out
+                sp_type {
+                    default = auto
+                    readonly = True
+                }
+            }
+            [
+                position = 6672, 8104
+            ]
+
+            port ui_out {
+                label = "ui_out"
+                position = right:2
+                kind = sp
+                direction =  in
+                sp_type {
+                    default = inherit
+                    readonly = True
+                }
+            }
+            [
+                position = 10168, 7184
+            ]
+
+            port ext {
+                label = "ext"
+                position = right:3
+                kind = sp
+                direction =  in
+                sp_type {
+                    default = inherit
+                    readonly = True
+                }
+            }
+            [
+                position = 9176, 9216
+            ]
+
+            tag Goto1 {
+                value = "Enable"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7792
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From1 {
+                value = "Enable"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 6680
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From2 {
+                value = "MCBstatus"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 6720
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto2 {
+                value = "MCBstatus"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 6888
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From3 {
+                value = "Pref_fb_kW"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 6776
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto3 {
+                value = "Pref_fb_kW"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7752
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From4 {
+                value = "Qref_fb_Kvar"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 6824
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto4 {
+                value = "Qref_fb_Kvar"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7712
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From5 {
+                value = "Fnom_Hz"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 6872
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto5 {
+                value = "Vrms_ref_fb_V"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7680
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From6 {
+                value = "Vrms_ref_fb_V"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 6912
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From7 {
+                value = "Fref_fb_Hz"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 6944
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto6 {
+                value = "Fref_fb_Hz"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7640
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From8 {
+                value = "Vgrid_rms_meas_kV"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 6984
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto7 {
+                value = "Vgrid_rms_meas_kV"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7600
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From9 {
+                value = "Fmeas_Hz"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7024
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto8 {
+                value = "Fmeas_Hz"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7568
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From10 {
+                value = "Pmeas_KW"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7064
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto9 {
+                value = "Pmeas_KW"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7520
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From11 {
+                value = "Pa_meas_kW"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7104
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto10 {
+                value = "Pa_meas_kW"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7472
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From12 {
+                value = "Pb_meas_kW"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7144
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto11 {
+                value = "Pb_meas_kW"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7432
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From13 {
+                value = "Pc_meas_kW"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7184
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto12 {
+                value = "Pc_meas_kW"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7392
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From14 {
+                value = "Qmeas_kVAr"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7224
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto13 {
+                value = "Qmeas_kVAr"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7352
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From15 {
+                value = "Qa_meas_kVAr"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7264
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto14 {
+                value = "Qa_meas_kVAr"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7320
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From16 {
+                value = "Qb_meas_kVAr"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7304
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto15 {
+                value = "Qb_meas_kVAr"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7280
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From17 {
+                value = "Qc_meas_kVAr"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7336
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto16 {
+                value = "Qc_meas_kVAr"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7248
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From18 {
+                value = "Smeas_kVA"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7368
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto17 {
+                value = "Smeas_kVA"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7208
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From19 {
+                value = "PFmeas"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7408
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto18 {
+                value = "PFmeas"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7168
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From20 {
+                value = "Vconv_rms_meas_V"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7448
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto19 {
+                value = "Vconv_rms_meas_V"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7128
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From21 {
+                value = "SOC"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7488
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto20 {
+                value = "SOC"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7088
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From22 {
+                value = "Vbatt_V"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7536
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto21 {
+                value = "Vbatt_V"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7048
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From23 {
+                value = "Converter_mode_fb"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7576
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto22 {
+                value = "Converter_mode_fb"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7008
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From24 {
+                value = "state"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7624
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto23 {
+                value = "state"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 6968
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag From25 {
+                value = "alarm_msg"
+                scope = local
+                kind = sp
+                direction = out
+            }
+            [
+                position = 7992, 7664
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto24 {
+                value = "alarm_msg"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 6928
+                hide_name = True
+                size = 60, 20
+            ]
+
+            tag Goto25 {
+                value = "Fnom_Hz"
+                scope = local
+                kind = sp
+                direction = in
+            }
+            [
+                position = 7800, 7824
+                hide_name = True
+                size = 60, 20
+            ]
+
+            junction Junction50 sp
+            [
+                position = 7160, 9088
+            ]
+
+            junction Junction53 sp
+            [
+                position = 6928, 8296
+            ]
+
+            junction Junction54 sp
+            [
+                position = 7752, 7848
+            ]
+
+            junction Junction55 sp
+            [
+                position = 7712, 7880
+            ]
+
+            junction Junction56 sp
+            [
+                position = 7672, 7896
+            ]
+
+            junction Junction57 sp
+            [
+                position = 7664, 7992
+            ]
+
+            junction Junction58 sp
+            [
+                position = 7648, 8008
+            ]
+
+            junction Junction59 sp
+            [
+                position = 7624, 8024
+            ]
+
+            junction Junction60 sp
+            [
+                position = 7592, 8040
+            ]
+
+            junction Junction61 sp
+            [
+                position = 7576, 8056
+            ]
+
+            junction Junction62 sp
+            [
+                position = 7536, 8072
+            ]
+
+            junction Junction63 sp
+            [
+                position = 7496, 8088
+            ]
+
+            junction Junction64 sp
+            [
+                position = 7464, 8104
+            ]
+
+            junction Junction65 sp
+            [
+                position = 7432, 8120
+            ]
+
+            junction Junction66 sp
+            [
+                position = 7400, 8136
+            ]
+
+            junction Junction67 sp
+            [
+                position = 7360, 8152
+            ]
+
+            junction Junction68 sp
+            [
+                position = 7320, 8168
+            ]
+
+            junction Junction69 sp
+            [
+                position = 7288, 8184
+            ]
+
+            junction Junction70 sp
+            [
+                position = 7264, 8200
+            ]
+
+            junction Junction71 sp
+            [
+                position = 7232, 8216
+            ]
+
+            junction Junction72 sp
+            [
+                position = 7184, 8232
+            ]
+
+            junction Junction73 sp
+            [
+                position = 7136, 8264
+            ]
+
+            junction Junction74 sp
+            [
+                position = 7096, 7864
+            ]
+
+            junction Junction75 sp
+            [
+                position = 7056, 8312
+            ]
+
+            junction Junction76 sp
+            [
+                position = 7008, 8328
+            ]
+
+            junction Junction77 sp
+            [
+                position = 8536, 6744
+            ]
+
+            junction Junction78 sp
+            [
+                position = 8480, 6696
+            ]
+
+            junction Junction79 sp
+            [
+                position = 7728, 7976
+            ]
+
+            junction Junction80 sp
+            [
+                position = 7000, 9208
+            ]
+
+            junction Junction81 sp
+            [
+                position = 9072, 6808
+            ]
+
+            connect Qnom_kVAr.in "DER (Generic) Output Split1.Qnom_kVAr" as Connection2936
+            connect "DER (Generic) Output Split1.Snom_kVA" Snom_kVA.in as Connection2937
+            connect Vnom_LL_V.in "DER (Generic) Output Split1.Vnom_LL_V" as Connection2938
+            connect ui_in "DER (Generic) Output Split1.ui_in" as Connection2962
+            connect Batt_cap_nom_Ah.in "DER (Generic) Output Split1.Batt_cap_nom_Ah" as Connection2980
+            connect LVRT_active_status.in "DER (Generic) Output Split1.Lvrt_active_status" as Connection2984
+            connect "DER (Generic) External Join1.Initial SOC" "Initial SOC.out" as Connection2985
+            connect "DER (Generic) External Join1.Initial SOH" "Initial SOH.out" as Connection2986
+            connect ext "DER (Generic) External Join1.ext" as Connection2987
+            connect "DER (Generic) Control Join1.ui_out" ui_out as Connection2988
+            connect "Frequency droop offset.out" "DER (Generic) Control Join1.Frequency droop offset" as Connection2994
+            connect "Frequency droop coeff.out" "DER (Generic) Control Join1.Frequency droop coeff" as Connection2995
+            connect "DER (Generic) Control Join1.Voltage droop coeff" "Voltage droop coeff.out" as Connection2996
+            connect "Max SOC.out" "DER (Generic) Control Join1.Max SOC" as Connection2999
+            connect "Min SOC.out" "DER (Generic) Control Join1.Min SOC" as Connection3000
+            connect "Pref rate of change.out" "DER (Generic) Control Join1.Pref rate of change" as Connection3001
+            connect "DER (Generic) Control Join1.Qref rate of change" "Qref rate of change.out" as Connection3002
+            connect "DER (Generic) Control Join1.Vrms_ref rate of change" "Vrms_ref rate of change.out" as Connection3003
+            connect "DER (Generic) Control Join1.Fref rate of change" "Fref rate of change.out" as Connection3004
+            connect "DER (Generic) Control Join1.LVRT enable" "LVRT enable.out" as Connection3005
+            connect "DER (Generic) Control Join1.LVRT Q contribution" "LVRT Q contribution.out" as Connection3006
+            connect "LVRT P set.out" "DER (Generic) Control Join1.LVRT P set" as Connection3007
+            connect "DER (Generic) Control Join1.V alarm upper limit" "V alarm upper limit.out" as Connection3008
+            connect "DER (Generic) Control Join1.V alarm lower limit" "V alarm lower limit.out" as Connection3009
+            connect "DER (Generic) Control Join1.F alarm upper limit" "F alarm upper limit.out" as Connection3010
+            connect "DER (Generic) Control Join1.F alarm lower limit" "F alarm lower limit.out" as Connection3011
+            connect "S alarm upper limit.out" "DER (Generic) Control Join1.S alarm upper limit" as Connection3012
+            connect "I alarm upper limit.out" "DER (Generic) Control Join1.I alarm upper limit" as Connection3013
+            connect "VoltVAr enable.out" "DER (Generic) Control Join1.VoltVAr enable" as Connection3014
+            connect "HzWatt enable.out" "DER (Generic) Control Join1.HzWatt enable" as Connection3015
+            connect "VoltWatt enable.out" "DER (Generic) Control Join1.VoltWatt enable" as Connection3017
+            connect Modbus.out "Signal switch1.in2" as Connection972
+            connect "ModBus Device1.holding_out" signal_selection1.In as Connection1027
+            connect "Bus Split1.out" "DER (Generic) Control Join1.Enable" as Connection3041
+            connect "Bus Join3.out" "Signal switch1.in1" as Connection3051
+            connect Pnom_kW.in "DER (Generic) Output Split1.Pnom_kW" as Connection3070
+            [
+                breakpoints = 7832, 7912
+            ]
+            connect PQref_fb-mult_read.in "Modbus Client1.PQref_fb_mult_read" as Connection981
+            connect SOH.in "DER (Generic) Output Split1.SOH" as Connection3235
+            [
+                breakpoints = 7168, 8248
+            ]
+            connect Ibatt_A.in "DER (Generic) Output Split1.Ibatt_A" as Connection3262
+            [
+                breakpoints = 7120, 8280
+            ]
+            connect "Modbus Client1.Fnom_hz_read" Fnom_hz_read.in as Connection3279
+            connect "Modbus Client1.Vrmsref_fb_read" Vrmsref_fb_read.in as Connection3280
+            connect "Modbus Client1.Fref_fb_read" Fref_fb_read.in as Connection3281
+            connect "Modbus Client1.Vgridmeas_read" Vgridmeas_read.in as Connection3282
+            connect "Modbus Client1.Fmeas_read" Fmeas_read.in as Connection3283
+            connect "Modbus Client1.PQmeas_mult_read" PQmeas-mult_read.in as Connection3284
+            connect "Modbus Client1.PFmeas_read" PFmeas_read.in as Connection3285
+            connect "Modbus Client1.Vconv_read" Vconv_read.in as Connection3286
+            connect "Modbus Client1.SOC_read" SOC_read.in as Connection3287
+            connect "Modbus Client1.Vbatt_read" Vbatt_read.in as Connection3288
+            connect "Modbus Client1.mode_read" mode_read.in as Connection3289
+            connect "Modbus Client1.state_read" state_read.in as Connection3290
+            connect "Modbus Client1.alarm_read" alarm_read.in as Connection3291
+            connect "Modbus Client1.vgrid_enable_fb_read" Vgrid-enable-fb_read.in as Connection3292
+            connect "Modbus Client1.MCBstat_read" MCBstat_read.in as Connection3293
+            connect "Modbus Client1.state" Junction50 as Connection3295
+            connect Junction50 state-client.in as Connection3296
+            connect "Signal Device Marker2.node" Junction50 as Connection3297
+            connect "Bus Join5.out" "Signal switch1.in" as Connection3306
+            connect From1 "Bus Join4.in" as Connection3330
+            [
+                hide_name = True
+            ]
+            connect From2 "Bus Join4.in1" as Connection3335
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.MCB_status" Junction53 as Connection3336
+            connect Junction53 MCB_status.in as Connection3337
+            [
+                breakpoints = 7040, 8296; 7032, 8296
+            ]
+            connect Goto2 Junction53 as Connection3338
+            connect From3 Gain7.in as Connection3340
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.Enable_fb" Junction54 as Connection3342
+            connect Junction54 Enable_fb.in as Connection3343
+            [
+                breakpoints = 7952, 7848
+            ]
+            connect Goto1 Junction54 as Connection3344
+            [
+                breakpoints = 7752, 7800
+            ]
+            connect Pref_fb_kW.in Junction55 as Connection3345
+            [
+                breakpoints = 7888, 7880; 7872, 7880
+            ]
+            connect Junction55 "DER (Generic) Output Split1.Pref_fb_kW" as Connection3346
+            connect Goto3 Junction55 as Connection3347
+            [
+                breakpoints = 7712, 7784
+            ]
+            connect From4 Gain1.in as Connection3349
+            [
+                hide_name = True
+            ]
+            connect Qref_fb_kVAr.in Junction56 as Connection3350
+            [
+                breakpoints = 7856, 7896; 7856, 7896
+            ]
+            connect Junction56 "DER (Generic) Output Split1.Qref_fb_kVAr" as Connection3351
+            connect Goto4 Junction56 as Connection3352
+            [
+                breakpoints = 7672, 7728
+            ]
+            connect From5 Gain2.in as Connection3354
+            [
+                hide_name = True
+            ]
+            connect From6 Gain3.in as Connection3356
+            [
+                hide_name = True
+            ]
+            connect Vrms_ref_fb_V.in Junction57 as Connection3357
+            [
+                breakpoints = 7696, 7992
+            ]
+            connect Junction57 "DER (Generic) Output Split1.Vrms_ref_fb_V" as Connection3358
+            [
+                breakpoints = 7600, 7992
+            ]
+            connect Goto5 Junction57 as Connection3359
+            [
+                breakpoints = 7664, 7696
+            ]
+            connect From7 Gain4.in as Connection3361
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.Fref_fb_Hz" Junction58 as Connection3362
+            [
+                breakpoints = 7600, 8008
+            ]
+            connect Junction58 Fref_fb_Hz.in as Connection3363
+            [
+                breakpoints = 7648, 8008
+            ]
+            connect Goto6 Junction58 as Connection3364
+            [
+                breakpoints = 7648, 7648
+            ]
+            connect From8 Gain5.in as Connection3366
+            [
+                hide_name = True
+            ]
+            connect Vgrid_rms_meas_kV.in Junction59 as Connection3367
+            connect Junction59 "DER (Generic) Output Split1.Vgrid_rms_meas_kV" as Connection3368
+            [
+                breakpoints = 7616, 8024
+            ]
+            connect Goto7 Junction59 as Connection3369
+            [
+                breakpoints = 7624, 7600
+            ]
+            connect From9 Gain6.in as Connection3371
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.Fmeas_Hz" Junction60 as Connection3372
+            [
+                breakpoints = 7568, 8040
+            ]
+            connect Junction60 Fmeas_Hz.in as Connection3373
+            connect Goto8 Junction60 as Connection3374
+            [
+                breakpoints = 7592, 7568
+            ]
+            connect From10 Gain8.in as Connection3376
+            [
+                hide_name = True
+            ]
+            connect Pmeas_kW.in Junction61 as Connection3377
+            connect Junction61 "DER (Generic) Output Split1.Pmeas_kW" as Connection3378
+            [
+                breakpoints = 7536, 8056; 7544, 8056; 7544, 8056; 6920, 8056
+            ]
+            connect Goto9 Junction61 as Connection3379
+            [
+                breakpoints = 7576, 7560
+            ]
+            connect From11 Gain9.in as Connection3381
+            [
+                hide_name = True
+            ]
+            connect Pa_meas_kW.in Junction62 as Connection3382
+            connect Junction62 "DER (Generic) Output Split1.Pa_meas_kW" as Connection3383
+            [
+                breakpoints = 7512, 8072
+            ]
+            connect Goto10 Junction62 as Connection3384
+            [
+                breakpoints = 7536, 7560
+            ]
+            connect From12 Gain10.in as Connection3386
+            [
+                hide_name = True
+            ]
+            connect Pb_meas_kW.in Junction63 as Connection3387
+            connect Junction63 "DER (Generic) Output Split1.Pb_meas_kW" as Connection3388
+            [
+                breakpoints = 7480, 8088; 7480, 8088
+            ]
+            connect Goto11 Junction63 as Connection3389
+            [
+                breakpoints = 7496, 7568
+            ]
+            connect From13 Gain11.in as Connection3391
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.Pc_meas_kW" Junction64 as Connection3392
+            connect Junction64 Pc_meas_kW.in as Connection3393
+            [
+                breakpoints = 7456, 8104
+            ]
+            connect Goto12 Junction64 as Connection3394
+            [
+                breakpoints = 7464, 7568
+            ]
+            connect From14 Gain12.in as Connection3396
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.Qmeas_kVAr" Junction65 as Connection3397
+            [
+                breakpoints = 7368, 8120
+            ]
+            connect Junction65 Qmeas_kVAr.in as Connection3398
+            [
+                breakpoints = 7424, 8120
+            ]
+            connect Goto13 Junction65 as Connection3399
+            [
+                breakpoints = 7432, 7560
+            ]
+            connect From15 Gain13.in as Connection3401
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.Qa_meas_kVAr" Junction66 as Connection3402
+            connect Junction66 Qa_meas_kVAr.in as Connection3403
+            [
+                breakpoints = 7392, 8136
+            ]
+            connect Goto14 Junction66 as Connection3404
+            [
+                breakpoints = 7400, 7424
+            ]
+            connect From16 Gain14.in as Connection3406
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.Qb_meas_kVAr" Junction67 as Connection3407
+            connect Junction67 Qb_meas_kVAr.in as Connection3408
+            [
+                breakpoints = 7352, 8152
+            ]
+            connect Goto15 Junction67 as Connection3409
+            [
+                breakpoints = 7360, 7512
+            ]
+            connect From17 Gain15.in as Connection3411
+            [
+                hide_name = True
+            ]
+            connect Qc_meas_kVAr.in Junction68 as Connection3412
+            connect Junction68 "DER (Generic) Output Split1.Qc_meas_kVAr" as Connection3413
+            [
+                breakpoints = 7320, 8168
+            ]
+            connect Goto16 Junction68 as Connection3414
+            [
+                breakpoints = 7320, 7312
+            ]
+            connect From18 Gain16.in as Connection3416
+            [
+                hide_name = True
+            ]
+            connect Smeas_kVA.in Junction69 as Connection3417
+            connect Junction69 "DER (Generic) Output Split1.Smeas_kVA" as Connection3418
+            [
+                breakpoints = 7288, 8184; 7264, 8184
+            ]
+            connect Goto17 Junction69 as Connection3419
+            [
+                breakpoints = 7288, 7312
+            ]
+            connect From19 Gain17.in as Connection3421
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.PFmeas" Junction70 as Connection3422
+            connect Junction70 PFmeas.in as Connection3423
+            [
+                breakpoints = 7264, 8200
+            ]
+            connect Goto18 Junction70 as Connection3424
+            [
+                breakpoints = 7264, 7240
+            ]
+            connect From20 Gain18.in as Connection3426
+            [
+                hide_name = True
+            ]
+            connect Vconv_rms_meas_V.in Junction71 as Connection3427
+            connect Junction71 "DER (Generic) Output Split1.Vconv_rms_meas_V" as Connection3428
+            [
+                breakpoints = 7224, 8216
+            ]
+            connect Goto19 Junction71 as Connection3429
+            [
+                breakpoints = 7232, 7264
+            ]
+            connect From21 Gain19.in as Connection3431
+            [
+                hide_name = True
+            ]
+            connect SOC.in Junction72 as Connection3432
+            [
+                breakpoints = 7200, 8232
+            ]
+            connect Junction72 "DER (Generic) Output Split1.SOC" as Connection3433
+            connect Goto20 Junction72 as Connection3434
+            [
+                breakpoints = 7184, 7176
+            ]
+            connect From22 Gain20.in as Connection3436
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.Vbatt_V" Junction73 as Connection3437
+            [
+                breakpoints = 7064, 8264
+            ]
+            connect Junction73 Vbatt_V.in as Connection3438
+            connect Goto21 Junction73 as Connection3439
+            [
+                breakpoints = 7136, 7184
+            ]
+            connect From23 Gain21.in as Connection3441
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.Converter_mode_fb" Junction74 as Connection3442
+            connect Junction74 Converter_mode_fb.in as Connection3443
+            [
+                breakpoints = 7912, 7864; 7936, 7864
+            ]
+            connect Goto22 Junction74 as Connection3444
+            [
+                breakpoints = 7096, 7200
+            ]
+            connect From24 Gain22.in as Connection3446
+            [
+                hide_name = True
+            ]
+            connect state.in Junction75 as Connection3447
+            connect Junction75 "DER (Generic) Output Split1.state" as Connection3448
+            [
+                breakpoints = 6992, 8312
+            ]
+            connect Goto23 Junction75 as Connection3449
+            [
+                breakpoints = 7056, 7088
+            ]
+            connect From25 Gain23.in as Connection3451
+            [
+                hide_name = True
+            ]
+            connect "DER (Generic) Output Split1.alarm_msg" Junction76 as Connection3452
+            [
+                breakpoints = 6968, 8328
+            ]
+            connect Junction76 alarm_msg.in as Connection3453
+            connect Goto24 Junction76 as Connection3454
+            [
+                breakpoints = 7008, 7144
+            ]
+            connect Constant1.out Junction77 as Connection3458
+            connect Junction77 "ModBus Device1.discrete_in" as Connection3459
+            connect "ModBus Device1.holding_in" Junction77 as Connection3460
+            connect "Bus Join4.out" Junction78 as Connection3462
+            connect Junction78 "ModBus Device1.coil_in" as Connection3463
+            [
+                breakpoints = 8472, 6696
+            ]
+            connect "Signal Device Marker1.node" Junction78 as Connection3464
+            connect "DER (Generic) Output Split1.Fnom_Hz" Junction79 as Connection3465
+            [
+                breakpoints = 7728, 7976
+            ]
+            connect Junction79 Fnom_Hz.in as Connection3466
+            connect Goto25 Junction79 as Connection3467
+            connect Gain7.out "Bus Join2.in" as Connection3468
+            connect Gain1.out "Bus Join2.in1" as Connection3469
+            connect Gain2.out "Bus Join2.in2" as Connection3470
+            connect Gain3.out "Bus Join2.in3" as Connection3471
+            connect Gain4.out "Bus Join2.in4" as Connection3472
+            connect Gain5.out "Bus Join2.in5" as Connection3473
+            connect Gain6.out "Bus Join2.in6" as Connection3474
+            connect Gain8.out "Bus Join2.in7" as Connection3475
+            connect Gain9.out "Bus Join2.in8" as Connection3476
+            connect Gain10.out "Bus Join2.in9" as Connection3477
+            connect Gain11.out "Bus Join2.in10" as Connection3478
+            connect Gain12.out "Bus Join2.in11" as Connection3479
+            connect Gain13.out "Bus Join2.in12" as Connection3480
+            connect Gain14.out "Bus Join2.in13" as Connection3481
+            connect Gain15.out "Bus Join2.in14" as Connection3482
+            connect Gain16.out "Bus Join2.in15" as Connection3483
+            connect Gain17.out "Bus Join2.in16" as Connection3484
+            connect Gain18.out "Bus Join2.in17" as Connection3485
+            connect Gain19.out "Bus Join2.in18" as Connection3486
+            connect Gain20.out "Bus Join2.in19" as Connection3487
+            connect Gain21.out "Bus Join2.in20" as Connection3488
+            connect Gain22.out "Bus Join2.in21" as Connection3489
+            connect Gain23.out "Bus Join2.in22" as Connection3490
+            connect f-set.out "Bus Join1.in2" as Connection3493
+            connect vrms-set.out "Bus Join1.in1" as Connection3494
+            connect vi-set.out "Bus Join1.in" as Connection3495
+            connect p-set.out "Bus Join1.in3" as Connection3496
+            connect q-set.out "Bus Join1.in4" as Connection3497
+            connect "Bus Join2.out" "ModBus Device1.reg_in" as Connection3513
+            connect Termination1.in "Modbus Client1.exc_code" as Connection3514
+            connect "Bus Split1.out6" "DER (Generic) Control Join1.Qref" as Connection3515
+            connect "Bus Split1.out5" "DER (Generic) Control Join1.Pref" as Connection3516
+            connect "Bus Split1.out4" "DER (Generic) Control Join1.Fref" as Connection3517
+            connect "Bus Split1.out3" "DER (Generic) Control Join1.Vrms_ref" as Connection3518
+            connect "Bus Split1.out2" "DER (Generic) Control Join1.Converter mode" as Connection3519
+            connect "Bus Split1.out1" "DER (Generic) Control Join1.Reset alarms" as Connection3520
+            connect Enable.out "Bus Join3.in" as Connection3521
+            connect "Reset alarms.out" "Bus Join3.in1" as Connection3522
+            connect "Converter mode.out" "Bus Join3.in2" as Connection3523
+            connect Vrms_ref.out "Bus Join3.in3" as Connection3524
+            connect Fref.out "Bus Join3.in4" as Connection3525
+            connect Pref.out "Bus Join3.in5" as Connection3526
+            connect Qref.out "Bus Join3.in6" as Connection3527
+            connect on-set.out "Modbus Client1.enable_write" as Connection3528
+            connect alarmrs-set.out "Modbus Client1.alarmrs_write" as Connection3529
+            connect signal_selection1.Out "Bus Join5.in2" as Connection3530
+            connect "Bus Split2.out1" "Bus Join5.in1" as Connection3531
+            connect "Bus Split2.out" "Bus Join5.in" as Connection3532
+            connect "ModBus Device1.coil_out" "Bus Split2.in" as Connection3533
+            connect "Bus Join1.out" Junction80 as Connection3535
+            connect Junction80 "Modbus Client1.write_analogs_write" as Connection3536
+            connect writeclient.in Junction80 as Connection3537
+            connect "Signal switch1.out" Junction81 as Connection3539
+            connect Junction81 "Bus Split1.in" as Connection3540
+            connect In.in Junction81 as Connection3541
+
+            mask {
+                icon = "image(\'battery_ess_generic_ui.svg\')"
+                description = "<html><head><meta name=\"qrichtext\" content=\"1\"></meta><style type=\"text/css\">p, li { white-space: pre-wrap; }</style></head><body style=\"\"><p style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">User Interface subsystem intended to be used with the \"Battery ESS (Generic)\" component.</p></body></html>"
+
+                CODE open
+                    from typhoon.apps.schematic_editor.dialogs.component_property_dialogs.general import RegularComponentPropertiesDialog
+                
+                    dialog = RegularComponentPropertiesDialog(
+                        component=component,
+                        property_container=component.masks[-1],
+                        current_diagram=current_diagram
+                    )
+                    dialog.exec_()
+                
+                ENDCODE
+            }
+        }
+        [
+            position = 8024, 8552
+            size = 56, 136
+        ]
+
+        component "core/Battery ESS (Generic)" "Battery ESS (Generic)1" {
+        }
+        [
+            position = 8176, 8552
+            size = 144, 136
+        ]
+
+        component sys_hil_marker "Device Marker1" {
+        }
+        [
+            position = 8352, 8192
+            hide_name = True
+        ]
+
+        junction Junction7 pe
+        [
+            position = 8128, 8352
+        ]
+
+        junction Junction8 pe
+        [
+            position = 8160, 8296
+        ]
+
+        junction Junction9 pe
+        [
+            position = 8192, 8248
+        ]
+
+        junction Junction10 pe
+        [
+            position = 8352, 8248
+        ]
+
+        comment Comment8 START <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:12pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-weight:600;">Hardware requirements:</span></p><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-weight:600;">This example can't be run with HIL402 since it requires multihil setup.</span></p></body></html> ENDCOMMENT 
+        [
+            position = 7816, 7976
+        ]
+
+        connect "Constant Impedance Load1.B" S1.b_out as Connection17
+        connect "Constant Impedance Load1.C" S1.a_out as Connection21
+        connect "Constant Impedance Load1.A" S1.c_out as Connection22
+        connect "Grid UI1.ui_in" Grid1.ui_in as Connection29
+        connect "Grid UI1.ui_out" Grid1.ui_out as Connection30
+        connect S1.c_in Junction7 as Connection65
+        connect Junction7 Grid1.A as Connection66
+        [
+            breakpoints = 8128, 8352; 8128, 8352; 8128, 8352; 8128, 8328
+        ]
+        connect "Battery ESS (Generic)1.A" Junction7 as Connection67
+        connect S1.b_in Junction8 as Connection68
+        connect Junction8 Grid1.B as Connection69
+        [
+            breakpoints = 8160, 8296; 8160, 8296; 8160, 8296
+        ]
+        connect "Battery ESS (Generic)1.B" Junction8 as Connection70
+        connect Grid1.C Junction9 as Connection71
+        connect "Battery ESS (Generic)1.C" Junction9 as Connection73
+        connect "Battery ESS (Generic)1.ui_in" "Battery ESS (Generic) UI1.ui_in" as Connection74
+        connect "Battery ESS (Generic) UI1.ui_out" "Battery ESS (Generic)1.ui_out" as Connection75
+        connect "Battery ESS (Generic)1.ext_inputs" "Battery ESS (Generic) UI1.ext" as Connection76
+        connect S1.a_in Junction10 as Connection81
+        [
+            breakpoints = 8408, 8248
+        ]
+        connect Junction10 Junction9 as Connection82
+        [
+            breakpoints = 8192, 8248; 8192, 8248; 8192, 8248
+        ]
+        connect "Device Marker1.node" Junction10 as Connection83
+    }
+
+    default {
+        gen_bus_join {
+            inputs = "2"
+            execution_rate = "inherit"
+        }
+
+        gen_bus_split {
+            outputs = "2"
+            execution_rate = "inherit"
+        }
+
+        gen_gain {
+            gain = "1"
+            multiplication = "Element-wise(K.*u)"
+            _tunable = "False"
+            execution_rate = "inherit"
+        }
+
+        gen_probe {
+            addr = "0"
+            override_signal_name = "False"
+            signal_name = ""
+            signal_type = "generic"
+            streaming_en = "False"
+            streaming_er_idx = "0"
+            execution_rate = "inherit"
+        }
+
+        gen_terminator {
+            execution_rate = "inherit"
+        }
+
+        src_constant {
+            value = "1"
+            signal_type = "real"
+            execution_rate = "100e-6"
+            _tunable = "False"
+        }
+
+        src_scada_input {
+            addr = "0"
+            format = "real"
+            override_signal_name = "False"
+            signal_name = ""
+            signal_type = "real"
+            min = "-1e6"
+            max = "1e6"
+            def_value = "0"
+            unit = " "
+            execution_rate = "100e-6"
+        }
+
+        sys_hil_marker {
+            hil_device_id = "0"
+            override_hw_settings = "False"
+            hw_configuration_id = "1"
+            override_sim_settings = "False"
+            simulation_method = "exact"
+            simulation_time_step = "auto"
+            ss_calc_method = "systematic elimination"
+            enb_pole_shift = "True"
+            enb_gds_oversampling = "True"
+            show_modes = "False"
+            cpl_stb = "False"
+            cpl_dynamics_analysis = "False"
+            matrix_based_reduction = "True"
+            enb_dep_sw_detect = "False"
+            export_ss_to_pickle = "False"
+            override_user_sp_settings = "False"
+            user_cpu_optimization = "high"
+            code_section = "Internal Memory"
+            data_section = "Internal Memory"
+            override_sys_sp_settings = "False"
+            sys_cpu_optimization = "high"
+            sys_sp_rate_1 = "100e-6"
+            sys_sp_rate_2 = "50e-3"
+        }
+
+        sys_hil_sp_marker {
+            hil_device_id = "0"
+            override_hw_settings = "False"
+            hw_configuration_id = "1"
+            override_sim_settings = "False"
+            simulation_method = "exact"
+            simulation_time_step = "auto"
+            ss_calc_method = "systematic elimination"
+            enb_pole_shift = "True"
+            enb_gds_oversampling = "True"
+            show_modes = "False"
+            cpl_stb = "False"
+            cpl_dynamics_analysis = "False"
+            matrix_based_reduction = "True"
+            enb_dep_sw_detect = "False"
+            export_ss_to_pickle = "False"
+            override_user_sp_settings = "False"
+            user_cpu_optimization = "high"
+            code_section = "Internal Memory"
+            data_section = "Internal Memory"
+            override_sys_sp_settings = "False"
+            sys_cpu_optimization = "high"
+            sys_sp_rate_1 = "100e-6"
+            sys_sp_rate_2 = "50e-3"
+            execution_rate = "inherit"
+        }
+
+        sys_signal_switch {
+            criterion = "ctrl > threshold"
+            threshold = "0.5"
+            execution_rate = "inherit"
+        }
+
+        "core/Battery ESS (Generic)" {
+            Pnom = "20e3"
+            Snom = "40e3"
+            Vnom_LL = "400"
+            fnom = "50"
+            include_transformer = "True"
+            Vnom_sec_LL = "2300"
+            wL_pu = "0.1"
+            Zt_pu = "0.04"
+            dc_link_margin = "0.4"
+            opc_pu = "0.0"
+            Rshunt_pu = "2000"
+            Tfast = "100e-6"
+            Tslow = "500e-6"
+            Sg_sc_pu = "20"
+            PFg = "0.1"
+            cont_type = "Ideal"
+            resistance_cont = "1.0"
+            nom_batt_voltage = "200"
+            nom_batt_capacity = "120"
+            soc_range = "[10, 90]"
+            grid_code_fcn = "LVRT"
+            lvrt_req = "Germany"
+            vs_lvrt = "[0.0, 0.9, 0.901]"
+            ts_lvrt = "[0.15, 1.5, 1.501]"
+            preview = "Plot LVRT curve"
+            voltvar_req = "Custom"
+            vs_voltvar = "[0.6, 0.9, 1.1, 1.3]"
+            qs_voltvar = "[1.3, 0.0, 0.0, -0.7]"
+            preview_voltvar = "Plot VoltVAr curve"
+            hzwatt_req = "Custom"
+            fs_hzwatt = "[47.5, 47.8, 49.8, 50.2, 51.5]"
+            ps_hzwatt = "[2.0, 2.0, 0.0, 0.0, -0.52]"
+            preview_hzwatt = "Plot HzWatt curve"
+            voltwatt_req = "Custom"
+            vs_voltwatt = "[0.8, 1.06, 1.1, 1.3]"
+            ps_voltwatt = "[1.0, 1.0, 0.2, 0.2]"
+            preview_voltwatt = "Plot VoltWatt curve"
+        }
+
+        "core/Constant Impedance Load" {
+            fn = "60"
+            conn_type = "Y"
+            enable_neutral = "False"
+            set_balanced = "True"
+            Vn_3ph = "480"
+            Sn_3ph = "1.0e6"
+            pf_mode_3ph = "Unit"
+            pf_3ph = "0.9"
+            VAn = "480/(3**0.5)"
+            VAB = "480"
+            SAn = "1.0e6/3"
+            SAB = "1.0e6/3"
+            pf_modeA = "Unit"
+            pfA = "0.9"
+            VBn = "480/(3**0.5)"
+            VBC = "480"
+            SBn = "1.0e6/3"
+            SBC = "1.0e6/3"
+            pf_modeB = "Unit"
+            pfB = "0.9"
+            VCn = "480/(3**0.5)"
+            VCA = "480"
+            SCn = "1.0e6/3"
+            SCA = "1.0e6/3"
+            pf_modeC = "Unit"
+            pfC = "0.9"
+        }
+
+        "core/DER (Generic) Control Join" {
+            component_select = "Battery ESS"
+            Enable = "False"
+            Converter_mode = "False"
+            Reset_alarms = "False"
+            Pref = "False"
+            Qref = "False"
+            Frequency_droop_offset = "False"
+            Frequency_droop_coeff = "False"
+            Voltage_droop_coeff = "False"
+            Vrms_ref = "False"
+            Fref = "False"
+            Max_SOC = "False"
+            Min_SOC = "False"
+            Pref_rate_of_change = "False"
+            Qref_rate_of_change = "False"
+            Vrms_ref_rate_of_change = "False"
+            Fref_rate_of_change = "False"
+            Pcurtailment = "False"
+            Pcurtailment_rate_of_change = "False"
+            MPPT_rate_of_change = "False"
+            Enable_storm_control = "False"
+            int1_wind_speed_max = "False"
+            int2_wind_speed_max = "False"
+            P_reduction_wind_speed__SC_ = "False"
+            Average_wind_speed_max__SC_ = "False"
+            Cut_out_wind_speed__SC_ = "False"
+            time_interval_1 = "False"
+            time_interval_2 = "False"
+            Recovery_time = "False"
+            time_interval__SC_ = "False"
+            Operation_mode = "False"
+            P_dependency_type = "False"
+            Q_dependency_type = "False"
+            P_V_k1 = "False"
+            P_V_k2 = "False"
+            P_f_k1 = "False"
+            P_f_k2 = "False"
+            Q_V_k1 = "False"
+            Q_V_k2 = "False"
+            Q_f_k1 = "False"
+            Q_f_k2 = "False"
+            LVRT_enable = "False"
+            LVRT_Q_contribution = "False"
+            LVRT_P_set = "False"
+            V_alarm_upper_limit = "False"
+            V_alarm_lower_limit = "False"
+            F_alarm_upper_limit = "False"
+            F_alarm_lower_limit = "False"
+            S_alarm_upper_limit = "False"
+            I_alarm_upper_limit = "False"
+            I_alarm_timeout = "False"
+            Drift_alarm_freq_bound = "False"
+            Sync_timeout = "False"
+            VoltVAr_enable = "False"
+            HzWatt_enable = "False"
+            VoltWatt_enable = "False"
+        }
+
+        "core/DER (Generic) External Join" {
+            component_select = "Battery ESS"
+            Initial_SOC = "False"
+            Initial_SOH = "False"
+            Temperature = "False"
+            Irradiance = "False"
+            Wind_speed = "False"
+        }
+
+        "core/DER (Generic) Output Split" {
+            component_select = "Battery ESS"
+            Enable_fb = "False"
+            Converter_mode_fb = "False"
+            MCB_status = "False"
+            state = "False"
+            alarm_msg = "False"
+            Lvrt_active_status = "False"
+            Pnom_kW = "False"
+            Qnom_kVAr = "False"
+            Snom_kVA = "False"
+            Vnom_LL_V = "False"
+            Fnom_Hz = "False"
+            nom_wind_speed_m_per_s = "False"
+            Pref_fb_kW = "False"
+            Qref_fb_kVAr = "False"
+            Vrms_ref_fb_V = "False"
+            Fref_fb_Hz = "False"
+            Pmeas_kW = "False"
+            Pa_meas_kW = "False"
+            Pb_meas_kW = "False"
+            Pc_meas_kW = "False"
+            Qmeas_kVAr = "False"
+            Qa_meas_kVAr = "False"
+            Qb_meas_kVAr = "False"
+            Qc_meas_kVAr = "False"
+            Smeas_kVA = "False"
+            PFmeas = "False"
+            Vgrid_rms_meas_kV = "False"
+            Vconv_rms_meas_V = "False"
+            Fmeas_Hz = "False"
+            Ibatt_A = "False"
+            Vbatt_V = "False"
+            SOC = "False"
+            SOH = "False"
+            Available_Ppv_kW = "False"
+            curtailment_status = "False"
+            rotational_speed_RPM = "False"
+            wind_speed_m_per_s = "False"
+            turbine_stalled = "False"
+            pitch_ctrl_on = "False"
+            avg_wind_speed_1 = "False"
+            avg_wind_speed_2 = "False"
+            avg_wind_speed_sc = "False"
+            prot_trip = "False"
+            P_red_on = "False"
+            P_cut_out = "False"
+            Vgen_rms_meas_V = "False"
+            Gen_speed_RPM = "False"
+            Batt_cap_nom_Ah = "False"
+            Vload_rms_meas_V = "False"
+        }
+
+        "core/Grid" {
+            Vb = "2300"
+            f = "50"
+            Sb = "20*40e3"
+            pf = "0.1"
+            Tfast = "100e-6"
+            cont_type = "Ideal"
+            resistance_cont = "0"
+        }
+
+        "core/ModBus Device" {
+            hil_id = "0"
+            configuration = "config1"
+            preview = "Configuration preview"
+            ip_addr = "192.168.0.210"
+            ip_addr_src = "Dictionary"
+            netmask = "255.255.255.0"
+            netmask_src = "Dictionary"
+            port = "502"
+            port_src = "Dictionary"
+            slave_id = "1"
+            slave_id_src = "Dictionary"
+            gateway_enable = "False"
+            gateway = "192.168.0.210"
+            gateway_src = "Dictionary"
+            ip_address_port = "False"
+            request_counter_port = "None"
+            message_delay = "None"
+            connection_loss = "None"
+            defines = ""
+            modbus_sunspec = "False"
+            logging = "False"
+            execution_rate = "100e-6"
+            _supported_platforms = "[\'hil\']"
+        }
+
+        "core/Modbus Client" {
+            hil_id = "0"
+            client_ip_address = "192.168.0.200"
+            client_netmask = "255.255.255.0"
+            client_gateway = "192.168.0.1"
+            client_gateway_enable = "False"
+            server_ip_address = "192.168.0.100"
+            server_port = "502"
+            slave_id = "255"
+            request_timeout = "1000"
+            requests = "[]"
+            request_names_dict = "{}"
+            execution_rate = "100e-6"
+            _supported_platforms = "[\'hil\']"
+        }
+
+        "core/Triple Pole Single Throw Contactor" {
+            ctrl_src = "Digital input"
+            Sa = "1"
+            Sa_logic = "active high"
+            enable_fb_out = "False"
+            fb_out_type = "real"
+            execution_rate = "inherit"
+            initial_state = "off"
+            on_delay = "0"
+            off_delay = "0"
+        }
+    }
+
+    CODE model_init
+        # Numpy module is imported as 'np'
+        # Scipy module is imported as 'sp'
+        
+        Ts_slow = 500e-6
+        
+        #Modbus server configuration
+        config_Batt = {
+            'port': 502,
+            'ip_addr': '192.168.0.253',
+            'netmask': '255.255.255.0',
+            'slave_id': 2,
+            'coil_input_addresses': '0,1',
+            'coil_output_addresses': '1000,1001',
+            'discrete_input_addresses': '',
+            'holding_register_input_addresses': '',
+            'holding_register_output_addresses': '2000i, 2001i, 2002i, 2003i, 2004i',
+            'input_register_adresses': '10i, 11i, 12i, 13i, 14i, 15i, 16i,17i,18i,19i,20i,21i,22i,23i,24i,25i,26i,27i,28i,29i,30i,31i,32i'
+            }
+            
+            
+    ENDCODE
+}
