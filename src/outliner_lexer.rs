@@ -15,8 +15,10 @@ pub type Input = str;
 
 lazy_static! {
     static ref RE_ID: Regex = Regex::new(r"^[^\d\W]\w*\b").unwrap();
-    static ref RE_NAME: Regex = Regex::new(r#"^("(\\"|[^"])*")|('(\\'|[^'])*')|(\w|\+|-)+"#).unwrap();
+    static ref RE_NAME: Regex = Regex::new(r#"^("(\\"|[^"])*")|^('(\\'|[^'])*')|^(\w|\+|-)+"#).unwrap();
     static ref RE_STRING: Regex = Regex::new(r#"^"(\\"|[^"])*""#).unwrap();
+    static ref RE_MODEL_PROPERTY: Regex = Regex::new(r#"^model\s+="#).unwrap();
+    static ref RE_CONFIGURATION_PROPERTY: Regex = Regex::new(r#"^configuration\s+="#).unwrap();
 }
 
 pub struct OutlinerLexer();
@@ -175,6 +177,12 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                     }
                     TokenKind::NotComment => consume_until(&["//", "/*", "*/"])
                         .map(|value| (TokenKind::NotComment, value)),
+                    TokenKind::ModelProperty => RE_MODEL_PROPERTY
+                        .find(&context.input[context.position..])
+                        .map(|m| (TokenKind::ModelProperty, m.as_str())),
+                    TokenKind::ConfigurationProperty => RE_CONFIGURATION_PROPERTY
+                        .find(&context.input[context.position..])
+                        .map(|m| (TokenKind::ConfigurationProperty, m.as_str())),
                     TokenKind::Anything => consume_until(&[
                         "//",
                         "/*",

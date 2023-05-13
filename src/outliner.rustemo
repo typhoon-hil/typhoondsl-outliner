@@ -24,7 +24,7 @@ TypeName: Name | ID;
 
 // Comments
 Layout: LayoutItem*;
-LayoutItem: Comment | Anything | String | ModelComment;
+LayoutItem: Comment | Anything | String | ModelComment | ModelProperty | ConfigurationProperty;
 Comment: OComment Cornc* CComment | CommentLine;
 ModelComment: CommentKW ID StartCommentKW TillEndCommentKW EndCommentKW;
 Cornc: Comment | NotComment;
@@ -46,6 +46,8 @@ EndCommentKW:;
 TillEndCommentKW:;
 ID:;
 TillEndCodeKW:;
+ModelProperty:;
+ConfigurationProperty:;
 Anything:;
 String:;
 
