@@ -8,11 +8,20 @@ use std::{env, path::Path};
 
 use outliner_lexer::OutlinerLexer;
 
-fn main() {
+fn main() -> ! {
     match &env::args().collect::<Vec<_>>()[..] {
         [_, model] => {
-            let result = outliner::OutlinerParser::new(OutlinerLexer::new()).parse_file(model);
-            println!("{result:#?}")
+            println!("Parsing: {model}");
+            match outliner::OutlinerParser::new(OutlinerLexer::new()).parse_file(model) {
+                Ok(_) => {
+                    println!("Success!");
+                    std::process::exit(0);
+                }
+                Err(_) => {
+                    println!("Failure!");
+                    std::process::exit(1);
+                },
+            }
         }
         [exec, ..] => {
             println!(
@@ -22,6 +31,7 @@ fn main() {
                     .expect("Unable to get file name.")
                     .to_string_lossy()
             );
+            std::process::exit(1);
         }
         _ => panic!("This should not happen!"),
     }
