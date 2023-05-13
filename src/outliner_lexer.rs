@@ -2,6 +2,7 @@ use crate::outliner::TokenRecognizer;
 
 use super::outliner::TokenKind;
 use regex::Regex;
+use lazy_static::lazy_static;
 use rustemo::{
     lexer::{self, Context, Lexer, Token},
     location::{Location, Position},
@@ -11,6 +12,12 @@ use rustemo::{
 use colored::*;
 
 pub type Input = str;
+
+lazy_static! {
+    static ref RE_ID: Regex = Regex::new(r"^[^\d\W]\w*\b").unwrap();
+    static ref RE_NAME: Regex = Regex::new(r#"^("(\\"|[^"])*")|('(\\'|[^'])*')|(\w|\+|-)+"#).unwrap();
+    static ref RE_STRING: Regex = Regex::new(r#"^"(\\"|[^"])*""#).unwrap();
+}
 
 pub struct OutlinerLexer();
 
@@ -139,12 +146,10 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                     TokenKind::ModelKW => {
                         str_recognize("model").map(|value| (TokenKind::ModelKW, value))
                     }
-                    TokenKind::ID => Regex::new(r"^[^\d\W]\w*\b")
-                        .unwrap()
+                    TokenKind::ID => RE_ID
                         .find(&context.input[context.position..])
                         .map(|m| (TokenKind::ID, m.as_str())),
-                    TokenKind::Name => Regex::new(r#"^("(\\"|[^"])*")|('(\\'|[^'])*')|(\w|\+|-)+"#)
-                        .unwrap()
+                    TokenKind::Name => RE_NAME
                         .find(&context.input[context.position..])
                         .map(|m| (TokenKind::Name, m.as_str())),
                     TokenKind::CommentLine => {
@@ -192,8 +197,7 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                             None
                         }
                     }),
-                    TokenKind::String => Regex::new(r#"^"(\\"|[^"])*""#)
-                        .unwrap()
+                    TokenKind::String => RE_STRING
                         .find(&context.input[context.position..])
                         .map(|m| (TokenKind::String, m.as_str())),
                     TokenKind::CommentKW => {

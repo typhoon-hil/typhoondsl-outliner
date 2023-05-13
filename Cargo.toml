@@ -9,3 +9,4 @@ edition = "2021"
 rustemo = { version = "0.1.0", path = "../../../rust/rustemo/rustemo" }
 regex = "1"
 colored = "2"
+lazy_static = "1"
