@@ -24,31 +24,36 @@ TypeName: Name | ID;
 
 // Comments
 Layout: LayoutItem*;
-LayoutItem: Comment | Anything;
+LayoutItem: Comment | Anything | String | ModelComment;
 Comment: OComment Cornc* CComment | CommentLine;
+ModelComment: CommentKW ID StartCommentKW TillEndCommentKW EndCommentKW;
 Cornc: Comment | NotComment;
 
 
 
 terminals
 
-OBrace: ;
-CBrace: ;
-ComponentKW: ;
-ConfigurationKW: ;
+OBrace:;
+CBrace:;
+ComponentKW:;
+ConfigurationKW:;
 CodeKW:;
 EndCodeKW:;
-ModelKW: ;
-NotKW: ;
+ModelKW:;
+CommentKW:;
+StartCommentKW:;
+EndCommentKW:;
+TillEndCommentKW:;
 ID:;
 TillEndCodeKW:;
 Anything:;
+String:;
 
 // /("(\\"|[^"])*")|(\'(\\\'|[^\'])*\')|(\w|\+|-)+/
-Name: ;
+Name:;
 
 // Comments
-CommentLine: ; //   /\/\/.*/
-OComment: ; //  '/*'
-CComment: ; //    '*/'
-NotComment: ; //    /((\*[^\/])|[^\s*\/]|\/[^\*])+/
+CommentLine:; //   /\/\/.*/
+OComment:; //  '/*'
+CComment:; //    '*/'
+NotComment:; //    /((\*[^\/])|[^\s*\/]|\/[^\*])+/

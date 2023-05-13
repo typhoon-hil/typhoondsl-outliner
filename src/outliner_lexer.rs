@@ -7,6 +7,7 @@ use rustemo::{
     location::{Location, Position},
     log,
 };
+#[cfg(debug_assertions)]
 use colored::*;
 
 pub type Input = str;
@@ -138,10 +139,6 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                     TokenKind::ModelKW => {
                         str_recognize("model").map(|value| (TokenKind::ModelKW, value))
                     }
-                    TokenKind::NotKW => {
-                        consume_until(&["component", "model", "configuration", "CODE", "ENDCODE"])
-                            .map(|value| (TokenKind::NotKW, value))
-                    }
                     TokenKind::ID => Regex::new(r"^[^\d\W]\w*\b")
                         .unwrap()
                         .find(&context.input[context.position..])
@@ -178,11 +175,15 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                         "/*",
                         "{",
                         "}",
+                        r#"""#,
                         "component",
                         "model",
                         "configuration",
                         "CODE",
                         "ENDCODE",
+                        "comment",
+                        "START",
+                        "ENDCOMMENT",
                     ])
                     .and_then(|value| {
                         if !value.is_empty() {
@@ -191,6 +192,22 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                             None
                         }
                     }),
+                    TokenKind::String => Regex::new(r#"^"(\\"|[^"])*""#)
+                        .unwrap()
+                        .find(&context.input[context.position..])
+                        .map(|m| (TokenKind::String, m.as_str())),
+                    TokenKind::CommentKW => {
+                        str_recognize("comment").map(|value| (TokenKind::CommentKW, value))
+                    }
+                    TokenKind::StartCommentKW => {
+                        str_recognize("START").map(|value| (TokenKind::StartCommentKW, value))
+                    }
+                    TokenKind::EndCommentKW => {
+                        str_recognize("ENDCOMMENT").map(|value| (TokenKind::EndCommentKW, value))
+                    }
+                    TokenKind::TillEndCommentKW => {
+                        consume_until(&["ENDCOMMENT"]).map(|value| (TokenKind::TillEndCommentKW, value))
+                    }
                 }
             })
             .map(|(kind, value)| {
