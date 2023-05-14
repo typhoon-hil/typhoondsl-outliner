@@ -16,7 +16,7 @@ Configuration: ConfigurationKW Block;
 Block: OBrace Element0 CBrace;
 Handler:
   CodeKW name=ID
-  TillEndCodeKW
+  TillEndCodeKW?
   EndCodeKW
 ;
 
@@ -26,7 +26,7 @@ TypeName: Name | ID;
 Layout: LayoutItem*;
 LayoutItem: Comment | Anything | String | ModelComment | ModelProperty | ConfigurationProperty;
 Comment: OComment Cornc* CComment | CommentLine;
-ModelComment: CommentKW ID StartCommentKW TillEndCommentKW EndCommentKW;
+ModelComment: CommentKW ID StartCommentKW TillEndCommentKW? EndCommentKW;
 Cornc: Comment | NotComment;
 
 

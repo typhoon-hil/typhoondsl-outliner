@@ -184,22 +184,32 @@ pub fn block_c1(
 pub struct Handler {
     pub code_kw: CodeKW,
     pub name: ID,
-    pub till_end_code_kw: TillEndCodeKW,
+    pub till_end_code_kwopt: TillEndCodeKWOpt,
     pub end_code_kw: EndCodeKW,
 }
 pub fn handler_c1(
     _ctx: &Context,
     code_kw: CodeKW,
     name: ID,
-    till_end_code_kw: TillEndCodeKW,
+    till_end_code_kwopt: TillEndCodeKWOpt,
     end_code_kw: EndCodeKW,
 ) -> Handler {
     Handler {
         code_kw,
         name,
-        till_end_code_kw,
+        till_end_code_kwopt,
         end_code_kw,
     }
+}
+pub type TillEndCodeKWOpt = Option<TillEndCodeKW>;
+pub fn till_end_code_kwopt_till_end_code_kw(
+    _ctx: &Context,
+    till_end_code_kw: TillEndCodeKW,
+) -> TillEndCodeKWOpt {
+    Some(till_end_code_kw)
+}
+pub fn till_end_code_kwopt_empty(_ctx: &Context) -> TillEndCodeKWOpt {
+    None
 }
 #[derive(Debug, Clone)]
 pub enum TypeName {
