@@ -17,8 +17,9 @@ fn main() -> ! {
                     println!("Success!");
                     std::process::exit(0);
                 }
-                Err(_) => {
+                Err(e) => {
                     println!("Failure!");
+                    println!("{e:#?}");
                     std::process::exit(1);
                 },
             }

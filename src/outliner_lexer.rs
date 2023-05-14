@@ -1,21 +1,22 @@
 use crate::outliner::TokenRecognizer;
 
 use super::outliner::TokenKind;
-use regex::Regex;
+#[cfg(debug_assertions)]
+use colored::*;
 use lazy_static::lazy_static;
+use regex::Regex;
 use rustemo::{
     lexer::{self, Context, Lexer, Token},
     location::{Location, Position},
     log,
 };
-#[cfg(debug_assertions)]
-use colored::*;
 
 pub type Input = str;
 
 lazy_static! {
     static ref RE_ID: Regex = Regex::new(r"^[^\d\W]\w*\b").unwrap();
-    static ref RE_NAME: Regex = Regex::new(r#"^("(\\"|[^"])*")|^('(\\'|[^'])*')|^(\w|\+|-)+"#).unwrap();
+    static ref RE_NAME: Regex =
+        Regex::new(r#"^("(\\"|[^"])*")|^('(\\'|[^'])*')|^(\w|\+|-)+"#).unwrap();
     static ref RE_STRING: Regex = Regex::new(r#"^"(\\"|[^"])*""#).unwrap();
     static ref RE_MODEL_PROPERTY: Regex = Regex::new(r#"^model\s+="#).unwrap();
     static ref RE_CONFIGURATION_PROPERTY: Regex = Regex::new(r#"^configuration\s+="#).unwrap();
@@ -29,12 +30,13 @@ impl OutlinerLexer {
     }
 
     fn skip(&self, context: &mut Context<Input>) {
-        let skipped_len = context.input[context.position..]
+        let skipped_len: usize = context.input[context.position..]
             .chars()
             .take_while(|x| x.is_whitespace())
-            .count();
+            .map(|c| c.len_utf8())
+            .sum();
         let skipped = &context.input[context.position..context.position + skipped_len];
-        log!("Skipped ws: {}", skipped.len());
+        log!("Skipped ws: {}", skipped_len);
         if skipped_len > 0 {
             context.layout_ahead = Some(skipped);
             context.position += skipped_len;
@@ -57,8 +59,34 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
         //    Remember to take into account flaky matching, i.e. tokens
         //    which should match only if no other expected tokens are here.
         //    Flaky tokens should be of low priority.
+        let is_word_char = |c: char| -> bool { c.is_alphabetic() || c == '-' || c == '_' };
+        let is_id = |s: &str| -> bool { s.chars().all(is_word_char) };
+
+        // Match on a word boundaries for ID-like strings
+        let is_match = |s: &str, position: usize| -> bool {
+            match context.input.get(position..position + s.len()) {
+                Some(subs) => {
+                    subs == s
+                        && (!is_id(s)
+                            || (!is_word_char(
+                                context.input[..position]
+                                    .chars()
+                                    .rev()
+                                    .next()
+                                    .unwrap_or(' '),
+                            ) && !is_word_char(
+                                context.input[position + s.len()..]
+                                    .chars()
+                                    .next()
+                                    .unwrap_or(' '),
+                            )))
+                }
+                None => false,
+            }
+        };
+
         let str_recognize = |s: &'i str| -> Option<&'i str> {
-            if context.input[context.position..].starts_with(s) {
+            if is_match(s, context.position) {
                 Some(&context.input[context.position..(context.position + s.len())])
             } else {
                 None
@@ -70,47 +98,19 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                 "Current position: {}",
                 &context.input[context.position..]
                     .chars()
-                    .take(10)
+                    .take(20)
                     .collect::<String>()
             );
-            let is_word_char = |c: char| -> bool { c.is_alphabetic() || c == '-' || c == '_' };
-            let is_id = |s: &str| -> bool { s.chars().all(is_word_char) };
-            // To keep track of word constituent chars, and thus detect word
-            // boundaries, start with the last char.
-            let mut word_constituent = is_word_char(
-                context.input[..context.position]
-                    .chars()
-                    .rev()
-                    .next()
-                    .unwrap_or(' '),
-            );
-            let position = context.input[context.position..]
-                .char_indices()
-                .find_map(|(idx, c)| {
-                    // Check the word boundaries by keeping track of whether the
-                    // previous char was word constituent. This is relevant only
-                    // if the word for matching is ID.
-                    let last_word_constituent = word_constituent;
-                    word_constituent = is_word_char(c);
-                    until_words.iter().find_map(|&w| {
-                        if (!last_word_constituent || !is_id(w))
-                            && context.input[(context.position + idx)..].starts_with(w)
-                            && (!is_id(w)
-                                || !is_word_char(
-                                    context.input[context.position + idx + w.len()..]
-                                        .chars()
-                                        .next()
-                                        .unwrap_or(' '),
-                                ))
-                        {
-                            Some(idx)
-                        } else {
-                            None
-                        }
-                    })
-                });
+            let position: usize =
+                context.input[context.position..]
+                    .char_indices()
+                    .take_while(|(idx, _)| {
+                        !until_words
+                            .iter()
+                            .any(|&w| is_match(w, context.position + idx))
+                    }).map(|(_, c)| c.len_utf8()).sum();
 
-            if let Some(position) = position {
+            if position > 0 {
                 Some(&context.input[context.position..(context.position + position)])
             } else {
                 None
@@ -155,15 +155,24 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                         .find(&context.input[context.position..])
                         .map(|m| (TokenKind::Name, m.as_str())),
                     TokenKind::CommentLine => {
+                        let mut got_true = false;
                         if context.input[context.position..].starts_with("//") {
-                            let skipped_len = context.input[context.position..]
+                            let skipped_len: usize = context.input[context.position..]
                                 .chars()
-                                .take_while(|x| *x != '\n')
-                                .count();
+                                .take_while(|x| {
+                                    // Need to get the whole line including the newline.
+                                    if got_true {
+                                        return false;
+                                    } else if *x == '\n' {
+                                        got_true = true;
+                                    }
+                                    true
+                                })
+                                .map(|c| c.len_utf8())
+                                .sum();
                             Some((
                                 TokenKind::CommentLine,
-                                &context.input
-                                    [context.position..(context.position + skipped_len + 1)],
+                                &context.input[context.position..(context.position + skipped_len)],
                             ))
                         } else {
                             None
@@ -198,13 +207,7 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                         "START",
                         "ENDCOMMENT",
                     ])
-                    .and_then(|value| {
-                        if !value.is_empty() {
-                            Some((TokenKind::Anything, value))
-                        } else {
-                            None
-                        }
-                    }),
+                    .map(|value| (TokenKind::Anything, value)),
                     TokenKind::String => RE_STRING
                         .find(&context.input[context.position..])
                         .map(|m| (TokenKind::String, m.as_str())),
@@ -217,9 +220,8 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                     TokenKind::EndCommentKW => {
                         str_recognize("ENDCOMMENT").map(|value| (TokenKind::EndCommentKW, value))
                     }
-                    TokenKind::TillEndCommentKW => {
-                        consume_until(&["ENDCOMMENT"]).map(|value| (TokenKind::TillEndCommentKW, value))
-                    }
+                    TokenKind::TillEndCommentKW => consume_until(&["ENDCOMMENT"])
+                        .map(|value| (TokenKind::TillEndCommentKW, value)),
                 }
             })
             .map(|(kind, value)| {
