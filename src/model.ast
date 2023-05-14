@@ -1,0 +1,2826 @@
+Ok(
+    Model {
+        name: "\"battery generic server and client\"",
+        location: Location {
+            start: LineBased(
+                LineBased {
+                    line: 3005,
+                    column: 0,
+                },
+            ),
+            end: None,
+        },
+        configuration: Configuration {
+            location: Location {
+                start: LineBased(
+                    LineBased {
+                        line: 59,
+                        column: 4,
+                    },
+                ),
+                end: None,
+            },
+        },
+        elements: Some(
+            [
+                Component(
+                    Component {
+                        component_type: ID(
+                            "Subsystem",
+                        ),
+                        name: "Root",
+                        idopt: None,
+                        elements: Some(
+                            [
+                                Component(
+                                    Component {
+                                        component_type: Name(
+                                            "\"core/Grid\"",
+                                        ),
+                                        name: "Grid1",
+                                        idopt: None,
+                                        elements: None,
+                                        location: Location {
+                                            start: LineBased(
+                                                LineBased {
+                                                    line: 69,
+                                                    column: 8,
+                                                },
+                                            ),
+                                            end: None,
+                                        },
+                                    },
+                                ),
+                                Component(
+                                    Component {
+                                        component_type: Name(
+                                            "\"core/Constant Impedance Load\"",
+                                        ),
+                                        name: "\"Constant Impedance Load1\"",
+                                        idopt: None,
+                                        elements: None,
+                                        location: Location {
+                                            start: LineBased(
+                                                LineBased {
+                                                    line: 91,
+                                                    column: 8,
+                                                },
+                                            ),
+                                            end: None,
+                                        },
+                                    },
+                                ),
+                                Component(
+                                    Component {
+                                        component_type: Name(
+                                            "\"core/Triple Pole Single Throw Contactor\"",
+                                        ),
+                                        name: "S1",
+                                        idopt: None,
+                                        elements: None,
+                                        location: Location {
+                                            start: LineBased(
+                                                LineBased {
+                                                    line: 99,
+                                                    column: 8,
+                                                },
+                                            ),
+                                            end: None,
+                                        },
+                                    },
+                                ),
+                                Component(
+                                    Component {
+                                        component_type: Name(
+                                            "\"core/Grid UI\"",
+                                        ),
+                                        name: "\"Grid UI1\"",
+                                        idopt: None,
+                                        elements: None,
+                                        location: Location {
+                                            start: LineBased(
+                                                LineBased {
+                                                    line: 108,
+                                                    column: 8,
+                                                },
+                                            ),
+                                            end: None,
+                                        },
+                                    },
+                                ),
+                                Component(
+                                    Component {
+                                        component_type: ID(
+                                            "Subsystem",
+                                        ),
+                                        name: "\"Battery ESS (Generic) UI1\"",
+                                        idopt: None,
+                                        elements: Some(
+                                            [
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Enable_fb",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 116,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Reset alarms\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 126,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Frequency droop offset\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 134,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Max SOC\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 145,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Min SOC\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 156,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Voltage droop coeff\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 167,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Frequency droop coeff\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 178,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Qmeas_kVAr",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 185,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Qa_meas_kVAr",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 191,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "PFmeas",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 197,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Smeas_kVA",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 203,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Pa_meas_kW",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 209,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Pc_meas_kW",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 215,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Pnom_kW",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 221,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Qref_fb_kVAr",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 228,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Snom_kVA",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 234,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Qb_meas_kVAr",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 240,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Fmeas_Hz",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 247,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Pref_fb_kW",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 254,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Qnom_kVAr",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 260,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Qc_meas_kVAr",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 266,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: Name(
+                                                            "\"core/DER (Generic) Control Join\"",
+                                                        ),
+                                                        name: "\"DER (Generic) Control Join1\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 301,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vgrid_rms_meas_kV",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 307,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Pb_meas_kW",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 313,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Pmeas_kW",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 320,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Fnom_Hz",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 326,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vnom_LL_V",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 332,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Converter_mode_fb",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 338,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Fref_fb_Hz",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 345,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vrms_ref_fb_V",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 352,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "MCB_status",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 358,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "SOH",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 364,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "alarm_msg",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 370,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "state",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 376,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Ibatt_A",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 382,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vbatt_V",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 388,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "SOC",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 394,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vconv_rms_meas_V",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 400,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Vrms_ref rate of change\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 410,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Fref rate of change\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 420,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Initial SOC\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 431,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Pref rate of change\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 441,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Qref rate of change\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 451,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Initial SOH\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 462,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: Name(
+                                                            "\"core/DER (Generic) Output Split\"",
+                                                        ),
+                                                        name: "\"DER (Generic) Output Split1\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 502,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Batt_cap_nom_Ah",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 508,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"LVRT enable\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 518,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"LVRT Q contribution\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 529,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"LVRT P set\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 539,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "LVRT_active_status",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 545,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: Name(
+                                                            "\"core/DER (Generic) External Join\"",
+                                                        ),
+                                                        name: "\"DER (Generic) External Join1\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 554,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"V alarm upper limit\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 564,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"V alarm lower limit\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 575,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"F alarm upper limit\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 585,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"F alarm lower limit\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 596,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"S alarm upper limit\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 606,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"I alarm upper limit\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 616,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"VoltVAr enable\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 626,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"HzWatt enable\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 636,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"VoltWatt enable\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 646,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "Modbus",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 655,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_constant",
+                                                        ),
+                                                        name: "Constant1",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 664,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "In",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 671,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: Name(
+                                                            "\"core/ModBus Device\"",
+                                                        ),
+                                                        name: "\"ModBus Device1\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 681,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "sys_signal_switch",
+                                                        ),
+                                                        name: "\"Signal switch1\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 689,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "Subsystem",
+                                                        ),
+                                                        name: "signal_selection1",
+                                                        idopt: None,
+                                                        elements: Some(
+                                                            [
+                                                                Component(
+                                                                    Component {
+                                                                        component_type: ID(
+                                                                            "gen_bus_split",
+                                                                        ),
+                                                                        name: "\"Bus Split4\"",
+                                                                        idopt: None,
+                                                                        elements: None,
+                                                                        location: Location {
+                                                                            start: LineBased(
+                                                                                LineBased {
+                                                                                    line: 699,
+                                                                                    column: 16,
+                                                                                },
+                                                                            ),
+                                                                            end: None,
+                                                                        },
+                                                                    },
+                                                                ),
+                                                                Component(
+                                                                    Component {
+                                                                        component_type: ID(
+                                                                            "gen_bus_join",
+                                                                        ),
+                                                                        name: "\"Bus Join1\"",
+                                                                        idopt: None,
+                                                                        elements: None,
+                                                                        location: Location {
+                                                                            start: LineBased(
+                                                                                LineBased {
+                                                                                    line: 706,
+                                                                                    column: 16,
+                                                                                },
+                                                                            ),
+                                                                            end: None,
+                                                                        },
+                                                                    },
+                                                                ),
+                                                                Component(
+                                                                    Component {
+                                                                        component_type: ID(
+                                                                            "gen_gain",
+                                                                        ),
+                                                                        name: "Gain1",
+                                                                        idopt: None,
+                                                                        elements: None,
+                                                                        location: Location {
+                                                                            start: LineBased(
+                                                                                LineBased {
+                                                                                    line: 712,
+                                                                                    column: 16,
+                                                                                },
+                                                                            ),
+                                                                            end: None,
+                                                                        },
+                                                                    },
+                                                                ),
+                                                                Component(
+                                                                    Component {
+                                                                        component_type: ID(
+                                                                            "gen_gain",
+                                                                        ),
+                                                                        name: "Gain2",
+                                                                        idopt: None,
+                                                                        elements: None,
+                                                                        location: Location {
+                                                                            start: LineBased(
+                                                                                LineBased {
+                                                                                    line: 719,
+                                                                                    column: 16,
+                                                                                },
+                                                                            ),
+                                                                            end: None,
+                                                                        },
+                                                                    },
+                                                                ),
+                                                                Component(
+                                                                    Component {
+                                                                        component_type: ID(
+                                                                            "gen_gain",
+                                                                        ),
+                                                                        name: "Gain3",
+                                                                        idopt: None,
+                                                                        elements: None,
+                                                                        location: Location {
+                                                                            start: LineBased(
+                                                                                LineBased {
+                                                                                    line: 726,
+                                                                                    column: 16,
+                                                                                },
+                                                                            ),
+                                                                            end: None,
+                                                                        },
+                                                                    },
+                                                                ),
+                                                                Component(
+                                                                    Component {
+                                                                        component_type: ID(
+                                                                            "gen_gain",
+                                                                        ),
+                                                                        name: "Gain4",
+                                                                        idopt: None,
+                                                                        elements: None,
+                                                                        location: Location {
+                                                                            start: LineBased(
+                                                                                LineBased {
+                                                                                    line: 733,
+                                                                                    column: 16,
+                                                                                },
+                                                                            ),
+                                                                            end: None,
+                                                                        },
+                                                                    },
+                                                                ),
+                                                                Component(
+                                                                    Component {
+                                                                        component_type: ID(
+                                                                            "gen_gain",
+                                                                        ),
+                                                                        name: "Gain5",
+                                                                        idopt: None,
+                                                                        elements: None,
+                                                                        location: Location {
+                                                                            start: LineBased(
+                                                                                LineBased {
+                                                                                    line: 740,
+                                                                                    column: 25,
+                                                                                },
+                                                                            ),
+                                                                            end: None,
+                                                                        },
+                                                                    },
+                                                                ),
+                                                            ],
+                                                        ),
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 785,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain1",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 793,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_bus_join",
+                                                        ),
+                                                        name: "\"Bus Join2\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 801,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain2",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 809,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain3",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 817,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain4",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 825,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain5",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 833,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain6",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 841,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_bus_split",
+                                                        ),
+                                                        name: "\"Bus Split1\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 849,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "\"Converter mode\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 859,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "Vrms_ref",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 870,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "Fref",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 881,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "Pref",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 891,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "Qref",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 901,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_bus_join",
+                                                        ),
+                                                        name: "\"Bus Join3\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 909,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "on-set",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 916,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "PQref_fb-mult_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 922,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "state-client",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 928,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_bus_join",
+                                                        ),
+                                                        name: "\"Bus Join1\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 936,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "vi-set",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 943,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "vrms-set",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 950,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "f-set",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 957,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "p-set",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 964,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "q-set",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 971,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_bus_join",
+                                                        ),
+                                                        name: "\"Bus Join4\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 977,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain7",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 985,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain8",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 993,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain9",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1001,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain10",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1009,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain11",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1017,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain12",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1025,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain13",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1033,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain14",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1041,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain15",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1049,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain16",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1057,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain17",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1064,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain18",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1072,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain19",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1080,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain20",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1088,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain21",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1095,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain22",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1102,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_gain",
+                                                        ),
+                                                        name: "Gain23",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1109,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "sys_hil_sp_marker",
+                                                        ),
+                                                        name: "\"Signal Device Marker1\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1116,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "sys_hil_sp_marker",
+                                                        ),
+                                                        name: "\"Signal Device Marker2\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1124,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: Name(
+                                                            "\"core/Modbus Client\"",
+                                                        ),
+                                                        name: "\"Modbus Client1\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1136,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Fnom_hz_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1142,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vrmsref_fb_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1148,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Fref_fb_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1154,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vgridmeas_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1160,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Fmeas_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1166,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "PQmeas-mult_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1172,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "PFmeas_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1178,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vconv_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1184,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "SOC_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1190,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vbatt_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1196,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "mode_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1202,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "state_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1208,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "alarm_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1214,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "Vgrid-enable-fb_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1220,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "MCBstat_read",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1226,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_probe",
+                                                        ),
+                                                        name: "writeclient",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1232,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_bus_join",
+                                                        ),
+                                                        name: "\"Bus Join5\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1240,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "Enable",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1250,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_terminator",
+                                                        ),
+                                                        name: "Termination1",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1256,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "src_scada_input",
+                                                        ),
+                                                        name: "alarmrs-set",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1263,
+                                                                    column: 12,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                                Component(
+                                                    Component {
+                                                        component_type: ID(
+                                                            "gen_bus_split",
+                                                        ),
+                                                        name: "\"Bus Split2\"",
+                                                        idopt: None,
+                                                        elements: None,
+                                                        location: Location {
+                                                            start: LineBased(
+                                                                LineBased {
+                                                                    line: 1270,
+                                                                    column: 23,
+                                                                },
+                                                            ),
+                                                            end: None,
+                                                        },
+                                                    },
+                                                ),
+                                            ],
+                                        ),
+                                        location: Location {
+                                            start: LineBased(
+                                                LineBased {
+                                                    line: 2544,
+                                                    column: 8,
+                                                },
+                                            ),
+                                            end: None,
+                                        },
+                                    },
+                                ),
+                                Component(
+                                    Component {
+                                        component_type: Name(
+                                            "\"core/Battery ESS (Generic)\"",
+                                        ),
+                                        name: "\"Battery ESS (Generic)1\"",
+                                        idopt: None,
+                                        elements: None,
+                                        location: Location {
+                                            start: LineBased(
+                                                LineBased {
+                                                    line: 2551,
+                                                    column: 8,
+                                                },
+                                            ),
+                                            end: None,
+                                        },
+                                    },
+                                ),
+                                Component(
+                                    Component {
+                                        component_type: ID(
+                                            "sys_hil_marker",
+                                        ),
+                                        name: "\"Device Marker1\"",
+                                        idopt: None,
+                                        elements: None,
+                                        location: Location {
+                                            start: LineBased(
+                                                LineBased {
+                                                    line: 2614,
+                                                    column: 4,
+                                                },
+                                            ),
+                                            end: None,
+                                        },
+                                    },
+                                ),
+                            ],
+                        ),
+                        location: Location {
+                            start: LineBased(
+                                LineBased {
+                                    line: 2616,
+                                    column: 12,
+                                },
+                            ),
+                            end: None,
+                        },
+                    },
+                ),
+                Handler(
+                    Handler {
+                        name: "model_init",
+                        location: Location {
+                            start: LineBased(
+                                LineBased {
+                                    line: 3004,
+                                    column: 0,
+                                },
+                            ),
+                            end: None,
+                        },
+                    },
+                ),
+            ],
+        ),
+    },
+)

@@ -5,7 +5,9 @@ Model: ModelKW name=Name OBrace
 ;
 
 Element: Component | Handler | Block;
+@vec
 Element0 {shift}: Element1 | EMPTY;
+@vec
 Element1: Element1 Element | Element;
 
 Component: ComponentKW component_type=TypeName name=Name ID? OBrace
