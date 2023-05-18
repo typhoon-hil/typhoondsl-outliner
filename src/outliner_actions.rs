@@ -36,17 +36,24 @@ pub struct Location {
     line_start: usize,
     column_start: usize,
     line_end: usize,
-    column_end: usize
+    column_end: usize,
 }
 impl From<rustemo::location::Location> for Location {
     fn from(location: rustemo::location::Location) -> Self {
         let (line_start, column_start) = match location.start {
             rustemo::location::Position::LineBased(lb) => (lb.line, lb.column),
-            rustemo::location::Position::Position(_) => panic!("Position must be line/column based."),
+            rustemo::location::Position::Position(_) => {
+                panic!("Position must be line/column based.")
+            }
         };
-        let (line_end, column_end) = match location.end.expect("End position must be set!") {
+        let (line_end, column_end) = match location
+            .end
+            .expect("End position must be set!")
+        {
             rustemo::location::Position::LineBased(lb) => (lb.line, lb.column),
-            rustemo::location::Position::Position(_) => panic!("Position must be line/column based."),
+            rustemo::location::Position::Position(_) => {
+                panic!("Position must be line/column based.")
+            }
         };
         Location {
             line_start,
@@ -60,7 +67,7 @@ impl From<rustemo::location::Location> for Location {
 pub struct Model {
     pub name: Name,
     pub location: Location,
-    pub configuration: Configuration,
+    pub configuration: Option<Configuration>,
     pub elements: Element0,
 }
 pub fn model_c1(
@@ -68,7 +75,7 @@ pub fn model_c1(
     _model_kw: ModelKW,
     name: Name,
     _obrace: OBrace,
-    configuration: Configuration,
+    configuration: Option<Configuration>,
     elements: Element0,
     _cbrace: CBrace,
 ) -> Model {
@@ -210,4 +217,25 @@ pub fn type_name_name(_ctx: &Context, name: Name) -> TypeName {
 }
 pub fn type_name_id(_ctx: &Context, id: ID) -> TypeName {
     TypeName::ID(id)
+}
+pub type LibraryKW = ();
+pub fn library_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> LibraryKW {
+}
+pub type ConfigurationOpt = Option<Configuration>;
+pub fn configuration_opt_configuration(
+    _ctx: &Context,
+    configuration: Configuration,
+) -> ConfigurationOpt {
+    Some(configuration)
+}
+pub fn configuration_opt_empty(_ctx: &Context) -> ConfigurationOpt {
+    None
+}
+pub type ModelOrLibrary = ();
+pub fn model_or_library_model_kw(_ctx: &Context, _model_kw: ModelKW) -> ModelOrLibrary {
+}
+pub fn model_or_library_library_kw(
+    _ctx: &Context,
+    _library_kw: LibraryKW,
+) -> ModelOrLibrary {
 }

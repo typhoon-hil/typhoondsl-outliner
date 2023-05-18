@@ -1,8 +1,10 @@
-Model: ModelKW name=Name OBrace
-        configuration=Configuration
+Model: ModelOrLibrary name=Name OBrace
+        configuration=Configuration?
         elements=Element0
     CBrace
 ;
+
+ModelOrLibrary: ModelKW | LibraryKW;
 
 Element: Component | Handler | Block;
 @vec
@@ -42,6 +44,7 @@ ConfigurationKW:;
 CodeKW:;
 EndCodeKW:;
 ModelKW:;
+LibraryKW:;
 CommentKW:;
 StartCommentKW:;
 EndCommentKW:;

@@ -141,6 +141,9 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                     TokenKind::ModelKW => {
                         str_recognize("model").map(|value| (TokenKind::ModelKW, value))
                     }
+                    TokenKind::LibraryKW => {
+                        str_recognize("library").map(|value| (TokenKind::LibraryKW, value))
+                    }
                     TokenKind::ID => RE_ID
                         .find(&context.input[context.position..])
                         .map(|m| (TokenKind::ID, m.as_str())),
@@ -193,6 +196,7 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                         r#"""#,
                         "component",
                         "model",
+                        "library",
                         "configuration",
                         "CODE",
                         "ENDCODE",

@@ -6,14 +6,16 @@ Model {
         line_end: 3004,
         column_end: 1,
     },
-    configuration: Configuration {
-        location: Location {
-            line_start: 8,
-            column_start: 4,
-            line_end: 57,
-            column_end: 5,
+    configuration: Some(
+        Configuration {
+            location: Location {
+                line_start: 8,
+                column_start: 4,
+                line_end: 57,
+                column_end: 5,
+            },
         },
-    },
+    ),
     elements: Some(
         [
             Component(
