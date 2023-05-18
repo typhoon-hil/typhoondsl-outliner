@@ -8,33 +8,25 @@ use super::outliner_lexer::Input;
 #[allow(dead_code)]
 pub type Token<'i> = lexer::Token<'i, Input, TokenKind>;
 pub type OBrace = ();
-pub fn obrace<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> OBrace {
-}
+pub fn obrace<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> OBrace {}
 pub type CBrace = ();
-pub fn cbrace<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> CBrace {
-}
+pub fn cbrace<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> CBrace {}
 pub type ComponentKW = ();
-pub fn component_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> ComponentKW {
-}
+pub fn component_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> ComponentKW {}
 pub type ConfigurationKW = ();
-pub fn configuration_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> ConfigurationKW {
-}
+pub fn configuration_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> ConfigurationKW {}
 pub type CodeKW = ();
-pub fn code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> CodeKW {
-}
+pub fn code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> CodeKW {}
 pub type EndCodeKW = ();
-pub fn end_code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> EndCodeKW {
-}
+pub fn end_code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> EndCodeKW {}
 pub type ModelKW = ();
-pub fn model_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> ModelKW {
-}
+pub fn model_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> ModelKW {}
 pub type ID = String;
 pub fn id<'i>(_ctx: &Context<'i>, token: Token<'i>) -> ID {
     token.value.into()
 }
 pub type TillEndCodeKW = ();
-pub fn till_end_code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> TillEndCodeKW {
-}
+pub fn till_end_code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> TillEndCodeKW {}
 pub type Name = String;
 pub fn name<'i>(_ctx: &Context<'i>, token: Token<'i>) -> Name {
     token.value.into()
@@ -145,7 +137,7 @@ pub fn configuration_c1(
     _block: Block,
 ) -> Configuration {
     Configuration {
-        location: ctx.location
+        location: ctx.location,
     }
 }
 #[derive(Debug, Clone)]
@@ -181,10 +173,8 @@ pub type TillEndCodeKWOpt = ();
 pub fn till_end_code_kwopt_till_end_code_kw(
     _ctx: &Context,
     _till_end_code_kw: TillEndCodeKW,
-) -> TillEndCodeKWOpt {
-}
-pub fn till_end_code_kwopt_empty(_ctx: &Context) -> TillEndCodeKWOpt {
-}
+) -> TillEndCodeKWOpt {}
+pub fn till_end_code_kwopt_empty(_ctx: &Context) -> TillEndCodeKWOpt {}
 #[derive(Debug, Clone)]
 pub enum TypeName {
     Name(Name),

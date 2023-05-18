@@ -51,7 +51,7 @@ pub enum TokenKind {
     NotComment,
 }
 #[allow(clippy::enum_variant_names)]
-#[derive(Clone, Copy, Debug)]
+#[derive(Clone, Copy)]
 pub enum ProdKind {
     ModelP1,
     ElementP1,
@@ -94,7 +94,7 @@ pub enum ProdKind {
     CorncP1,
     CorncP2,
 }
-impl std::fmt::Display for ProdKind {
+impl std::fmt::Debug for ProdKind {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let name = match self {
             ProdKind::ModelP1 => {
@@ -223,7 +223,7 @@ impl From<ProdKind> for NonTermKind {
     }
 }
 #[allow(clippy::enum_variant_names)]
-#[derive(Clone, Copy, Debug)]
+#[derive(Clone, Copy)]
 pub enum State {
     AUGS0,
     ModelKWS1,
@@ -287,7 +287,7 @@ pub enum State {
     TillEndCommentKWOptS59,
     EndCommentKWS60,
 }
-impl std::fmt::Display for State {
+impl std::fmt::Debug for State {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let name = match self {
             State::AUGS0 => "0:AUG",
