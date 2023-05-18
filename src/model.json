@@ -1,0 +1,2369 @@
+{
+  "name": "\"battery generic server and client\"",
+  "location": {
+    "line_start": 7,
+    "column_start": 0,
+    "line_end": 3004,
+    "column_end": 1
+  },
+  "configuration": {
+    "location": {
+      "line_start": 8,
+      "column_start": 4,
+      "line_end": 57,
+      "column_end": 5
+    }
+  },
+  "elements": [
+    {
+      "Component": {
+        "component_type": {
+          "ID": "Subsystem"
+        },
+        "name": "Root",
+        "idopt": null,
+        "elements": [
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Grid\""
+              },
+              "name": "Grid1",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 60,
+                "column_start": 8,
+                "line_end": 62,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Constant Impedance Load\""
+              },
+              "name": "\"Constant Impedance Load1\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 69,
+                "column_start": 8,
+                "line_end": 85,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Triple Pole Single Throw Contactor\""
+              },
+              "name": "S1",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 91,
+                "column_start": 8,
+                "line_end": 92,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Grid UI\""
+              },
+              "name": "\"Grid UI1\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 99,
+                "column_start": 8,
+                "line_end": 100,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "Subsystem"
+              },
+              "name": "\"Battery ESS (Generic) UI1\"",
+              "idopt": null,
+              "elements": [
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Enable_fb",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 110,
+                      "column_start": 12,
+                      "line_end": 111,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Reset alarms\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 116,
+                      "column_start": 12,
+                      "line_end": 121,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Frequency droop offset\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 126,
+                      "column_start": 12,
+                      "line_end": 129,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Max SOC\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 134,
+                      "column_start": 12,
+                      "line_end": 140,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Min SOC\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 145,
+                      "column_start": 12,
+                      "line_end": 151,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Voltage droop coeff\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 156,
+                      "column_start": 12,
+                      "line_end": 162,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Frequency droop coeff\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 167,
+                      "column_start": 12,
+                      "line_end": 173,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Qmeas_kVAr",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 178,
+                      "column_start": 12,
+                      "line_end": 180,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Qa_meas_kVAr",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 185,
+                      "column_start": 12,
+                      "line_end": 186,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "PFmeas",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 191,
+                      "column_start": 12,
+                      "line_end": 192,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Smeas_kVA",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 197,
+                      "column_start": 12,
+                      "line_end": 198,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Pa_meas_kW",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 203,
+                      "column_start": 12,
+                      "line_end": 204,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Pc_meas_kW",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 209,
+                      "column_start": 12,
+                      "line_end": 210,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Pnom_kW",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 215,
+                      "column_start": 12,
+                      "line_end": 216,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Qref_fb_kVAr",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 221,
+                      "column_start": 12,
+                      "line_end": 223,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Snom_kVA",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 228,
+                      "column_start": 12,
+                      "line_end": 229,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Qb_meas_kVAr",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 234,
+                      "column_start": 12,
+                      "line_end": 235,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Fmeas_Hz",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 240,
+                      "column_start": 12,
+                      "line_end": 242,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Pref_fb_kW",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 247,
+                      "column_start": 12,
+                      "line_end": 249,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Qnom_kVAr",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 254,
+                      "column_start": 12,
+                      "line_end": 255,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Qc_meas_kVAr",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 260,
+                      "column_start": 12,
+                      "line_end": 261,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/DER (Generic) Control Join\""
+                    },
+                    "name": "\"DER (Generic) Control Join1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 266,
+                      "column_start": 12,
+                      "line_end": 295,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vgrid_rms_meas_kV",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 301,
+                      "column_start": 12,
+                      "line_end": 302,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Pb_meas_kW",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 307,
+                      "column_start": 12,
+                      "line_end": 308,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Pmeas_kW",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 313,
+                      "column_start": 12,
+                      "line_end": 315,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Fnom_Hz",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 320,
+                      "column_start": 12,
+                      "line_end": 321,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vnom_LL_V",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 326,
+                      "column_start": 12,
+                      "line_end": 327,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Converter_mode_fb",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 332,
+                      "column_start": 12,
+                      "line_end": 333,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Fref_fb_Hz",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 338,
+                      "column_start": 12,
+                      "line_end": 340,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vrms_ref_fb_V",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 345,
+                      "column_start": 12,
+                      "line_end": 347,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "MCB_status",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 352,
+                      "column_start": 12,
+                      "line_end": 353,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "SOH",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 358,
+                      "column_start": 12,
+                      "line_end": 359,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "alarm_msg",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 364,
+                      "column_start": 12,
+                      "line_end": 365,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "state",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 370,
+                      "column_start": 12,
+                      "line_end": 371,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Ibatt_A",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 376,
+                      "column_start": 12,
+                      "line_end": 377,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vbatt_V",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 382,
+                      "column_start": 12,
+                      "line_end": 383,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "SOC",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 388,
+                      "column_start": 12,
+                      "line_end": 389,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vconv_rms_meas_V",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 394,
+                      "column_start": 12,
+                      "line_end": 395,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Vrms_ref rate of change\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 400,
+                      "column_start": 12,
+                      "line_end": 405,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Fref rate of change\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 410,
+                      "column_start": 12,
+                      "line_end": 415,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Initial SOC\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 420,
+                      "column_start": 12,
+                      "line_end": 426,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Pref rate of change\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 431,
+                      "column_start": 12,
+                      "line_end": 436,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Qref rate of change\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 441,
+                      "column_start": 12,
+                      "line_end": 446,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Initial SOH\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 451,
+                      "column_start": 12,
+                      "line_end": 457,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/DER (Generic) Output Split\""
+                    },
+                    "name": "\"DER (Generic) Output Split1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 462,
+                      "column_start": 12,
+                      "line_end": 496,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Batt_cap_nom_Ah",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 502,
+                      "column_start": 12,
+                      "line_end": 503,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"LVRT enable\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 508,
+                      "column_start": 12,
+                      "line_end": 513,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"LVRT Q contribution\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 518,
+                      "column_start": 12,
+                      "line_end": 524,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"LVRT P set\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 529,
+                      "column_start": 12,
+                      "line_end": 534,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "LVRT_active_status",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 539,
+                      "column_start": 12,
+                      "line_end": 540,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/DER (Generic) External Join\""
+                    },
+                    "name": "\"DER (Generic) External Join1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 545,
+                      "column_start": 12,
+                      "line_end": 548,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"V alarm upper limit\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 554,
+                      "column_start": 12,
+                      "line_end": 559,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"V alarm lower limit\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 564,
+                      "column_start": 12,
+                      "line_end": 570,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"F alarm upper limit\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 575,
+                      "column_start": 12,
+                      "line_end": 580,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"F alarm lower limit\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 585,
+                      "column_start": 12,
+                      "line_end": 591,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"S alarm upper limit\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 596,
+                      "column_start": 12,
+                      "line_end": 601,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"I alarm upper limit\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 606,
+                      "column_start": 12,
+                      "line_end": 611,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"VoltVAr enable\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 616,
+                      "column_start": 12,
+                      "line_end": 621,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"HzWatt enable\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 626,
+                      "column_start": 12,
+                      "line_end": 631,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"VoltWatt enable\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 636,
+                      "column_start": 12,
+                      "line_end": 641,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "Modbus",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 646,
+                      "column_start": 12,
+                      "line_end": 650,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_constant"
+                    },
+                    "name": "Constant1",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 655,
+                      "column_start": 12,
+                      "line_end": 658,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "In",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 664,
+                      "column_start": 12,
+                      "line_end": 665,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/ModBus Device\""
+                    },
+                    "name": "\"ModBus Device1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 671,
+                      "column_start": 12,
+                      "line_end": 675,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "sys_signal_switch"
+                    },
+                    "name": "\"Signal switch1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 681,
+                      "column_start": 12,
+                      "line_end": 683,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "signal_selection1",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_bus_split"
+                          },
+                          "name": "\"Bus Split4\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 691,
+                            "column_start": 16,
+                            "line_end": 693,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_bus_join"
+                          },
+                          "name": "\"Bus Join1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 699,
+                            "column_start": 16,
+                            "line_end": 701,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_gain"
+                          },
+                          "name": "Gain1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 706,
+                            "column_start": 16,
+                            "line_end": 707,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_gain"
+                          },
+                          "name": "Gain2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 712,
+                            "column_start": 16,
+                            "line_end": 714,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_gain"
+                          },
+                          "name": "Gain3",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 719,
+                            "column_start": 16,
+                            "line_end": 721,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_gain"
+                          },
+                          "name": "Gain4",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 726,
+                            "column_start": 16,
+                            "line_end": 728,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_gain"
+                          },
+                          "name": "Gain5",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 733,
+                            "column_start": 16,
+                            "line_end": 735,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 689,
+                      "column_start": 12,
+                      "line_end": 779,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain1",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 785,
+                      "column_start": 12,
+                      "line_end": 787,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_bus_join"
+                    },
+                    "name": "\"Bus Join2\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 793,
+                      "column_start": 12,
+                      "line_end": 795,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain2",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 801,
+                      "column_start": 12,
+                      "line_end": 803,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain3",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 809,
+                      "column_start": 12,
+                      "line_end": 811,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain4",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 817,
+                      "column_start": 12,
+                      "line_end": 819,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain5",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 825,
+                      "column_start": 12,
+                      "line_end": 827,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain6",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 833,
+                      "column_start": 12,
+                      "line_end": 835,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_bus_split"
+                    },
+                    "name": "\"Bus Split1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 841,
+                      "column_start": 12,
+                      "line_end": 843,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "\"Converter mode\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 849,
+                      "column_start": 12,
+                      "line_end": 854,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "Vrms_ref",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 859,
+                      "column_start": 12,
+                      "line_end": 865,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "Fref",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 870,
+                      "column_start": 12,
+                      "line_end": 876,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "Pref",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 881,
+                      "column_start": 12,
+                      "line_end": 886,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "Qref",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 891,
+                      "column_start": 12,
+                      "line_end": 896,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_bus_join"
+                    },
+                    "name": "\"Bus Join3\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 901,
+                      "column_start": 12,
+                      "line_end": 903,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "on-set",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 909,
+                      "column_start": 12,
+                      "line_end": 911,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "PQref_fb-mult_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 916,
+                      "column_start": 12,
+                      "line_end": 917,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "state-client",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 922,
+                      "column_start": 12,
+                      "line_end": 923,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_bus_join"
+                    },
+                    "name": "\"Bus Join1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 928,
+                      "column_start": 12,
+                      "line_end": 930,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "vi-set",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 936,
+                      "column_start": 12,
+                      "line_end": 938,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "vrms-set",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 943,
+                      "column_start": 12,
+                      "line_end": 945,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "f-set",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 950,
+                      "column_start": 12,
+                      "line_end": 952,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "p-set",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 957,
+                      "column_start": 12,
+                      "line_end": 959,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "q-set",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 964,
+                      "column_start": 12,
+                      "line_end": 966,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_bus_join"
+                    },
+                    "name": "\"Bus Join4\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 971,
+                      "column_start": 12,
+                      "line_end": 972,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain7",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 977,
+                      "column_start": 12,
+                      "line_end": 979,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain8",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 985,
+                      "column_start": 12,
+                      "line_end": 987,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain9",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 993,
+                      "column_start": 12,
+                      "line_end": 995,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain10",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1001,
+                      "column_start": 12,
+                      "line_end": 1003,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain11",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1009,
+                      "column_start": 12,
+                      "line_end": 1011,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain12",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1017,
+                      "column_start": 12,
+                      "line_end": 1019,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain13",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1025,
+                      "column_start": 12,
+                      "line_end": 1027,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain14",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1033,
+                      "column_start": 12,
+                      "line_end": 1035,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain15",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1041,
+                      "column_start": 12,
+                      "line_end": 1043,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain16",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1049,
+                      "column_start": 12,
+                      "line_end": 1051,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain17",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1057,
+                      "column_start": 12,
+                      "line_end": 1058,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain18",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1064,
+                      "column_start": 12,
+                      "line_end": 1066,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain19",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1072,
+                      "column_start": 12,
+                      "line_end": 1074,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain20",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1080,
+                      "column_start": 12,
+                      "line_end": 1082,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain21",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1088,
+                      "column_start": 12,
+                      "line_end": 1089,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain22",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1095,
+                      "column_start": 12,
+                      "line_end": 1096,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain23",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1102,
+                      "column_start": 12,
+                      "line_end": 1103,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "sys_hil_sp_marker"
+                    },
+                    "name": "\"Signal Device Marker1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1109,
+                      "column_start": 12,
+                      "line_end": 1110,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "sys_hil_sp_marker"
+                    },
+                    "name": "\"Signal Device Marker2\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1116,
+                      "column_start": 12,
+                      "line_end": 1118,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Modbus Client\""
+                    },
+                    "name": "\"Modbus Client1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1124,
+                      "column_start": 12,
+                      "line_end": 1130,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Fnom_hz_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1136,
+                      "column_start": 12,
+                      "line_end": 1137,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vrmsref_fb_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1142,
+                      "column_start": 12,
+                      "line_end": 1143,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Fref_fb_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1148,
+                      "column_start": 12,
+                      "line_end": 1149,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vgridmeas_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1154,
+                      "column_start": 12,
+                      "line_end": 1155,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Fmeas_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1160,
+                      "column_start": 12,
+                      "line_end": 1161,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "PQmeas-mult_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1166,
+                      "column_start": 12,
+                      "line_end": 1167,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "PFmeas_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1172,
+                      "column_start": 12,
+                      "line_end": 1173,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vconv_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1178,
+                      "column_start": 12,
+                      "line_end": 1179,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "SOC_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1184,
+                      "column_start": 12,
+                      "line_end": 1185,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vbatt_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1190,
+                      "column_start": 12,
+                      "line_end": 1191,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "mode_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1196,
+                      "column_start": 12,
+                      "line_end": 1197,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "state_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1202,
+                      "column_start": 12,
+                      "line_end": 1203,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "alarm_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1208,
+                      "column_start": 12,
+                      "line_end": 1209,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "Vgrid-enable-fb_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1214,
+                      "column_start": 12,
+                      "line_end": 1215,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "MCBstat_read",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1220,
+                      "column_start": 12,
+                      "line_end": 1221,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "writeclient",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1226,
+                      "column_start": 12,
+                      "line_end": 1227,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_bus_join"
+                    },
+                    "name": "\"Bus Join5\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1232,
+                      "column_start": 12,
+                      "line_end": 1234,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "Enable",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1240,
+                      "column_start": 12,
+                      "line_end": 1245,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_terminator"
+                    },
+                    "name": "Termination1",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1250,
+                      "column_start": 12,
+                      "line_end": 1251,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "alarmrs-set",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1256,
+                      "column_start": 12,
+                      "line_end": 1258,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_bus_split"
+                    },
+                    "name": "\"Bus Split2\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1263,
+                      "column_start": 12,
+                      "line_end": 1264,
+                      "column_end": 13
+                    }
+                  }
+                }
+              ],
+              "location": {
+                "line_start": 108,
+                "column_start": 8,
+                "line_end": 2538,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Battery ESS (Generic)\""
+              },
+              "name": "\"Battery ESS (Generic)1\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 2544,
+                "column_start": 8,
+                "line_end": 2545,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "sys_hil_marker"
+              },
+              "name": "\"Device Marker1\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 2551,
+                "column_start": 8,
+                "line_end": 2552,
+                "column_end": 9
+              }
+            }
+          }
+        ],
+        "location": {
+          "line_start": 59,
+          "column_start": 4,
+          "line_end": 2614,
+          "column_end": 5
+        }
+      }
+    },
+    {
+      "Handler": {
+        "name": "model_init",
+        "location": {
+          "line_start": 2982,
+          "column_start": 4,
+          "line_end": 3003,
+          "column_end": 11
+        }
+      }
+    }
+  ]
+}

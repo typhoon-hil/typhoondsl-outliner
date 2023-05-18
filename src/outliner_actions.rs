@@ -1,7 +1,7 @@
 ///! This file is maintained by rustemo but can be modified manually.
 ///! All manual changes will be preserved except non-doc comments.
+use serde::Serialize;
 use rustemo::lexer;
-use rustemo::location::Location;
 use super::outliner::Context;
 use super::outliner::TokenKind;
 use super::outliner_lexer::Input;
@@ -31,7 +31,32 @@ pub type Name = String;
 pub fn name<'i>(_ctx: &Context<'i>, token: Token<'i>) -> Name {
     token.value.into()
 }
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
+pub struct Location {
+    line_start: usize,
+    column_start: usize,
+    line_end: usize,
+    column_end: usize
+}
+impl From<rustemo::location::Location> for Location {
+    fn from(location: rustemo::location::Location) -> Self {
+        let (line_start, column_start) = match location.start {
+            rustemo::location::Position::LineBased(lb) => (lb.line, lb.column),
+            rustemo::location::Position::Position(_) => panic!("Position must be line/column based."),
+        };
+        let (line_end, column_end) = match location.end.expect("End position must be set!") {
+            rustemo::location::Position::LineBased(lb) => (lb.line, lb.column),
+            rustemo::location::Position::Position(_) => panic!("Position must be line/column based."),
+        };
+        Location {
+            line_start,
+            column_start,
+            line_end,
+            column_end,
+        }
+    }
+}
+#[derive(Debug, Clone, Serialize)]
 pub struct Model {
     pub name: Name,
     pub location: Location,
@@ -49,12 +74,12 @@ pub fn model_c1(
 ) -> Model {
     Model {
         name,
-        location: ctx.location,
+        location: ctx.location.into(),
         configuration,
         elements,
     }
 }
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub enum Element {
     Component(Component),
     Handler(Handler),
@@ -94,7 +119,7 @@ pub fn element1_element(_ctx: &Context, element: Element) -> Element1 {
     }
     v
 }
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub struct Component {
     pub component_type: TypeName,
     pub name: Name,
@@ -117,7 +142,7 @@ pub fn component_c1(
         name,
         idopt,
         elements: Box::new(elements),
-        location: ctx.location,
+        location: ctx.location.into(),
     }
 }
 pub type IDOpt = Option<ID>;
@@ -127,7 +152,7 @@ pub fn idopt_id(_ctx: &Context, id: ID) -> IDOpt {
 pub fn idopt_empty(_ctx: &Context) -> IDOpt {
     None
 }
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub struct Configuration {
     pub location: Location,
 }
@@ -137,10 +162,10 @@ pub fn configuration_c1(
     _block: Block,
 ) -> Configuration {
     Configuration {
-        location: ctx.location,
+        location: ctx.location.into(),
     }
 }
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub struct Block {
     pub element0: Element0,
 }
@@ -152,7 +177,7 @@ pub fn block_c1(
 ) -> Block {
     Block { element0 }
 }
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub struct Handler {
     pub name: ID,
     pub location: Location,
@@ -166,7 +191,7 @@ pub fn handler_c1(
 ) -> Handler {
     Handler {
         name,
-        location: ctx.location,
+        location: ctx.location.into(),
     }
 }
 pub type TillEndCodeKWOpt = ();
@@ -175,7 +200,7 @@ pub fn till_end_code_kwopt_till_end_code_kw(
     _till_end_code_kw: TillEndCodeKW,
 ) -> TillEndCodeKWOpt {}
 pub fn till_end_code_kwopt_empty(_ctx: &Context) -> TillEndCodeKWOpt {}
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub enum TypeName {
     Name(Name),
     ID(ID),
