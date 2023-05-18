@@ -15,6 +15,10 @@ struct Args {
     #[arg(short, long)]
     json: bool,
 
+    /// Should JSON be pretty printed
+    #[arg(short, long)]
+    pretty: bool,
+
     #[clap(value_parser, value_name="MODEL", value_hint = clap::ValueHint::FilePath)]
     model: PathBuf,
 }
@@ -25,7 +29,11 @@ fn main() {
     match outliner::OutlinerParser::new(OutlinerLexer::new()).parse_file(args.model) {
         Ok(model) => {
             if args.json {
-                println!("{}", serde_json::to_string(&model).unwrap());
+                if args.pretty {
+                    println!("{}", serde_json::to_string_pretty(&model).unwrap());
+                } else {
+                    println!("{}", serde_json::to_string(&model).unwrap());
+                }
             } else {
                 println!("Success!");
             }
