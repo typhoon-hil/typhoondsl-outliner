@@ -36,7 +36,7 @@ impl OutlinerLexer {
             .map(|c| c.len_utf8())
             .sum();
         let skipped = &context.input[context.position..context.position + skipped_len];
-        log!("Skipped ws: {}", skipped_len);
+        log!("{}: {}", "Skipped ws".green(), skipped_len);
         if skipped_len > 0 {
             context.layout_ahead = Some(skipped);
             context.position += skipped_len;
@@ -94,13 +94,6 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
         };
 
         let consume_until = |until_words: &[&str]| -> Option<&'i str> {
-            log!(
-                "Current position: {}",
-                &context.input[context.position..]
-                    .chars()
-                    .take(20)
-                    .collect::<String>()
-            );
             let position: usize =
                 context.input[context.position..]
                     .char_indices()
@@ -225,7 +218,7 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                 }
             })
             .map(|(kind, value)| {
-                log!("  {}", "Match!".bold().green());
+                log!("--- {}", "Match!".bold().green());
                 Token {
                     kind,
                     value,
