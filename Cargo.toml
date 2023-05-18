@@ -17,3 +17,4 @@ clap = { version = "4.2.7", features = ["derive"] }
 [dev-dependencies]
 # For output_cmp for testing
 rustemo-compiler = { version = "0.1.0", path = "../../../rust/rustemo/rustemo-compiler" }
+rstest = "0.17.0"

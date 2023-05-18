@@ -1,0 +1,3366 @@
+{
+  "name": "\"foxbms inspired architecture\"",
+  "location": {
+    "line_start": 7,
+    "column_start": 0,
+    "line_end": 8435,
+    "column_end": 1
+  },
+  "configuration": {
+    "location": {
+      "line_start": 8,
+      "column_start": 4,
+      "line_end": 58,
+      "column_end": 5
+    }
+  },
+  "elements": [
+    {
+      "Component": {
+        "component_type": {
+          "ID": "Subsystem"
+        },
+        "name": "Root",
+        "idopt": null,
+        "elements": [
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Single Pole Single Throw Contactor\""
+              },
+              "name": "\"Cont 1 Plus\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 61,
+                "column_start": 8,
+                "line_end": 64,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Current Measurement\""
+              },
+              "name": "Imod",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 71,
+                "column_start": 8,
+                "line_end": 74,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Voltage Measurement\""
+              },
+              "name": "Vmod",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 81,
+                "column_start": 8,
+                "line_end": 82,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Resistor\""
+              },
+              "name": "\"Precharge Resistor\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 89,
+                "column_start": 8,
+                "line_end": 91,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Single Pole Single Throw Contactor\""
+              },
+              "name": "\"Precharge Contactor\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 97,
+                "column_start": 8,
+                "line_end": 100,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Resistor\""
+              },
+              "name": "R2",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 107,
+                "column_start": 8,
+                "line_end": 109,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Resistor\""
+              },
+              "name": "R5",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 115,
+                "column_start": 8,
+                "line_end": 117,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "Subsystem"
+              },
+              "name": "BMS",
+              "idopt": null,
+              "elements": [
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "Safety",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "\"Max Temp1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 127,
+                            "column_start": 16,
+                            "line_end": 130,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "\"Max Voltage1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 135,
+                            "column_start": 16,
+                            "line_end": 138,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "\"Max Current1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 143,
+                            "column_start": 16,
+                            "line_end": 146,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "\"Min Temp1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 151,
+                            "column_start": 16,
+                            "line_end": 154,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "\"Min Voltage1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 159,
+                            "column_start": 16,
+                            "line_end": 162,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "\"Min Current1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 167,
+                            "column_start": 16,
+                            "line_end": 170,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Gain\""
+                          },
+                          "name": "Gain2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 175,
+                            "column_start": 16,
+                            "line_end": 177,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "cell_count",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 182,
+                            "column_start": 16,
+                            "line_end": 185,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "test_number",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 190,
+                            "column_start": 16,
+                            "line_end": 191,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "\"Max Module Current\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 196,
+                            "column_start": 16,
+                            "line_end": 199,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Advanced C function\""
+                          },
+                          "name": "Safety_Logic",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 204,
+                            "column_start": 16,
+                            "line_end": 309,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "cell_number",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 315,
+                            "column_start": 16,
+                            "line_end": 316,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 125,
+                      "column_start": 12,
+                      "line_end": 488,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "DIAG",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Accumulator\""
+                          },
+                          "name": "Accumulator2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 496,
+                            "column_start": 16,
+                            "line_end": 501,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Comparator\""
+                          },
+                          "name": "Comparator2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 506,
+                            "column_start": 16,
+                            "line_end": 507,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "Constant",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 512,
+                            "column_start": 16,
+                            "line_end": 515,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Sum\""
+                          },
+                          "name": "Sum2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 521,
+                            "column_start": 16,
+                            "line_end": 523,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/SCADA Input\""
+                          },
+                          "name": "\"Error Reset\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 528,
+                            "column_start": 16,
+                            "line_end": 533,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "reset",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 538,
+                            "column_start": 16,
+                            "line_end": 539,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Relational operator\""
+                          },
+                          "name": "\"Relational operator1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 545,
+                            "column_start": 16,
+                            "line_end": 546,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "Constant1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 552,
+                            "column_start": 16,
+                            "line_end": 555,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Split\""
+                          },
+                          "name": "String_Split",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 561,
+                            "column_start": 16,
+                            "line_end": 562,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "String_Join",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 567,
+                            "column_start": 16,
+                            "line_end": 568,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "string_stat",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 573,
+                            "column_start": 16,
+                            "line_end": 574,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Sum\""
+                          },
+                          "name": "String1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 579,
+                            "column_start": 16,
+                            "line_end": 581,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/SCADA Input\""
+                          },
+                          "name": "String_ctrl_1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 586,
+                            "column_start": 16,
+                            "line_end": 589,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Sum\""
+                          },
+                          "name": "string1_input",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 594,
+                            "column_start": 16,
+                            "line_end": 595,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Sum\""
+                          },
+                          "name": "String2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 600,
+                            "column_start": 16,
+                            "line_end": 602,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/SCADA Input\""
+                          },
+                          "name": "String_ctrl_2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 607,
+                            "column_start": 16,
+                            "line_end": 610,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Sum\""
+                          },
+                          "name": "string2_input",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 615,
+                            "column_start": 16,
+                            "line_end": 616,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 494,
+                      "column_start": 12,
+                      "line_end": 752,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "BMS",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/SCADA Output\""
+                          },
+                          "name": "BMS_Status",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 760,
+                            "column_start": 16,
+                            "line_end": 762,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "precharge",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 767,
+                            "column_start": 16,
+                            "line_end": 770,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Advanced C function\""
+                          },
+                          "name": "BMS_State_Machine",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 775,
+                            "column_start": 16,
+                            "line_end": 1021,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Sum\""
+                          },
+                          "name": "Sum1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1027,
+                            "column_start": 16,
+                            "line_end": 1029,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "cont_status",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1034,
+                            "column_start": 16,
+                            "line_end": 1035,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "Cell_Count",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1040,
+                            "column_start": 16,
+                            "line_end": 1043,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "\"Bus Join1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1048,
+                            "column_start": 16,
+                            "line_end": 1049,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Unit Delay\""
+                          },
+                          "name": "\"Unit Delay1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1054,
+                            "column_start": 16,
+                            "line_end": 1055,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Unit Delay\""
+                          },
+                          "name": "\"Unit Delay2\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1061,
+                            "column_start": 16,
+                            "line_end": 1062,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 758,
+                      "column_start": 12,
+                      "line_end": 1248,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "CONT",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/C function\""
+                          },
+                          "name": "Contactor_State_Machine",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1256,
+                            "column_start": 16,
+                            "line_end": 1328,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Split\""
+                          },
+                          "name": "Minus_Split",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1334,
+                            "column_start": 16,
+                            "line_end": 1335,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "cont_minus_probe",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1340,
+                            "column_start": 16,
+                            "line_end": 1341,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "\"Bus Join1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1346,
+                            "column_start": 16,
+                            "line_end": 1347,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Split\""
+                          },
+                          "name": "\"Bus Split1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1352,
+                            "column_start": 16,
+                            "line_end": 1353,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Termination\""
+                          },
+                          "name": "Termination1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1358,
+                            "column_start": 16,
+                            "line_end": 1359,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 1254,
+                      "column_start": 12,
+                      "line_end": 1475,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "BAL",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "\"bal tolerance\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1483,
+                            "column_start": 16,
+                            "line_end": 1486,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Gain\""
+                          },
+                          "name": "Gain1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1491,
+                            "column_start": 16,
+                            "line_end": 1493,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Delay\""
+                          },
+                          "name": "Delay1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1498,
+                            "column_start": 16,
+                            "line_end": 1500,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "Bal_out",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1505,
+                            "column_start": 16,
+                            "line_end": 1506,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "bal_timer",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1511,
+                            "column_start": 16,
+                            "line_end": 1514,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "cell_min",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1519,
+                            "column_start": 16,
+                            "line_end": 1521,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "Bal_state",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1526,
+                            "column_start": 16,
+                            "line_end": 1528,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "cell_count",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1533,
+                            "column_start": 16,
+                            "line_end": 1536,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Sum\""
+                          },
+                          "name": "Sum1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1541,
+                            "column_start": 16,
+                            "line_end": 1543,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Rate Transition\""
+                          },
+                          "name": "\"Rate Transition1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1548,
+                            "column_start": 16,
+                            "line_end": 1550,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Rate Transition\""
+                          },
+                          "name": "\"Rate Transition3\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1556,
+                            "column_start": 16,
+                            "line_end": 1558,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Rate Transition\""
+                          },
+                          "name": "\"Rate Transition2\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1564,
+                            "column_start": 16,
+                            "line_end": 1566,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Rate Transition\""
+                          },
+                          "name": "\"Rate Transition4\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1572,
+                            "column_start": 16,
+                            "line_end": 1574,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Rate Transition\""
+                          },
+                          "name": "\"Rate Transition5\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1580,
+                            "column_start": 16,
+                            "line_end": 1582,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Termination\""
+                          },
+                          "name": "Termination1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1588,
+                            "column_start": 16,
+                            "line_end": 1589,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "Subsystem"
+                          },
+                          "name": "Direct_Bal",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Product\""
+                                },
+                                "name": "Product1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1596,
+                                  "column_start": 20,
+                                  "line_end": 1598,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Sum\""
+                                },
+                                "name": "Sum2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1604,
+                                  "column_start": 20,
+                                  "line_end": 1606,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Product\""
+                                },
+                                "name": "Product2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1612,
+                                  "column_start": 20,
+                                  "line_end": 1614,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Constant\""
+                                },
+                                "name": "Constant2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1620,
+                                  "column_start": 20,
+                                  "line_end": 1622,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Limit\""
+                                },
+                                "name": "Limit1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1628,
+                                  "column_start": 20,
+                                  "line_end": 1630,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Product\""
+                                },
+                                "name": "Product3",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1636,
+                                  "column_start": 20,
+                                  "line_end": 1637,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Sum\""
+                                },
+                                "name": "Sum3",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1643,
+                                  "column_start": 20,
+                                  "line_end": 1645,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Limit\""
+                                },
+                                "name": "Limit2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1651,
+                                  "column_start": 20,
+                                  "line_end": 1653,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Product\""
+                                },
+                                "name": "Product4",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1659,
+                                  "column_start": 20,
+                                  "line_end": 1661,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Product\""
+                                },
+                                "name": "Product5",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1667,
+                                  "column_start": 20,
+                                  "line_end": 1668,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Sum\""
+                                },
+                                "name": "Sum4",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1674,
+                                  "column_start": 20,
+                                  "line_end": 1675,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Rate Transition\""
+                                },
+                                "name": "\"Rate Transition1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1681,
+                                  "column_start": 20,
+                                  "line_end": 1683,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Constant\""
+                                },
+                                "name": "Constant3",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1690,
+                                  "column_start": 20,
+                                  "line_end": 1693,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Logical operator\""
+                                },
+                                "name": "\"Logical operator1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1699,
+                                  "column_start": 20,
+                                  "line_end": 1701,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal switch\""
+                                },
+                                "name": "\"Signal switch1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1707,
+                                  "column_start": 20,
+                                  "line_end": 1709,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Product\""
+                                },
+                                "name": "Product6",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1715,
+                                  "column_start": 20,
+                                  "line_end": 1716,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Constant\""
+                                },
+                                "name": "Constant5",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1722,
+                                  "column_start": 20,
+                                  "line_end": 1725,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Limit\""
+                                },
+                                "name": "Limit3",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 1732,
+                                  "column_start": 20,
+                                  "line_end": 1735,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 1594,
+                            "column_start": 16,
+                            "line_end": 1975,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Signal switch\""
+                          },
+                          "name": "\"Signal switch1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1981,
+                            "column_start": 16,
+                            "line_end": 1983,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "bal_circuit",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1988,
+                            "column_start": 16,
+                            "line_end": 1992,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "passive_bal",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1998,
+                            "column_start": 16,
+                            "line_end": 1999,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "direct_bal",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2005,
+                            "column_start": 16,
+                            "line_end": 2006,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Advanced C function\""
+                          },
+                          "name": "Balance_State_Machine",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2011,
+                            "column_start": 16,
+                            "line_end": 2189,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 1481,
+                      "column_start": 12,
+                      "line_end": 2406,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Constant\""
+                    },
+                    "name": "\"bal enable\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 2412,
+                      "column_start": 12,
+                      "line_end": 2416,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "STRING",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Split\""
+                          },
+                          "name": "\"Bus Split1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2423,
+                            "column_start": 16,
+                            "line_end": 2425,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "JoinCell1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2432,
+                            "column_start": 16,
+                            "line_end": 2433,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/SCADA Input\""
+                          },
+                          "name": "\"Temp String 1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2438,
+                            "column_start": 16,
+                            "line_end": 2441,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "JoinCell2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2446,
+                            "column_start": 16,
+                            "line_end": 2447,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "JoinCell3",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2452,
+                            "column_start": 16,
+                            "line_end": 2453,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "JoinCell4",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2458,
+                            "column_start": 16,
+                            "line_end": 2459,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "JoinCell5",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2464,
+                            "column_start": 16,
+                            "line_end": 2465,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "JoinCell6",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2470,
+                            "column_start": 16,
+                            "line_end": 2471,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "\"String Join1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2476,
+                            "column_start": 16,
+                            "line_end": 2478,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "\"String Join2\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2484,
+                            "column_start": 16,
+                            "line_end": 2486,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 2421,
+                      "column_start": 12,
+                      "line_end": 2794,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "SOC",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Advanced C function\""
+                          },
+                          "name": "SOC_Coulomb",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2803,
+                            "column_start": 16,
+                            "line_end": 2986,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "cell_count",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 2992,
+                            "column_start": 16,
+                            "line_end": 2995,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "capacity",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3000,
+                            "column_start": 16,
+                            "line_end": 3003,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "\"SOC CC\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3008,
+                            "column_start": 16,
+                            "line_end": 3009,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Termination\""
+                          },
+                          "name": "Termination3",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3014,
+                            "column_start": 16,
+                            "line_end": 3015,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Termination\""
+                          },
+                          "name": "Termination4",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3021,
+                            "column_start": 16,
+                            "line_end": 3022,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Rate Transition\""
+                          },
+                          "name": "\"Rate Transition1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3028,
+                            "column_start": 16,
+                            "line_end": 3030,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Rate Transition\""
+                          },
+                          "name": "\"Rate Transition2\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3037,
+                            "column_start": 16,
+                            "line_end": 3039,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Rate Transition\""
+                          },
+                          "name": "\"Rate Transition3\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3046,
+                            "column_start": 16,
+                            "line_end": 3048,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Termination\""
+                          },
+                          "name": "Termination5",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3055,
+                            "column_start": 16,
+                            "line_end": 3056,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "coulomb_eff_timer",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3062,
+                            "column_start": 16,
+                            "line_end": 3065,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "coulomb_eff",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3070,
+                            "column_start": 16,
+                            "line_end": 3071,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "pcv",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3076,
+                            "column_start": 16,
+                            "line_end": 3077,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Termination\""
+                          },
+                          "name": "Termination6",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3082,
+                            "column_start": 16,
+                            "line_end": 3083,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Termination\""
+                          },
+                          "name": "Termination7",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3089,
+                            "column_start": 16,
+                            "line_end": 3090,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "SOC_initial",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3096,
+                            "column_start": 16,
+                            "line_end": 3099,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 2801,
+                      "column_start": 12,
+                      "line_end": 3183,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "SECONDARY",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "\"Temp Join\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3191,
+                            "column_start": 16,
+                            "line_end": 3192,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "\"Current Join\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3197,
+                            "column_start": 16,
+                            "line_end": 3198,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Join\""
+                          },
+                          "name": "\"Volt Join\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3203,
+                            "column_start": 16,
+                            "line_end": 3204,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "\"Temp Probe\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3209,
+                            "column_start": 16,
+                            "line_end": 3211,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "\"Current Probe\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3216,
+                            "column_start": 16,
+                            "line_end": 3218,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Probe\""
+                          },
+                          "name": "\"Volt Probe\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3223,
+                            "column_start": 16,
+                            "line_end": 3224,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Split\""
+                          },
+                          "name": "\"Secondary1 Split\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3229,
+                            "column_start": 16,
+                            "line_end": 3231,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Bus Split\""
+                          },
+                          "name": "\"Secondary2 Split\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3236,
+                            "column_start": 16,
+                            "line_end": 3238,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 3189,
+                      "column_start": 12,
+                      "line_end": 3358,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Constant\""
+                    },
+                    "name": "cell_string_number",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 3364,
+                      "column_start": 12,
+                      "line_end": 3367,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Probe\""
+                    },
+                    "name": "cell_string_probe",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 3372,
+                      "column_start": 12,
+                      "line_end": 3373,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "\"Charger Protection\"",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Relational operator\""
+                          },
+                          "name": "\"Relational operator1\"",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3381,
+                            "column_start": 16,
+                            "line_end": 3383,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Constant\""
+                          },
+                          "name": "Constant1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 3389,
+                            "column_start": 16,
+                            "line_end": 3392,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 3378,
+                      "column_start": 12,
+                      "line_end": 3430,
+                      "column_end": 13
+                    }
+                  }
+                }
+              ],
+              "location": {
+                "line_start": 123,
+                "column_start": 8,
+                "line_end": 4198,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "Subsystem"
+              },
+              "name": "\"Battery Stack 2\"",
+              "idopt": null,
+              "elements": [
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Voltage Measurement\""
+                    },
+                    "name": "Volt_String",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 4206,
+                      "column_start": 12,
+                      "line_end": 4208,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "\"Battery Secondary\"",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "Subsystem"
+                          },
+                          "name": "\"BC Temps\"",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Bus Join\""
+                                },
+                                "name": "\"Bus Join1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4219,
+                                  "column_start": 20,
+                                  "line_end": 4221,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP0",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4226,
+                                  "column_start": 20,
+                                  "line_end": 4229,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4235,
+                                  "column_start": 20,
+                                  "line_end": 4238,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4244,
+                                  "column_start": 20,
+                                  "line_end": 4247,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 4217,
+                            "column_start": 16,
+                            "line_end": 4433,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "Subsystem"
+                          },
+                          "name": "\"BC Voltage\"",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Bus Join\""
+                                },
+                                "name": "\"Bus Join1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4441,
+                                  "column_start": 20,
+                                  "line_end": 4443,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP0",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4448,
+                                  "column_start": 20,
+                                  "line_end": 4451,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4457,
+                                  "column_start": 20,
+                                  "line_end": 4460,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4466,
+                                  "column_start": 20,
+                                  "line_end": 4469,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 4439,
+                            "column_start": 16,
+                            "line_end": 4655,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "Subsystem"
+                          },
+                          "name": "\"BC Current\"",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Bus Join\""
+                                },
+                                "name": "\"Bus Join1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4663,
+                                  "column_start": 20,
+                                  "line_end": 4665,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP0",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4670,
+                                  "column_start": 20,
+                                  "line_end": 4673,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4679,
+                                  "column_start": 20,
+                                  "line_end": 4682,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4688,
+                                  "column_start": 20,
+                                  "line_end": 4691,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 4661,
+                            "column_start": 16,
+                            "line_end": 4878,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "Subsystem"
+                          },
+                          "name": "\"BC SOC\"",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Bus Join\""
+                                },
+                                "name": "\"Bus Join1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4886,
+                                  "column_start": 20,
+                                  "line_end": 4888,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP0",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4893,
+                                  "column_start": 20,
+                                  "line_end": 4896,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4902,
+                                  "column_start": 20,
+                                  "line_end": 4905,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 4911,
+                                  "column_start": 20,
+                                  "line_end": 4914,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 4884,
+                            "column_start": 16,
+                            "line_end": 5099,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Termination\""
+                          },
+                          "name": "Termination1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 5105,
+                            "column_start": 16,
+                            "line_end": 5106,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 4215,
+                      "column_start": 12,
+                      "line_end": 5179,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Bus Split\""
+                    },
+                    "name": "Secondary_Split",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 5186,
+                      "column_start": 12,
+                      "line_end": 5188,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Resistor\""
+                    },
+                    "name": "string_resistor",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 5195,
+                      "column_start": 12,
+                      "line_end": 5197,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Inductor\""
+                    },
+                    "name": "string_inductor",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 5203,
+                      "column_start": 12,
+                      "line_end": 5205,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Single Pole Single Throw Contactor\""
+                    },
+                    "name": "string_contactor",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 5211,
+                      "column_start": 12,
+                      "line_end": 5213,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Battery Cell\""
+                    },
+                    "name": "\"Battery Cell1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 5220,
+                      "column_start": 12,
+                      "line_end": 5236,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Battery Cell\""
+                    },
+                    "name": "\"Battery Cell2\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 5242,
+                      "column_start": 12,
+                      "line_end": 5258,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Battery Cell\""
+                    },
+                    "name": "\"Battery Cell3\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 5264,
+                      "column_start": 12,
+                      "line_end": 5280,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Bus Join\""
+                    },
+                    "name": "\"Secondary Join\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 5286,
+                      "column_start": 12,
+                      "line_end": 5288,
+                      "column_end": 13
+                    }
+                  }
+                }
+              ],
+              "location": {
+                "line_start": 4204,
+                "column_start": 8,
+                "line_end": 5858,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Signal Controlled Current Source\""
+              },
+              "name": "Isp1",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 5864,
+                "column_start": 8,
+                "line_end": 5865,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/SCADA Input\""
+              },
+              "name": "\"Current Source\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 5873,
+                "column_start": 8,
+                "line_end": 5876,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Product\""
+              },
+              "name": "Product1",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 5882,
+                "column_start": 8,
+                "line_end": 5883,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "Subsystem"
+              },
+              "name": "\"Battery Stack 1\"",
+              "idopt": null,
+              "elements": [
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Voltage Measurement\""
+                    },
+                    "name": "Volt_String",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 5891,
+                      "column_start": 12,
+                      "line_end": 5893,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "\"Battery Secondary\"",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "Subsystem"
+                          },
+                          "name": "\"BC Temps\"",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Bus Join\""
+                                },
+                                "name": "\"Bus Join1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 5904,
+                                  "column_start": 20,
+                                  "line_end": 5906,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP0",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 5911,
+                                  "column_start": 20,
+                                  "line_end": 5914,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 5920,
+                                  "column_start": 20,
+                                  "line_end": 5923,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 5929,
+                                  "column_start": 20,
+                                  "line_end": 5932,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 5902,
+                            "column_start": 16,
+                            "line_end": 6118,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "Subsystem"
+                          },
+                          "name": "\"BC Voltage\"",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Bus Join\""
+                                },
+                                "name": "\"Bus Join1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6126,
+                                  "column_start": 20,
+                                  "line_end": 6128,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP0",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6133,
+                                  "column_start": 20,
+                                  "line_end": 6136,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6142,
+                                  "column_start": 20,
+                                  "line_end": 6145,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6151,
+                                  "column_start": 20,
+                                  "line_end": 6154,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 6124,
+                            "column_start": 16,
+                            "line_end": 6340,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "Subsystem"
+                          },
+                          "name": "\"BC Current\"",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Bus Join\""
+                                },
+                                "name": "\"Bus Join1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6348,
+                                  "column_start": 20,
+                                  "line_end": 6350,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP0",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6355,
+                                  "column_start": 20,
+                                  "line_end": 6358,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6364,
+                                  "column_start": 20,
+                                  "line_end": 6367,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6373,
+                                  "column_start": 20,
+                                  "line_end": 6376,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 6346,
+                            "column_start": 16,
+                            "line_end": 6563,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "Subsystem"
+                          },
+                          "name": "\"BC SOC\"",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Bus Join\""
+                                },
+                                "name": "\"Bus Join1\"",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6571,
+                                  "column_start": 20,
+                                  "line_end": 6573,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP0",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6578,
+                                  "column_start": 20,
+                                  "line_end": 6581,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6587,
+                                  "column_start": 20,
+                                  "line_end": 6590,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": {
+                                  "Name": "\"core/Signal Picker Source\""
+                                },
+                                "name": "SP2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 6596,
+                                  "column_start": 20,
+                                  "line_end": 6599,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 6569,
+                            "column_start": 16,
+                            "line_end": 6783,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "Name": "\"core/Termination\""
+                          },
+                          "name": "Termination1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 6789,
+                            "column_start": 16,
+                            "line_end": 6790,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 5900,
+                      "column_start": 12,
+                      "line_end": 6863,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Bus Split\""
+                    },
+                    "name": "Secondary_Split",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 6870,
+                      "column_start": 12,
+                      "line_end": 6872,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Resistor\""
+                    },
+                    "name": "string_resistor",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 6879,
+                      "column_start": 12,
+                      "line_end": 6881,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Inductor\""
+                    },
+                    "name": "string_inductor",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 6887,
+                      "column_start": 12,
+                      "line_end": 6889,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Single Pole Single Throw Contactor\""
+                    },
+                    "name": "string_contactor",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 6895,
+                      "column_start": 12,
+                      "line_end": 6897,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Battery Cell\""
+                    },
+                    "name": "\"Battery Cell1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 6904,
+                      "column_start": 12,
+                      "line_end": 6920,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Battery Cell\""
+                    },
+                    "name": "\"Battery Cell2\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 6926,
+                      "column_start": 12,
+                      "line_end": 6942,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Battery Cell\""
+                    },
+                    "name": "\"Battery Cell3\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 6948,
+                      "column_start": 12,
+                      "line_end": 6964,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Bus Join\""
+                    },
+                    "name": "\"Secondary Join\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 6970,
+                      "column_start": 12,
+                      "line_end": 6972,
+                      "column_end": 13
+                    }
+                  }
+                }
+              ],
+              "location": {
+                "line_start": 5889,
+                "column_start": 8,
+                "line_end": 7542,
+                "column_end": 9
+              }
+            }
+          }
+        ],
+        "location": {
+          "line_start": 60,
+          "column_start": 4,
+          "line_end": 8100,
+          "column_end": 5
+        }
+      }
+    },
+    {
+      "Handler": {
+        "name": "model_init",
+        "location": {
+          "line_start": 8424,
+          "column_start": 4,
+          "line_end": 8434,
+          "column_end": 11
+        }
+      }
+    }
+  ]
+}

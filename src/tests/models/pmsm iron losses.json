@@ -1,0 +1,1621 @@
+{
+  "name": "\"pmsm iron losses\"",
+  "location": {
+    "line_start": 8,
+    "column_start": 0,
+    "line_end": 7985,
+    "column_end": 1
+  },
+  "configuration": {
+    "location": {
+      "line_start": 9,
+      "column_start": 4,
+      "line_end": 48,
+      "column_end": 5
+    }
+  },
+  "elements": [
+    {
+      "Component": {
+        "component_type": {
+          "ID": "Subsystem"
+        },
+        "name": "Root",
+        "idopt": null,
+        "elements": [
+          {
+            "Component": {
+              "component_type": {
+                "ID": "Subsystem"
+              },
+              "name": "motor_losses",
+              "idopt": null,
+              "elements": [
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_2D_lookup_table"
+                    },
+                    "name": "\"eddy loss map\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 53,
+                      "column_start": 12,
+                      "line_end": 58,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_2D_lookup_table"
+                    },
+                    "name": "\"hysteresis loss map\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 63,
+                      "column_start": 12,
+                      "line_end": 68,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_product"
+                    },
+                    "name": "Product5",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 73,
+                      "column_start": 12,
+                      "line_end": 74,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_sum"
+                    },
+                    "name": "Sum2",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 80,
+                      "column_start": 12,
+                      "line_end": 81,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_product"
+                    },
+                    "name": "Product6",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 87,
+                      "column_start": 12,
+                      "line_end": 88,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_math_fnc"
+                    },
+                    "name": "\"Mathematical function1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 94,
+                      "column_start": 12,
+                      "line_end": 96,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_product"
+                    },
+                    "name": "Product10",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 102,
+                      "column_start": 12,
+                      "line_end": 103,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "src_scada_input"
+                    },
+                    "name": "Rs",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 109,
+                      "column_start": 12,
+                      "line_end": 113,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain34",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 118,
+                      "column_start": 12,
+                      "line_end": 120,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_abs"
+                    },
+                    "name": "Abs1",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 126,
+                      "column_start": 12,
+                      "line_end": 127,
+                      "column_end": 13
+                    }
+                  }
+                }
+              ],
+              "location": {
+                "line_start": 51,
+                "column_start": 8,
+                "line_end": 291,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "gen_probe"
+              },
+              "name": "motor_temp",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 297,
+                "column_start": 8,
+                "line_end": 298,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "src_scada_input"
+              },
+              "name": "T_amb",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 303,
+                "column_start": 8,
+                "line_end": 307,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "Subsystem"
+              },
+              "name": "motor_thermal",
+              "idopt": null,
+              "elements": [
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_sum"
+                    },
+                    "name": "Sum13",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 314,
+                      "column_start": 12,
+                      "line_end": 315,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_z_domain_transfer"
+                    },
+                    "name": "\"Discrete Transfer Function1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 321,
+                      "column_start": 12,
+                      "line_end": 326,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_sum"
+                    },
+                    "name": "Sum12",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 332,
+                      "column_start": 12,
+                      "line_end": 334,
+                      "column_end": 13
+                    }
+                  }
+                }
+              ],
+              "location": {
+                "line_start": 312,
+                "column_start": 8,
+                "line_end": 432,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Three Phase Inverter\""
+              },
+              "name": "\"Three Phase Inverter\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 438,
+                "column_start": 8,
+                "line_end": 458,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "src_voltage"
+              },
+              "name": "Vs",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 465,
+                "column_start": 8,
+                "line_end": 467,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "src_scada_input"
+              },
+              "name": "en_inv",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 473,
+                "column_start": 8,
+                "line_end": 477,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Current Measurement\""
+              },
+              "name": "Ia",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 482,
+                "column_start": 8,
+                "line_end": 486,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Current Measurement\""
+              },
+              "name": "Ib",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 492,
+                "column_start": 8,
+                "line_end": 496,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Current Measurement\""
+              },
+              "name": "Ic",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 502,
+                "column_start": 8,
+                "line_end": 506,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "gen_bus_split"
+              },
+              "name": "\"Bus Split1\"",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 512,
+                "column_start": 8,
+                "line_end": 514,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "gen_gain"
+              },
+              "name": "Gain1",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 520,
+                "column_start": 8,
+                "line_end": 522,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "gen_gain"
+              },
+              "name": "Gain27",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 528,
+                "column_start": 8,
+                "line_end": 530,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "src_scada_input"
+              },
+              "name": "n_ref",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 536,
+                "column_start": 8,
+                "line_end": 540,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "Subsystem"
+              },
+              "name": "\"motor control\"",
+              "idopt": null,
+              "elements": [
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_terminator"
+                    },
+                    "name": "Termination1",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 547,
+                      "column_start": 12,
+                      "line_end": 548,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "ud_ref",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 554,
+                      "column_start": 12,
+                      "line_end": 555,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "uq_ref",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 560,
+                      "column_start": 12,
+                      "line_end": 561,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "idref",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 566,
+                      "column_start": 12,
+                      "line_end": 567,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain10",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 572,
+                      "column_start": 12,
+                      "line_end": 574,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain24",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 580,
+                      "column_start": 12,
+                      "line_end": 582,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain25",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 588,
+                      "column_start": 12,
+                      "line_end": 590,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "iq",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 596,
+                      "column_start": 12,
+                      "line_end": 597,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "id",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 602,
+                      "column_start": 12,
+                      "line_end": 603,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/abc to dq\""
+                    },
+                    "name": "I_abc_dq",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 608,
+                      "column_start": 12,
+                      "line_end": 610,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "Current_regulation",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum6",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 619,
+                            "column_start": 16,
+                            "line_end": 620,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum7",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 626,
+                            "column_start": 16,
+                            "line_end": 628,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_constant"
+                          },
+                          "name": "Constant3",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 634,
+                            "column_start": 16,
+                            "line_end": 637,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_constant"
+                          },
+                          "name": "Constant2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 643,
+                            "column_start": 16,
+                            "line_end": 646,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum8",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 652,
+                            "column_start": 16,
+                            "line_end": 654,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_constant"
+                          },
+                          "name": "Constant1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 660,
+                            "column_start": 16,
+                            "line_end": 663,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 669,
+                            "column_start": 16,
+                            "line_end": 671,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum3",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 677,
+                            "column_start": 16,
+                            "line_end": 679,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 685,
+                            "column_start": 16,
+                            "line_end": 686,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_probe"
+                          },
+                          "name": "vdref",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 692,
+                            "column_start": 16,
+                            "line_end": 693,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_probe"
+                          },
+                          "name": "vqref",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 698,
+                            "column_start": 16,
+                            "line_end": 699,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product4",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 704,
+                            "column_start": 16,
+                            "line_end": 705,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_scada_input"
+                          },
+                          "name": "Kpid",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 711,
+                            "column_start": 16,
+                            "line_end": 715,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_scada_input"
+                          },
+                          "name": "Kiid",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 720,
+                            "column_start": 16,
+                            "line_end": 724,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum9",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 729,
+                            "column_start": 16,
+                            "line_end": 730,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product5",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 736,
+                            "column_start": 16,
+                            "line_end": 737,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product6",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 743,
+                            "column_start": 16,
+                            "line_end": 744,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum10",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 750,
+                            "column_start": 16,
+                            "line_end": 751,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product7",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 757,
+                            "column_start": 16,
+                            "line_end": 758,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_scada_input"
+                          },
+                          "name": "Kpiq",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 764,
+                            "column_start": 16,
+                            "line_end": 768,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_scada_input"
+                          },
+                          "name": "Kiiq",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 773,
+                            "column_start": 16,
+                            "line_end": 777,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product8",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 782,
+                            "column_start": 16,
+                            "line_end": 783,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum11",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 789,
+                            "column_start": 16,
+                            "line_end": 790,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_integrator"
+                          },
+                          "name": "Integrator2",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 796,
+                            "column_start": 16,
+                            "line_end": 797,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_integrator"
+                          },
+                          "name": "Integrator1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 803,
+                            "column_start": 16,
+                            "line_end": 804,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 617,
+                      "column_start": 12,
+                      "line_end": 1126,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "iqref",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1132,
+                      "column_start": 12,
+                      "line_end": 1133,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain29",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1138,
+                      "column_start": 12,
+                      "line_end": 1140,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain31",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1146,
+                      "column_start": 12,
+                      "line_end": 1148,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "va",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1154,
+                      "column_start": 12,
+                      "line_end": 1155,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "vb",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1160,
+                      "column_start": 12,
+                      "line_end": 1161,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "vc",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1166,
+                      "column_start": 12,
+                      "line_end": 1167,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "speed_regulation",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum7",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1174,
+                            "column_start": 16,
+                            "line_end": 1176,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product4",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1182,
+                            "column_start": 16,
+                            "line_end": 1183,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_scada_input"
+                          },
+                          "name": "Kpw",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1189,
+                            "column_start": 16,
+                            "line_end": 1193,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_scada_input"
+                          },
+                          "name": "Kiw",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1198,
+                            "column_start": 16,
+                            "line_end": 1202,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_integrator"
+                          },
+                          "name": "Integrator1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1207,
+                            "column_start": 16,
+                            "line_end": 1208,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product6",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1214,
+                            "column_start": 16,
+                            "line_end": 1215,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum10",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1221,
+                            "column_start": 16,
+                            "line_end": 1222,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum11",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1228,
+                            "column_start": 16,
+                            "line_end": 1230,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_sum"
+                          },
+                          "name": "Sum12",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1236,
+                            "column_start": 16,
+                            "line_end": 1238,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_product"
+                          },
+                          "name": "Product7",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1244,
+                            "column_start": 16,
+                            "line_end": 1245,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "src_scada_input"
+                          },
+                          "name": "Ksa",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1251,
+                            "column_start": 16,
+                            "line_end": 1256,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_limiter"
+                          },
+                          "name": "Limit1",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1261,
+                            "column_start": 16,
+                            "line_end": 1264,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 1172,
+                      "column_start": 12,
+                      "line_end": 1427,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain32",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1433,
+                      "column_start": 12,
+                      "line_end": 1435,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Rate Transition\""
+                    },
+                    "name": "\"Rate Transition1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1441,
+                      "column_start": 12,
+                      "line_end": 1443,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Rate Transition\""
+                    },
+                    "name": "\"Rate Transition2\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1450,
+                      "column_start": 12,
+                      "line_end": 1452,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_d_q2alpha_beta"
+                    },
+                    "name": "\"dq to alpha beta1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1459,
+                      "column_start": 12,
+                      "line_end": 1460,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/SVPWM References Generator\""
+                    },
+                    "name": "\"SVPWM References Generator1\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1466,
+                      "column_start": 12,
+                      "line_end": 1468,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "Subsystem"
+                    },
+                    "name": "current_command_generator",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": {
+                            "ID": "gen_c_function"
+                          },
+                          "name": "MTPA",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1477,
+                            "column_start": 16,
+                            "line_end": 1501,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 1475,
+                      "column_start": 12,
+                      "line_end": 1550,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_probe"
+                    },
+                    "name": "isref",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1556,
+                      "column_start": 12,
+                      "line_end": 1557,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "ID": "gen_gain"
+                    },
+                    "name": "Gain33",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 1562,
+                      "column_start": 12,
+                      "line_end": 1564,
+                      "column_end": 13
+                    }
+                  }
+                }
+              ],
+              "location": {
+                "line_start": 545,
+                "column_start": 8,
+                "line_end": 1932,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "gen_sum"
+              },
+              "name": "Sum1",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 1938,
+                "column_start": 8,
+                "line_end": 1939,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "gen_probe"
+              },
+              "name": "eddy_losses",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 1945,
+                "column_start": 8,
+                "line_end": 1946,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "gen_probe"
+              },
+              "name": "hysteresis_losses",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 1951,
+                "column_start": 8,
+                "line_end": 1952,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "gen_probe"
+              },
+              "name": "stator_winding_losses",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 1957,
+                "column_start": 8,
+                "line_end": 1958,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "ID": "gen_probe"
+              },
+              "name": "n_rpm",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 1963,
+                "column_start": 8,
+                "line_end": 1964,
+                "column_end": 9
+              }
+            }
+          },
+          {
+            "Component": {
+              "component_type": {
+                "Name": "\"core/Permanent Magnet Synchronous Machine with Salient Rotor\""
+              },
+              "name": "PMSM",
+              "idopt": null,
+              "elements": null,
+              "location": {
+                "line_start": 1969,
+                "column_start": 8,
+                "line_end": 1992,
+                "column_end": 9
+              }
+            }
+          }
+        ],
+        "location": {
+          "line_start": 50,
+          "column_start": 4,
+          "line_end": 2391,
+          "column_end": 5
+        }
+      }
+    },
+    {
+      "Handler": {
+        "name": "model_init",
+        "location": {
+          "line_start": 7896,
+          "column_start": 4,
+          "line_end": 7984,
+          "column_end": 11
+        }
+      }
+    }
+  ]
+}

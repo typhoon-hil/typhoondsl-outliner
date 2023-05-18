@@ -1,0 +1,85 @@
+{
+  "name": "\"motor_lib\"",
+  "location": {
+    "line_start": 6,
+    "column_start": 0,
+    "line_end": 86,
+    "column_end": 1
+  },
+  "configuration": {
+    "location": {
+      "line_start": 7,
+      "column_start": 4,
+      "line_end": 44,
+      "column_end": 5
+    }
+  },
+  "elements": [
+    {
+      "Component": {
+        "component_type": {
+          "ID": "Subsystem"
+        },
+        "name": "Root",
+        "idopt": null,
+        "elements": [
+          {
+            "Component": {
+              "component_type": {
+                "ID": "Category"
+              },
+              "name": "Motors",
+              "idopt": null,
+              "elements": [
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Induction Machine with Squirrel Cage\""
+                    },
+                    "name": "\"Induction machine\"",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 49,
+                      "column_start": 12,
+                      "line_end": 55,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": {
+                      "Name": "\"core/Permanent Magnet Synchronous Machine with Salient Rotor\""
+                    },
+                    "name": "PMSM",
+                    "idopt": null,
+                    "elements": null,
+                    "location": {
+                      "line_start": 61,
+                      "column_start": 12,
+                      "line_end": 67,
+                      "column_end": 13
+                    }
+                  }
+                }
+              ],
+              "location": {
+                "line_start": 47,
+                "column_start": 8,
+                "line_end": 72,
+                "column_end": 9
+              }
+            }
+          }
+        ],
+        "location": {
+          "line_start": 46,
+          "column_start": 4,
+          "line_end": 82,
+          "column_end": 5
+        }
+      }
+    }
+  ]
+}
