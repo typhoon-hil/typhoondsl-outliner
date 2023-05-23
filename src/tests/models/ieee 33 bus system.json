@@ -1,5 +1,5 @@
 {
-  "name": "\"ieee 33 bus system\"",
+  "name": "ieee 33 bus system",
   "location": {
     "line_start": 8,
     "column_start": 0,
@@ -28,7 +28,7 @@
               "component_type": {
                 "ID": "src_scada_input"
               },
-              "name": "\"feeder ON\"",
+              "name": "feeder ON",
               "idopt": null,
               "elements": null,
               "location": {
@@ -42,9 +42,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Triple Pole Single Throw Contactor\""
+                "Name": "core/Triple Pole Single Throw Contactor"
               },
-              "name": "\"Feeder sw\"",
+              "name": "Feeder sw",
               "idopt": null,
               "elements": null,
               "location": {
@@ -58,9 +58,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 716\"",
+              "name": "Line 716",
               "idopt": null,
               "elements": null,
               "location": {
@@ -74,9 +74,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 715\"",
+              "name": "Line 715",
               "idopt": null,
               "elements": null,
               "location": {
@@ -90,9 +90,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 710\"",
+              "name": "Line 710",
               "idopt": null,
               "elements": null,
               "location": {
@@ -106,9 +106,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 734\"",
+              "name": "Line 734",
               "idopt": null,
               "elements": null,
               "location": {
@@ -122,9 +122,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 707\"",
+              "name": "Line 707",
               "idopt": null,
               "elements": null,
               "location": {
@@ -138,9 +138,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 706\"",
+              "name": "Line 706",
               "idopt": null,
               "elements": null,
               "location": {
@@ -154,9 +154,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 705\"",
+              "name": "Line 705",
               "idopt": null,
               "elements": null,
               "location": {
@@ -170,9 +170,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 731\"",
+              "name": "Line 731",
               "idopt": null,
               "elements": null,
               "location": {
@@ -186,9 +186,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 730\"",
+              "name": "Line 730",
               "idopt": null,
               "elements": null,
               "location": {
@@ -202,9 +202,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 729\"",
+              "name": "Line 729",
               "idopt": null,
               "elements": null,
               "location": {
@@ -218,9 +218,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 728\"",
+              "name": "Line 728",
               "idopt": null,
               "elements": null,
               "location": {
@@ -234,9 +234,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 727\"",
+              "name": "Line 727",
               "idopt": null,
               "elements": null,
               "location": {
@@ -250,9 +250,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 726\"",
+              "name": "Line 726",
               "idopt": null,
               "elements": null,
               "location": {
@@ -266,9 +266,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 704\"",
+              "name": "Line 704",
               "idopt": null,
               "elements": null,
               "location": {
@@ -282,9 +282,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 703\"",
+              "name": "Line 703",
               "idopt": null,
               "elements": null,
               "location": {
@@ -298,9 +298,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 722\"",
+              "name": "Line 722",
               "idopt": null,
               "elements": null,
               "location": {
@@ -314,9 +314,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 724\"",
+              "name": "Line 724",
               "idopt": null,
               "elements": null,
               "location": {
@@ -330,9 +330,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 723\"",
+              "name": "Line 723",
               "idopt": null,
               "elements": null,
               "location": {
@@ -346,9 +346,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 725\"",
+              "name": "Line 725",
               "idopt": null,
               "elements": null,
               "location": {
@@ -362,9 +362,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 701\"",
+              "name": "Line 701",
               "idopt": null,
               "elements": null,
               "location": {
@@ -378,9 +378,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 719\"",
+              "name": "Line 719",
               "idopt": null,
               "elements": null,
               "location": {
@@ -394,9 +394,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 718\"",
+              "name": "Line 718",
               "idopt": null,
               "elements": null,
               "location": {
@@ -410,9 +410,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 721\"",
+              "name": "Line 721",
               "idopt": null,
               "elements": null,
               "location": {
@@ -426,9 +426,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 720\"",
+              "name": "Line 720",
               "idopt": null,
               "elements": null,
               "location": {
@@ -458,9 +458,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 737\"",
+              "name": "Line 737",
               "idopt": null,
               "elements": null,
               "location": {
@@ -474,9 +474,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 733\"",
+              "name": "Line 733",
               "idopt": null,
               "elements": null,
               "location": {
@@ -490,9 +490,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 709\"",
+              "name": "Line 709",
               "idopt": null,
               "elements": null,
               "location": {
@@ -506,9 +506,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 735\"",
+              "name": "Line 735",
               "idopt": null,
               "elements": null,
               "location": {
@@ -522,9 +522,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase TLM Core Coupling\""
+                "Name": "core/Three Phase TLM Core Coupling"
               },
-              "name": "\"CC 3\"",
+              "name": "CC 3",
               "idopt": null,
               "elements": null,
               "location": {
@@ -538,9 +538,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase TLM Core Coupling\""
+                "Name": "core/Three Phase TLM Core Coupling"
               },
-              "name": "\"CC 4\"",
+              "name": "CC 4",
               "idopt": null,
               "elements": null,
               "location": {
@@ -554,9 +554,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase TLM Core Coupling\""
+                "Name": "core/Three Phase TLM Core Coupling"
               },
-              "name": "\"CC 5\"",
+              "name": "CC 5",
               "idopt": null,
               "elements": null,
               "location": {
@@ -570,9 +570,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase TLM Core Coupling\""
+                "Name": "core/Three Phase TLM Core Coupling"
               },
-              "name": "\"CC 7\"",
+              "name": "CC 7",
               "idopt": null,
               "elements": null,
               "location": {
@@ -586,9 +586,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 708\"",
+              "name": "Line 708",
               "idopt": null,
               "elements": null,
               "location": {
@@ -602,9 +602,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 700\"",
+              "name": "Line 700",
               "idopt": null,
               "elements": null,
               "location": {
@@ -618,9 +618,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 713\"",
+              "name": "Line 713",
               "idopt": null,
               "elements": null,
               "location": {
@@ -634,9 +634,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 714\"",
+              "name": "Line 714",
               "idopt": null,
               "elements": null,
               "location": {
@@ -650,7 +650,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Voltage Measurement\""
+                "Name": "core/Voltage Measurement"
               },
               "name": "Vref",
               "idopt": null,
@@ -666,7 +666,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase TLM Core Coupling\""
+                "Name": "core/Three Phase TLM Core Coupling"
               },
               "name": "CC1",
               "idopt": null,
@@ -706,9 +706,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -738,9 +738,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -932,7 +932,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -948,7 +948,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -971,9 +971,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase TLM Core Coupling\""
+                "Name": "core/Three Phase TLM Core Coupling"
               },
-              "name": "\"CC 2\"",
+              "name": "CC 2",
               "idopt": null,
               "elements": null,
               "location": {
@@ -987,9 +987,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 702\"",
+              "name": "Line 702",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1003,7 +1003,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase Voltage Source\""
+                "Name": "core/Three Phase Voltage Source"
               },
               "name": "Vs",
               "idopt": null,
@@ -1019,9 +1019,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase TLM Core Coupling\""
+                "Name": "core/Three Phase TLM Core Coupling"
               },
-              "name": "\"CC 6\"",
+              "name": "CC 6",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1035,9 +1035,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 711\"",
+              "name": "Line 711",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1051,9 +1051,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 712\"",
+              "name": "Line 712",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1067,9 +1067,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase TLM Core Coupling\""
+                "Name": "core/Three Phase TLM Core Coupling"
               },
-              "name": "\"CC 8\"",
+              "name": "CC 8",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1099,7 +1099,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Triple Pole Single Throw Contactor\""
+                "Name": "core/Triple Pole Single Throw Contactor"
               },
               "name": "Tie_sw_3",
               "idopt": null,
@@ -1115,7 +1115,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Triple Pole Single Throw Contactor\""
+                "Name": "core/Triple Pole Single Throw Contactor"
               },
               "name": "Tie_sw_1",
               "idopt": null,
@@ -1147,7 +1147,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Triple Pole Single Throw Contactor\""
+                "Name": "core/Triple Pole Single Throw Contactor"
               },
               "name": "Tie_sw_4",
               "idopt": null,
@@ -1179,7 +1179,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Triple Pole Single Throw Contactor\""
+                "Name": "core/Triple Pole Single Throw Contactor"
               },
               "name": "Tie_sw_2",
               "idopt": null,
@@ -1211,7 +1211,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Triple Pole Single Throw Contactor\""
+                "Name": "core/Triple Pole Single Throw Contactor"
               },
               "name": "Tie_sw_5",
               "idopt": null,
@@ -1243,9 +1243,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 736\"",
+              "name": "Line 736",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1259,9 +1259,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 732\"",
+              "name": "Line 732",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1275,9 +1275,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"Line 717\"",
+              "name": "Line 717",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1291,7 +1291,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter701",
               "idopt": null,
@@ -1307,7 +1307,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg701",
               "idopt": null,
@@ -1323,7 +1323,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter702",
               "idopt": null,
@@ -1339,7 +1339,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg702",
               "idopt": null,
@@ -1355,7 +1355,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter703",
               "idopt": null,
@@ -1371,7 +1371,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg703",
               "idopt": null,
@@ -1387,7 +1387,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter704",
               "idopt": null,
@@ -1403,7 +1403,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg704",
               "idopt": null,
@@ -1427,9 +1427,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1459,9 +1459,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1669,7 +1669,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1685,7 +1685,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1716,9 +1716,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1748,9 +1748,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1958,7 +1958,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1974,7 +1974,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2005,9 +2005,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2037,9 +2037,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2247,7 +2247,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2263,7 +2263,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2286,7 +2286,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter705",
               "idopt": null,
@@ -2302,7 +2302,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg705",
               "idopt": null,
@@ -2326,9 +2326,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2358,9 +2358,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2568,7 +2568,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2584,7 +2584,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2607,7 +2607,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter706",
               "idopt": null,
@@ -2623,7 +2623,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg706",
               "idopt": null,
@@ -2647,9 +2647,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2679,9 +2679,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2889,7 +2889,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2905,7 +2905,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2928,7 +2928,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter707",
               "idopt": null,
@@ -2944,7 +2944,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg707",
               "idopt": null,
@@ -2968,9 +2968,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3000,9 +3000,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3210,7 +3210,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3226,7 +3226,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3249,7 +3249,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter708",
               "idopt": null,
@@ -3265,7 +3265,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg708",
               "idopt": null,
@@ -3289,9 +3289,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3321,9 +3321,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3531,7 +3531,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3547,7 +3547,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3570,7 +3570,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter709",
               "idopt": null,
@@ -3586,7 +3586,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg709",
               "idopt": null,
@@ -3610,9 +3610,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3642,9 +3642,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3852,7 +3852,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3868,7 +3868,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3891,7 +3891,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter710",
               "idopt": null,
@@ -3907,7 +3907,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg710",
               "idopt": null,
@@ -3931,9 +3931,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3963,9 +3963,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4173,7 +4173,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4189,7 +4189,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4212,7 +4212,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter711",
               "idopt": null,
@@ -4228,7 +4228,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg711",
               "idopt": null,
@@ -4252,9 +4252,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4284,9 +4284,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4494,7 +4494,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4510,7 +4510,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4533,7 +4533,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter712",
               "idopt": null,
@@ -4549,7 +4549,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg712",
               "idopt": null,
@@ -4573,9 +4573,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4605,9 +4605,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4815,7 +4815,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4831,7 +4831,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4854,7 +4854,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter713",
               "idopt": null,
@@ -4870,7 +4870,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg713",
               "idopt": null,
@@ -4894,9 +4894,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4926,9 +4926,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5136,7 +5136,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5152,7 +5152,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5175,7 +5175,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter714",
               "idopt": null,
@@ -5191,7 +5191,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg714",
               "idopt": null,
@@ -5215,9 +5215,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5247,9 +5247,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5457,7 +5457,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5473,7 +5473,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5496,7 +5496,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter715",
               "idopt": null,
@@ -5512,7 +5512,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg715",
               "idopt": null,
@@ -5536,9 +5536,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5568,9 +5568,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5778,7 +5778,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5794,7 +5794,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5817,7 +5817,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter716",
               "idopt": null,
@@ -5833,7 +5833,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg716",
               "idopt": null,
@@ -5857,9 +5857,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5889,9 +5889,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6099,7 +6099,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6115,7 +6115,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6138,7 +6138,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter717",
               "idopt": null,
@@ -6154,7 +6154,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg717",
               "idopt": null,
@@ -6178,9 +6178,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6210,9 +6210,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6420,7 +6420,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6436,7 +6436,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6459,7 +6459,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter718",
               "idopt": null,
@@ -6475,7 +6475,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg718",
               "idopt": null,
@@ -6499,9 +6499,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6531,9 +6531,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6741,7 +6741,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6757,7 +6757,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6780,7 +6780,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter719",
               "idopt": null,
@@ -6796,7 +6796,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg719",
               "idopt": null,
@@ -6820,9 +6820,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6852,9 +6852,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7062,7 +7062,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7078,7 +7078,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7101,7 +7101,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter720",
               "idopt": null,
@@ -7117,7 +7117,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg720",
               "idopt": null,
@@ -7141,9 +7141,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7173,9 +7173,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7383,7 +7383,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7399,7 +7399,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7422,7 +7422,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter721",
               "idopt": null,
@@ -7438,7 +7438,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg721",
               "idopt": null,
@@ -7462,9 +7462,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7494,9 +7494,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7704,7 +7704,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7720,7 +7720,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7743,7 +7743,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter722",
               "idopt": null,
@@ -7759,7 +7759,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg722",
               "idopt": null,
@@ -7783,9 +7783,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7815,9 +7815,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8025,7 +8025,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8041,7 +8041,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8064,7 +8064,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter723",
               "idopt": null,
@@ -8080,7 +8080,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg723",
               "idopt": null,
@@ -8104,9 +8104,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8136,9 +8136,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8346,7 +8346,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8362,7 +8362,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8385,7 +8385,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter724",
               "idopt": null,
@@ -8401,7 +8401,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg724",
               "idopt": null,
@@ -8425,9 +8425,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8457,9 +8457,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8667,7 +8667,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8683,7 +8683,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8706,7 +8706,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter725",
               "idopt": null,
@@ -8722,7 +8722,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg725",
               "idopt": null,
@@ -8746,9 +8746,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8778,9 +8778,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8988,7 +8988,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9004,7 +9004,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9027,7 +9027,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter726",
               "idopt": null,
@@ -9043,7 +9043,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg726",
               "idopt": null,
@@ -9067,9 +9067,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9099,9 +9099,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9309,7 +9309,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9325,7 +9325,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9348,7 +9348,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter727",
               "idopt": null,
@@ -9364,7 +9364,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg727",
               "idopt": null,
@@ -9388,9 +9388,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9420,9 +9420,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9630,7 +9630,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9646,7 +9646,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9669,7 +9669,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter728",
               "idopt": null,
@@ -9685,7 +9685,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg728",
               "idopt": null,
@@ -9709,9 +9709,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9741,9 +9741,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9951,7 +9951,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9967,7 +9967,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9990,7 +9990,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter729",
               "idopt": null,
@@ -10006,7 +10006,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg729",
               "idopt": null,
@@ -10030,9 +10030,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10062,9 +10062,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10272,7 +10272,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10288,7 +10288,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10311,7 +10311,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter730",
               "idopt": null,
@@ -10327,7 +10327,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg730",
               "idopt": null,
@@ -10351,9 +10351,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10383,9 +10383,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10593,7 +10593,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10609,7 +10609,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10632,7 +10632,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter731",
               "idopt": null,
@@ -10648,7 +10648,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg731",
               "idopt": null,
@@ -10672,9 +10672,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10704,9 +10704,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10914,7 +10914,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10930,7 +10930,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10953,7 +10953,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter732",
               "idopt": null,
@@ -10969,7 +10969,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg732",
               "idopt": null,
@@ -10993,9 +10993,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11025,9 +11025,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11235,7 +11235,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11251,7 +11251,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11274,7 +11274,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
               "name": "3ph_Meter733",
               "idopt": null,
@@ -11290,7 +11290,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Pg733",
               "idopt": null,
@@ -11314,9 +11314,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split2\"",
+                    "name": "Meter Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11346,9 +11346,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11556,7 +11556,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join\"",
+                    "name": "Bus Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11572,7 +11572,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split\"",
+                    "name": "Bus Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11597,7 +11597,7 @@
               "component_type": {
                 "ID": "gen_rms_value"
               },
-              "name": "\"RMS value1\"",
+              "name": "RMS value1",
               "idopt": null,
               "elements": null,
               "location": {

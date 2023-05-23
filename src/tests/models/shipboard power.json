@@ -1,5 +1,5 @@
 {
-  "name": "\"shipboard power\"",
+  "name": "shipboard power",
   "location": {
     "line_start": 8,
     "column_start": 0,
@@ -146,7 +146,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Variable Resistor\""
+                      "Name": "core/Variable Resistor"
                     },
                     "name": "RL2",
                     "idopt": null,
@@ -162,7 +162,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Variable Inductor\""
+                      "Name": "core/Variable Inductor"
                     },
                     "name": "L4",
                     "idopt": null,
@@ -178,7 +178,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Variable Inductor\""
+                      "Name": "core/Variable Inductor"
                     },
                     "name": "L2",
                     "idopt": null,
@@ -194,7 +194,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Variable Resistor\""
+                      "Name": "core/Variable Resistor"
                     },
                     "name": "RL3",
                     "idopt": null,
@@ -210,7 +210,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Variable Inductor\""
+                      "Name": "core/Variable Inductor"
                     },
                     "name": "L3",
                     "idopt": null,
@@ -226,7 +226,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Variable Resistor\""
+                      "Name": "core/Variable Resistor"
                     },
                     "name": "RL1",
                     "idopt": null,
@@ -242,7 +242,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -371,7 +371,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -398,7 +398,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"AUX Load 1\"",
+              "name": "AUX Load 1",
               "idopt": null,
               "elements": [
                 {
@@ -500,7 +500,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -527,7 +527,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"AUX Load 2\"",
+              "name": "AUX Load 2",
               "idopt": null,
               "elements": [
                 {
@@ -629,7 +629,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -654,7 +654,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase Two Winding Transformer\""
+                "Name": "core/Three Phase Two Winding Transformer"
               },
               "name": "Tr2",
               "idopt": null,
@@ -670,7 +670,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase Two Winding Transformer\""
+                "Name": "core/Three Phase Two Winding Transformer"
               },
               "name": "Tr1",
               "idopt": null,
@@ -686,7 +686,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase Two Winding Transformer\""
+                "Name": "core/Three Phase Two Winding Transformer"
               },
               "name": "Tr3",
               "idopt": null,
@@ -806,7 +806,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -935,7 +935,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -962,7 +962,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Bow Thruster 1\"",
+              "name": "Bow Thruster 1",
               "idopt": null,
               "elements": [
                 {
@@ -970,7 +970,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split1\"",
+                    "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1082,7 +1082,7 @@
                     "component_type": {
                       "ID": "sys_signal_switch"
                     },
-                    "name": "\"Signal switch1\"",
+                    "name": "Signal switch1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1186,7 +1186,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"C function1\"",
+                          "name": "C function1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1202,7 +1202,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch2\"",
+                          "name": "Signal switch2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1234,7 +1234,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop1\"",
+                          "name": "SR Flip Flop1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1360,7 +1360,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Ideal Transformer With Variable Transfer Ratio\""
+                            "Name": "core/Ideal Transformer With Variable Transfer Ratio"
                           },
                           "name": "Tr4",
                           "idopt": null,
@@ -1376,7 +1376,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Ideal Transformer With Variable Transfer Ratio\""
+                            "Name": "core/Ideal Transformer With Variable Transfer Ratio"
                           },
                           "name": "Tr3",
                           "idopt": null,
@@ -1403,7 +1403,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"RC Snubber\"",
+                    "name": "RC Snubber",
                     "idopt": null,
                     "elements": [
                       {
@@ -1540,7 +1540,7 @@
                           "component_type": {
                             "ID": "gen_alpha_beta2abc"
                           },
-                          "name": "\"alpha beta to abc1\"",
+                          "name": "alpha beta to abc1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1668,7 +1668,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"C function1\"",
+                          "name": "C function1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1684,7 +1684,7 @@
                           "component_type": {
                             "ID": "gen_abc2alpha_beta"
                           },
-                          "name": "\"abc to alpha beta1\"",
+                          "name": "abc to alpha beta1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1698,7 +1698,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ia",
                           "idopt": null,
@@ -1714,7 +1714,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ib",
                           "idopt": null,
@@ -1730,7 +1730,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "e_b",
                           "idopt": null,
@@ -1746,7 +1746,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "e_a",
                           "idopt": null,
@@ -1762,7 +1762,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ic",
                           "idopt": null,
@@ -1778,7 +1778,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "e_c",
                           "idopt": null,
@@ -1803,7 +1803,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -1819,7 +1819,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ia1",
                     "idopt": null,
@@ -1835,7 +1835,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ia",
                     "idopt": null,
@@ -1877,7 +1877,7 @@
                           "component_type": {
                             "ID": "tm_delay"
                           },
-                          "name": "\"Unit Delay1\"",
+                          "name": "Unit Delay1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1916,7 +1916,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Single Pole Single Throw Contactor\""
+                      "Name": "core/Single Pole Single Throw Contactor"
                     },
                     "name": "S1",
                     "idopt": null,
@@ -1932,9 +1932,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition1\"",
+                    "name": "Rate Transition1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1957,9 +1957,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"RL Section1\"",
+              "name": "RL Section1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1973,9 +1973,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"RL Section2\"",
+              "name": "RL Section2",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1989,9 +1989,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"RL Section3\"",
+              "name": "RL Section3",
               "idopt": null,
               "elements": null,
               "location": {
@@ -2005,9 +2005,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"RL Section4\"",
+              "name": "RL Section4",
               "idopt": null,
               "elements": null,
               "location": {
@@ -2029,9 +2029,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Core Coupling\""
+                      "Name": "core/Three Phase Core Coupling"
                     },
-                    "name": "\"Core Coupling2\"",
+                    "name": "Core Coupling2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2047,7 +2047,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"RC Snubber\"",
+                    "name": "RC Snubber",
                     "idopt": null,
                     "elements": [
                       {
@@ -2175,9 +2175,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Core Coupling\""
+                      "Name": "core/Three Phase Core Coupling"
                     },
-                    "name": "\"Core Coupling2\"",
+                    "name": "Core Coupling2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2202,13 +2202,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Measurement Cubicle EMS 440V\"",
+              "name": "Measurement Cubicle EMS 440V",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vbc",
                     "idopt": null,
@@ -2224,7 +2224,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -2251,13 +2251,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Measurement Cubicle EMS 230V\"",
+              "name": "Measurement Cubicle EMS 230V",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vbc",
                     "idopt": null,
@@ -2273,7 +2273,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -2300,13 +2300,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Measurement Cubicle MS 230V B\"",
+              "name": "Measurement Cubicle MS 230V B",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -2322,7 +2322,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vbc",
                     "idopt": null,
@@ -2349,13 +2349,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Measurement Cubicle MS 230V A\"",
+              "name": "Measurement Cubicle MS 230V A",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vbc",
                     "idopt": null,
@@ -2371,7 +2371,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -2398,13 +2398,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Measurement Cubicle MS 440V B\"",
+              "name": "Measurement Cubicle MS 440V B",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vbc",
                     "idopt": null,
@@ -2420,7 +2420,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -2447,13 +2447,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Measurement Cubicle MS 440V A\"",
+              "name": "Measurement Cubicle MS 440V A",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vbc",
                     "idopt": null,
@@ -2469,7 +2469,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -2494,7 +2494,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Current RMS\""
+                "Name": "core/Current RMS"
               },
               "name": "Irms_GEN1",
               "idopt": null,
@@ -2510,7 +2510,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Current RMS\""
+                "Name": "core/Current RMS"
               },
               "name": "Irms_GEN2",
               "idopt": null,
@@ -2528,7 +2528,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"AFT Thruster\"",
+              "name": "AFT Thruster",
               "idopt": null,
               "elements": [
                 {
@@ -2568,7 +2568,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split1\"",
+                    "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2600,7 +2600,7 @@
                     "component_type": {
                       "ID": "sys_signal_switch"
                     },
-                    "name": "\"Signal switch1\"",
+                    "name": "Signal switch1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2784,7 +2784,7 @@
                           "component_type": {
                             "ID": "gen_alpha_beta2abc"
                           },
-                          "name": "\"alpha beta to abc1\"",
+                          "name": "alpha beta to abc1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2832,7 +2832,7 @@
                           "component_type": {
                             "ID": "gen_abc2alpha_beta"
                           },
-                          "name": "\"abc to alpha beta1\"",
+                          "name": "abc to alpha beta1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2848,7 +2848,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"C function1\"",
+                          "name": "C function1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2862,7 +2862,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "e_b",
                           "idopt": null,
@@ -2878,7 +2878,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ic",
                           "idopt": null,
@@ -2894,7 +2894,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ia",
                           "idopt": null,
@@ -2910,7 +2910,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "e_a",
                           "idopt": null,
@@ -2926,7 +2926,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ib",
                           "idopt": null,
@@ -2942,7 +2942,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "e_c",
                           "idopt": null,
@@ -2967,7 +2967,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ia",
                     "idopt": null,
@@ -2983,7 +2983,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ia1",
                     "idopt": null,
@@ -2999,7 +2999,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vab1",
                     "idopt": null,
@@ -3041,7 +3041,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"C function1\"",
+                          "name": "C function1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3089,7 +3089,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch2\"",
+                          "name": "Signal switch2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3185,7 +3185,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop1\"",
+                          "name": "SR Flip Flop1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3247,7 +3247,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Ideal Transformer With Variable Transfer Ratio\""
+                            "Name": "core/Ideal Transformer With Variable Transfer Ratio"
                           },
                           "name": "Tr4",
                           "idopt": null,
@@ -3263,7 +3263,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Ideal Transformer With Variable Transfer Ratio\""
+                            "Name": "core/Ideal Transformer With Variable Transfer Ratio"
                           },
                           "name": "Tr3",
                           "idopt": null,
@@ -3288,7 +3288,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -3304,7 +3304,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -3320,7 +3320,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vrms1",
                     "idopt": null,
@@ -3338,7 +3338,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"RC Snubber\"",
+                    "name": "RC Snubber",
                     "idopt": null,
                     "elements": [
                       {
@@ -3475,7 +3475,7 @@
                           "component_type": {
                             "ID": "tm_delay"
                           },
-                          "name": "\"Unit Delay1\"",
+                          "name": "Unit Delay1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3514,9 +3514,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition1\"",
+                    "name": "Rate Transition1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3541,7 +3541,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Bow Thruster 2\"",
+              "name": "Bow Thruster 2",
               "idopt": null,
               "elements": [
                 {
@@ -3581,7 +3581,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split1\"",
+                    "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3613,7 +3613,7 @@
                     "component_type": {
                       "ID": "sys_signal_switch"
                     },
-                    "name": "\"Signal switch1\"",
+                    "name": "Signal switch1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3797,7 +3797,7 @@
                           "component_type": {
                             "ID": "gen_alpha_beta2abc"
                           },
-                          "name": "\"alpha beta to abc1\"",
+                          "name": "alpha beta to abc1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3845,7 +3845,7 @@
                           "component_type": {
                             "ID": "gen_abc2alpha_beta"
                           },
-                          "name": "\"abc to alpha beta1\"",
+                          "name": "abc to alpha beta1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3861,7 +3861,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"C function1\"",
+                          "name": "C function1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3875,7 +3875,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "e_b",
                           "idopt": null,
@@ -3891,7 +3891,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ic",
                           "idopt": null,
@@ -3907,7 +3907,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ia",
                           "idopt": null,
@@ -3923,7 +3923,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "e_a",
                           "idopt": null,
@@ -3939,7 +3939,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ib",
                           "idopt": null,
@@ -3955,7 +3955,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "e_c",
                           "idopt": null,
@@ -3980,7 +3980,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ia",
                     "idopt": null,
@@ -3996,7 +3996,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ia1",
                     "idopt": null,
@@ -4012,7 +4012,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vab1",
                     "idopt": null,
@@ -4054,7 +4054,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"C function1\"",
+                          "name": "C function1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -4102,7 +4102,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch2\"",
+                          "name": "Signal switch2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -4198,7 +4198,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop1\"",
+                          "name": "SR Flip Flop1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -4260,7 +4260,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Ideal Transformer With Variable Transfer Ratio\""
+                            "Name": "core/Ideal Transformer With Variable Transfer Ratio"
                           },
                           "name": "Tr4",
                           "idopt": null,
@@ -4276,7 +4276,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Ideal Transformer With Variable Transfer Ratio\""
+                            "Name": "core/Ideal Transformer With Variable Transfer Ratio"
                           },
                           "name": "Tr3",
                           "idopt": null,
@@ -4301,7 +4301,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -4317,7 +4317,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -4333,7 +4333,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vrms1",
                     "idopt": null,
@@ -4351,7 +4351,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"RC Snubber\"",
+                    "name": "RC Snubber",
                     "idopt": null,
                     "elements": [
                       {
@@ -4488,7 +4488,7 @@
                           "component_type": {
                             "ID": "tm_delay"
                           },
-                          "name": "\"Unit Delay1\"",
+                          "name": "Unit Delay1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -4527,9 +4527,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition1\"",
+                    "name": "Rate Transition1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4560,9 +4560,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Core Coupling\""
+                      "Name": "core/Three Phase Core Coupling"
                     },
-                    "name": "\"Core Coupling2\"",
+                    "name": "Core Coupling2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4578,7 +4578,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"RC Snubber\"",
+                    "name": "RC Snubber",
                     "idopt": null,
                     "elements": [
                       {
@@ -4700,7 +4700,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Bus Breaker\"",
+              "name": "Bus Breaker",
               "idopt": null,
               "elements": [
                 {
@@ -4708,7 +4708,7 @@
                     "component_type": {
                       "ID": "gen_probe"
                     },
-                    "name": "\"dw_sync Probe\"",
+                    "name": "dw_sync Probe",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4724,7 +4724,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split1\"",
+                    "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4738,7 +4738,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "VBC",
                     "idopt": null,
@@ -4754,7 +4754,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ib",
                     "idopt": null,
@@ -4770,7 +4770,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ia",
                     "idopt": null,
@@ -4786,7 +4786,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "VAB",
                     "idopt": null,
@@ -4802,7 +4802,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vca",
                     "idopt": null,
@@ -4818,7 +4818,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vbc",
                     "idopt": null,
@@ -4834,7 +4834,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -4850,7 +4850,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ic",
                     "idopt": null,
@@ -4866,7 +4866,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "VCA",
                     "idopt": null,
@@ -4882,9 +4882,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
-                    "name": "\"Main CB\"",
+                    "name": "Main CB",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4898,7 +4898,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vrms2",
                     "idopt": null,
@@ -4914,7 +4914,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms1",
                     "idopt": null,
@@ -4932,7 +4932,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -4956,7 +4956,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop4\"",
+                          "name": "SR Flip Flop4",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -5108,7 +5108,7 @@
                                 "component_type": {
                                   "ID": "gen_bus_join"
                                 },
-                                "name": "\"Bus Join\"",
+                                "name": "Bus Join",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -5598,7 +5598,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch1\"",
+                                      "name": "Signal switch1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -5614,7 +5614,7 @@
                                       "component_type": {
                                         "ID": "tm_delay"
                                       },
-                                      "name": "\"Unit Delay1\"",
+                                      "name": "Unit Delay1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -6375,7 +6375,7 @@
                                         {
                                           "Component": {
                                             "component_type": {
-                                              "Name": "\"core/Counter\""
+                                              "Name": "core/Counter"
                                             },
                                             "name": "Counter1",
                                             "idopt": null,
@@ -6435,7 +6435,7 @@
                                       "component_type": {
                                         "ID": "gen_sr_ff"
                                       },
-                                      "name": "\"SR Flip Flop1\"",
+                                      "name": "SR Flip Flop1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -6706,7 +6706,7 @@
                                               {
                                                 "Component": {
                                                   "component_type": {
-                                                    "Name": "\"core/abc to dq\""
+                                                    "Name": "core/abc to dq"
                                                   },
                                                   "name": "ABC-dq",
                                                   "idopt": null,
@@ -6724,7 +6724,7 @@
                                                   "component_type": {
                                                     "ID": "tm_delay"
                                                   },
-                                                  "name": "\"Unit Delay1\"",
+                                                  "name": "Unit Delay1",
                                                   "idopt": null,
                                                   "elements": null,
                                                   "location": {
@@ -7000,7 +7000,7 @@
                                                   "component_type": {
                                                     "ID": "tm_delay"
                                                   },
-                                                  "name": "\"Unit Delay1\"",
+                                                  "name": "Unit Delay1",
                                                   "idopt": null,
                                                   "elements": null,
                                                   "location": {
@@ -7014,7 +7014,7 @@
                                               {
                                                 "Component": {
                                                   "component_type": {
-                                                    "Name": "\"core/abc to dq\""
+                                                    "Name": "core/abc to dq"
                                                   },
                                                   "name": "ABC-dq",
                                                   "idopt": null,
@@ -7261,7 +7261,7 @@
                                       "component_type": {
                                         "ID": "tm_delay"
                                       },
-                                      "name": "\"Unit Delay1\"",
+                                      "name": "Unit Delay1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -7277,7 +7277,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch1\"",
+                                      "name": "Signal switch1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -7329,13 +7329,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Transformer Breaker 2\"",
+              "name": "Transformer Breaker 2",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S2",
                     "idopt": null,
@@ -7351,7 +7351,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -7369,7 +7369,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -7377,7 +7377,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7393,7 +7393,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7443,13 +7443,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"EMS-MS 440V Breaker\"",
+              "name": "EMS-MS 440V Breaker",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S2",
                     "idopt": null,
@@ -7465,7 +7465,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -7483,7 +7483,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -7507,7 +7507,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7523,7 +7523,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7557,7 +7557,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Transformer Breaker 3\"",
+              "name": "Transformer Breaker 3",
               "idopt": null,
               "elements": [
                 {
@@ -7565,7 +7565,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -7573,7 +7573,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7589,7 +7589,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7628,7 +7628,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S2",
                     "idopt": null,
@@ -7644,7 +7644,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -7671,7 +7671,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"MS 230V Breaker\"",
+              "name": "MS 230V Breaker",
               "idopt": null,
               "elements": [
                 {
@@ -7679,7 +7679,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -7703,7 +7703,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7719,7 +7719,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7742,7 +7742,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -7758,7 +7758,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S2",
                     "idopt": null,
@@ -7785,7 +7785,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"EMS-MS 230V Breaker\"",
+              "name": "EMS-MS 230V Breaker",
               "idopt": null,
               "elements": [
                 {
@@ -7793,7 +7793,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -7801,7 +7801,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7817,7 +7817,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7856,7 +7856,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S2",
                     "idopt": null,
@@ -7872,7 +7872,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -7899,13 +7899,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Transformer Breaker 1\"",
+              "name": "Transformer Breaker 1",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -7921,7 +7921,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S2",
                     "idopt": null,
@@ -7939,7 +7939,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -7947,7 +7947,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7963,7 +7963,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -8013,13 +8013,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Fans Breaker\"",
+              "name": "Fans Breaker",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ia",
                     "idopt": null,
@@ -8035,7 +8035,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S2",
                     "idopt": null,
@@ -8051,7 +8051,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ib",
                     "idopt": null,
@@ -8067,7 +8067,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ic",
                     "idopt": null,
@@ -8083,7 +8083,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vrms1",
                     "idopt": null,
@@ -8099,7 +8099,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vrms2",
                     "idopt": null,
@@ -8117,7 +8117,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -8125,7 +8125,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -8157,7 +8157,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -8191,7 +8191,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Thruster Breaker 2\"",
+              "name": "Thruster Breaker 2",
               "idopt": null,
               "elements": [
                 {
@@ -8247,7 +8247,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8325,7 +8325,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Double Throw Contactor\""
+                      "Name": "core/Triple Pole Double Throw Contactor"
                     },
                     "name": "S1",
                     "idopt": null,
@@ -8341,7 +8341,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VABrms",
                     "idopt": null,
@@ -8359,7 +8359,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -8367,7 +8367,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -8399,7 +8399,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -8422,7 +8422,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VBCrms",
                     "idopt": null,
@@ -8438,7 +8438,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VCArms",
                     "idopt": null,
@@ -8465,7 +8465,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Propulsion Breaker\"",
+              "name": "Propulsion Breaker",
               "idopt": null,
               "elements": [
                 {
@@ -8505,7 +8505,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8599,7 +8599,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VBCrms",
                     "idopt": null,
@@ -8617,7 +8617,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -8625,7 +8625,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -8641,7 +8641,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -8680,7 +8680,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Double Throw Contactor\""
+                      "Name": "core/Triple Pole Double Throw Contactor"
                     },
                     "name": "S1",
                     "idopt": null,
@@ -8696,7 +8696,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VABrms",
                     "idopt": null,
@@ -8712,7 +8712,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VCArms",
                     "idopt": null,
@@ -8907,7 +8907,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split1\"",
+                    "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8955,7 +8955,7 @@
                     "component_type": {
                       "ID": "sys_signal_switch"
                     },
-                    "name": "\"Signal switch1\"",
+                    "name": "Signal switch1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9033,7 +9033,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ia1",
                     "idopt": null,
@@ -9049,7 +9049,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Variable Resistor\""
+                      "Name": "core/Variable Resistor"
                     },
                     "name": "RL1",
                     "idopt": null,
@@ -9178,9 +9178,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Diode Rectifier\""
+                      "Name": "core/Three Phase Diode Rectifier"
                     },
-                    "name": "\"Three Phase Diode Rectifier1\"",
+                    "name": "Three Phase Diode Rectifier1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9194,7 +9194,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Va1",
                     "idopt": null,
@@ -9221,7 +9221,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Thruster Breaker 3\"",
+              "name": "Thruster Breaker 3",
               "idopt": null,
               "elements": [
                 {
@@ -9309,7 +9309,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9355,7 +9355,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VBCrms",
                     "idopt": null,
@@ -9371,7 +9371,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VABrms",
                     "idopt": null,
@@ -9389,7 +9389,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -9397,7 +9397,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -9413,7 +9413,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -9452,7 +9452,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VCArms",
                     "idopt": null,
@@ -9468,7 +9468,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Double Throw Contactor\""
+                      "Name": "core/Triple Pole Double Throw Contactor"
                     },
                     "name": "S1",
                     "idopt": null,
@@ -9501,9 +9501,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Core Coupling\""
+                      "Name": "core/Three Phase Core Coupling"
                     },
-                    "name": "\"Core Coupling2\"",
+                    "name": "Core Coupling2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9519,7 +9519,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"RC Snubber\"",
+                    "name": "RC Snubber",
                     "idopt": null,
                     "elements": [
                       {
@@ -9630,7 +9630,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vab1",
                     "idopt": null,
@@ -9646,7 +9646,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vab2",
                     "idopt": null,
@@ -9662,7 +9662,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vbc1",
                     "idopt": null,
@@ -9678,7 +9678,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vbc2",
                     "idopt": null,
@@ -9807,7 +9807,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current RMS\""
+                      "Name": "core/Current RMS"
                     },
                     "name": "Irms_a",
                     "idopt": null,
@@ -9840,9 +9840,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Core Coupling\""
+                      "Name": "core/Three Phase Core Coupling"
                     },
-                    "name": "\"Core Coupling2\"",
+                    "name": "Core Coupling2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9873,7 +9873,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vrms1",
                     "idopt": null,
@@ -9889,9 +9889,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Core Coupling\""
+                      "Name": "core/Three Phase Core Coupling"
                     },
-                    "name": "\"Core Coupling 6\"",
+                    "name": "Core Coupling 6",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -9905,7 +9905,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "Vrms3",
                     "idopt": null,
@@ -9932,7 +9932,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Thruster Breaker 1\"",
+              "name": "Thruster Breaker 1",
               "idopt": null,
               "elements": [
                 {
@@ -9972,7 +9972,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10066,7 +10066,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Double Throw Contactor\""
+                      "Name": "core/Triple Pole Double Throw Contactor"
                     },
                     "name": "S1",
                     "idopt": null,
@@ -10082,7 +10082,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VABrms",
                     "idopt": null,
@@ -10098,7 +10098,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VBCrms",
                     "idopt": null,
@@ -10114,7 +10114,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage RMS\""
+                      "Name": "core/Voltage RMS"
                     },
                     "name": "VCArms",
                     "idopt": null,
@@ -10132,7 +10132,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Breaker Interface\"",
+                    "name": "Breaker Interface",
                     "idopt": null,
                     "elements": [
                       {
@@ -10140,7 +10140,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10172,7 +10172,7 @@
                           "component_type": {
                             "ID": "gen_sr_ff"
                           },
-                          "name": "\"SR Flip Flop2\"",
+                          "name": "SR Flip Flop2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10204,7 +10204,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Diesel Genset\""
+                "Name": "core/Diesel Genset"
               },
               "name": "Diesel_Gen2",
               "idopt": null,
@@ -10220,7 +10220,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Diesel Genset\""
+                "Name": "core/Diesel Genset"
               },
               "name": "Diesel_Gen1",
               "idopt": null,
@@ -10244,9 +10244,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition2\"",
+                    "name": "Rate Transition2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10260,9 +10260,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition1\"",
+                    "name": "Rate Transition1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10398,7 +10398,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10462,7 +10462,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join1\"",
+                          "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10495,7 +10495,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join1\"",
+                          "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10639,7 +10639,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10694,9 +10694,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition3\"",
+                    "name": "Rate Transition3",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10720,7 +10720,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10736,7 +10736,7 @@
                           "component_type": {
                             "ID": "gen_logic_op"
                           },
-                          "name": "\"Logical operator1\"",
+                          "name": "Logical operator1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10791,9 +10791,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition5\"",
+                    "name": "Rate Transition5",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10807,9 +10807,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition6\"",
+                    "name": "Rate Transition6",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -10833,7 +10833,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10898,7 +10898,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -10995,7 +10995,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11060,7 +11060,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11109,7 +11109,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11190,7 +11190,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11255,7 +11255,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11304,7 +11304,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11353,7 +11353,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11418,7 +11418,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11475,7 +11475,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Thruster1 Control\"",
+                    "name": "Thruster1 Control",
                     "idopt": null,
                     "elements": [
                       {
@@ -11499,7 +11499,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch1\"",
+                          "name": "Signal switch1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11531,7 +11531,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join1\"",
+                          "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11547,7 +11547,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch2\"",
+                          "name": "Signal switch2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11627,7 +11627,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch3\"",
+                          "name": "Signal switch3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11643,7 +11643,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11698,9 +11698,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition20\"",
+                    "name": "Rate Transition20",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11714,9 +11714,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition21\"",
+                    "name": "Rate Transition21",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11730,9 +11730,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition22\"",
+                    "name": "Rate Transition22",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -11748,7 +11748,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Thruster2 Control\"",
+                    "name": "Thruster2 Control",
                     "idopt": null,
                     "elements": [
                       {
@@ -11804,7 +11804,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join1\"",
+                          "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11836,7 +11836,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch1\"",
+                          "name": "Signal switch1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11852,7 +11852,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch3\"",
+                          "name": "Signal switch3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11884,7 +11884,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch2\"",
+                          "name": "Signal switch2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11916,7 +11916,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -11973,7 +11973,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Thruster3 Control\"",
+                    "name": "Thruster3 Control",
                     "idopt": null,
                     "elements": [
                       {
@@ -12029,7 +12029,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join1\"",
+                          "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12061,7 +12061,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch1\"",
+                          "name": "Signal switch1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12077,7 +12077,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch3\"",
+                          "name": "Signal switch3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12109,7 +12109,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch2\"",
+                          "name": "Signal switch2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12141,7 +12141,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12222,7 +12222,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12271,7 +12271,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join1\"",
+                          "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12287,7 +12287,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12303,7 +12303,7 @@
                           "component_type": {
                             "ID": "tm_delay"
                           },
-                          "name": "\"Unit Delay1\"",
+                          "name": "Unit Delay1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12319,7 +12319,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split2\"",
+                          "name": "Bus Split2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12335,7 +12335,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split3\"",
+                          "name": "Bus Split3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12351,7 +12351,7 @@
                           "component_type": {
                             "ID": "tm_delay"
                           },
-                          "name": "\"Unit Delay3\"",
+                          "name": "Unit Delay3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12375,7 +12375,7 @@
                                 "component_type": {
                                   "ID": "gen_c_function"
                                 },
-                                "name": "\"C function1\"",
+                                "name": "C function1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -12497,7 +12497,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12513,7 +12513,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch5\"",
+                          "name": "Signal switch5",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12545,7 +12545,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch4\"",
+                          "name": "Signal switch4",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12577,7 +12577,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch3\"",
+                          "name": "Signal switch3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12625,7 +12625,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch2\"",
+                          "name": "Signal switch2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12641,7 +12641,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch1\"",
+                          "name": "Signal switch1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12737,7 +12737,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -12914,7 +12914,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join2\"",
+                          "name": "Bus Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {

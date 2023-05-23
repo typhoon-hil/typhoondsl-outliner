@@ -1,5 +1,5 @@
 {
-  "name": "\"terrestrial microgrid gen\"",
+  "name": "terrestrial microgrid gen",
   "location": {
     "line_start": 7,
     "column_start": 0,
@@ -26,7 +26,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Grid\""
+                "Name": "core/Grid"
               },
               "name": "Grid1",
               "idopt": null,
@@ -44,7 +44,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Grid UI1\"",
+              "name": "Grid UI1",
               "idopt": null,
               "elements": [
                 {
@@ -84,7 +84,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split1\"",
+                    "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -196,7 +196,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -292,7 +292,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join2\"",
+                    "name": "Bus Join2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -331,9 +331,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Battery ESS (Generic)\""
+                "Name": "core/Battery ESS (Generic)"
               },
-              "name": "\"Battery ESS (Generic)1\"",
+              "name": "Battery ESS (Generic)1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -347,9 +347,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Wind Power Plant (Generic)\""
+                "Name": "core/Wind Power Plant (Generic)"
               },
-              "name": "\"Wind Power Plant (Generic)1\"",
+              "name": "Wind Power Plant (Generic)1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -363,9 +363,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/PV Power Plant (Generic)\""
+                "Name": "core/PV Power Plant (Generic)"
               },
-              "name": "\"PV Power Plant (Generic)1\"",
+              "name": "PV Power Plant (Generic)1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -379,9 +379,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Diesel Genset (Generic)\""
+                "Name": "core/Diesel Genset (Generic)"
               },
-              "name": "\"Diesel Genset (Generic)1\"",
+              "name": "Diesel Genset (Generic)1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -403,7 +403,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Two Winding Transformer\""
+                      "Name": "core/Three Phase Two Winding Transformer"
                     },
                     "name": "Tr7",
                     "idopt": null,
@@ -430,7 +430,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Interruptible load\"",
+              "name": "Interruptible load",
               "idopt": null,
               "elements": [
                 {
@@ -532,7 +532,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S1",
                     "idopt": null,
@@ -557,9 +557,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
-              "name": "\"Constant Impedance Load1\"",
+              "name": "Constant Impedance Load1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -573,9 +573,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Variable Load (Generic)\""
+                "Name": "core/Variable Load (Generic)"
               },
-              "name": "\"Variable Load (Generic)1\"",
+              "name": "Variable Load (Generic)1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -591,7 +591,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Variable Load (Generic) UI1\"",
+              "name": "Variable Load (Generic) UI1",
               "idopt": null,
               "elements": [
                 {
@@ -887,7 +887,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Reset alarms\"",
+                    "name": "Reset alarms",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -903,7 +903,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Pref rate of change\"",
+                    "name": "Pref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -919,7 +919,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Qref rate of change\"",
+                    "name": "Qref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -935,7 +935,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"P dependency type\"",
+                    "name": "P dependency type",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -951,7 +951,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Q dependency type\"",
+                    "name": "Q dependency type",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -967,7 +967,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"P(V) k1\"",
+                    "name": "P(V) k1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -983,7 +983,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"P(V) k2\"",
+                    "name": "P(V) k2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -999,7 +999,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Q(V) k1\"",
+                    "name": "Q(V) k1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1015,7 +1015,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Q(V) k2\"",
+                    "name": "Q(V) k2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1031,7 +1031,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"P(f) k1\"",
+                    "name": "P(f) k1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1047,7 +1047,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"P(f) k2\"",
+                    "name": "P(f) k2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1063,7 +1063,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Q(f) k1\"",
+                    "name": "Q(f) k1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1079,7 +1079,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Q(f) k2\"",
+                    "name": "Q(f) k2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1093,9 +1093,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Control Join\""
+                      "Name": "core/DER (Generic) Control Join"
                     },
-                    "name": "\"DER (Generic) Control Join\"",
+                    "name": "DER (Generic) Control Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1109,9 +1109,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Output Split\""
+                      "Name": "core/DER (Generic) Output Split"
                     },
-                    "name": "\"DER (Generic) Output Split\"",
+                    "name": "DER (Generic) Output Split",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1125,9 +1125,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) External Join\""
+                      "Name": "core/DER (Generic) External Join"
                     },
-                    "name": "\"DER (Generic) External Join1\"",
+                    "name": "DER (Generic) External Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1143,7 +1143,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"V alarm upper limit\"",
+                    "name": "V alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1159,7 +1159,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"V alarm lower limit\"",
+                    "name": "V alarm lower limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1175,7 +1175,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"F alarm upper limit\"",
+                    "name": "F alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1191,7 +1191,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"F alarm lower limit\"",
+                    "name": "F alarm lower limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1207,7 +1207,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"S alarm upper limit\"",
+                    "name": "S alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1223,7 +1223,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"I alarm upper limit\"",
+                    "name": "I alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1246,9 +1246,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"RL Section1\"",
+              "name": "RL Section1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1262,9 +1262,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/RL Section\""
+                "Name": "core/RL Section"
               },
-              "name": "\"RL Section2\"",
+              "name": "RL Section2",
               "idopt": null,
               "elements": null,
               "location": {
@@ -1336,7 +1336,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1352,7 +1352,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join2\"",
+                    "name": "Bus Join2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1400,7 +1400,7 @@
                     "component_type": {
                       "ID": "gen_logic_op"
                     },
-                    "name": "\"Logical operator1\"",
+                    "name": "Logical operator1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1448,7 +1448,7 @@
                     "component_type": {
                       "ID": "sys_signal_switch"
                     },
-                    "name": "\"Signal switch1\"",
+                    "name": "Signal switch1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1496,7 +1496,7 @@
                     "component_type": {
                       "ID": "sys_signal_switch"
                     },
-                    "name": "\"Signal switch4\"",
+                    "name": "Signal switch4",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1512,7 +1512,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split1\"",
+                    "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1592,7 +1592,7 @@
                     "component_type": {
                       "ID": "sys_signal_switch"
                     },
-                    "name": "\"Signal switch2\"",
+                    "name": "Signal switch2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1608,7 +1608,7 @@
                     "component_type": {
                       "ID": "sys_signal_switch"
                     },
-                    "name": "\"Signal switch3\"",
+                    "name": "Signal switch3",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1702,9 +1702,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition1\"",
+                    "name": "Rate Transition1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1718,9 +1718,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition2\"",
+                    "name": "Rate Transition2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1824,7 +1824,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch2\"",
+                          "name": "Signal switch2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1888,7 +1888,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch1\"",
+                          "name": "Signal switch1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2001,7 +2001,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch2\"",
+                          "name": "Signal switch2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2017,7 +2017,7 @@
                           "component_type": {
                             "ID": "sys_signal_switch"
                           },
-                          "name": "\"Signal switch1\"",
+                          "name": "Signal switch1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2154,7 +2154,7 @@
                     "component_type": {
                       "ID": "gen_c_function"
                     },
-                    "name": "\"C function1\"",
+                    "name": "C function1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2170,7 +2170,7 @@
                     "component_type": {
                       "ID": "gen_c_function"
                     },
-                    "name": "\"Protection of isolation\"",
+                    "name": "Protection of isolation",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2243,7 +2243,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Battery ESS (Generic) UI1\"",
+              "name": "Battery ESS (Generic) UI1",
               "idopt": null,
               "elements": [
                 {
@@ -2283,7 +2283,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Reset alarms\"",
+                    "name": "Reset alarms",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2299,7 +2299,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Frequency droop offset\"",
+                    "name": "Frequency droop offset",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2315,7 +2315,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Max SOC\"",
+                    "name": "Max SOC",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2331,7 +2331,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Min SOC\"",
+                    "name": "Min SOC",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2347,7 +2347,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Voltage droop coeff\"",
+                    "name": "Voltage droop coeff",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2363,7 +2363,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Frequency droop coeff\"",
+                    "name": "Frequency droop coeff",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2601,9 +2601,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Control Join\""
+                      "Name": "core/DER (Generic) Control Join"
                     },
-                    "name": "\"DER (Generic) Control Join1\"",
+                    "name": "DER (Generic) Control Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2875,7 +2875,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Vrms_ref rate of change\"",
+                    "name": "Vrms_ref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2891,7 +2891,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Fref rate of change\"",
+                    "name": "Fref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2907,7 +2907,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Initial SOC\"",
+                    "name": "Initial SOC",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2923,7 +2923,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Pref rate of change\"",
+                    "name": "Pref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2939,7 +2939,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Qref rate of change\"",
+                    "name": "Qref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2955,7 +2955,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Initial SOH\"",
+                    "name": "Initial SOH",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2969,9 +2969,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Output Split\""
+                      "Name": "core/DER (Generic) Output Split"
                     },
-                    "name": "\"DER (Generic) Output Split1\"",
+                    "name": "DER (Generic) Output Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3003,7 +3003,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"LVRT enable\"",
+                    "name": "LVRT enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3019,7 +3019,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"LVRT Q contribution\"",
+                    "name": "LVRT Q contribution",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3035,7 +3035,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"LVRT P set\"",
+                    "name": "LVRT P set",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3065,9 +3065,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) External Join\""
+                      "Name": "core/DER (Generic) External Join"
                     },
-                    "name": "\"DER (Generic) External Join1\"",
+                    "name": "DER (Generic) External Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3083,7 +3083,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"V alarm upper limit\"",
+                    "name": "V alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3099,7 +3099,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"V alarm lower limit\"",
+                    "name": "V alarm lower limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3115,7 +3115,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"F alarm upper limit\"",
+                    "name": "F alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3131,7 +3131,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"F alarm lower limit\"",
+                    "name": "F alarm lower limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3147,7 +3147,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"S alarm upper limit\"",
+                    "name": "S alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3163,7 +3163,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"I alarm upper limit\"",
+                    "name": "I alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3179,7 +3179,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"VoltVAr enable\"",
+                    "name": "VoltVAr enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3195,7 +3195,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"HzWatt enable\"",
+                    "name": "HzWatt enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3211,7 +3211,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"VoltWatt enable\"",
+                    "name": "VoltWatt enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3331,7 +3331,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split2\"",
+                          "name": "Bus Split2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3459,7 +3459,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split3\"",
+                          "name": "Bus Split3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3644,7 +3644,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Converter mode\"",
+                    "name": "Converter mode",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3658,9 +3658,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition2\"",
+                    "name": "Rate Transition2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3685,7 +3685,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Wind Power Plant (Generic) UI1\"",
+              "name": "Wind Power Plant (Generic) UI1",
               "idopt": null,
               "elements": [
                 {
@@ -3837,7 +3837,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Pcurtailment rate of change\"",
+                    "name": "Pcurtailment rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3853,7 +3853,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Wind speed\"",
+                    "name": "Wind speed",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3869,7 +3869,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Qref rate of change\"",
+                    "name": "Qref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3901,7 +3901,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Enable storm control\"",
+                    "name": "Enable storm control",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3917,7 +3917,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"int1 wind speed max\"",
+                    "name": "int1 wind speed max",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3933,7 +3933,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"int2 wind speed max\"",
+                    "name": "int2 wind speed max",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3949,7 +3949,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"P reduction wind speed (SC)\"",
+                    "name": "P reduction wind speed (SC)",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3965,7 +3965,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Average wind speed max (SC)\"",
+                    "name": "Average wind speed max (SC)",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3981,7 +3981,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Cut out wind speed (SC)\"",
+                    "name": "Cut out wind speed (SC)",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3997,7 +3997,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"time interval 1\"",
+                    "name": "time interval 1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4013,7 +4013,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"time interval 2\"",
+                    "name": "time interval 2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4029,7 +4029,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Recovery time\"",
+                    "name": "Recovery time",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4045,7 +4045,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"time interval (SC)\"",
+                    "name": "time interval (SC)",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4061,7 +4061,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Reset alarms\"",
+                    "name": "Reset alarms",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4077,7 +4077,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"MPPT rate of change\"",
+                    "name": "MPPT rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4475,9 +4475,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Output Split\""
+                      "Name": "core/DER (Generic) Output Split"
                     },
-                    "name": "\"DER (Generic) Output Split1\"",
+                    "name": "DER (Generic) Output Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4491,9 +4491,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Control Join\""
+                      "Name": "core/DER (Generic) Control Join"
                     },
-                    "name": "\"DER (Generic) Control Join1\"",
+                    "name": "DER (Generic) Control Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4507,9 +4507,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) External Join\""
+                      "Name": "core/DER (Generic) External Join"
                     },
-                    "name": "\"DER (Generic) External Join1\"",
+                    "name": "DER (Generic) External Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4525,7 +4525,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"V alarm upper limit\"",
+                    "name": "V alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4541,7 +4541,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"V alarm lower limit\"",
+                    "name": "V alarm lower limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4557,7 +4557,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"F alarm upper limit\"",
+                    "name": "F alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4573,7 +4573,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"F alarm lower limit\"",
+                    "name": "F alarm lower limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4589,7 +4589,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"S alarm upper limit\"",
+                    "name": "S alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4605,7 +4605,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"I alarm upper limit\"",
+                    "name": "I alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4621,7 +4621,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"LVRT enable\"",
+                    "name": "LVRT enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4637,7 +4637,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"LVRT Q contribution\"",
+                    "name": "LVRT Q contribution",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4653,7 +4653,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"LVRT P set\"",
+                    "name": "LVRT P set",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4669,7 +4669,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"VoltVAr enable\"",
+                    "name": "VoltVAr enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4685,7 +4685,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"HzWatt enable\"",
+                    "name": "HzWatt enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4701,7 +4701,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"VoltWatt enable\"",
+                    "name": "VoltWatt enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4821,7 +4821,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -4887,7 +4887,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"PV Power Plant (Generic) UI1\"",
+              "name": "PV Power Plant (Generic) UI1",
               "idopt": null,
               "elements": [
                 {
@@ -5087,7 +5087,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Reset alarms\"",
+                    "name": "Reset alarms",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5311,7 +5311,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Pcurtailment rate of change\"",
+                    "name": "Pcurtailment rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5327,7 +5327,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Qref rate of change\"",
+                    "name": "Qref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5391,7 +5391,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"MPPT rate of change\"",
+                    "name": "MPPT rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5405,9 +5405,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Output Split\""
+                      "Name": "core/DER (Generic) Output Split"
                     },
-                    "name": "\"DER (Generic) Output Split1\"",
+                    "name": "DER (Generic) Output Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5421,9 +5421,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Control Join\""
+                      "Name": "core/DER (Generic) Control Join"
                     },
-                    "name": "\"DER (Generic) Control Join1\"",
+                    "name": "DER (Generic) Control Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5439,7 +5439,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"LVRT enable\"",
+                    "name": "LVRT enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5455,7 +5455,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"LVRT Q contribution\"",
+                    "name": "LVRT Q contribution",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5471,7 +5471,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"LVRT P set\"",
+                    "name": "LVRT P set",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5501,9 +5501,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) External Join\""
+                      "Name": "core/DER (Generic) External Join"
                     },
-                    "name": "\"DER (Generic) External Join1\"",
+                    "name": "DER (Generic) External Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5519,7 +5519,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"V alarm upper limit\"",
+                    "name": "V alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5535,7 +5535,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"V alarm lower limit\"",
+                    "name": "V alarm lower limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5551,7 +5551,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"F alarm upper limit\"",
+                    "name": "F alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5567,7 +5567,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"F alarm lower limit\"",
+                    "name": "F alarm lower limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5583,7 +5583,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"S alarm upper limit\"",
+                    "name": "S alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5599,7 +5599,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"I alarm upper limit\"",
+                    "name": "I alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5615,7 +5615,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"VoltVAr enable\"",
+                    "name": "VoltVAr enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5631,7 +5631,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"HzWatt enable\"",
+                    "name": "HzWatt enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5647,7 +5647,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"VoltWatt enable\"",
+                    "name": "VoltWatt enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5751,7 +5751,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -5817,7 +5817,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Diesel Genset (Generic) UI1\"",
+              "name": "Diesel Genset (Generic) UI1",
               "idopt": null,
               "elements": [
                 {
@@ -5841,7 +5841,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Frequency droop offset\"",
+                    "name": "Frequency droop offset",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5857,7 +5857,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Voltage droop coeff\"",
+                    "name": "Voltage droop coeff",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5873,7 +5873,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Frequency droop coeff\"",
+                    "name": "Frequency droop coeff",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5889,7 +5889,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Vrms_ref rate of change\"",
+                    "name": "Vrms_ref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5905,7 +5905,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Fref rate of change\"",
+                    "name": "Fref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5921,7 +5921,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Pref rate of change\"",
+                    "name": "Pref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5937,7 +5937,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Qref rate of change\"",
+                    "name": "Qref rate of change",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5953,7 +5953,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Reset alarms\"",
+                    "name": "Reset alarms",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5967,9 +5967,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Control Join\""
+                      "Name": "core/DER (Generic) Control Join"
                     },
-                    "name": "\"DER (Generic) Control Join1\"",
+                    "name": "DER (Generic) Control Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -5983,9 +5983,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) External Join\""
+                      "Name": "core/DER (Generic) External Join"
                     },
-                    "name": "\"DER (Generic) External Join1\"",
+                    "name": "DER (Generic) External Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6001,7 +6001,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"I alarm upper limit\"",
+                    "name": "I alarm upper limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6017,7 +6017,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"I alarm timeout\"",
+                    "name": "I alarm timeout",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6033,7 +6033,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"V alarm lower limit\"",
+                    "name": "V alarm lower limit",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6049,7 +6049,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Drift alarm frequency bound\"",
+                    "name": "Drift alarm frequency bound",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6065,7 +6065,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Sync timeout\"",
+                    "name": "Sync timeout",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6185,7 +6185,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split2\"",
+                          "name": "Bus Split2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -6313,7 +6313,7 @@
                           "component_type": {
                             "ID": "gen_bus_split"
                           },
-                          "name": "\"Bus Split3\"",
+                          "name": "Bus Split3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -6400,9 +6400,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition2\"",
+                    "name": "Rate Transition2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6562,7 +6562,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"Operation mode\"",
+                    "name": "Operation mode",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6880,9 +6880,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/DER (Generic) Output Split\""
+                      "Name": "core/DER (Generic) Output Split"
                     },
-                    "name": "\"DER (Generic) Output Split1\"",
+                    "name": "DER (Generic) Output Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6931,7 +6931,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split1\"",
+                    "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6963,7 +6963,7 @@
                     "component_type": {
                       "ID": "gen_sr_ff"
                     },
-                    "name": "\"SR Flip Flop4\"",
+                    "name": "SR Flip Flop4",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -6977,9 +6977,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition1\"",
+                    "name": "Rate Transition1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -7058,7 +7058,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Va",
                     "idopt": null,
@@ -7139,7 +7139,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S1",
                     "idopt": null,
@@ -7155,7 +7155,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vc",
                     "idopt": null,
@@ -7171,7 +7171,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vb",
                     "idopt": null,
@@ -7187,7 +7187,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "VB",
                     "idopt": null,
@@ -7213,7 +7213,7 @@
                           "component_type": {
                             "ID": "gen_logic_op"
                           },
-                          "name": "\"Logical operator2\"",
+                          "name": "Logical operator2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7245,7 +7245,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"Bus Join\"",
+                          "name": "Bus Join",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -7895,7 +7895,7 @@
                                 "component_type": {
                                   "ID": "gen_logic_op"
                                 },
-                                "name": "\"Logical operator1\"",
+                                "name": "Logical operator1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -7911,7 +7911,7 @@
                                 "component_type": {
                                   "ID": "gen_sr_ff"
                                 },
-                                "name": "\"SR Flip Flop1\"",
+                                "name": "SR Flip Flop1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -7992,7 +7992,7 @@
                                 "component_type": {
                                   "ID": "sys_signal_switch"
                                 },
-                                "name": "\"Signal switch1\"",
+                                "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -8040,7 +8040,7 @@
                                 "component_type": {
                                   "ID": "tm_delay"
                                 },
-                                "name": "\"Unit Delay1\"",
+                                "name": "Unit Delay1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -8321,7 +8321,7 @@
                                       "component_type": {
                                         "ID": "tm_delay"
                                       },
-                                      "name": "\"Unit Delay1\"",
+                                      "name": "Unit Delay1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -8337,7 +8337,7 @@
                                       "component_type": {
                                         "ID": "gen_rate_limiter"
                                       },
-                                      "name": "\"Rate Limiter1\"",
+                                      "name": "Rate Limiter1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -8377,7 +8377,7 @@
                                             "component_type": {
                                               "ID": "gen_alpha_beta2d_q"
                                             },
-                                            "name": "\"alpha beta to dq\"",
+                                            "name": "alpha beta to dq",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -8393,7 +8393,7 @@
                                             "component_type": {
                                               "ID": "gen_abc2alpha_beta"
                                             },
-                                            "name": "\"abc to alpha beta\"",
+                                            "name": "abc to alpha beta",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -8677,7 +8677,7 @@
                                       "component_type": {
                                         "ID": "tm_delay"
                                       },
-                                      "name": "\"Unit Delay1\"",
+                                      "name": "Unit Delay1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -8725,7 +8725,7 @@
                                       "component_type": {
                                         "ID": "gen_rate_limiter"
                                       },
-                                      "name": "\"Rate Limiter1\"",
+                                      "name": "Rate Limiter1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -9055,7 +9055,7 @@
                                             "component_type": {
                                               "ID": "gen_abc2alpha_beta"
                                             },
-                                            "name": "\"abc to alpha beta\"",
+                                            "name": "abc to alpha beta",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -9071,7 +9071,7 @@
                                             "component_type": {
                                               "ID": "gen_alpha_beta2d_q"
                                             },
-                                            "name": "\"alpha beta to dq\"",
+                                            "name": "alpha beta to dq",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -9138,7 +9138,7 @@
                                 "component_type": {
                                   "ID": "sys_signal_switch"
                                 },
-                                "name": "\"Signal switch1\"",
+                                "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -9234,7 +9234,7 @@
                                 "component_type": {
                                   "ID": "tm_delay"
                                 },
-                                "name": "\"Unit Delay1\"",
+                                "name": "Unit Delay1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -9915,7 +9915,7 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/Counter\""
+                                        "Name": "core/Counter"
                                       },
                                       "name": "Counter1",
                                       "idopt": null,
@@ -9958,7 +9958,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "VC",
                     "idopt": null,
@@ -9974,7 +9974,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "VA",
                     "idopt": null,

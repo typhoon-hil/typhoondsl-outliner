@@ -1,5 +1,5 @@
 {
-  "name": "\"wind farm microgrid\"",
+  "name": "wind farm microgrid",
   "location": {
     "line_start": 8,
     "column_start": 0,
@@ -59,7 +59,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase Voltage Source\""
+                "Name": "core/Three Phase Voltage Source"
               },
               "name": "Vs1",
               "idopt": null,
@@ -75,9 +75,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Underground Cable\""
+                "Name": "core/Underground Cable"
               },
-              "name": "\"Underground Cable2\"",
+              "name": "Underground Cable2",
               "idopt": null,
               "elements": null,
               "location": {
@@ -91,9 +91,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Underground Cable\""
+                "Name": "core/Underground Cable"
               },
-              "name": "\"Underground Cable3\"",
+              "name": "Underground Cable3",
               "idopt": null,
               "elements": null,
               "location": {
@@ -140,9 +140,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Four Phase Core Coupling\""
+                "Name": "core/Four Phase Core Coupling"
               },
-              "name": "\"Core Coupling\"",
+              "name": "Core Coupling",
               "idopt": null,
               "elements": null,
               "location": {
@@ -172,7 +172,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Battery\""
+                "Name": "core/Battery"
               },
               "name": "Battery1",
               "idopt": null,
@@ -188,7 +188,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Triple Pole Single Throw Contactor\""
+                "Name": "core/Triple Pole Single Throw Contactor"
               },
               "name": "S1",
               "idopt": null,
@@ -253,9 +253,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Battery inverter (Average)\""
+                "Name": "core/Battery inverter (Average)"
               },
-              "name": "\"Battery inverter (Average)\"",
+              "name": "Battery inverter (Average)",
               "idopt": null,
               "elements": null,
               "location": {
@@ -295,7 +295,7 @@
                     "component_type": {
                       "ID": "gen_logic_op"
                     },
-                    "name": "\"Logical operator1\"",
+                    "name": "Logical operator1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -309,9 +309,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/(27) Undervoltage\""
+                      "Name": "core/(27) Undervoltage"
                     },
-                    "name": "\"(27) Undervoltage1\"",
+                    "name": "(27) Undervoltage1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -350,9 +350,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Underground Cable\""
+                "Name": "core/Underground Cable"
               },
-              "name": "\"Underground Cable1\"",
+              "name": "Underground Cable1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -416,7 +416,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Wind Turbine 3\"",
+              "name": "Wind Turbine 3",
               "idopt": null,
               "elements": [
                 {
@@ -424,7 +424,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Wind Power Plant (Average)\"",
+                    "name": "Wind Power Plant (Average)",
                     "idopt": null,
                     "elements": [
                       {
@@ -462,7 +462,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Va0",
                           "idopt": null,
@@ -542,7 +542,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vc0",
                           "idopt": null,
@@ -574,7 +574,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vb",
                           "idopt": null,
@@ -606,7 +606,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vc",
                           "idopt": null,
@@ -638,7 +638,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vab1",
                           "idopt": null,
@@ -712,7 +712,7 @@
                                 "component_type": {
                                   "ID": "gen_bus_join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -735,7 +735,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ia",
                           "idopt": null,
@@ -761,7 +761,7 @@
                                 "component_type": {
                                   "ID": "gen_bus_split"
                                 },
-                                "name": "\"Bus Split2\"",
+                                "name": "Bus Split2",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -850,7 +850,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch2\"",
+                                      "name": "Signal switch2",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -880,7 +880,7 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/Three phase PLL\""
+                                        "Name": "core/Three phase PLL"
                                       },
                                       "name": "PLL",
                                       "idopt": null,
@@ -898,7 +898,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch1\"",
+                                      "name": "Signal switch1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -962,7 +962,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch3\"",
+                                      "name": "Signal switch3",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -1218,9 +1218,9 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/Edge Detection\""
+                                        "Name": "core/Edge Detection"
                                       },
-                                      "name": "\"Edge Detection1\"",
+                                      "name": "Edge Detection1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -1478,7 +1478,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch1\"",
+                                      "name": "Signal switch1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -1494,7 +1494,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch3\"",
+                                      "name": "Signal switch3",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -1590,7 +1590,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch2\"",
+                                      "name": "Signal switch2",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -1766,7 +1766,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch4\"",
+                                      "name": "Signal switch4",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -1854,7 +1854,7 @@
                                             "component_type": {
                                               "ID": "gen_rate_limiter"
                                             },
-                                            "name": "\"S rate limit\"",
+                                            "name": "S rate limit",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -1870,7 +1870,7 @@
                                             "component_type": {
                                               "ID": "tm_delay"
                                             },
-                                            "name": "\"Unit Delay2\"",
+                                            "name": "Unit Delay2",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -1894,7 +1894,7 @@
                                                   "component_type": {
                                                     "ID": "gen_c_function"
                                                   },
-                                                  "name": "\"S limiting over PQ\"",
+                                                  "name": "S limiting over PQ",
                                                   "idopt": null,
                                                   "elements": null,
                                                   "location": {
@@ -1919,7 +1919,7 @@
                                             "component_type": {
                                               "ID": "tm_delay"
                                             },
-                                            "name": "\"Unit Delay1\"",
+                                            "name": "Unit Delay1",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -1935,7 +1935,7 @@
                                             "component_type": {
                                               "ID": "gen_rate_limiter"
                                             },
-                                            "name": "\"P rate limit\"",
+                                            "name": "P rate limit",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -1951,7 +1951,7 @@
                                             "component_type": {
                                               "ID": "gen_rate_limiter"
                                             },
-                                            "name": "\"Q rate limit\"",
+                                            "name": "Q rate limit",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -1975,7 +1975,7 @@
                                                   "component_type": {
                                                     "ID": "gen_c_function"
                                                   },
-                                                  "name": "\"PQ limiting with priority\"",
+                                                  "name": "PQ limiting with priority",
                                                   "idopt": null,
                                                   "elements": null,
                                                   "location": {
@@ -2009,7 +2009,7 @@
                                       "component_type": {
                                         "ID": "gen_logic_op"
                                       },
-                                      "name": "\"Logical operator2\"",
+                                      "name": "Logical operator2",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -3021,7 +3021,7 @@
                                       "component_type": {
                                         "ID": "gen_logic_op"
                                       },
-                                      "name": "\"Logical operator1\"",
+                                      "name": "Logical operator1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -3043,9 +3043,9 @@
                                         {
                                           "Component": {
                                             "component_type": {
-                                              "Name": "\"core/abc to dq\""
+                                              "Name": "core/abc to dq"
                                             },
-                                            "name": "\"abc to dq1\"",
+                                            "name": "abc to dq1",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -3255,7 +3255,7 @@
                                             "component_type": {
                                               "ID": "gen_minmax"
                                             },
-                                            "name": "\"Min Max2\"",
+                                            "name": "Min Max2",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -3495,7 +3495,7 @@
                                             "component_type": {
                                               "ID": "gen_minmax"
                                             },
-                                            "name": "\"Min Max1\"",
+                                            "name": "Min Max1",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -3598,9 +3598,9 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/dq to abc\""
+                                        "Name": "core/dq to abc"
                                       },
-                                      "name": "\"dq to abc1\"",
+                                      "name": "dq to abc1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -3712,7 +3712,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ic",
                           "idopt": null,
@@ -3728,7 +3728,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vab",
                           "idopt": null,
@@ -3744,7 +3744,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "VspC",
                           "idopt": null,
@@ -3760,7 +3760,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Va",
                           "idopt": null,
@@ -3776,7 +3776,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Triple Pole Single Throw Contactor\""
+                            "Name": "core/Triple Pole Single Throw Contactor"
                           },
                           "name": "S1",
                           "idopt": null,
@@ -3792,7 +3792,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vbc1",
                           "idopt": null,
@@ -3808,7 +3808,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "VspB",
                           "idopt": null,
@@ -3904,7 +3904,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "VspA",
                           "idopt": null,
@@ -3936,7 +3936,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vb0",
                           "idopt": null,
@@ -3952,7 +3952,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ib",
                           "idopt": null,
@@ -4009,7 +4009,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Two Winding Transformer\""
+                      "Name": "core/Three Phase Two Winding Transformer"
                     },
                     "name": "Tr7",
                     "idopt": null,
@@ -4034,9 +4034,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
-              "name": "\"Wind Power Plant\"",
+              "name": "Wind Power Plant",
               "idopt": null,
               "elements": null,
               "location": {
@@ -4050,9 +4050,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
-              "name": "\"Consumption measurement\"",
+              "name": "Consumption measurement",
               "idopt": null,
               "elements": null,
               "location": {
@@ -4066,7 +4066,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Constant Impedance Load\""
+                "Name": "core/Constant Impedance Load"
               },
               "name": "Consumption",
               "idopt": null,
@@ -4082,9 +4082,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
-              "name": "\"Grid measurement\"",
+              "name": "Grid measurement",
               "idopt": null,
               "elements": null,
               "location": {
@@ -4098,9 +4098,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
-              "name": "\"Battery measurement\"",
+              "name": "Battery measurement",
               "idopt": null,
               "elements": null,
               "location": {
@@ -4116,7 +4116,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Money Gain\"",
+              "name": "Money Gain",
               "idopt": null,
               "elements": [
                 {
@@ -4138,9 +4138,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Meter Split\""
+                      "Name": "core/Meter Split"
                     },
-                    "name": "\"Meter Split1\"",
+                    "name": "Meter Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4156,7 +4156,7 @@
                     "component_type": {
                       "ID": "gen_c_function"
                     },
-                    "name": "\"C function1\"",
+                    "name": "C function1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4172,7 +4172,7 @@
                     "component_type": {
                       "ID": "src_constant"
                     },
-                    "name": "\"Csell $ per kWh\"",
+                    "name": "Csell $ per kWh",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4188,7 +4188,7 @@
                     "component_type": {
                       "ID": "src_constant"
                     },
-                    "name": "\"Cbuy $ per kWh\"",
+                    "name": "Cbuy $ per kWh",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4259,9 +4259,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase Two Winding Transformer\""
+                "Name": "core/Three Phase Two Winding Transformer"
               },
-              "name": "\"Transformer 10-110 kV\"",
+              "name": "Transformer 10-110 kV",
               "idopt": null,
               "elements": null,
               "location": {
@@ -4275,9 +4275,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase Two Winding Transformer\""
+                "Name": "core/Three Phase Two Winding Transformer"
               },
-              "name": "\"Transformer 0,48-10 kV\"",
+              "name": "Transformer 0,48-10 kV",
               "idopt": null,
               "elements": null,
               "location": {
@@ -4291,9 +4291,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
-              "name": "\"Wind Turbine 2 measurement\"",
+              "name": "Wind Turbine 2 measurement",
               "idopt": null,
               "elements": null,
               "location": {
@@ -4307,9 +4307,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
-              "name": "\"Wind Turbine 3 measurement\"",
+              "name": "Wind Turbine 3 measurement",
               "idopt": null,
               "elements": null,
               "location": {
@@ -4323,9 +4323,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three-phase Meter\""
+                "Name": "core/Three-phase Meter"
               },
-              "name": "\"Wind Turbine 1 measurement\"",
+              "name": "Wind Turbine 1 measurement",
               "idopt": null,
               "elements": null,
               "location": {
@@ -4501,7 +4501,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Microgrid controller\"",
+              "name": "Microgrid controller",
               "idopt": null,
               "elements": [
                 {
@@ -4509,7 +4509,7 @@
                     "component_type": {
                       "ID": "gen_c_function"
                     },
-                    "name": "\"C function1\"",
+                    "name": "C function1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4590,7 +4590,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join2\"",
+                    "name": "Bus Join2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4638,7 +4638,7 @@
                     "component_type": {
                       "ID": "gen_logic_op"
                     },
-                    "name": "\"Logical operator2\"",
+                    "name": "Logical operator2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4719,7 +4719,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4816,7 +4816,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -4890,13 +4890,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Wind Turbine 2\"",
+              "name": "Wind Turbine 2",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Two Winding Transformer\""
+                      "Name": "core/Three Phase Two Winding Transformer"
                     },
                     "name": "Tr7",
                     "idopt": null,
@@ -4914,7 +4914,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Wind Power Plant (Average)\"",
+                    "name": "Wind Power Plant (Average)",
                     "idopt": null,
                     "elements": [
                       {
@@ -5256,7 +5256,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Va0",
                           "idopt": null,
@@ -5272,7 +5272,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vab",
                           "idopt": null,
@@ -5298,7 +5298,7 @@
                                 "component_type": {
                                   "ID": "gen_bus_split"
                                 },
-                                "name": "\"Bus Split2\"",
+                                "name": "Bus Split2",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -5321,7 +5321,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vb",
                           "idopt": null,
@@ -5337,7 +5337,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ia",
                           "idopt": null,
@@ -5353,7 +5353,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vc0",
                           "idopt": null,
@@ -5369,7 +5369,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vab1",
                           "idopt": null,
@@ -5385,7 +5385,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "VspA",
                           "idopt": null,
@@ -5401,7 +5401,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ic",
                           "idopt": null,
@@ -5451,7 +5451,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch3\"",
+                                      "name": "Signal switch3",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -5593,9 +5593,9 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/Edge Detection\""
+                                        "Name": "core/Edge Detection"
                                       },
-                                      "name": "\"Edge Detection1\"",
+                                      "name": "Edge Detection1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -5964,7 +5964,7 @@
                                                   "component_type": {
                                                     "ID": "gen_c_function"
                                                   },
-                                                  "name": "\"PQ limiting with priority\"",
+                                                  "name": "PQ limiting with priority",
                                                   "idopt": null,
                                                   "elements": null,
                                                   "location": {
@@ -5989,7 +5989,7 @@
                                             "component_type": {
                                               "ID": "gen_rate_limiter"
                                             },
-                                            "name": "\"P rate limit\"",
+                                            "name": "P rate limit",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -6005,7 +6005,7 @@
                                             "component_type": {
                                               "ID": "gen_rate_limiter"
                                             },
-                                            "name": "\"S rate limit\"",
+                                            "name": "S rate limit",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -6021,7 +6021,7 @@
                                             "component_type": {
                                               "ID": "gen_rate_limiter"
                                             },
-                                            "name": "\"Q rate limit\"",
+                                            "name": "Q rate limit",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -6037,7 +6037,7 @@
                                             "component_type": {
                                               "ID": "tm_delay"
                                             },
-                                            "name": "\"Unit Delay2\"",
+                                            "name": "Unit Delay2",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -6053,7 +6053,7 @@
                                             "component_type": {
                                               "ID": "tm_delay"
                                             },
-                                            "name": "\"Unit Delay1\"",
+                                            "name": "Unit Delay1",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -6077,7 +6077,7 @@
                                                   "component_type": {
                                                     "ID": "gen_c_function"
                                                   },
-                                                  "name": "\"S limiting over PQ\"",
+                                                  "name": "S limiting over PQ",
                                                   "idopt": null,
                                                   "elements": null,
                                                   "location": {
@@ -6632,9 +6632,9 @@
                                         {
                                           "Component": {
                                             "component_type": {
-                                              "Name": "\"core/abc to dq\""
+                                              "Name": "core/abc to dq"
                                             },
-                                            "name": "\"abc to dq1\"",
+                                            "name": "abc to dq1",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -6739,7 +6739,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch1\"",
+                                      "name": "Signal switch1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -6755,7 +6755,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch4\"",
+                                      "name": "Signal switch4",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -6771,7 +6771,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch2\"",
+                                      "name": "Signal switch2",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -6803,7 +6803,7 @@
                                       "component_type": {
                                         "ID": "gen_logic_op"
                                       },
-                                      "name": "\"Logical operator1\"",
+                                      "name": "Logical operator1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -7526,7 +7526,7 @@
                                       "component_type": {
                                         "ID": "gen_logic_op"
                                       },
-                                      "name": "\"Logical operator2\"",
+                                      "name": "Logical operator2",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -7591,7 +7591,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch2\"",
+                                      "name": "Signal switch2",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -7671,7 +7671,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch1\"",
+                                      "name": "Signal switch1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -7687,7 +7687,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch3\"",
+                                      "name": "Signal switch3",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -7701,7 +7701,7 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/Three phase PLL\""
+                                        "Name": "core/Three phase PLL"
                                       },
                                       "name": "PLL",
                                       "idopt": null,
@@ -7952,7 +7952,7 @@
                                             "component_type": {
                                               "ID": "gen_minmax"
                                             },
-                                            "name": "\"Min Max2\"",
+                                            "name": "Min Max2",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -7968,7 +7968,7 @@
                                             "component_type": {
                                               "ID": "gen_minmax"
                                             },
-                                            "name": "\"Min Max1\"",
+                                            "name": "Min Max1",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -8247,9 +8247,9 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/dq to abc\""
+                                        "Name": "core/dq to abc"
                                       },
-                                      "name": "\"dq to abc1\"",
+                                      "name": "dq to abc1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -8329,7 +8329,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vbc1",
                           "idopt": null,
@@ -8345,7 +8345,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vc",
                           "idopt": null,
@@ -8361,7 +8361,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vb0",
                           "idopt": null,
@@ -8387,7 +8387,7 @@
                                 "component_type": {
                                   "ID": "gen_bus_join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -8410,7 +8410,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "VspC",
                           "idopt": null,
@@ -8426,7 +8426,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Va",
                           "idopt": null,
@@ -8442,7 +8442,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ib",
                           "idopt": null,
@@ -8458,7 +8458,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Triple Pole Single Throw Contactor\""
+                            "Name": "core/Triple Pole Single Throw Contactor"
                           },
                           "name": "S1",
                           "idopt": null,
@@ -8474,7 +8474,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "VspB",
                           "idopt": null,
@@ -8566,7 +8566,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -8607,13 +8607,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Wind Turbine 1\"",
+              "name": "Wind Turbine 1",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Two Winding Transformer\""
+                      "Name": "core/Three Phase Two Winding Transformer"
                     },
                     "name": "Tr7",
                     "idopt": null,
@@ -8631,7 +8631,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Wind Power Plant (Average)\"",
+                    "name": "Wind Power Plant (Average)",
                     "idopt": null,
                     "elements": [
                       {
@@ -8973,7 +8973,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Va0",
                           "idopt": null,
@@ -8989,7 +8989,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vab",
                           "idopt": null,
@@ -9015,7 +9015,7 @@
                                 "component_type": {
                                   "ID": "gen_bus_split"
                                 },
-                                "name": "\"Bus Split2\"",
+                                "name": "Bus Split2",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -9038,7 +9038,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vb",
                           "idopt": null,
@@ -9054,7 +9054,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ia",
                           "idopt": null,
@@ -9070,7 +9070,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vc0",
                           "idopt": null,
@@ -9086,7 +9086,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vab1",
                           "idopt": null,
@@ -9102,7 +9102,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "VspA",
                           "idopt": null,
@@ -9118,7 +9118,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ic",
                           "idopt": null,
@@ -9168,7 +9168,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch3\"",
+                                      "name": "Signal switch3",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -9310,9 +9310,9 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/Edge Detection\""
+                                        "Name": "core/Edge Detection"
                                       },
-                                      "name": "\"Edge Detection1\"",
+                                      "name": "Edge Detection1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -9681,7 +9681,7 @@
                                                   "component_type": {
                                                     "ID": "gen_c_function"
                                                   },
-                                                  "name": "\"PQ limiting with priority\"",
+                                                  "name": "PQ limiting with priority",
                                                   "idopt": null,
                                                   "elements": null,
                                                   "location": {
@@ -9706,7 +9706,7 @@
                                             "component_type": {
                                               "ID": "gen_rate_limiter"
                                             },
-                                            "name": "\"P rate limit\"",
+                                            "name": "P rate limit",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -9722,7 +9722,7 @@
                                             "component_type": {
                                               "ID": "gen_rate_limiter"
                                             },
-                                            "name": "\"S rate limit\"",
+                                            "name": "S rate limit",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -9738,7 +9738,7 @@
                                             "component_type": {
                                               "ID": "gen_rate_limiter"
                                             },
-                                            "name": "\"Q rate limit\"",
+                                            "name": "Q rate limit",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -9754,7 +9754,7 @@
                                             "component_type": {
                                               "ID": "tm_delay"
                                             },
-                                            "name": "\"Unit Delay2\"",
+                                            "name": "Unit Delay2",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -9770,7 +9770,7 @@
                                             "component_type": {
                                               "ID": "tm_delay"
                                             },
-                                            "name": "\"Unit Delay1\"",
+                                            "name": "Unit Delay1",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -9794,7 +9794,7 @@
                                                   "component_type": {
                                                     "ID": "gen_c_function"
                                                   },
-                                                  "name": "\"S limiting over PQ\"",
+                                                  "name": "S limiting over PQ",
                                                   "idopt": null,
                                                   "elements": null,
                                                   "location": {
@@ -10349,9 +10349,9 @@
                                         {
                                           "Component": {
                                             "component_type": {
-                                              "Name": "\"core/abc to dq\""
+                                              "Name": "core/abc to dq"
                                             },
-                                            "name": "\"abc to dq1\"",
+                                            "name": "abc to dq1",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -10456,7 +10456,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch1\"",
+                                      "name": "Signal switch1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -10472,7 +10472,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch4\"",
+                                      "name": "Signal switch4",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -10488,7 +10488,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch2\"",
+                                      "name": "Signal switch2",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -10520,7 +10520,7 @@
                                       "component_type": {
                                         "ID": "gen_logic_op"
                                       },
-                                      "name": "\"Logical operator1\"",
+                                      "name": "Logical operator1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -11243,7 +11243,7 @@
                                       "component_type": {
                                         "ID": "gen_logic_op"
                                       },
-                                      "name": "\"Logical operator2\"",
+                                      "name": "Logical operator2",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -11308,7 +11308,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch2\"",
+                                      "name": "Signal switch2",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -11388,7 +11388,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch1\"",
+                                      "name": "Signal switch1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -11404,7 +11404,7 @@
                                       "component_type": {
                                         "ID": "sys_signal_switch"
                                       },
-                                      "name": "\"Signal switch3\"",
+                                      "name": "Signal switch3",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -11418,7 +11418,7 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/Three phase PLL\""
+                                        "Name": "core/Three phase PLL"
                                       },
                                       "name": "PLL",
                                       "idopt": null,
@@ -11669,7 +11669,7 @@
                                             "component_type": {
                                               "ID": "gen_minmax"
                                             },
-                                            "name": "\"Min Max2\"",
+                                            "name": "Min Max2",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -11685,7 +11685,7 @@
                                             "component_type": {
                                               "ID": "gen_minmax"
                                             },
-                                            "name": "\"Min Max1\"",
+                                            "name": "Min Max1",
                                             "idopt": null,
                                             "elements": null,
                                             "location": {
@@ -11964,9 +11964,9 @@
                                   {
                                     "Component": {
                                       "component_type": {
-                                        "Name": "\"core/dq to abc\""
+                                        "Name": "core/dq to abc"
                                       },
-                                      "name": "\"dq to abc1\"",
+                                      "name": "dq to abc1",
                                       "idopt": null,
                                       "elements": null,
                                       "location": {
@@ -12046,7 +12046,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vbc1",
                           "idopt": null,
@@ -12062,7 +12062,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vc",
                           "idopt": null,
@@ -12078,7 +12078,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Vb0",
                           "idopt": null,
@@ -12104,7 +12104,7 @@
                                 "component_type": {
                                   "ID": "gen_bus_join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -12127,7 +12127,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "VspC",
                           "idopt": null,
@@ -12143,7 +12143,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Voltage Measurement\""
+                            "Name": "core/Voltage Measurement"
                           },
                           "name": "Va",
                           "idopt": null,
@@ -12159,7 +12159,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Current Measurement\""
+                            "Name": "core/Current Measurement"
                           },
                           "name": "Ib",
                           "idopt": null,
@@ -12175,7 +12175,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Triple Pole Single Throw Contactor\""
+                            "Name": "core/Triple Pole Single Throw Contactor"
                           },
                           "name": "S1",
                           "idopt": null,
@@ -12191,7 +12191,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal Controlled Voltage Source\""
+                            "Name": "core/Signal Controlled Voltage Source"
                           },
                           "name": "VspB",
                           "idopt": null,

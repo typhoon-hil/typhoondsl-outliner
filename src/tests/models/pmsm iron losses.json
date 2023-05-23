@@ -1,5 +1,5 @@
 {
-  "name": "\"pmsm iron losses\"",
+  "name": "pmsm iron losses",
   "location": {
     "line_start": 8,
     "column_start": 0,
@@ -36,7 +36,7 @@
                     "component_type": {
                       "ID": "gen_2D_lookup_table"
                     },
-                    "name": "\"eddy loss map\"",
+                    "name": "eddy loss map",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -52,7 +52,7 @@
                     "component_type": {
                       "ID": "gen_2D_lookup_table"
                     },
-                    "name": "\"hysteresis loss map\"",
+                    "name": "hysteresis loss map",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -116,7 +116,7 @@
                     "component_type": {
                       "ID": "gen_math_fnc"
                     },
-                    "name": "\"Mathematical function1\"",
+                    "name": "Mathematical function1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -261,7 +261,7 @@
                     "component_type": {
                       "ID": "gen_z_domain_transfer"
                     },
-                    "name": "\"Discrete Transfer Function1\"",
+                    "name": "Discrete Transfer Function1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -300,9 +300,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Three Phase Inverter\""
+                "Name": "core/Three Phase Inverter"
               },
-              "name": "\"Three Phase Inverter\"",
+              "name": "Three Phase Inverter",
               "idopt": null,
               "elements": null,
               "location": {
@@ -348,7 +348,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Current Measurement\""
+                "Name": "core/Current Measurement"
               },
               "name": "Ia",
               "idopt": null,
@@ -364,7 +364,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Current Measurement\""
+                "Name": "core/Current Measurement"
               },
               "name": "Ib",
               "idopt": null,
@@ -380,7 +380,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Current Measurement\""
+                "Name": "core/Current Measurement"
               },
               "name": "Ic",
               "idopt": null,
@@ -398,7 +398,7 @@
               "component_type": {
                 "ID": "gen_bus_split"
               },
-              "name": "\"Bus Split1\"",
+              "name": "Bus Split1",
               "idopt": null,
               "elements": null,
               "location": {
@@ -462,7 +462,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"motor control\"",
+              "name": "motor control",
               "idopt": null,
               "elements": [
                 {
@@ -612,7 +612,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/abc to dq\""
+                      "Name": "core/abc to dq"
                     },
                     "name": "I_abc_dq",
                     "idopt": null,
@@ -1366,9 +1366,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition1\"",
+                    "name": "Rate Transition1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1382,9 +1382,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Rate Transition\""
+                      "Name": "core/Rate Transition"
                     },
-                    "name": "\"Rate Transition2\"",
+                    "name": "Rate Transition2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1400,7 +1400,7 @@
                     "component_type": {
                       "ID": "gen_d_q2alpha_beta"
                     },
-                    "name": "\"dq to alpha beta1\"",
+                    "name": "dq to alpha beta1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1414,9 +1414,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/SVPWM References Generator\""
+                      "Name": "core/SVPWM References Generator"
                     },
-                    "name": "\"SVPWM References Generator1\"",
+                    "name": "SVPWM References Generator1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1584,7 +1584,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Permanent Magnet Synchronous Machine with Salient Rotor\""
+                "Name": "core/Permanent Magnet Synchronous Machine with Salient Rotor"
               },
               "name": "PMSM",
               "idopt": null,

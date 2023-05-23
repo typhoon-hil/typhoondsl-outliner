@@ -1,5 +1,5 @@
 {
-  "name": "\"User Component Library\"",
+  "name": "User Component Library",
   "location": {
     "line_start": 6,
     "column_start": 0,
@@ -28,7 +28,7 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"NPC PV Inverter\"",
+              "name": "NPC PV Inverter",
               "idopt": null,
               "elements": [
                 {
@@ -68,7 +68,7 @@
                     "component_type": {
                       "ID": "gen_logic_op"
                     },
-                    "name": "\"Logical operator1\"",
+                    "name": "Logical operator1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -148,7 +148,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"bus join\"",
+                    "name": "bus join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -180,7 +180,7 @@
                     "component_type": {
                       "ID": "gen_probe"
                     },
-                    "name": "\"Probe Vdcref\"",
+                    "name": "Probe Vdcref",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -292,7 +292,7 @@
                     "component_type": {
                       "ID": "gen_probe"
                     },
-                    "name": "\"model states\"",
+                    "name": "model states",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -308,7 +308,7 @@
                     "component_type": {
                       "ID": "gen_probe"
                     },
-                    "name": "\"real states\"",
+                    "name": "real states",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -324,7 +324,7 @@
                     "component_type": {
                       "ID": "gen_logic_op"
                     },
-                    "name": "\"Logical operator2\"",
+                    "name": "Logical operator2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -340,7 +340,7 @@
                     "component_type": {
                       "ID": "gen_probe"
                     },
-                    "name": "\"Probe iref_al\"",
+                    "name": "Probe iref_al",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -372,7 +372,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split1\"",
+                    "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -388,7 +388,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join1\"",
+                    "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -500,7 +500,7 @@
                     "component_type": {
                       "ID": "sys_signal_switch"
                     },
-                    "name": "\"Signal switch1\"",
+                    "name": "Signal switch1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -516,7 +516,7 @@
                     "component_type": {
                       "ID": "gen_probe"
                     },
-                    "name": "\"Probe Qref\"",
+                    "name": "Probe Qref",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -644,7 +644,7 @@
                     "component_type": {
                       "ID": "gen_probe"
                     },
-                    "name": "\"Probe Pref\"",
+                    "name": "Probe Pref",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -708,7 +708,7 @@
                     "component_type": {
                       "ID": "gen_probe"
                     },
-                    "name": "\"Probe iref_be\"",
+                    "name": "Probe iref_be",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -722,7 +722,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "vg_a",
                     "idopt": null,
@@ -738,9 +738,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Generic UL 1741 ride-through\""
+                      "Name": "core/Generic UL 1741 ride-through"
                     },
-                    "name": "\"Frequency ride-through\"",
+                    "name": "Frequency ride-through",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -754,9 +754,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Constant power factor\""
+                      "Name": "core/Constant power factor"
                     },
-                    "name": "\"Constant power factor\"",
+                    "name": "Constant power factor",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -770,9 +770,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Open-loop Power Controller\""
+                      "Name": "core/Open-loop Power Controller"
                     },
-                    "name": "\"Open-loop Power Controller\"",
+                    "name": "Open-loop Power Controller",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -786,7 +786,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "V_dc",
                     "idopt": null,
@@ -802,7 +802,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "vc_c",
                     "idopt": null,
@@ -818,7 +818,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ic_a",
                     "idopt": null,
@@ -834,7 +834,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ig_b",
                     "idopt": null,
@@ -850,9 +850,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/abc to alfa-beta-gamma\""
+                      "Name": "core/abc to alfa-beta-gamma"
                     },
-                    "name": "\"abc to alfa-beta-gamma3\"",
+                    "name": "abc to alfa-beta-gamma3",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -866,7 +866,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "vc_b",
                     "idopt": null,
@@ -882,9 +882,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/abc to alfa-beta-gamma\""
+                      "Name": "core/abc to alfa-beta-gamma"
                     },
-                    "name": "\"abc to alfa-beta-gamma2\"",
+                    "name": "abc to alfa-beta-gamma2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -900,7 +900,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Fundamental positive sequence estimator\"",
+                    "name": "Fundamental positive sequence estimator",
                     "idopt": null,
                     "elements": [
                       {
@@ -956,7 +956,7 @@
                           "component_type": {
                             "ID": "gen_probe"
                           },
-                          "name": "\"vpb rms\"",
+                          "name": "vpb rms",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -988,7 +988,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"Quad Signal Generator2\"",
+                          "name": "Quad Signal Generator2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1004,7 +1004,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"filtered RMS calculation\"",
+                          "name": "filtered RMS calculation",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1036,7 +1036,7 @@
                           "component_type": {
                             "ID": "gen_gain"
                           },
-                          "name": "\"to rads\"",
+                          "name": "to rads",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1100,7 +1100,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"Quad Signal Generator3\"",
+                          "name": "Quad Signal Generator3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1116,7 +1116,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"Quad Signal Generator1\"",
+                          "name": "Quad Signal Generator1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1212,7 +1212,7 @@
                           "component_type": {
                             "ID": "gen_probe"
                           },
-                          "name": "\"vpa rms\"",
+                          "name": "vpa rms",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1228,7 +1228,7 @@
                           "component_type": {
                             "ID": "gen_probe"
                           },
-                          "name": "\"vpc rms\"",
+                          "name": "vpc rms",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1242,9 +1242,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/abc to alfa-beta-gamma\""
+                            "Name": "core/abc to alfa-beta-gamma"
                           },
-                          "name": "\"abc to alfa-beta-gamma2\"",
+                          "name": "abc to alfa-beta-gamma2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1258,9 +1258,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/abc to alfa-beta-gamma\""
+                            "Name": "core/abc to alfa-beta-gamma"
                           },
-                          "name": "\"abc to alfa-beta-gamma1\"",
+                          "name": "abc to alfa-beta-gamma1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1283,7 +1283,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "vg_c",
                     "idopt": null,
@@ -1301,7 +1301,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Grid connection sequencing\"",
+                    "name": "Grid connection sequencing",
                     "idopt": null,
                     "elements": [
                       {
@@ -1309,7 +1309,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"Startup routine\"",
+                          "name": "Startup routine",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1348,7 +1348,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S2",
                     "idopt": null,
@@ -1366,7 +1366,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"State feedback Resonant Current Controller\"",
+                    "name": "State feedback Resonant Current Controller",
                     "idopt": null,
                     "elements": [
                       {
@@ -1390,7 +1390,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"current controller\"",
+                          "name": "current controller",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1422,7 +1422,7 @@
                           "component_type": {
                             "ID": "gen_gain"
                           },
-                          "name": "\"to rads\"",
+                          "name": "to rads",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1557,9 +1557,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/abc to alfa-beta-gamma\""
+                      "Name": "core/abc to alfa-beta-gamma"
                     },
-                    "name": "\"abc to alfa-beta-gamma4\"",
+                    "name": "abc to alfa-beta-gamma4",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1613,9 +1613,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Three phase PLL\""
+                            "Name": "core/Three phase PLL"
                           },
-                          "name": "\"Three phase PLL\"",
+                          "name": "Three phase PLL",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1686,9 +1686,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Resistive Neutral\""
+                      "Name": "core/Resistive Neutral"
                     },
-                    "name": "\"Resistive Neutral1\"",
+                    "name": "Resistive Neutral1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1702,7 +1702,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Triple Pole Single Throw Contactor\""
+                      "Name": "core/Triple Pole Single Throw Contactor"
                     },
                     "name": "S1",
                     "idopt": null,
@@ -1728,7 +1728,7 @@
                           "component_type": {
                             "ID": "gen_probe"
                           },
-                          "name": "\"Probe ppv_ant\"",
+                          "name": "Probe ppv_ant",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1744,7 +1744,7 @@
                           "component_type": {
                             "ID": "gen_probe"
                           },
-                          "name": "\"Probe ppv\"",
+                          "name": "Probe ppv",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1760,7 +1760,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"C function1\"",
+                          "name": "C function1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1776,7 +1776,7 @@
                           "component_type": {
                             "ID": "gen_probe"
                           },
-                          "name": "\"Probe vdc_ant\"",
+                          "name": "Probe vdc_ant",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1790,9 +1790,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition3\"",
+                          "name": "Rate Transition3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1806,9 +1806,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition2\"",
+                          "name": "Rate Transition2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1822,9 +1822,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition1\"",
+                          "name": "Rate Transition1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1849,7 +1849,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"PCC Measurements\"",
+                    "name": "PCC Measurements",
                     "idopt": null,
                     "elements": [
                       {
@@ -1953,7 +1953,7 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"Power Measurements\"",
+                          "name": "Power Measurements",
                           "idopt": null,
                           "elements": [
                             {
@@ -1993,7 +1993,7 @@
                                 "component_type": {
                                   "ID": "gen_PQ_transform"
                                 },
-                                "name": "\"Power Meter1\"",
+                                "name": "Power Meter1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2027,7 +2027,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"DC Voltage Controller\"",
+                    "name": "DC Voltage Controller",
                     "idopt": null,
                     "elements": [
                       {
@@ -2051,7 +2051,7 @@
                           "component_type": {
                             "ID": "gen_probe"
                           },
-                          "name": "\"Probe Vdc ref\"",
+                          "name": "Probe Vdc ref",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2065,9 +2065,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/DC Energy Calculation\""
+                            "Name": "core/DC Energy Calculation"
                           },
-                          "name": "\"DC Energy Calculation1\"",
+                          "name": "DC Energy Calculation1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2081,9 +2081,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/DC Energy Calculation\""
+                            "Name": "core/DC Energy Calculation"
                           },
-                          "name": "\"DC Energy Calculation2\"",
+                          "name": "DC Energy Calculation2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2099,7 +2099,7 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"PI with Antiwindup\"",
+                          "name": "PI with Antiwindup",
                           "idopt": null,
                           "elements": [
                             {
@@ -2107,7 +2107,7 @@
                                 "component_type": {
                                   "ID": "gen_c_function"
                                 },
-                                "name": "\"C function1\"",
+                                "name": "C function1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2139,9 +2139,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three-phase UL 1741 voltage ride-through\""
+                      "Name": "core/Three-phase UL 1741 voltage ride-through"
                     },
-                    "name": "\"Voltage ride-through\"",
+                    "name": "Voltage ride-through",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2155,7 +2155,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Vab",
                     "idopt": null,
@@ -2171,7 +2171,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ig_c",
                     "idopt": null,
@@ -2187,9 +2187,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/alfa-beta-gamma to abc\""
+                      "Name": "core/alfa-beta-gamma to abc"
                     },
-                    "name": "\"alfa-beta-gamma to abc1\"",
+                    "name": "alfa-beta-gamma to abc1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2205,7 +2205,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Modulation and DC balancing\"",
+                    "name": "Modulation and DC balancing",
                     "idopt": null,
                     "elements": [
                       {
@@ -2293,7 +2293,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"Method 2 (DC balancing control)\"",
+                          "name": "Method 2 (DC balancing control)",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2309,7 +2309,7 @@
                           "component_type": {
                             "ID": "gen_limiter"
                           },
-                          "name": "\"cant be zero for normalization\"",
+                          "name": "cant be zero for normalization",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2325,7 +2325,7 @@
                           "component_type": {
                             "ID": "gen_sum"
                           },
-                          "name": "\"midpoint DC error\"",
+                          "name": "midpoint DC error",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2357,7 +2357,7 @@
                           "component_type": {
                             "ID": "src_constant"
                           },
-                          "name": "\"midpoint reference\"",
+                          "name": "midpoint reference",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2535,7 +2535,7 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"add offset\"",
+                          "name": "add offset",
                           "idopt": null,
                           "elements": [
                             {
@@ -2600,7 +2600,7 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"Triplen Harm Zero seq injection\"",
+                          "name": "Triplen Harm Zero seq injection",
                           "idopt": null,
                           "elements": [
                             {
@@ -2640,7 +2640,7 @@
                                 "component_type": {
                                   "ID": "gen_minmax"
                                 },
-                                "name": "\"Min Max2\"",
+                                "name": "Min Max2",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2704,7 +2704,7 @@
                                 "component_type": {
                                   "ID": "gen_minmax"
                                 },
-                                "name": "\"Min Max1\"",
+                                "name": "Min Max1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2729,7 +2729,7 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"Transport delay\"",
+                          "name": "Transport delay",
                           "idopt": null,
                           "elements": [
                             {
@@ -2842,7 +2842,7 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"adjust range for PWM\"",
+                          "name": "adjust range for PWM",
                           "idopt": null,
                           "elements": [
                             {
@@ -3122,7 +3122,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ig_a",
                     "idopt": null,
@@ -3138,7 +3138,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "vc_a",
                     "idopt": null,
@@ -3154,7 +3154,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ic_b",
                     "idopt": null,
@@ -3170,9 +3170,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/abc to alfa-beta-gamma\""
+                      "Name": "core/abc to alfa-beta-gamma"
                     },
-                    "name": "\"abc to alfa-beta-gamma1\"",
+                    "name": "abc to alfa-beta-gamma1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3186,7 +3186,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "V_dc_1",
                     "idopt": null,
@@ -3202,9 +3202,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase Core Coupling\""
+                      "Name": "core/Three Phase Core Coupling"
                     },
-                    "name": "\"Core Coupling 2\"",
+                    "name": "Core Coupling 2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3218,7 +3218,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Current Measurement\""
+                      "Name": "core/Current Measurement"
                     },
                     "name": "Ic_c",
                     "idopt": null,
@@ -3234,7 +3234,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "vg_b",
                     "idopt": null,
@@ -3252,7 +3252,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Startup and Shutdown Ramping\"",
+                    "name": "Startup and Shutdown Ramping",
                     "idopt": null,
                     "elements": [
                       {
@@ -3260,7 +3260,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"Inverter startup\"",
+                          "name": "Inverter startup",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3285,7 +3285,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"LCL filter model\"",
+                    "name": "LCL filter model",
                     "idopt": null,
                     "elements": [
                       {
@@ -3293,7 +3293,7 @@
                           "component_type": {
                             "ID": "gen_bus_join"
                           },
-                          "name": "\"plant model states\"",
+                          "name": "plant model states",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3309,7 +3309,7 @@
                           "component_type": {
                             "ID": "gen_c_function"
                           },
-                          "name": "\"Plant model\"",
+                          "name": "Plant model",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -3332,7 +3332,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Three Phase NPC Inverter\""
+                      "Name": "core/Three Phase NPC Inverter"
                     },
                     "name": "Inverter",
                     "idopt": null,
@@ -3350,7 +3350,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join2\"",
+                    "name": "Bus Join2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3366,7 +3366,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join3\"",
+                    "name": "Bus Join3",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3382,7 +3382,7 @@
                     "component_type": {
                       "ID": "gen_bus_join"
                     },
-                    "name": "\"Bus Join4\"",
+                    "name": "Bus Join4",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3398,7 +3398,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"NPC enable\"",
+                    "name": "NPC enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3430,7 +3430,7 @@
                     "component_type": {
                       "ID": "src_scada_input"
                     },
-                    "name": "\"pf ref\"",
+                    "name": "pf ref",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3462,7 +3462,7 @@
                     "component_type": {
                       "ID": "gen_bus_split"
                     },
-                    "name": "\"Bus Split2\"",
+                    "name": "Bus Split2",
                     "idopt": null,
                     "elements": null,
                     "location": {

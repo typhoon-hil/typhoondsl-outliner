@@ -29,7 +29,14 @@ pub type TillEndCodeKW = ();
 pub fn till_end_code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> TillEndCodeKW {}
 pub type Name = String;
 pub fn name<'i>(_ctx: &Context<'i>, token: Token<'i>) -> Name {
-    token.value.into()
+    if token.value.starts_with('"') || token.value.starts_with('\'') {
+        let mut s = token.value.chars();
+        s.next();
+        s.next_back();
+        s.collect()
+    } else {
+        token.value.into()
+    }
 }
 #[derive(Debug, Clone, Serialize)]
 pub struct Location {

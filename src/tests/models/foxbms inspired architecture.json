@@ -1,5 +1,5 @@
 {
-  "name": "\"foxbms inspired architecture\"",
+  "name": "foxbms inspired architecture",
   "location": {
     "line_start": 7,
     "column_start": 0,
@@ -26,9 +26,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Single Pole Single Throw Contactor\""
+                "Name": "core/Single Pole Single Throw Contactor"
               },
-              "name": "\"Cont 1 Plus\"",
+              "name": "Cont 1 Plus",
               "idopt": null,
               "elements": null,
               "location": {
@@ -42,7 +42,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Current Measurement\""
+                "Name": "core/Current Measurement"
               },
               "name": "Imod",
               "idopt": null,
@@ -58,7 +58,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Voltage Measurement\""
+                "Name": "core/Voltage Measurement"
               },
               "name": "Vmod",
               "idopt": null,
@@ -74,9 +74,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Resistor\""
+                "Name": "core/Resistor"
               },
-              "name": "\"Precharge Resistor\"",
+              "name": "Precharge Resistor",
               "idopt": null,
               "elements": null,
               "location": {
@@ -90,9 +90,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Single Pole Single Throw Contactor\""
+                "Name": "core/Single Pole Single Throw Contactor"
               },
-              "name": "\"Precharge Contactor\"",
+              "name": "Precharge Contactor",
               "idopt": null,
               "elements": null,
               "location": {
@@ -106,7 +106,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Resistor\""
+                "Name": "core/Resistor"
               },
               "name": "R2",
               "idopt": null,
@@ -122,7 +122,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Resistor\""
+                "Name": "core/Resistor"
               },
               "name": "R5",
               "idopt": null,
@@ -154,9 +154,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
-                          "name": "\"Max Temp1\"",
+                          "name": "Max Temp1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -170,9 +170,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
-                          "name": "\"Max Voltage1\"",
+                          "name": "Max Voltage1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -186,9 +186,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
-                          "name": "\"Max Current1\"",
+                          "name": "Max Current1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -202,9 +202,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
-                          "name": "\"Min Temp1\"",
+                          "name": "Min Temp1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -218,9 +218,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
-                          "name": "\"Min Voltage1\"",
+                          "name": "Min Voltage1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -234,9 +234,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
-                          "name": "\"Min Current1\"",
+                          "name": "Min Current1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -250,7 +250,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Gain\""
+                            "Name": "core/Gain"
                           },
                           "name": "Gain2",
                           "idopt": null,
@@ -266,7 +266,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "cell_count",
                           "idopt": null,
@@ -282,7 +282,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "test_number",
                           "idopt": null,
@@ -298,9 +298,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
-                          "name": "\"Max Module Current\"",
+                          "name": "Max Module Current",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -314,7 +314,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Advanced C function\""
+                            "Name": "core/Advanced C function"
                           },
                           "name": "Safety_Logic",
                           "idopt": null,
@@ -330,7 +330,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "cell_number",
                           "idopt": null,
@@ -363,7 +363,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Accumulator\""
+                            "Name": "core/Accumulator"
                           },
                           "name": "Accumulator2",
                           "idopt": null,
@@ -379,7 +379,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Comparator\""
+                            "Name": "core/Comparator"
                           },
                           "name": "Comparator2",
                           "idopt": null,
@@ -395,7 +395,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "Constant",
                           "idopt": null,
@@ -411,7 +411,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Sum\""
+                            "Name": "core/Sum"
                           },
                           "name": "Sum2",
                           "idopt": null,
@@ -427,9 +427,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/SCADA Input\""
+                            "Name": "core/SCADA Input"
                           },
-                          "name": "\"Error Reset\"",
+                          "name": "Error Reset",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -443,7 +443,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "reset",
                           "idopt": null,
@@ -459,9 +459,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Relational operator\""
+                            "Name": "core/Relational operator"
                           },
-                          "name": "\"Relational operator1\"",
+                          "name": "Relational operator1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -475,7 +475,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "Constant1",
                           "idopt": null,
@@ -491,7 +491,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Split\""
+                            "Name": "core/Bus Split"
                           },
                           "name": "String_Split",
                           "idopt": null,
@@ -507,7 +507,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
                           "name": "String_Join",
                           "idopt": null,
@@ -523,7 +523,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "string_stat",
                           "idopt": null,
@@ -539,7 +539,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Sum\""
+                            "Name": "core/Sum"
                           },
                           "name": "String1",
                           "idopt": null,
@@ -555,7 +555,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/SCADA Input\""
+                            "Name": "core/SCADA Input"
                           },
                           "name": "String_ctrl_1",
                           "idopt": null,
@@ -571,7 +571,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Sum\""
+                            "Name": "core/Sum"
                           },
                           "name": "string1_input",
                           "idopt": null,
@@ -587,7 +587,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Sum\""
+                            "Name": "core/Sum"
                           },
                           "name": "String2",
                           "idopt": null,
@@ -603,7 +603,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/SCADA Input\""
+                            "Name": "core/SCADA Input"
                           },
                           "name": "String_ctrl_2",
                           "idopt": null,
@@ -619,7 +619,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Sum\""
+                            "Name": "core/Sum"
                           },
                           "name": "string2_input",
                           "idopt": null,
@@ -652,7 +652,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/SCADA Output\""
+                            "Name": "core/SCADA Output"
                           },
                           "name": "BMS_Status",
                           "idopt": null,
@@ -668,7 +668,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "precharge",
                           "idopt": null,
@@ -684,7 +684,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Advanced C function\""
+                            "Name": "core/Advanced C function"
                           },
                           "name": "BMS_State_Machine",
                           "idopt": null,
@@ -700,7 +700,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Sum\""
+                            "Name": "core/Sum"
                           },
                           "name": "Sum1",
                           "idopt": null,
@@ -716,7 +716,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "cont_status",
                           "idopt": null,
@@ -732,7 +732,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "Cell_Count",
                           "idopt": null,
@@ -748,9 +748,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
-                          "name": "\"Bus Join1\"",
+                          "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -764,9 +764,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Unit Delay\""
+                            "Name": "core/Unit Delay"
                           },
-                          "name": "\"Unit Delay1\"",
+                          "name": "Unit Delay1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -780,9 +780,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Unit Delay\""
+                            "Name": "core/Unit Delay"
                           },
-                          "name": "\"Unit Delay2\"",
+                          "name": "Unit Delay2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -813,7 +813,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/C function\""
+                            "Name": "core/C function"
                           },
                           "name": "Contactor_State_Machine",
                           "idopt": null,
@@ -829,7 +829,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Split\""
+                            "Name": "core/Bus Split"
                           },
                           "name": "Minus_Split",
                           "idopt": null,
@@ -845,7 +845,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "cont_minus_probe",
                           "idopt": null,
@@ -861,9 +861,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
-                          "name": "\"Bus Join1\"",
+                          "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -877,9 +877,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Split\""
+                            "Name": "core/Bus Split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -893,7 +893,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Termination\""
+                            "Name": "core/Termination"
                           },
                           "name": "Termination1",
                           "idopt": null,
@@ -926,9 +926,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
-                          "name": "\"bal tolerance\"",
+                          "name": "bal tolerance",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -942,7 +942,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Gain\""
+                            "Name": "core/Gain"
                           },
                           "name": "Gain1",
                           "idopt": null,
@@ -958,7 +958,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Delay\""
+                            "Name": "core/Delay"
                           },
                           "name": "Delay1",
                           "idopt": null,
@@ -974,7 +974,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "Bal_out",
                           "idopt": null,
@@ -990,7 +990,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "bal_timer",
                           "idopt": null,
@@ -1006,7 +1006,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "cell_min",
                           "idopt": null,
@@ -1022,7 +1022,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "Bal_state",
                           "idopt": null,
@@ -1038,7 +1038,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "cell_count",
                           "idopt": null,
@@ -1054,7 +1054,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Sum\""
+                            "Name": "core/Sum"
                           },
                           "name": "Sum1",
                           "idopt": null,
@@ -1070,9 +1070,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition1\"",
+                          "name": "Rate Transition1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1086,9 +1086,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition3\"",
+                          "name": "Rate Transition3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1102,9 +1102,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition2\"",
+                          "name": "Rate Transition2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1118,9 +1118,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition4\"",
+                          "name": "Rate Transition4",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1134,9 +1134,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition5\"",
+                          "name": "Rate Transition5",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1150,7 +1150,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Termination\""
+                            "Name": "core/Termination"
                           },
                           "name": "Termination1",
                           "idopt": null,
@@ -1174,7 +1174,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Product\""
+                                  "Name": "core/Product"
                                 },
                                 "name": "Product1",
                                 "idopt": null,
@@ -1190,7 +1190,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Sum\""
+                                  "Name": "core/Sum"
                                 },
                                 "name": "Sum2",
                                 "idopt": null,
@@ -1206,7 +1206,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Product\""
+                                  "Name": "core/Product"
                                 },
                                 "name": "Product2",
                                 "idopt": null,
@@ -1222,7 +1222,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Constant\""
+                                  "Name": "core/Constant"
                                 },
                                 "name": "Constant2",
                                 "idopt": null,
@@ -1238,7 +1238,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Limit\""
+                                  "Name": "core/Limit"
                                 },
                                 "name": "Limit1",
                                 "idopt": null,
@@ -1254,7 +1254,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Product\""
+                                  "Name": "core/Product"
                                 },
                                 "name": "Product3",
                                 "idopt": null,
@@ -1270,7 +1270,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Sum\""
+                                  "Name": "core/Sum"
                                 },
                                 "name": "Sum3",
                                 "idopt": null,
@@ -1286,7 +1286,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Limit\""
+                                  "Name": "core/Limit"
                                 },
                                 "name": "Limit2",
                                 "idopt": null,
@@ -1302,7 +1302,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Product\""
+                                  "Name": "core/Product"
                                 },
                                 "name": "Product4",
                                 "idopt": null,
@@ -1318,7 +1318,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Product\""
+                                  "Name": "core/Product"
                                 },
                                 "name": "Product5",
                                 "idopt": null,
@@ -1334,7 +1334,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Sum\""
+                                  "Name": "core/Sum"
                                 },
                                 "name": "Sum4",
                                 "idopt": null,
@@ -1350,9 +1350,9 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Rate Transition\""
+                                  "Name": "core/Rate Transition"
                                 },
-                                "name": "\"Rate Transition1\"",
+                                "name": "Rate Transition1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -1366,7 +1366,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Constant\""
+                                  "Name": "core/Constant"
                                 },
                                 "name": "Constant3",
                                 "idopt": null,
@@ -1382,9 +1382,9 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Logical operator\""
+                                  "Name": "core/Logical operator"
                                 },
-                                "name": "\"Logical operator1\"",
+                                "name": "Logical operator1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -1398,9 +1398,9 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal switch\""
+                                  "Name": "core/Signal switch"
                                 },
-                                "name": "\"Signal switch1\"",
+                                "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -1414,7 +1414,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Product\""
+                                  "Name": "core/Product"
                                 },
                                 "name": "Product6",
                                 "idopt": null,
@@ -1430,7 +1430,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Constant\""
+                                  "Name": "core/Constant"
                                 },
                                 "name": "Constant5",
                                 "idopt": null,
@@ -1446,7 +1446,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Limit\""
+                                  "Name": "core/Limit"
                                 },
                                 "name": "Limit3",
                                 "idopt": null,
@@ -1471,9 +1471,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Signal switch\""
+                            "Name": "core/Signal switch"
                           },
-                          "name": "\"Signal switch1\"",
+                          "name": "Signal switch1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1487,7 +1487,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "bal_circuit",
                           "idopt": null,
@@ -1503,7 +1503,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "passive_bal",
                           "idopt": null,
@@ -1519,7 +1519,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "direct_bal",
                           "idopt": null,
@@ -1535,7 +1535,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Advanced C function\""
+                            "Name": "core/Advanced C function"
                           },
                           "name": "Balance_State_Machine",
                           "idopt": null,
@@ -1560,9 +1560,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Constant\""
+                      "Name": "core/Constant"
                     },
-                    "name": "\"bal enable\"",
+                    "name": "bal enable",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -1584,9 +1584,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Split\""
+                            "Name": "core/Bus Split"
                           },
-                          "name": "\"Bus Split1\"",
+                          "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1600,7 +1600,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
                           "name": "JoinCell1",
                           "idopt": null,
@@ -1616,9 +1616,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/SCADA Input\""
+                            "Name": "core/SCADA Input"
                           },
-                          "name": "\"Temp String 1\"",
+                          "name": "Temp String 1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1632,7 +1632,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
                           "name": "JoinCell2",
                           "idopt": null,
@@ -1648,7 +1648,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
                           "name": "JoinCell3",
                           "idopt": null,
@@ -1664,7 +1664,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
                           "name": "JoinCell4",
                           "idopt": null,
@@ -1680,7 +1680,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
                           "name": "JoinCell5",
                           "idopt": null,
@@ -1696,7 +1696,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
                           "name": "JoinCell6",
                           "idopt": null,
@@ -1712,9 +1712,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
-                          "name": "\"String Join1\"",
+                          "name": "String Join1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1728,9 +1728,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
-                          "name": "\"String Join2\"",
+                          "name": "String Join2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1761,7 +1761,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Advanced C function\""
+                            "Name": "core/Advanced C function"
                           },
                           "name": "SOC_Coulomb",
                           "idopt": null,
@@ -1777,7 +1777,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "cell_count",
                           "idopt": null,
@@ -1793,7 +1793,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "capacity",
                           "idopt": null,
@@ -1809,9 +1809,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
-                          "name": "\"SOC CC\"",
+                          "name": "SOC CC",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1825,7 +1825,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Termination\""
+                            "Name": "core/Termination"
                           },
                           "name": "Termination3",
                           "idopt": null,
@@ -1841,7 +1841,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Termination\""
+                            "Name": "core/Termination"
                           },
                           "name": "Termination4",
                           "idopt": null,
@@ -1857,9 +1857,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition1\"",
+                          "name": "Rate Transition1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1873,9 +1873,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition2\"",
+                          "name": "Rate Transition2",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1889,9 +1889,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Rate Transition\""
+                            "Name": "core/Rate Transition"
                           },
-                          "name": "\"Rate Transition3\"",
+                          "name": "Rate Transition3",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -1905,7 +1905,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Termination\""
+                            "Name": "core/Termination"
                           },
                           "name": "Termination5",
                           "idopt": null,
@@ -1921,7 +1921,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "coulomb_eff_timer",
                           "idopt": null,
@@ -1937,7 +1937,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "coulomb_eff",
                           "idopt": null,
@@ -1953,7 +1953,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
                           "name": "pcv",
                           "idopt": null,
@@ -1969,7 +1969,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Termination\""
+                            "Name": "core/Termination"
                           },
                           "name": "Termination6",
                           "idopt": null,
@@ -1985,7 +1985,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Termination\""
+                            "Name": "core/Termination"
                           },
                           "name": "Termination7",
                           "idopt": null,
@@ -2001,7 +2001,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "SOC_initial",
                           "idopt": null,
@@ -2034,9 +2034,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
-                          "name": "\"Temp Join\"",
+                          "name": "Temp Join",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2050,9 +2050,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
-                          "name": "\"Current Join\"",
+                          "name": "Current Join",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2066,9 +2066,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Join\""
+                            "Name": "core/Bus Join"
                           },
-                          "name": "\"Volt Join\"",
+                          "name": "Volt Join",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2082,9 +2082,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
-                          "name": "\"Temp Probe\"",
+                          "name": "Temp Probe",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2098,9 +2098,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
-                          "name": "\"Current Probe\"",
+                          "name": "Current Probe",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2114,9 +2114,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Probe\""
+                            "Name": "core/Probe"
                           },
-                          "name": "\"Volt Probe\"",
+                          "name": "Volt Probe",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2130,9 +2130,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Split\""
+                            "Name": "core/Bus Split"
                           },
-                          "name": "\"Secondary1 Split\"",
+                          "name": "Secondary1 Split",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2146,9 +2146,9 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Bus Split\""
+                            "Name": "core/Bus Split"
                           },
-                          "name": "\"Secondary2 Split\"",
+                          "name": "Secondary2 Split",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2171,7 +2171,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Constant\""
+                      "Name": "core/Constant"
                     },
                     "name": "cell_string_number",
                     "idopt": null,
@@ -2187,7 +2187,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Probe\""
+                      "Name": "core/Probe"
                     },
                     "name": "cell_string_probe",
                     "idopt": null,
@@ -2205,15 +2205,15 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Charger Protection\"",
+                    "name": "Charger Protection",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Relational operator\""
+                            "Name": "core/Relational operator"
                           },
-                          "name": "\"Relational operator1\"",
+                          "name": "Relational operator1",
                           "idopt": null,
                           "elements": null,
                           "location": {
@@ -2227,7 +2227,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Constant\""
+                            "Name": "core/Constant"
                           },
                           "name": "Constant1",
                           "idopt": null,
@@ -2263,13 +2263,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Battery Stack 2\"",
+              "name": "Battery Stack 2",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Volt_String",
                     "idopt": null,
@@ -2287,7 +2287,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Battery Secondary\"",
+                    "name": "Battery Secondary",
                     "idopt": null,
                     "elements": [
                       {
@@ -2295,15 +2295,15 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"BC Temps\"",
+                          "name": "BC Temps",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Bus Join\""
+                                  "Name": "core/Bus Join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2317,7 +2317,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP0",
                                 "idopt": null,
@@ -2333,7 +2333,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP1",
                                 "idopt": null,
@@ -2349,7 +2349,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP2",
                                 "idopt": null,
@@ -2376,15 +2376,15 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"BC Voltage\"",
+                          "name": "BC Voltage",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Bus Join\""
+                                  "Name": "core/Bus Join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2398,7 +2398,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP0",
                                 "idopt": null,
@@ -2414,7 +2414,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP1",
                                 "idopt": null,
@@ -2430,7 +2430,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP2",
                                 "idopt": null,
@@ -2457,15 +2457,15 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"BC Current\"",
+                          "name": "BC Current",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Bus Join\""
+                                  "Name": "core/Bus Join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2479,7 +2479,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP0",
                                 "idopt": null,
@@ -2495,7 +2495,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP1",
                                 "idopt": null,
@@ -2511,7 +2511,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP2",
                                 "idopt": null,
@@ -2538,15 +2538,15 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"BC SOC\"",
+                          "name": "BC SOC",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Bus Join\""
+                                  "Name": "core/Bus Join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2560,7 +2560,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP0",
                                 "idopt": null,
@@ -2576,7 +2576,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP1",
                                 "idopt": null,
@@ -2592,7 +2592,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP2",
                                 "idopt": null,
@@ -2617,7 +2617,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Termination\""
+                            "Name": "core/Termination"
                           },
                           "name": "Termination1",
                           "idopt": null,
@@ -2642,7 +2642,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Bus Split\""
+                      "Name": "core/Bus Split"
                     },
                     "name": "Secondary_Split",
                     "idopt": null,
@@ -2658,7 +2658,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Resistor\""
+                      "Name": "core/Resistor"
                     },
                     "name": "string_resistor",
                     "idopt": null,
@@ -2674,7 +2674,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Inductor\""
+                      "Name": "core/Inductor"
                     },
                     "name": "string_inductor",
                     "idopt": null,
@@ -2690,7 +2690,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Single Pole Single Throw Contactor\""
+                      "Name": "core/Single Pole Single Throw Contactor"
                     },
                     "name": "string_contactor",
                     "idopt": null,
@@ -2706,9 +2706,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Battery Cell\""
+                      "Name": "core/Battery Cell"
                     },
-                    "name": "\"Battery Cell1\"",
+                    "name": "Battery Cell1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2722,9 +2722,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Battery Cell\""
+                      "Name": "core/Battery Cell"
                     },
-                    "name": "\"Battery Cell2\"",
+                    "name": "Battery Cell2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2738,9 +2738,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Battery Cell\""
+                      "Name": "core/Battery Cell"
                     },
-                    "name": "\"Battery Cell3\"",
+                    "name": "Battery Cell3",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2754,9 +2754,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Bus Join\""
+                      "Name": "core/Bus Join"
                     },
-                    "name": "\"Secondary Join\"",
+                    "name": "Secondary Join",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -2779,7 +2779,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Signal Controlled Current Source\""
+                "Name": "core/Signal Controlled Current Source"
               },
               "name": "Isp1",
               "idopt": null,
@@ -2795,9 +2795,9 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/SCADA Input\""
+                "Name": "core/SCADA Input"
               },
-              "name": "\"Current Source\"",
+              "name": "Current Source",
               "idopt": null,
               "elements": null,
               "location": {
@@ -2811,7 +2811,7 @@
           {
             "Component": {
               "component_type": {
-                "Name": "\"core/Product\""
+                "Name": "core/Product"
               },
               "name": "Product1",
               "idopt": null,
@@ -2829,13 +2829,13 @@
               "component_type": {
                 "ID": "Subsystem"
               },
-              "name": "\"Battery Stack 1\"",
+              "name": "Battery Stack 1",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Voltage Measurement\""
+                      "Name": "core/Voltage Measurement"
                     },
                     "name": "Volt_String",
                     "idopt": null,
@@ -2853,7 +2853,7 @@
                     "component_type": {
                       "ID": "Subsystem"
                     },
-                    "name": "\"Battery Secondary\"",
+                    "name": "Battery Secondary",
                     "idopt": null,
                     "elements": [
                       {
@@ -2861,15 +2861,15 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"BC Temps\"",
+                          "name": "BC Temps",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Bus Join\""
+                                  "Name": "core/Bus Join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2883,7 +2883,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP0",
                                 "idopt": null,
@@ -2899,7 +2899,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP1",
                                 "idopt": null,
@@ -2915,7 +2915,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP2",
                                 "idopt": null,
@@ -2942,15 +2942,15 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"BC Voltage\"",
+                          "name": "BC Voltage",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Bus Join\""
+                                  "Name": "core/Bus Join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -2964,7 +2964,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP0",
                                 "idopt": null,
@@ -2980,7 +2980,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP1",
                                 "idopt": null,
@@ -2996,7 +2996,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP2",
                                 "idopt": null,
@@ -3023,15 +3023,15 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"BC Current\"",
+                          "name": "BC Current",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Bus Join\""
+                                  "Name": "core/Bus Join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -3045,7 +3045,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP0",
                                 "idopt": null,
@@ -3061,7 +3061,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP1",
                                 "idopt": null,
@@ -3077,7 +3077,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP2",
                                 "idopt": null,
@@ -3104,15 +3104,15 @@
                           "component_type": {
                             "ID": "Subsystem"
                           },
-                          "name": "\"BC SOC\"",
+                          "name": "BC SOC",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Bus Join\""
+                                  "Name": "core/Bus Join"
                                 },
-                                "name": "\"Bus Join1\"",
+                                "name": "Bus Join1",
                                 "idopt": null,
                                 "elements": null,
                                 "location": {
@@ -3126,7 +3126,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP0",
                                 "idopt": null,
@@ -3142,7 +3142,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP1",
                                 "idopt": null,
@@ -3158,7 +3158,7 @@
                             {
                               "Component": {
                                 "component_type": {
-                                  "Name": "\"core/Signal Picker Source\""
+                                  "Name": "core/Signal Picker Source"
                                 },
                                 "name": "SP2",
                                 "idopt": null,
@@ -3183,7 +3183,7 @@
                       {
                         "Component": {
                           "component_type": {
-                            "Name": "\"core/Termination\""
+                            "Name": "core/Termination"
                           },
                           "name": "Termination1",
                           "idopt": null,
@@ -3208,7 +3208,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Bus Split\""
+                      "Name": "core/Bus Split"
                     },
                     "name": "Secondary_Split",
                     "idopt": null,
@@ -3224,7 +3224,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Resistor\""
+                      "Name": "core/Resistor"
                     },
                     "name": "string_resistor",
                     "idopt": null,
@@ -3240,7 +3240,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Inductor\""
+                      "Name": "core/Inductor"
                     },
                     "name": "string_inductor",
                     "idopt": null,
@@ -3256,7 +3256,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Single Pole Single Throw Contactor\""
+                      "Name": "core/Single Pole Single Throw Contactor"
                     },
                     "name": "string_contactor",
                     "idopt": null,
@@ -3272,9 +3272,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Battery Cell\""
+                      "Name": "core/Battery Cell"
                     },
-                    "name": "\"Battery Cell1\"",
+                    "name": "Battery Cell1",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3288,9 +3288,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Battery Cell\""
+                      "Name": "core/Battery Cell"
                     },
-                    "name": "\"Battery Cell2\"",
+                    "name": "Battery Cell2",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3304,9 +3304,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Battery Cell\""
+                      "Name": "core/Battery Cell"
                     },
-                    "name": "\"Battery Cell3\"",
+                    "name": "Battery Cell3",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -3320,9 +3320,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Bus Join\""
+                      "Name": "core/Bus Join"
                     },
-                    "name": "\"Secondary Join\"",
+                    "name": "Secondary Join",
                     "idopt": null,
                     "elements": null,
                     "location": {

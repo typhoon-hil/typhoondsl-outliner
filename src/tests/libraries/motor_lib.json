@@ -1,5 +1,5 @@
 {
-  "name": "\"motor_lib\"",
+  "name": "motor_lib",
   "location": {
     "line_start": 6,
     "column_start": 0,
@@ -34,9 +34,9 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Induction Machine with Squirrel Cage\""
+                      "Name": "core/Induction Machine with Squirrel Cage"
                     },
-                    "name": "\"Induction machine\"",
+                    "name": "Induction machine",
                     "idopt": null,
                     "elements": null,
                     "location": {
@@ -50,7 +50,7 @@
                 {
                   "Component": {
                     "component_type": {
-                      "Name": "\"core/Permanent Magnet Synchronous Machine with Salient Rotor\""
+                      "Name": "core/Permanent Magnet Synchronous Machine with Salient Rotor"
                     },
                     "name": "PMSM",
                     "idopt": null,
