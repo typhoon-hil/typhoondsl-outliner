@@ -6,6 +6,7 @@ mod tests;
 
 use clap::Parser;
 use outliner_lexer::OutlinerLexer;
+use std::io::{self, Read};
 use std::path::PathBuf;
 
 #[derive(Parser, Debug)]
@@ -20,13 +21,24 @@ struct Args {
     pretty: bool,
 
     #[clap(value_parser, value_name="MODEL", value_hint = clap::ValueHint::FilePath)]
-    model: PathBuf,
+    model: Option<PathBuf>,
 }
 
-fn main() {
+fn main() -> Result<(), std::io::Error> {
     let args = Args::parse();
 
-    match outliner::OutlinerParser::new(OutlinerLexer::new()).parse_file(args.model) {
+    let model_str = match args.model {
+        Some(model) => std::fs::read_to_string(model)?,
+        None => {
+            let mut piped = String::new();
+            io::stdin().read_to_string(&mut piped)?;
+            piped
+        }
+    };
+
+    let result = outliner::OutlinerParser::new(OutlinerLexer::new()).parse(&model_str);
+
+    match result {
         Ok(model) => {
             if args.json {
                 if args.pretty {
