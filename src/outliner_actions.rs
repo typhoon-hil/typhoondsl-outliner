@@ -1,10 +1,10 @@
-///! This file is maintained by rustemo but can be modified manually.
-///! All manual changes will be preserved except non-doc comments.
-use serde::Serialize;
-use rustemo::lexer;
 use super::outliner::Context;
 use super::outliner::TokenKind;
 use super::outliner_lexer::Input;
+use rustemo::lexer;
+///! This file is maintained by rustemo but can be modified manually.
+///! All manual changes will be preserved except non-doc comments.
+use serde::Serialize;
 #[allow(dead_code)]
 pub type Token<'i> = lexer::Token<'i, Input, TokenKind>;
 pub type OBrace = ();
@@ -53,10 +53,7 @@ impl From<rustemo::location::Location> for Location {
                 panic!("Position must be line/column based.")
             }
         };
-        let (line_end, column_end) = match location
-            .end
-            .expect("End position must be set!")
-        {
+        let (line_end, column_end) = match location.end.expect("End position must be set!") {
             rustemo::location::Position::LineBased(lb) => (lb.line, lb.column),
             rustemo::location::Position::Position(_) => {
                 panic!("Position must be line/column based.")
@@ -116,11 +113,7 @@ pub fn element0_empty(_ctx: &Context) -> Element0 {
     None
 }
 pub type Element1 = Vec<Element>;
-pub fn element1_c1(
-    _ctx: &Context,
-    mut element1: Element1,
-    element: Element,
-) -> Element1 {
+pub fn element1_c1(_ctx: &Context, mut element1: Element1, element: Element) -> Element1 {
     if let Element::Component(_) | Element::Handler(_) = element {
         element1.push(element)
     }
@@ -183,12 +176,7 @@ pub fn configuration_c1(
 pub struct Block {
     pub element0: Element0,
 }
-pub fn block_c1(
-    _ctx: &Context,
-    _obrace: OBrace,
-    element0: Element0,
-    _cbrace: CBrace,
-) -> Block {
+pub fn block_c1(_ctx: &Context, _obrace: OBrace, element0: Element0, _cbrace: CBrace) -> Block {
     Block { element0 }
 }
 #[derive(Debug, Clone, Serialize)]
@@ -212,7 +200,8 @@ pub type TillEndCodeKWOpt = ();
 pub fn till_end_code_kwopt_till_end_code_kw(
     _ctx: &Context,
     _till_end_code_kw: TillEndCodeKW,
-) -> TillEndCodeKWOpt {}
+) -> TillEndCodeKWOpt {
+}
 pub fn till_end_code_kwopt_empty(_ctx: &Context) -> TillEndCodeKWOpt {}
 #[derive(Debug, Clone, Serialize)]
 pub enum TypeName {
@@ -226,8 +215,7 @@ pub fn type_name_id(_ctx: &Context, id: ID) -> TypeName {
     TypeName::ID(id)
 }
 pub type LibraryKW = ();
-pub fn library_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> LibraryKW {
-}
+pub fn library_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> LibraryKW {}
 pub type ConfigurationOpt = Option<Configuration>;
 pub fn configuration_opt_configuration(
     _ctx: &Context,
@@ -239,10 +227,5 @@ pub fn configuration_opt_empty(_ctx: &Context) -> ConfigurationOpt {
     None
 }
 pub type ModelOrLibrary = ();
-pub fn model_or_library_model_kw(_ctx: &Context, _model_kw: ModelKW) -> ModelOrLibrary {
-}
-pub fn model_or_library_library_kw(
-    _ctx: &Context,
-    _library_kw: LibraryKW,
-) -> ModelOrLibrary {
-}
+pub fn model_or_library_model_kw(_ctx: &Context, _model_kw: ModelKW) -> ModelOrLibrary {}
+pub fn model_or_library_library_kw(_ctx: &Context, _library_kw: LibraryKW) -> ModelOrLibrary {}

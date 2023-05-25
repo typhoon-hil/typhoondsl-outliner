@@ -94,14 +94,15 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
         };
 
         let consume_until = |until_words: &[&str]| -> Option<&'i str> {
-            let position: usize =
-                context.input[context.position..]
-                    .char_indices()
-                    .take_while(|(idx, _)| {
-                        !until_words
-                            .iter()
-                            .any(|&w| is_match(w, context.position + idx))
-                    }).map(|(_, c)| c.len_utf8()).sum();
+            let position: usize = context.input[context.position..]
+                .char_indices()
+                .take_while(|(idx, _)| {
+                    !until_words
+                        .iter()
+                        .any(|&w| is_match(w, context.position + idx))
+                })
+                .map(|(_, c)| c.len_utf8())
+                .sum();
 
             if position > 0 {
                 Some(&context.input[context.position..(context.position + position)])

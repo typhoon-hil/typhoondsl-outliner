@@ -26,7 +26,7 @@ Handler:
 
 TypeName: Name | ID;
 
-// Comments
+// Comments and other stuff we are not capturing like properties
 Layout: LayoutItem*;
 LayoutItem: Comment | Anything | String | ModelComment | ModelProperty | ConfigurationProperty;
 Comment: OComment Cornc* CComment | CommentLine;

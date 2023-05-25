@@ -1,5 +1,5 @@
-use std::process::Command;
 use std::path::Path;
+use std::process::Command;
 
 use rstest::rstest;
 use rustemo_compiler::output_cmp;
@@ -31,7 +31,6 @@ fn test_models(#[case] model: &str) {
         String::from_utf8_lossy(&result.stdout).as_ref()
     );
 }
-
 
 #[rstest]
 #[case("User Library.tlib")]
