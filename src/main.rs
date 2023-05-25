@@ -1,4 +1,6 @@
+#[allow(clippy::unit_arg)]
 mod outliner;
+#[allow(clippy::too_many_arguments)]
 mod outliner_actions;
 mod outliner_lexer;
 #[cfg(test)]
