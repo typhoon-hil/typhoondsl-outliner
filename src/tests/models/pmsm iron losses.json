@@ -17,25 +17,19 @@
   "elements": [
     {
       "Component": {
-        "component_type": {
-          "ID": "Subsystem"
-        },
+        "component_type": "Subsystem",
         "name": "Root",
         "idopt": null,
         "elements": [
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "motor_losses",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_2D_lookup_table"
-                    },
+                    "component_type": "gen_2D_lookup_table",
                     "name": "eddy loss map",
                     "idopt": null,
                     "elements": null,
@@ -49,9 +43,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_2D_lookup_table"
-                    },
+                    "component_type": "gen_2D_lookup_table",
                     "name": "hysteresis loss map",
                     "idopt": null,
                     "elements": null,
@@ -65,9 +57,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_product"
-                    },
+                    "component_type": "gen_product",
                     "name": "Product5",
                     "idopt": null,
                     "elements": null,
@@ -81,9 +71,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum2",
                     "idopt": null,
                     "elements": null,
@@ -97,9 +85,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_product"
-                    },
+                    "component_type": "gen_product",
                     "name": "Product6",
                     "idopt": null,
                     "elements": null,
@@ -113,9 +99,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_math_fnc"
-                    },
+                    "component_type": "gen_math_fnc",
                     "name": "Mathematical function1",
                     "idopt": null,
                     "elements": null,
@@ -129,9 +113,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_product"
-                    },
+                    "component_type": "gen_product",
                     "name": "Product10",
                     "idopt": null,
                     "elements": null,
@@ -145,9 +127,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Rs",
                     "idopt": null,
                     "elements": null,
@@ -161,9 +141,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain34",
                     "idopt": null,
                     "elements": null,
@@ -177,9 +155,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_abs"
-                    },
+                    "component_type": "gen_abs",
                     "name": "Abs1",
                     "idopt": null,
                     "elements": null,
@@ -202,9 +178,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_probe"
-              },
+              "component_type": "gen_probe",
               "name": "motor_temp",
               "idopt": null,
               "elements": null,
@@ -218,9 +192,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_scada_input"
-              },
+              "component_type": "src_scada_input",
               "name": "T_amb",
               "idopt": null,
               "elements": null,
@@ -234,17 +206,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "motor_thermal",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum13",
                     "idopt": null,
                     "elements": null,
@@ -258,9 +226,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_z_domain_transfer"
-                    },
+                    "component_type": "gen_z_domain_transfer",
                     "name": "Discrete Transfer Function1",
                     "idopt": null,
                     "elements": null,
@@ -274,9 +240,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum12",
                     "idopt": null,
                     "elements": null,
@@ -299,9 +263,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Three Phase Inverter"
-              },
+              "component_type": "core/Three Phase Inverter",
               "name": "Three Phase Inverter",
               "idopt": null,
               "elements": null,
@@ -315,9 +277,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_voltage"
-              },
+              "component_type": "src_voltage",
               "name": "Vs",
               "idopt": null,
               "elements": null,
@@ -331,9 +291,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_scada_input"
-              },
+              "component_type": "src_scada_input",
               "name": "en_inv",
               "idopt": null,
               "elements": null,
@@ -347,9 +305,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Ia",
               "idopt": null,
               "elements": null,
@@ -363,9 +319,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Ib",
               "idopt": null,
               "elements": null,
@@ -379,9 +333,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Ic",
               "idopt": null,
               "elements": null,
@@ -395,9 +347,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_bus_split"
-              },
+              "component_type": "gen_bus_split",
               "name": "Bus Split1",
               "idopt": null,
               "elements": null,
@@ -411,9 +361,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_gain"
-              },
+              "component_type": "gen_gain",
               "name": "Gain1",
               "idopt": null,
               "elements": null,
@@ -427,9 +375,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_gain"
-              },
+              "component_type": "gen_gain",
               "name": "Gain27",
               "idopt": null,
               "elements": null,
@@ -443,9 +389,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_scada_input"
-              },
+              "component_type": "src_scada_input",
               "name": "n_ref",
               "idopt": null,
               "elements": null,
@@ -459,17 +403,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "motor control",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination1",
                     "idopt": null,
                     "elements": null,
@@ -483,9 +423,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "ud_ref",
                     "idopt": null,
                     "elements": null,
@@ -499,9 +437,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "uq_ref",
                     "idopt": null,
                     "elements": null,
@@ -515,9 +451,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "idref",
                     "idopt": null,
                     "elements": null,
@@ -531,9 +465,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain10",
                     "idopt": null,
                     "elements": null,
@@ -547,9 +479,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain24",
                     "idopt": null,
                     "elements": null,
@@ -563,9 +493,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain25",
                     "idopt": null,
                     "elements": null,
@@ -579,9 +507,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "iq",
                     "idopt": null,
                     "elements": null,
@@ -595,9 +521,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "id",
                     "idopt": null,
                     "elements": null,
@@ -611,9 +535,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/abc to dq"
-                    },
+                    "component_type": "core/abc to dq",
                     "name": "I_abc_dq",
                     "idopt": null,
                     "elements": null,
@@ -627,17 +549,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Current_regulation",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum6",
                           "idopt": null,
                           "elements": null,
@@ -651,9 +569,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum7",
                           "idopt": null,
                           "elements": null,
@@ -667,9 +583,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_constant"
-                          },
+                          "component_type": "src_constant",
                           "name": "Constant3",
                           "idopt": null,
                           "elements": null,
@@ -683,9 +597,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_constant"
-                          },
+                          "component_type": "src_constant",
                           "name": "Constant2",
                           "idopt": null,
                           "elements": null,
@@ -699,9 +611,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum8",
                           "idopt": null,
                           "elements": null,
@@ -715,9 +625,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_constant"
-                          },
+                          "component_type": "src_constant",
                           "name": "Constant1",
                           "idopt": null,
                           "elements": null,
@@ -731,9 +639,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product1",
                           "idopt": null,
                           "elements": null,
@@ -747,9 +653,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum3",
                           "idopt": null,
                           "elements": null,
@@ -763,9 +667,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product2",
                           "idopt": null,
                           "elements": null,
@@ -779,9 +681,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "vdref",
                           "idopt": null,
                           "elements": null,
@@ -795,9 +695,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "vqref",
                           "idopt": null,
                           "elements": null,
@@ -811,9 +709,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product4",
                           "idopt": null,
                           "elements": null,
@@ -827,9 +723,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_scada_input"
-                          },
+                          "component_type": "src_scada_input",
                           "name": "Kpid",
                           "idopt": null,
                           "elements": null,
@@ -843,9 +737,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_scada_input"
-                          },
+                          "component_type": "src_scada_input",
                           "name": "Kiid",
                           "idopt": null,
                           "elements": null,
@@ -859,9 +751,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum9",
                           "idopt": null,
                           "elements": null,
@@ -875,9 +765,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product5",
                           "idopt": null,
                           "elements": null,
@@ -891,9 +779,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product6",
                           "idopt": null,
                           "elements": null,
@@ -907,9 +793,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum10",
                           "idopt": null,
                           "elements": null,
@@ -923,9 +807,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product7",
                           "idopt": null,
                           "elements": null,
@@ -939,9 +821,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_scada_input"
-                          },
+                          "component_type": "src_scada_input",
                           "name": "Kpiq",
                           "idopt": null,
                           "elements": null,
@@ -955,9 +835,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_scada_input"
-                          },
+                          "component_type": "src_scada_input",
                           "name": "Kiiq",
                           "idopt": null,
                           "elements": null,
@@ -971,9 +849,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product8",
                           "idopt": null,
                           "elements": null,
@@ -987,9 +863,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum11",
                           "idopt": null,
                           "elements": null,
@@ -1003,9 +877,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_integrator"
-                          },
+                          "component_type": "gen_integrator",
                           "name": "Integrator2",
                           "idopt": null,
                           "elements": null,
@@ -1019,9 +891,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_integrator"
-                          },
+                          "component_type": "gen_integrator",
                           "name": "Integrator1",
                           "idopt": null,
                           "elements": null,
@@ -1044,9 +914,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "iqref",
                     "idopt": null,
                     "elements": null,
@@ -1060,9 +928,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain29",
                     "idopt": null,
                     "elements": null,
@@ -1076,9 +942,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain31",
                     "idopt": null,
                     "elements": null,
@@ -1092,9 +956,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "va",
                     "idopt": null,
                     "elements": null,
@@ -1108,9 +970,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "vb",
                     "idopt": null,
                     "elements": null,
@@ -1124,9 +984,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "vc",
                     "idopt": null,
                     "elements": null,
@@ -1140,17 +998,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "speed_regulation",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum7",
                           "idopt": null,
                           "elements": null,
@@ -1164,9 +1018,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product4",
                           "idopt": null,
                           "elements": null,
@@ -1180,9 +1032,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_scada_input"
-                          },
+                          "component_type": "src_scada_input",
                           "name": "Kpw",
                           "idopt": null,
                           "elements": null,
@@ -1196,9 +1046,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_scada_input"
-                          },
+                          "component_type": "src_scada_input",
                           "name": "Kiw",
                           "idopt": null,
                           "elements": null,
@@ -1212,9 +1060,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_integrator"
-                          },
+                          "component_type": "gen_integrator",
                           "name": "Integrator1",
                           "idopt": null,
                           "elements": null,
@@ -1228,9 +1074,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product6",
                           "idopt": null,
                           "elements": null,
@@ -1244,9 +1088,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum10",
                           "idopt": null,
                           "elements": null,
@@ -1260,9 +1102,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum11",
                           "idopt": null,
                           "elements": null,
@@ -1276,9 +1116,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum12",
                           "idopt": null,
                           "elements": null,
@@ -1292,9 +1130,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product7",
                           "idopt": null,
                           "elements": null,
@@ -1308,9 +1144,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_scada_input"
-                          },
+                          "component_type": "src_scada_input",
                           "name": "Ksa",
                           "idopt": null,
                           "elements": null,
@@ -1324,9 +1158,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_limiter"
-                          },
+                          "component_type": "gen_limiter",
                           "name": "Limit1",
                           "idopt": null,
                           "elements": null,
@@ -1349,9 +1181,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain32",
                     "idopt": null,
                     "elements": null,
@@ -1365,9 +1195,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition1",
                     "idopt": null,
                     "elements": null,
@@ -1381,9 +1209,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition2",
                     "idopt": null,
                     "elements": null,
@@ -1397,9 +1223,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_d_q2alpha_beta"
-                    },
+                    "component_type": "gen_d_q2alpha_beta",
                     "name": "dq to alpha beta1",
                     "idopt": null,
                     "elements": null,
@@ -1413,9 +1237,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/SVPWM References Generator"
-                    },
+                    "component_type": "core/SVPWM References Generator",
                     "name": "SVPWM References Generator1",
                     "idopt": null,
                     "elements": null,
@@ -1429,17 +1251,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "current_command_generator",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "MTPA",
                           "idopt": null,
                           "elements": null,
@@ -1462,9 +1280,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "isref",
                     "idopt": null,
                     "elements": null,
@@ -1478,9 +1294,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain33",
                     "idopt": null,
                     "elements": null,
@@ -1503,9 +1317,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_sum"
-              },
+              "component_type": "gen_sum",
               "name": "Sum1",
               "idopt": null,
               "elements": null,
@@ -1519,9 +1331,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_probe"
-              },
+              "component_type": "gen_probe",
               "name": "eddy_losses",
               "idopt": null,
               "elements": null,
@@ -1535,9 +1345,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_probe"
-              },
+              "component_type": "gen_probe",
               "name": "hysteresis_losses",
               "idopt": null,
               "elements": null,
@@ -1551,9 +1359,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_probe"
-              },
+              "component_type": "gen_probe",
               "name": "stator_winding_losses",
               "idopt": null,
               "elements": null,
@@ -1567,9 +1373,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_probe"
-              },
+              "component_type": "gen_probe",
               "name": "n_rpm",
               "idopt": null,
               "elements": null,
@@ -1583,9 +1387,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Permanent Magnet Synchronous Machine with Salient Rotor"
-              },
+              "component_type": "core/Permanent Magnet Synchronous Machine with Salient Rotor",
               "name": "PMSM",
               "idopt": null,
               "elements": null,

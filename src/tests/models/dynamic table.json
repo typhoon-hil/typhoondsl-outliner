@@ -17,17 +17,13 @@
   "elements": [
     {
       "Component": {
-        "component_type": {
-          "ID": "Subsystem"
-        },
+        "component_type": "Subsystem",
         "name": "Root",
         "idopt": null,
         "elements": [
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Grid"
-              },
+              "component_type": "core/Grid",
               "name": "Grid1",
               "idopt": null,
               "elements": null,
@@ -41,9 +37,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Grid UI"
-              },
+              "component_type": "core/Grid UI",
               "name": "Grid UI1",
               "idopt": null,
               "elements": null,
@@ -57,17 +51,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "Variable Load (Generic) UI1",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Enable_fb",
                     "idopt": null,
                     "elements": null,
@@ -81,9 +71,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "PFmeas",
                     "idopt": null,
                     "elements": null,
@@ -97,9 +85,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Qref",
                     "idopt": null,
                     "elements": null,
@@ -113,9 +99,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Enable",
                     "idopt": null,
                     "elements": null,
@@ -129,9 +113,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vload_rms_meas_V",
                     "idopt": null,
                     "elements": null,
@@ -145,9 +127,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Qmeas_kVAr",
                     "idopt": null,
                     "elements": null,
@@ -161,9 +141,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Smeas_kVA",
                     "idopt": null,
                     "elements": null,
@@ -177,9 +155,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Pnom_kW",
                     "idopt": null,
                     "elements": null,
@@ -193,9 +169,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Qref_fb_kVAr",
                     "idopt": null,
                     "elements": null,
@@ -209,9 +183,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Snom_kVA",
                     "idopt": null,
                     "elements": null,
@@ -225,9 +197,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Fmeas_Hz",
                     "idopt": null,
                     "elements": null,
@@ -241,9 +211,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Pref_fb_kW",
                     "idopt": null,
                     "elements": null,
@@ -257,9 +225,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Qnom_kVAr",
                     "idopt": null,
                     "elements": null,
@@ -273,9 +239,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vgrid_rms_meas_kV",
                     "idopt": null,
                     "elements": null,
@@ -289,9 +253,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Pmeas_kW",
                     "idopt": null,
                     "elements": null,
@@ -305,9 +267,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "MCB_status",
                     "idopt": null,
                     "elements": null,
@@ -321,9 +281,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "alarm_msg",
                     "idopt": null,
                     "elements": null,
@@ -337,9 +295,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Reset alarms",
                     "idopt": null,
                     "elements": null,
@@ -353,9 +309,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Pref rate of change",
                     "idopt": null,
                     "elements": null,
@@ -369,9 +323,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Qref rate of change",
                     "idopt": null,
                     "elements": null,
@@ -385,9 +337,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "P dependency type",
                     "idopt": null,
                     "elements": null,
@@ -401,9 +351,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Q dependency type",
                     "idopt": null,
                     "elements": null,
@@ -417,9 +365,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "P(V) k1",
                     "idopt": null,
                     "elements": null,
@@ -433,9 +379,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "P(V) k2",
                     "idopt": null,
                     "elements": null,
@@ -449,9 +393,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Q(V) k1",
                     "idopt": null,
                     "elements": null,
@@ -465,9 +407,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Q(V) k2",
                     "idopt": null,
                     "elements": null,
@@ -481,9 +421,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "P(f) k1",
                     "idopt": null,
                     "elements": null,
@@ -497,9 +435,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "P(f) k2",
                     "idopt": null,
                     "elements": null,
@@ -513,9 +449,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Q(f) k1",
                     "idopt": null,
                     "elements": null,
@@ -529,9 +463,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Q(f) k2",
                     "idopt": null,
                     "elements": null,
@@ -545,9 +477,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/DER (Generic) Control Join"
-                    },
+                    "component_type": "core/DER (Generic) Control Join",
                     "name": "DER (Generic) Control Join",
                     "idopt": null,
                     "elements": null,
@@ -561,9 +491,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/DER (Generic) Output Split"
-                    },
+                    "component_type": "core/DER (Generic) Output Split",
                     "name": "DER (Generic) Output Split",
                     "idopt": null,
                     "elements": null,
@@ -577,9 +505,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/DER (Generic) External Join"
-                    },
+                    "component_type": "core/DER (Generic) External Join",
                     "name": "DER (Generic) External Join1",
                     "idopt": null,
                     "elements": null,
@@ -593,9 +519,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "V alarm upper limit",
                     "idopt": null,
                     "elements": null,
@@ -609,9 +533,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "V alarm lower limit",
                     "idopt": null,
                     "elements": null,
@@ -625,9 +547,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "F alarm upper limit",
                     "idopt": null,
                     "elements": null,
@@ -641,9 +561,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "F alarm lower limit",
                     "idopt": null,
                     "elements": null,
@@ -657,9 +575,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "S alarm upper limit",
                     "idopt": null,
                     "elements": null,
@@ -673,9 +589,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "I alarm upper limit",
                     "idopt": null,
                     "elements": null,
@@ -698,9 +612,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Variable Load (Generic)"
-              },
+              "component_type": "core/Variable Load (Generic)",
               "name": "Variable Load (Generic)1",
               "idopt": null,
               "elements": null,
@@ -714,9 +626,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Dynamic Table"
-              },
+              "component_type": "core/Dynamic Table",
               "name": "Dynamic Table - CSV",
               "idopt": null,
               "elements": null,
@@ -730,9 +640,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Dynamic Table"
-              },
+              "component_type": "core/Dynamic Table",
               "name": "Dynamic Table - TDMS",
               "idopt": null,
               "elements": null,
@@ -746,9 +654,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Dynamic Table"
-              },
+              "component_type": "core/Dynamic Table",
               "name": "Dynamic Table - HDF",
               "idopt": null,
               "elements": null,
@@ -762,9 +668,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "sys_mp_signal_switch"
-              },
+              "component_type": "sys_mp_signal_switch",
               "name": "Multiport signal switch",
               "idopt": null,
               "elements": null,
@@ -778,9 +682,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_scada_input"
-              },
+              "component_type": "src_scada_input",
               "name": "load_profile",
               "idopt": null,
               "elements": null,

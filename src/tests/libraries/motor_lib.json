@@ -17,25 +17,19 @@
   "elements": [
     {
       "Component": {
-        "component_type": {
-          "ID": "Subsystem"
-        },
+        "component_type": "Subsystem",
         "name": "Root",
         "idopt": null,
         "elements": [
           {
             "Component": {
-              "component_type": {
-                "ID": "Category"
-              },
+              "component_type": "Category",
               "name": "Motors",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Induction Machine with Squirrel Cage"
-                    },
+                    "component_type": "core/Induction Machine with Squirrel Cage",
                     "name": "Induction machine",
                     "idopt": null,
                     "elements": null,
@@ -49,9 +43,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Permanent Magnet Synchronous Machine with Salient Rotor"
-                    },
+                    "component_type": "core/Permanent Magnet Synchronous Machine with Salient Rotor",
                     "name": "PMSM",
                     "idopt": null,
                     "elements": null,

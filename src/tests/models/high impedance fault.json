@@ -17,17 +17,13 @@
   "elements": [
     {
       "Component": {
-        "component_type": {
-          "ID": "Subsystem"
-        },
+        "component_type": "Subsystem",
         "name": "Root",
         "idopt": null,
         "elements": [
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 716",
               "idopt": null,
               "elements": null,
@@ -41,9 +37,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 715",
               "idopt": null,
               "elements": null,
@@ -57,9 +51,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 710",
               "idopt": null,
               "elements": null,
@@ -73,9 +65,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 707",
               "idopt": null,
               "elements": null,
@@ -89,9 +79,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 706",
               "idopt": null,
               "elements": null,
@@ -105,9 +93,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 705",
               "idopt": null,
               "elements": null,
@@ -121,9 +107,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 731",
               "idopt": null,
               "elements": null,
@@ -137,9 +121,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 730",
               "idopt": null,
               "elements": null,
@@ -153,9 +135,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 729",
               "idopt": null,
               "elements": null,
@@ -169,9 +149,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 728",
               "idopt": null,
               "elements": null,
@@ -185,9 +163,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 727",
               "idopt": null,
               "elements": null,
@@ -201,9 +177,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 726",
               "idopt": null,
               "elements": null,
@@ -217,9 +191,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 704",
               "idopt": null,
               "elements": null,
@@ -233,9 +205,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 703",
               "idopt": null,
               "elements": null,
@@ -249,9 +219,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 722",
               "idopt": null,
               "elements": null,
@@ -265,9 +233,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 724",
               "idopt": null,
               "elements": null,
@@ -281,9 +247,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 723",
               "idopt": null,
               "elements": null,
@@ -297,9 +261,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 725",
               "idopt": null,
               "elements": null,
@@ -313,9 +275,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 701",
               "idopt": null,
               "elements": null,
@@ -329,9 +289,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 719",
               "idopt": null,
               "elements": null,
@@ -345,9 +303,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 718",
               "idopt": null,
               "elements": null,
@@ -361,9 +317,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 721",
               "idopt": null,
               "elements": null,
@@ -377,9 +331,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 720",
               "idopt": null,
               "elements": null,
@@ -393,9 +345,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 709",
               "idopt": null,
               "elements": null,
@@ -409,9 +359,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 708",
               "idopt": null,
               "elements": null,
@@ -425,9 +373,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 700",
               "idopt": null,
               "elements": null,
@@ -441,9 +387,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 713",
               "idopt": null,
               "elements": null,
@@ -457,9 +401,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 714",
               "idopt": null,
               "elements": null,
@@ -473,9 +415,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 702",
               "idopt": null,
               "elements": null,
@@ -489,9 +429,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 711",
               "idopt": null,
               "elements": null,
@@ -505,9 +443,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 712",
               "idopt": null,
               "elements": null,
@@ -521,9 +457,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 732",
               "idopt": null,
               "elements": null,
@@ -537,9 +471,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/RL Section"
-              },
+              "component_type": "core/RL Section",
               "name": "Line 717",
               "idopt": null,
               "elements": null,
@@ -553,9 +485,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg702",
               "idopt": null,
               "elements": null,
@@ -569,9 +499,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg703",
               "idopt": null,
               "elements": null,
@@ -585,9 +513,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg704",
               "idopt": null,
               "elements": null,
@@ -601,9 +527,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg705",
               "idopt": null,
               "elements": null,
@@ -617,9 +541,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg706",
               "idopt": null,
               "elements": null,
@@ -633,9 +555,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg707",
               "idopt": null,
               "elements": null,
@@ -649,9 +569,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg708",
               "idopt": null,
               "elements": null,
@@ -665,9 +583,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg709",
               "idopt": null,
               "elements": null,
@@ -681,9 +597,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg710",
               "idopt": null,
               "elements": null,
@@ -697,9 +611,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg711",
               "idopt": null,
               "elements": null,
@@ -713,9 +625,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg712",
               "idopt": null,
               "elements": null,
@@ -729,9 +639,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg713",
               "idopt": null,
               "elements": null,
@@ -745,9 +653,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg714",
               "idopt": null,
               "elements": null,
@@ -761,9 +667,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg715",
               "idopt": null,
               "elements": null,
@@ -777,9 +681,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg716",
               "idopt": null,
               "elements": null,
@@ -793,9 +695,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg717",
               "idopt": null,
               "elements": null,
@@ -809,9 +709,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg718",
               "idopt": null,
               "elements": null,
@@ -825,9 +723,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg719",
               "idopt": null,
               "elements": null,
@@ -841,9 +737,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg720",
               "idopt": null,
               "elements": null,
@@ -857,9 +751,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg721",
               "idopt": null,
               "elements": null,
@@ -873,9 +765,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg722",
               "idopt": null,
               "elements": null,
@@ -889,9 +779,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg723",
               "idopt": null,
               "elements": null,
@@ -905,9 +793,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg724",
               "idopt": null,
               "elements": null,
@@ -921,9 +807,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg725",
               "idopt": null,
               "elements": null,
@@ -937,9 +821,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg726",
               "idopt": null,
               "elements": null,
@@ -953,9 +835,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg727",
               "idopt": null,
               "elements": null,
@@ -969,9 +849,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg728",
               "idopt": null,
               "elements": null,
@@ -985,9 +863,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg729",
               "idopt": null,
               "elements": null,
@@ -1001,9 +877,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg730",
               "idopt": null,
               "elements": null,
@@ -1017,9 +891,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg731",
               "idopt": null,
               "elements": null,
@@ -1033,9 +905,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg732",
               "idopt": null,
               "elements": null,
@@ -1049,9 +919,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Pg733",
               "idopt": null,
               "elements": null,
@@ -1065,9 +933,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Single Pole Single Throw Contactor"
-              },
+              "component_type": "core/Single Pole Single Throw Contactor",
               "name": "SwHIF718",
               "idopt": null,
               "elements": null,
@@ -1081,9 +947,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current RMS"
-              },
+              "component_type": "core/Current RMS",
               "name": "iHIF718rms",
               "idopt": null,
               "elements": null,
@@ -1097,9 +961,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current RMS"
-              },
+              "component_type": "core/Current RMS",
               "name": "iHIF730rms",
               "idopt": null,
               "elements": null,
@@ -1113,9 +975,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Single Pole Single Throw Contactor"
-              },
+              "component_type": "core/Single Pole Single Throw Contactor",
               "name": "SwHIF725",
               "idopt": null,
               "elements": null,
@@ -1129,9 +989,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current RMS"
-              },
+              "component_type": "core/Current RMS",
               "name": "iHIF725rms",
               "idopt": null,
               "elements": null,
@@ -1145,17 +1003,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "SE",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Triple Pole Single Throw Contactor"
-                    },
+                    "component_type": "core/Triple Pole Single Throw Contactor",
                     "name": "Feeder sw",
                     "idopt": null,
                     "elements": null,
@@ -1169,9 +1023,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Voltage Measurement"
-                    },
+                    "component_type": "core/Voltage Measurement",
                     "name": "Vref",
                     "idopt": null,
                     "elements": null,
@@ -1185,9 +1037,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three Phase Voltage Source"
-                    },
+                    "component_type": "core/Three Phase Voltage Source",
                     "name": "Vs",
                     "idopt": null,
                     "elements": null,
@@ -1201,9 +1051,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_rms_value"
-                    },
+                    "component_type": "gen_rms_value",
                     "name": "RMS value1",
                     "idopt": null,
                     "elements": null,
@@ -1217,9 +1065,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vref_rms",
                     "idopt": null,
                     "elements": null,
@@ -1233,9 +1079,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three-phase Meter"
-                    },
+                    "component_type": "core/Three-phase Meter",
                     "name": "3ph_Meter701",
                     "idopt": null,
                     "elements": null,
@@ -1249,17 +1093,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "MeterSE",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vb_ph",
                           "idopt": null,
                           "elements": null,
@@ -1273,9 +1113,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split2",
                           "idopt": null,
                           "elements": null,
@@ -1289,9 +1127,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IC_rms",
                           "idopt": null,
                           "elements": null,
@@ -1305,9 +1141,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split1",
                           "idopt": null,
                           "elements": null,
@@ -1321,9 +1155,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ia_ph",
                           "idopt": null,
                           "elements": null,
@@ -1337,9 +1169,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Va_ph",
                           "idopt": null,
                           "elements": null,
@@ -1353,9 +1183,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VCn_rms",
                           "idopt": null,
                           "elements": null,
@@ -1369,9 +1197,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IA_rms",
                           "idopt": null,
                           "elements": null,
@@ -1385,9 +1211,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vc_ph",
                           "idopt": null,
                           "elements": null,
@@ -1401,9 +1225,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ib_ph",
                           "idopt": null,
                           "elements": null,
@@ -1417,9 +1239,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VAn_rms",
                           "idopt": null,
                           "elements": null,
@@ -1433,9 +1253,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IB_rms",
                           "idopt": null,
                           "elements": null,
@@ -1449,9 +1267,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VBn_rms",
                           "idopt": null,
                           "elements": null,
@@ -1465,9 +1281,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ic_ph",
                           "idopt": null,
                           "elements": null,
@@ -1481,9 +1295,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "phase_diff_6_phase",
                           "idopt": null,
                           "elements": null,
@@ -1497,9 +1309,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join",
                           "idopt": null,
                           "elements": null,
@@ -1513,9 +1323,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split",
                           "idopt": null,
                           "elements": null,
@@ -1538,9 +1346,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Voltage Measurement"
-                    },
+                    "component_type": "core/Voltage Measurement",
                     "name": "Vab",
                     "idopt": null,
                     "elements": null,
@@ -1554,9 +1360,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Voltage Measurement"
-                    },
+                    "component_type": "core/Voltage Measurement",
                     "name": "Vbc",
                     "idopt": null,
                     "elements": null,
@@ -1570,9 +1374,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Voltage Measurement"
-                    },
+                    "component_type": "core/Voltage Measurement",
                     "name": "Vca",
                     "idopt": null,
                     "elements": null,
@@ -1586,9 +1388,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_rms_value"
-                    },
+                    "component_type": "gen_rms_value",
                     "name": "RMS value2",
                     "idopt": null,
                     "elements": null,
@@ -1602,9 +1402,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "VAB_RMS",
                     "idopt": null,
                     "elements": null,
@@ -1618,9 +1416,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_rms_value"
-                    },
+                    "component_type": "gen_rms_value",
                     "name": "RMS value3",
                     "idopt": null,
                     "elements": null,
@@ -1634,9 +1430,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "VBC_RMS",
                     "idopt": null,
                     "elements": null,
@@ -1650,9 +1444,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_rms_value"
-                    },
+                    "component_type": "gen_rms_value",
                     "name": "RMS value4",
                     "idopt": null,
                     "elements": null,
@@ -1666,9 +1458,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "VCA_RMS",
                     "idopt": null,
                     "elements": null,
@@ -1682,9 +1472,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Current Measurement"
-                    },
+                    "component_type": "core/Current Measurement",
                     "name": "In",
                     "idopt": null,
                     "elements": null,
@@ -1698,9 +1486,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_rms_value"
-                    },
+                    "component_type": "gen_rms_value",
                     "name": "RMS value5",
                     "idopt": null,
                     "elements": null,
@@ -1714,9 +1500,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "In_RMS",
                     "idopt": null,
                     "elements": null,
@@ -1730,9 +1514,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/(51) AC Inverse Time Overcurrent"
-                    },
+                    "component_type": "core/(51) AC Inverse Time Overcurrent",
                     "name": "ANSI51",
                     "idopt": null,
                     "elements": null,
@@ -1746,9 +1528,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "TripMem",
                     "idopt": null,
                     "elements": null,
@@ -1762,17 +1542,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Trip",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_logic_op"
-                          },
+                          "component_type": "gen_logic_op",
                           "name": "Logical operator1",
                           "idopt": null,
                           "elements": null,
@@ -1786,9 +1562,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_scada_input"
-                          },
+                          "component_type": "src_scada_input",
                           "name": "feeder ON",
                           "idopt": null,
                           "elements": null,
@@ -1802,9 +1576,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_logic_op"
-                          },
+                          "component_type": "gen_logic_op",
                           "name": "Logical operator2",
                           "idopt": null,
                           "elements": null,
@@ -1836,9 +1608,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_701",
               "idopt": null,
               "elements": [],
@@ -1852,17 +1622,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_702",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three-phase Meter"
-                    },
+                    "component_type": "core/Three-phase Meter",
                     "name": "3ph_Meter702",
                     "idopt": null,
                     "elements": null,
@@ -1876,17 +1642,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Meter702",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split2",
                           "idopt": null,
                           "elements": null,
@@ -1900,9 +1662,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IC_rms",
                           "idopt": null,
                           "elements": null,
@@ -1916,9 +1676,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split1",
                           "idopt": null,
                           "elements": null,
@@ -1932,9 +1690,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VCn_rms",
                           "idopt": null,
                           "elements": null,
@@ -1948,9 +1704,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IA_rms",
                           "idopt": null,
                           "elements": null,
@@ -1964,9 +1718,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VAn_rms",
                           "idopt": null,
                           "elements": null,
@@ -1980,9 +1732,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IB_rms",
                           "idopt": null,
                           "elements": null,
@@ -1996,9 +1746,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VBn_rms",
                           "idopt": null,
                           "elements": null,
@@ -2012,9 +1760,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vb_ph",
                           "idopt": null,
                           "elements": null,
@@ -2028,9 +1774,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ia_ph",
                           "idopt": null,
                           "elements": null,
@@ -2044,9 +1788,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Va_ph",
                           "idopt": null,
                           "elements": null,
@@ -2060,9 +1802,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vc_ph",
                           "idopt": null,
                           "elements": null,
@@ -2076,9 +1816,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ib_ph",
                           "idopt": null,
                           "elements": null,
@@ -2092,9 +1830,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ic_ph",
                           "idopt": null,
                           "elements": null,
@@ -2108,9 +1844,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "phase_diff_6_phase",
                           "idopt": null,
                           "elements": null,
@@ -2124,9 +1858,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join",
                           "idopt": null,
                           "elements": null,
@@ -2140,9 +1872,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split",
                           "idopt": null,
                           "elements": null,
@@ -2174,9 +1904,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd_700",
               "idopt": null,
               "elements": null,
@@ -2190,9 +1918,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd_702",
               "idopt": null,
               "elements": null,
@@ -2206,17 +1932,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_703",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three-phase Meter"
-                    },
+                    "component_type": "core/Three-phase Meter",
                     "name": "3ph_Meter703",
                     "idopt": null,
                     "elements": null,
@@ -2230,17 +1952,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Meter703",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split2",
                           "idopt": null,
                           "elements": null,
@@ -2254,9 +1972,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IC_rms",
                           "idopt": null,
                           "elements": null,
@@ -2270,9 +1986,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split1",
                           "idopt": null,
                           "elements": null,
@@ -2286,9 +2000,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VCn_rms",
                           "idopt": null,
                           "elements": null,
@@ -2302,9 +2014,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IA_rms",
                           "idopt": null,
                           "elements": null,
@@ -2318,9 +2028,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VAn_rms",
                           "idopt": null,
                           "elements": null,
@@ -2334,9 +2042,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IB_rms",
                           "idopt": null,
                           "elements": null,
@@ -2350,9 +2056,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VBn_rms",
                           "idopt": null,
                           "elements": null,
@@ -2366,9 +2070,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vb_ph",
                           "idopt": null,
                           "elements": null,
@@ -2382,9 +2084,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ia_ph",
                           "idopt": null,
                           "elements": null,
@@ -2398,9 +2098,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Va_ph",
                           "idopt": null,
                           "elements": null,
@@ -2414,9 +2112,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vc_ph",
                           "idopt": null,
                           "elements": null,
@@ -2430,9 +2126,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ib_ph",
                           "idopt": null,
                           "elements": null,
@@ -2446,9 +2140,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ic_ph",
                           "idopt": null,
                           "elements": null,
@@ -2462,9 +2154,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "phase_diff_6_phase",
                           "idopt": null,
                           "elements": null,
@@ -2478,9 +2168,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join",
                           "idopt": null,
                           "elements": null,
@@ -2494,9 +2182,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split",
                           "idopt": null,
                           "elements": null,
@@ -2528,9 +2214,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd_703",
               "idopt": null,
               "elements": null,
@@ -2544,9 +2228,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_719",
               "idopt": null,
               "elements": [],
@@ -2560,9 +2242,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_720",
               "idopt": null,
               "elements": [],
@@ -2576,9 +2256,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_721",
               "idopt": null,
               "elements": [],
@@ -2592,9 +2270,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_722",
               "idopt": null,
               "elements": [],
@@ -2608,17 +2284,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_704",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Four Phase TLM Core Coupling"
-                    },
+                    "component_type": "core/Four Phase TLM Core Coupling",
                     "name": "Core Coupling 1",
                     "idopt": null,
                     "elements": null,
@@ -2641,9 +2313,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_705",
               "idopt": null,
               "elements": [],
@@ -2657,9 +2327,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_723",
               "idopt": null,
               "elements": [],
@@ -2673,9 +2341,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_724",
               "idopt": null,
               "elements": [],
@@ -2689,17 +2355,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_725",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three-phase Meter"
-                    },
+                    "component_type": "core/Three-phase Meter",
                     "name": "3ph_Meter725",
                     "idopt": null,
                     "elements": null,
@@ -2713,17 +2375,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Meter725",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split2",
                           "idopt": null,
                           "elements": null,
@@ -2737,9 +2395,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IC_rms",
                           "idopt": null,
                           "elements": null,
@@ -2753,9 +2409,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split1",
                           "idopt": null,
                           "elements": null,
@@ -2769,9 +2423,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VCn_rms",
                           "idopt": null,
                           "elements": null,
@@ -2785,9 +2437,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IA_rms",
                           "idopt": null,
                           "elements": null,
@@ -2801,9 +2451,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VAn_rms",
                           "idopt": null,
                           "elements": null,
@@ -2817,9 +2465,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IB_rms",
                           "idopt": null,
                           "elements": null,
@@ -2833,9 +2479,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VBn_rms",
                           "idopt": null,
                           "elements": null,
@@ -2849,9 +2493,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vb_ph",
                           "idopt": null,
                           "elements": null,
@@ -2865,9 +2507,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ia_ph",
                           "idopt": null,
                           "elements": null,
@@ -2881,9 +2521,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Va_ph",
                           "idopt": null,
                           "elements": null,
@@ -2897,9 +2535,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vc_ph",
                           "idopt": null,
                           "elements": null,
@@ -2913,9 +2549,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ib_ph",
                           "idopt": null,
                           "elements": null,
@@ -2929,9 +2563,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ic_ph",
                           "idopt": null,
                           "elements": null,
@@ -2945,9 +2577,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "phase_diff_6_phase",
                           "idopt": null,
                           "elements": null,
@@ -2961,9 +2591,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join",
                           "idopt": null,
                           "elements": null,
@@ -2977,9 +2605,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split",
                           "idopt": null,
                           "elements": null,
@@ -3011,17 +2637,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_706",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three-phase Meter"
-                    },
+                    "component_type": "core/Three-phase Meter",
                     "name": "3ph_Meter706",
                     "idopt": null,
                     "elements": null,
@@ -3035,17 +2657,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Meter706",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split2",
                           "idopt": null,
                           "elements": null,
@@ -3059,9 +2677,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IC_rms",
                           "idopt": null,
                           "elements": null,
@@ -3075,9 +2691,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split1",
                           "idopt": null,
                           "elements": null,
@@ -3091,9 +2705,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VCn_rms",
                           "idopt": null,
                           "elements": null,
@@ -3107,9 +2719,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IA_rms",
                           "idopt": null,
                           "elements": null,
@@ -3123,9 +2733,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VAn_rms",
                           "idopt": null,
                           "elements": null,
@@ -3139,9 +2747,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IB_rms",
                           "idopt": null,
                           "elements": null,
@@ -3155,9 +2761,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VBn_rms",
                           "idopt": null,
                           "elements": null,
@@ -3171,9 +2775,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vb_ph",
                           "idopt": null,
                           "elements": null,
@@ -3187,9 +2789,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ia_ph",
                           "idopt": null,
                           "elements": null,
@@ -3203,9 +2803,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Va_ph",
                           "idopt": null,
                           "elements": null,
@@ -3219,9 +2817,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vc_ph",
                           "idopt": null,
                           "elements": null,
@@ -3235,9 +2831,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ib_ph",
                           "idopt": null,
                           "elements": null,
@@ -3251,9 +2845,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ic_ph",
                           "idopt": null,
                           "elements": null,
@@ -3267,9 +2859,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "phase_diff_6_phase",
                           "idopt": null,
                           "elements": null,
@@ -3283,9 +2873,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join",
                           "idopt": null,
                           "elements": null,
@@ -3299,9 +2887,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split",
                           "idopt": null,
                           "elements": null,
@@ -3333,9 +2919,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_726",
               "idopt": null,
               "elements": [],
@@ -3349,17 +2933,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_727",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Four Phase TLM Core Coupling"
-                    },
+                    "component_type": "core/Four Phase TLM Core Coupling",
                     "name": "Core Coupling 1",
                     "idopt": null,
                     "elements": null,
@@ -3382,9 +2962,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_707",
               "idopt": null,
               "elements": [],
@@ -3398,9 +2976,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_708",
               "idopt": null,
               "elements": [],
@@ -3414,9 +2990,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_731",
               "idopt": null,
               "elements": [],
@@ -3430,9 +3004,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_732",
               "idopt": null,
               "elements": [],
@@ -3446,9 +3018,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_733",
               "idopt": null,
               "elements": [],
@@ -3462,17 +3032,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_709",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Four Phase TLM Core Coupling"
-                    },
+                    "component_type": "core/Four Phase TLM Core Coupling",
                     "name": "Core Coupling 1",
                     "idopt": null,
                     "elements": null,
@@ -3495,9 +3061,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_710",
               "idopt": null,
               "elements": [],
@@ -3511,9 +3075,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_711",
               "idopt": null,
               "elements": [],
@@ -3527,17 +3089,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_712",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three-phase Meter"
-                    },
+                    "component_type": "core/Three-phase Meter",
                     "name": "3ph_Meter712",
                     "idopt": null,
                     "elements": null,
@@ -3551,17 +3109,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Meter712",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split2",
                           "idopt": null,
                           "elements": null,
@@ -3575,9 +3129,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IC_rms",
                           "idopt": null,
                           "elements": null,
@@ -3591,9 +3143,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split1",
                           "idopt": null,
                           "elements": null,
@@ -3607,9 +3157,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VCn_rms",
                           "idopt": null,
                           "elements": null,
@@ -3623,9 +3171,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IA_rms",
                           "idopt": null,
                           "elements": null,
@@ -3639,9 +3185,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VAn_rms",
                           "idopt": null,
                           "elements": null,
@@ -3655,9 +3199,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IB_rms",
                           "idopt": null,
                           "elements": null,
@@ -3671,9 +3213,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VBn_rms",
                           "idopt": null,
                           "elements": null,
@@ -3687,9 +3227,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vb_ph",
                           "idopt": null,
                           "elements": null,
@@ -3703,9 +3241,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ia_ph",
                           "idopt": null,
                           "elements": null,
@@ -3719,9 +3255,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Va_ph",
                           "idopt": null,
                           "elements": null,
@@ -3735,9 +3269,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vc_ph",
                           "idopt": null,
                           "elements": null,
@@ -3751,9 +3283,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ib_ph",
                           "idopt": null,
                           "elements": null,
@@ -3767,9 +3297,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ic_ph",
                           "idopt": null,
                           "elements": null,
@@ -3783,9 +3311,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "phase_diff_6_phase",
                           "idopt": null,
                           "elements": null,
@@ -3799,9 +3325,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join",
                           "idopt": null,
                           "elements": null,
@@ -3815,9 +3339,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split",
                           "idopt": null,
                           "elements": null,
@@ -3849,9 +3371,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_713",
               "idopt": null,
               "elements": [],
@@ -3865,9 +3385,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_714",
               "idopt": null,
               "elements": [],
@@ -3881,17 +3399,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_737",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Four Phase TLM Core Coupling"
-                    },
+                    "component_type": "core/Four Phase TLM Core Coupling",
                     "name": "Core Coupling 1",
                     "idopt": null,
                     "elements": null,
@@ -3914,9 +3428,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_716",
               "idopt": null,
               "elements": [],
@@ -3930,9 +3442,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_717",
               "idopt": null,
               "elements": [],
@@ -3946,17 +3456,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_718",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three-phase Meter"
-                    },
+                    "component_type": "core/Three-phase Meter",
                     "name": "3ph_Meter718",
                     "idopt": null,
                     "elements": null,
@@ -3970,17 +3476,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Meter718",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split2",
                           "idopt": null,
                           "elements": null,
@@ -3994,9 +3496,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IC_rms",
                           "idopt": null,
                           "elements": null,
@@ -4010,9 +3510,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split1",
                           "idopt": null,
                           "elements": null,
@@ -4026,9 +3524,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VCn_rms",
                           "idopt": null,
                           "elements": null,
@@ -4042,9 +3538,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IA_rms",
                           "idopt": null,
                           "elements": null,
@@ -4058,9 +3552,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VAn_rms",
                           "idopt": null,
                           "elements": null,
@@ -4074,9 +3566,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IB_rms",
                           "idopt": null,
                           "elements": null,
@@ -4090,9 +3580,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VBn_rms",
                           "idopt": null,
                           "elements": null,
@@ -4106,9 +3594,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vb_ph",
                           "idopt": null,
                           "elements": null,
@@ -4122,9 +3608,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ia_ph",
                           "idopt": null,
                           "elements": null,
@@ -4138,9 +3622,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Va_ph",
                           "idopt": null,
                           "elements": null,
@@ -4154,9 +3636,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vc_ph",
                           "idopt": null,
                           "elements": null,
@@ -4170,9 +3650,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ib_ph",
                           "idopt": null,
                           "elements": null,
@@ -4186,9 +3664,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ic_ph",
                           "idopt": null,
                           "elements": null,
@@ -4202,9 +3678,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "phase_diff_6_phase",
                           "idopt": null,
                           "elements": null,
@@ -4218,9 +3692,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join",
                           "idopt": null,
                           "elements": null,
@@ -4234,9 +3706,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split",
                           "idopt": null,
                           "elements": null,
@@ -4268,9 +3738,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_728",
               "idopt": null,
               "elements": [],
@@ -4284,9 +3752,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_729",
               "idopt": null,
               "elements": [],
@@ -4300,17 +3766,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "BUS_730",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three-phase Meter"
-                    },
+                    "component_type": "core/Three-phase Meter",
                     "name": "3ph_Meter725",
                     "idopt": null,
                     "elements": null,
@@ -4324,17 +3786,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Meter730",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split2",
                           "idopt": null,
                           "elements": null,
@@ -4348,9 +3806,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IC_rms",
                           "idopt": null,
                           "elements": null,
@@ -4364,9 +3820,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/Meter Split"
-                          },
+                          "component_type": "core/Meter Split",
                           "name": "Meter Split1",
                           "idopt": null,
                           "elements": null,
@@ -4380,9 +3834,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VCn_rms",
                           "idopt": null,
                           "elements": null,
@@ -4396,9 +3848,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IA_rms",
                           "idopt": null,
                           "elements": null,
@@ -4412,9 +3862,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VAn_rms",
                           "idopt": null,
                           "elements": null,
@@ -4428,9 +3876,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "IB_rms",
                           "idopt": null,
                           "elements": null,
@@ -4444,9 +3890,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "VBn_rms",
                           "idopt": null,
                           "elements": null,
@@ -4460,9 +3904,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vb_ph",
                           "idopt": null,
                           "elements": null,
@@ -4476,9 +3918,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ia_ph",
                           "idopt": null,
                           "elements": null,
@@ -4492,9 +3932,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Va_ph",
                           "idopt": null,
                           "elements": null,
@@ -4508,9 +3946,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Vc_ph",
                           "idopt": null,
                           "elements": null,
@@ -4524,9 +3960,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ib_ph",
                           "idopt": null,
                           "elements": null,
@@ -4540,9 +3974,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_probe"
-                          },
+                          "component_type": "gen_probe",
                           "name": "Ic_ph",
                           "idopt": null,
                           "elements": null,
@@ -4556,9 +3988,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "phase_diff_6_phase",
                           "idopt": null,
                           "elements": null,
@@ -4572,9 +4002,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join",
                           "idopt": null,
                           "elements": null,
@@ -4588,9 +4016,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split",
                           "idopt": null,
                           "elements": null,
@@ -4622,17 +4048,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "SwHIF30",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Single Pole Single Throw Contactor"
-                    },
+                    "component_type": "core/Single Pole Single Throw Contactor",
                     "name": "SwIn",
                     "idopt": null,
                     "elements": null,
@@ -4646,9 +4068,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Single Pole Single Throw Contactor"
-                    },
+                    "component_type": "core/Single Pole Single Throw Contactor",
                     "name": "SwOut",
                     "idopt": null,
                     "elements": null,
@@ -4662,9 +4082,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Single Pole Single Throw Contactor"
-                    },
+                    "component_type": "core/Single Pole Single Throw Contactor",
                     "name": "SwHIF",
                     "idopt": null,
                     "elements": null,
@@ -4678,9 +4096,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "SCin",
                     "idopt": null,
                     "elements": null,
@@ -4694,9 +4110,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "SCout",
                     "idopt": null,
                     "elements": null,
@@ -4710,9 +4124,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "SChif",
                     "idopt": null,
                     "elements": null,
@@ -4735,9 +4147,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Single Pole Single Throw Contactor"
-              },
+              "component_type": "core/Single Pole Single Throw Contactor",
               "name": "SC1P",
               "idopt": null,
               "elements": null,
@@ -4751,9 +4161,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current RMS"
-              },
+              "component_type": "core/Current RMS",
               "name": "iSC712rms",
               "idopt": null,
               "elements": null,
@@ -4767,9 +4175,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd1",
               "idopt": null,
               "elements": null,
@@ -4783,9 +4189,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd4",
               "idopt": null,
               "elements": null,
@@ -4799,9 +4203,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd5",
               "idopt": null,
               "elements": null,
@@ -4815,9 +4217,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd6",
               "idopt": null,
               "elements": null,
@@ -4831,9 +4231,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd7",
               "idopt": null,
               "elements": null,
@@ -4847,9 +4245,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd8",
               "idopt": null,
               "elements": null,
@@ -4863,9 +4259,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd9",
               "idopt": null,
               "elements": null,
@@ -4879,9 +4273,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd10",
               "idopt": null,
               "elements": null,
@@ -4895,9 +4287,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd11",
               "idopt": null,
               "elements": null,
@@ -4911,9 +4301,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd12",
               "idopt": null,
               "elements": null,
@@ -4927,9 +4315,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd13",
               "idopt": null,
               "elements": null,
@@ -4943,9 +4329,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd14",
               "idopt": null,
               "elements": null,
@@ -4959,9 +4343,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd15",
               "idopt": null,
               "elements": null,
@@ -4975,9 +4357,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd16",
               "idopt": null,
               "elements": null,
@@ -4991,9 +4371,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd17",
               "idopt": null,
               "elements": null,
@@ -5007,9 +4385,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd18",
               "idopt": null,
               "elements": null,
@@ -5023,9 +4399,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd20",
               "idopt": null,
               "elements": null,
@@ -5039,9 +4413,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd21",
               "idopt": null,
               "elements": null,
@@ -5055,9 +4427,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd22",
               "idopt": null,
               "elements": null,
@@ -5071,9 +4441,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd23",
               "idopt": null,
               "elements": null,
@@ -5087,9 +4455,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd24",
               "idopt": null,
               "elements": null,
@@ -5103,9 +4469,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd25",
               "idopt": null,
               "elements": null,
@@ -5119,9 +4483,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd26",
               "idopt": null,
               "elements": null,
@@ -5135,9 +4497,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd27",
               "idopt": null,
               "elements": null,
@@ -5151,9 +4511,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd28",
               "idopt": null,
               "elements": null,
@@ -5167,9 +4525,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd29",
               "idopt": null,
               "elements": null,
@@ -5183,9 +4539,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd30",
               "idopt": null,
               "elements": null,
@@ -5199,9 +4553,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd31",
               "idopt": null,
               "elements": null,
@@ -5215,9 +4567,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd32",
               "idopt": null,
               "elements": null,
@@ -5231,9 +4581,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd33",
               "idopt": null,
               "elements": null,
@@ -5247,9 +4595,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd34",
               "idopt": null,
               "elements": null,
@@ -5263,9 +4609,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd35",
               "idopt": null,
               "elements": null,
@@ -5279,9 +4623,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd36",
               "idopt": null,
               "elements": null,
@@ -5295,9 +4637,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd37",
               "idopt": null,
               "elements": null,
@@ -5311,9 +4651,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd38",
               "idopt": null,
               "elements": null,
@@ -5327,9 +4665,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd39",
               "idopt": null,
               "elements": null,
@@ -5343,9 +4679,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd40",
               "idopt": null,
               "elements": null,
@@ -5359,9 +4693,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd41",
               "idopt": null,
               "elements": null,
@@ -5375,9 +4707,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd42",
               "idopt": null,
               "elements": null,
@@ -5391,9 +4721,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd43",
               "idopt": null,
               "elements": null,
@@ -5407,9 +4735,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd44",
               "idopt": null,
               "elements": null,
@@ -5423,9 +4749,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd45",
               "idopt": null,
               "elements": null,
@@ -5439,9 +4763,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd47",
               "idopt": null,
               "elements": null,
@@ -5455,9 +4777,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd48",
               "idopt": null,
               "elements": null,
@@ -5471,9 +4791,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd49",
               "idopt": null,
               "elements": null,
@@ -5487,9 +4805,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd50",
               "idopt": null,
               "elements": null,
@@ -5503,9 +4819,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd_704",
               "idopt": null,
               "elements": null,
@@ -5519,9 +4833,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd51",
               "idopt": null,
               "elements": null,
@@ -5535,17 +4847,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "HIF730",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Variable Resistor"
-                    },
+                    "component_type": "core/Variable Resistor",
                     "name": "Rp1",
                     "idopt": null,
                     "elements": null,
@@ -5559,9 +4867,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Variable Resistor"
-                    },
+                    "component_type": "core/Variable Resistor",
                     "name": "Rn1",
                     "idopt": null,
                     "elements": null,
@@ -5575,9 +4881,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Signal Controlled Voltage Source"
-                    },
+                    "component_type": "core/Signal Controlled Voltage Source",
                     "name": "Vp1",
                     "idopt": null,
                     "elements": null,
@@ -5591,9 +4895,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Signal Controlled Voltage Source"
-                    },
+                    "component_type": "core/Signal Controlled Voltage Source",
                     "name": "Vn1",
                     "idopt": null,
                     "elements": null,
@@ -5607,9 +4909,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_adv_c_function"
-                    },
+                    "component_type": "gen_adv_c_function",
                     "name": "Advanced C function1",
                     "idopt": null,
                     "elements": null,
@@ -5623,9 +4923,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Diode Leg"
-                    },
+                    "component_type": "core/Diode Leg",
                     "name": "Dp1",
                     "idopt": null,
                     "elements": null,
@@ -5639,9 +4937,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "RpSC",
                     "idopt": null,
                     "elements": null,
@@ -5655,9 +4951,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "RnSC",
                     "idopt": null,
                     "elements": null,
@@ -5671,9 +4965,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VpSC",
                     "idopt": null,
                     "elements": null,
@@ -5687,9 +4979,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VnSC",
                     "idopt": null,
                     "elements": null,
@@ -5703,9 +4993,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VarVpSC_hidden",
                     "idopt": null,
                     "elements": null,
@@ -5719,9 +5007,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VarVnSC_hidden",
                     "idopt": null,
                     "elements": null,
@@ -5735,9 +5021,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VarResSC",
                     "idopt": null,
                     "elements": null,
@@ -5751,9 +5035,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "SurfaceSC",
                     "idopt": null,
                     "elements": null,
@@ -5767,9 +5049,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Rp",
                     "idopt": null,
                     "elements": null,
@@ -5783,9 +5063,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Rn",
                     "idopt": null,
                     "elements": null,
@@ -5799,9 +5077,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vp",
                     "idopt": null,
                     "elements": null,
@@ -5815,9 +5091,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vn",
                     "idopt": null,
                     "elements": null,
@@ -5831,9 +5105,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Surface",
                     "idopt": null,
                     "elements": null,
@@ -5856,17 +5128,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "HIF718",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Variable Resistor"
-                    },
+                    "component_type": "core/Variable Resistor",
                     "name": "Rp1",
                     "idopt": null,
                     "elements": null,
@@ -5880,9 +5148,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Variable Resistor"
-                    },
+                    "component_type": "core/Variable Resistor",
                     "name": "Rn1",
                     "idopt": null,
                     "elements": null,
@@ -5896,9 +5162,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Signal Controlled Voltage Source"
-                    },
+                    "component_type": "core/Signal Controlled Voltage Source",
                     "name": "Vp1",
                     "idopt": null,
                     "elements": null,
@@ -5912,9 +5176,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Signal Controlled Voltage Source"
-                    },
+                    "component_type": "core/Signal Controlled Voltage Source",
                     "name": "Vn1",
                     "idopt": null,
                     "elements": null,
@@ -5928,9 +5190,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_adv_c_function"
-                    },
+                    "component_type": "gen_adv_c_function",
                     "name": "Advanced C function1",
                     "idopt": null,
                     "elements": null,
@@ -5944,9 +5204,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Diode Leg"
-                    },
+                    "component_type": "core/Diode Leg",
                     "name": "Dp1",
                     "idopt": null,
                     "elements": null,
@@ -5960,9 +5218,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "RpSC",
                     "idopt": null,
                     "elements": null,
@@ -5976,9 +5232,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "RnSC",
                     "idopt": null,
                     "elements": null,
@@ -5992,9 +5246,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VpSC",
                     "idopt": null,
                     "elements": null,
@@ -6008,9 +5260,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VnSC",
                     "idopt": null,
                     "elements": null,
@@ -6024,9 +5274,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VarVpSC_hidden",
                     "idopt": null,
                     "elements": null,
@@ -6040,9 +5288,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VarVnSC_hidden",
                     "idopt": null,
                     "elements": null,
@@ -6056,9 +5302,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VarResSC",
                     "idopt": null,
                     "elements": null,
@@ -6072,9 +5316,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "SurfaceSC",
                     "idopt": null,
                     "elements": null,
@@ -6088,9 +5330,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Rp",
                     "idopt": null,
                     "elements": null,
@@ -6104,9 +5344,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Rn",
                     "idopt": null,
                     "elements": null,
@@ -6120,9 +5358,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vp",
                     "idopt": null,
                     "elements": null,
@@ -6136,9 +5372,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vn",
                     "idopt": null,
                     "elements": null,
@@ -6152,9 +5386,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Surface",
                     "idopt": null,
                     "elements": null,
@@ -6177,17 +5409,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "HIF725",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Variable Resistor"
-                    },
+                    "component_type": "core/Variable Resistor",
                     "name": "Rp1",
                     "idopt": null,
                     "elements": null,
@@ -6201,9 +5429,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Variable Resistor"
-                    },
+                    "component_type": "core/Variable Resistor",
                     "name": "Rn1",
                     "idopt": null,
                     "elements": null,
@@ -6217,9 +5443,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Signal Controlled Voltage Source"
-                    },
+                    "component_type": "core/Signal Controlled Voltage Source",
                     "name": "Vp1",
                     "idopt": null,
                     "elements": null,
@@ -6233,9 +5457,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Signal Controlled Voltage Source"
-                    },
+                    "component_type": "core/Signal Controlled Voltage Source",
                     "name": "Vn1",
                     "idopt": null,
                     "elements": null,
@@ -6249,9 +5471,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_adv_c_function"
-                    },
+                    "component_type": "gen_adv_c_function",
                     "name": "Advanced C function1",
                     "idopt": null,
                     "elements": null,
@@ -6265,9 +5485,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Diode Leg"
-                    },
+                    "component_type": "core/Diode Leg",
                     "name": "Dp1",
                     "idopt": null,
                     "elements": null,
@@ -6281,9 +5499,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "RpSC",
                     "idopt": null,
                     "elements": null,
@@ -6297,9 +5513,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "RnSC",
                     "idopt": null,
                     "elements": null,
@@ -6313,9 +5527,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VpSC",
                     "idopt": null,
                     "elements": null,
@@ -6329,9 +5541,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VnSC",
                     "idopt": null,
                     "elements": null,
@@ -6345,9 +5555,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VarVpSC_hidden",
                     "idopt": null,
                     "elements": null,
@@ -6361,9 +5569,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VarVnSC_hidden",
                     "idopt": null,
                     "elements": null,
@@ -6377,9 +5583,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "VarResSC",
                     "idopt": null,
                     "elements": null,
@@ -6393,9 +5597,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "SurfaceSC",
                     "idopt": null,
                     "elements": null,
@@ -6409,9 +5611,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Rp",
                     "idopt": null,
                     "elements": null,
@@ -6425,9 +5625,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Rn",
                     "idopt": null,
                     "elements": null,
@@ -6441,9 +5639,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vp",
                     "idopt": null,
                     "elements": null,
@@ -6457,9 +5653,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vn",
                     "idopt": null,
                     "elements": null,
@@ -6473,9 +5667,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Surface",
                     "idopt": null,
                     "elements": null,

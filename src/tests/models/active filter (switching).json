@@ -17,17 +17,13 @@
   "elements": [
     {
       "Component": {
-        "component_type": {
-          "ID": "Subsystem"
-        },
+        "component_type": "Subsystem",
         "name": "Root",
         "idopt": null,
         "elements": [
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Li_a",
               "idopt": null,
               "elements": null,
@@ -41,9 +37,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Li_b",
               "idopt": null,
               "elements": null,
@@ -57,9 +51,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Li_c",
               "idopt": null,
               "elements": null,
@@ -73,9 +65,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Lg_a",
               "idopt": null,
               "elements": null,
@@ -89,9 +79,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Lg_b",
               "idopt": null,
               "elements": null,
@@ -105,9 +93,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Lg_c",
               "idopt": null,
               "elements": null,
@@ -121,9 +107,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_capacitor"
-              },
+              "component_type": "pas_capacitor",
               "name": "Ca",
               "idopt": null,
               "elements": null,
@@ -137,9 +121,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_capacitor"
-              },
+              "component_type": "pas_capacitor",
               "name": "Cb",
               "idopt": null,
               "elements": null,
@@ -153,9 +135,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_capacitor"
-              },
+              "component_type": "pas_capacitor",
               "name": "Cc",
               "idopt": null,
               "elements": null,
@@ -169,9 +149,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Is_a",
               "idopt": null,
               "elements": null,
@@ -185,9 +163,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Ii_a",
               "idopt": null,
               "elements": null,
@@ -201,9 +177,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Ii_b",
               "idopt": null,
               "elements": null,
@@ -217,9 +191,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Three Phase Voltage Source"
-              },
+              "component_type": "core/Three Phase Voltage Source",
               "name": "Vgrid",
               "idopt": null,
               "elements": null,
@@ -233,9 +205,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Voltage Measurement"
-              },
+              "component_type": "core/Voltage Measurement",
               "name": "Van",
               "idopt": null,
               "elements": null,
@@ -249,9 +219,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Voltage Measurement"
-              },
+              "component_type": "core/Voltage Measurement",
               "name": "Vbn",
               "idopt": null,
               "elements": null,
@@ -265,9 +233,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_bus_split"
-              },
+              "component_type": "gen_bus_split",
               "name": "Split Vref",
               "idopt": null,
               "elements": null,
@@ -281,9 +247,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Lb",
               "idopt": null,
               "elements": null,
@@ -297,9 +261,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Lc",
               "idopt": null,
               "elements": null,
@@ -313,9 +275,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "La",
               "idopt": null,
               "elements": null,
@@ -329,9 +289,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Three Phase T Type Inverter"
-              },
+              "component_type": "core/Three Phase T Type Inverter",
               "name": "Three Phase T Type Inverter",
               "idopt": null,
               "elements": null,
@@ -345,9 +303,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Voltage Measurement"
-              },
+              "component_type": "core/Voltage Measurement",
               "name": "Vdc",
               "idopt": null,
               "elements": null,
@@ -361,9 +317,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_resistor"
-              },
+              "component_type": "pas_resistor",
               "name": "Rgrid_a",
               "idopt": null,
               "elements": null,
@@ -377,9 +331,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_ground"
-              },
+              "component_type": "src_ground",
               "name": "gnd",
               "idopt": null,
               "elements": null,
@@ -393,9 +345,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Three Phase Core Coupling"
-              },
+              "component_type": "core/Three Phase Core Coupling",
               "name": "Core Coupling 1",
               "idopt": null,
               "elements": null,
@@ -409,9 +359,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Il_a",
               "idopt": null,
               "elements": null,
@@ -425,9 +373,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Il_b",
               "idopt": null,
               "elements": null,
@@ -441,9 +387,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Il_c",
               "idopt": null,
               "elements": null,
@@ -457,9 +401,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Ig_a",
               "idopt": null,
               "elements": null,
@@ -473,9 +415,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Ig_b",
               "idopt": null,
               "elements": null,
@@ -489,9 +429,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/THD Measurement"
-              },
+              "component_type": "core/THD Measurement",
               "name": "THD Measurement1",
               "idopt": null,
               "elements": null,
@@ -505,9 +443,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_probe"
-              },
+              "component_type": "gen_probe",
               "name": "THDi source",
               "idopt": null,
               "elements": null,
@@ -521,9 +457,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_gain"
-              },
+              "component_type": "gen_gain",
               "name": "Gain47",
               "idopt": null,
               "elements": null,
@@ -537,9 +471,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/THD Measurement"
-              },
+              "component_type": "core/THD Measurement",
               "name": "THD Measurement2",
               "idopt": null,
               "elements": null,
@@ -553,9 +485,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_probe"
-              },
+              "component_type": "gen_probe",
               "name": "THDi load",
               "idopt": null,
               "elements": null,
@@ -569,9 +499,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_gain"
-              },
+              "component_type": "gen_gain",
               "name": "Gain59",
               "idopt": null,
               "elements": null,
@@ -585,9 +513,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Lgrid_b",
               "idopt": null,
               "elements": null,
@@ -601,9 +527,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Lgrid_c",
               "idopt": null,
               "elements": null,
@@ -617,9 +541,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_inductor"
-              },
+              "component_type": "pas_inductor",
               "name": "Lgrid_a",
               "idopt": null,
               "elements": null,
@@ -633,9 +555,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_capacitor"
-              },
+              "component_type": "pas_capacitor",
               "name": "Ctop",
               "idopt": null,
               "elements": null,
@@ -649,9 +569,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_capacitor"
-              },
+              "component_type": "pas_capacitor",
               "name": "Cbot",
               "idopt": null,
               "elements": null,
@@ -665,9 +583,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_resistor"
-              },
+              "component_type": "pas_resistor",
               "name": "Rgrid_b",
               "idopt": null,
               "elements": null,
@@ -681,9 +597,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "pas_resistor"
-              },
+              "component_type": "pas_resistor",
               "name": "Rgrid_c",
               "idopt": null,
               "elements": null,
@@ -697,9 +611,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Triple Pole Single Throw Contactor"
-              },
+              "component_type": "core/Triple Pole Single Throw Contactor",
               "name": "MCB",
               "idopt": null,
               "elements": null,
@@ -713,9 +625,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Rate Transition"
-              },
+              "component_type": "core/Rate Transition",
               "name": "Rate Transition1",
               "idopt": null,
               "elements": null,
@@ -729,9 +639,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Rate Transition"
-              },
+              "component_type": "core/Rate Transition",
               "name": "Rate Transition2",
               "idopt": null,
               "elements": null,
@@ -745,17 +653,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "Filter control",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three phase PLL"
-                    },
+                    "component_type": "core/Three phase PLL",
                     "name": "Three phase PLL1",
                     "idopt": null,
                     "elements": null,
@@ -769,9 +673,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "Constant2",
                     "idopt": null,
                     "elements": null,
@@ -785,9 +687,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join10",
                     "idopt": null,
                     "elements": null,
@@ -801,9 +701,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum47",
                     "idopt": null,
                     "elements": null,
@@ -817,17 +715,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Notch filter slow a",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_z_domain_transfer"
-                          },
+                          "component_type": "gen_z_domain_transfer",
                           "name": "Filter TF",
                           "idopt": null,
                           "elements": null,
@@ -850,17 +744,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Notch filter slow b",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_z_domain_transfer"
-                          },
+                          "component_type": "gen_z_domain_transfer",
                           "name": "Filter TF",
                           "idopt": null,
                           "elements": null,
@@ -883,17 +773,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Notch filter slow c",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_z_domain_transfer"
-                          },
+                          "component_type": "gen_z_domain_transfer",
                           "name": "Filter TF",
                           "idopt": null,
                           "elements": null,
@@ -916,9 +802,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_product"
-                    },
+                    "component_type": "gen_product",
                     "name": "Product3",
                     "idopt": null,
                     "elements": null,
@@ -932,9 +816,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "Constant5",
                     "idopt": null,
                     "elements": null,
@@ -948,9 +830,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum56",
                     "idopt": null,
                     "elements": null,
@@ -964,9 +844,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "sys_signal_switch"
-                    },
+                    "component_type": "sys_signal_switch",
                     "name": "Signal switch5",
                     "idopt": null,
                     "elements": null,
@@ -980,17 +858,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "SM",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_c_function"
-                          },
+                          "component_type": "gen_c_function",
                           "name": "SM",
                           "idopt": null,
                           "elements": null,
@@ -1013,9 +887,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum60",
                     "idopt": null,
                     "elements": null,
@@ -1029,9 +901,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_split"
-                    },
+                    "component_type": "gen_bus_split",
                     "name": "Bus Split2",
                     "idopt": null,
                     "elements": null,
@@ -1045,9 +915,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/abc to dq"
-                    },
+                    "component_type": "core/abc to dq",
                     "name": "abc to dq5",
                     "idopt": null,
                     "elements": null,
@@ -1061,9 +929,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination4",
                     "idopt": null,
                     "elements": null,
@@ -1077,9 +943,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/dq to abc"
-                    },
+                    "component_type": "core/dq to abc",
                     "name": "dq to abc1",
                     "idopt": null,
                     "elements": null,
@@ -1093,9 +957,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join12",
                     "idopt": null,
                     "elements": null,
@@ -1109,9 +971,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "sys_signal_switch"
-                    },
+                    "component_type": "sys_signal_switch",
                     "name": "Signal switch6",
                     "idopt": null,
                     "elements": null,
@@ -1125,9 +985,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "sys_signal_switch"
-                    },
+                    "component_type": "sys_signal_switch",
                     "name": "Signal switch7",
                     "idopt": null,
                     "elements": null,
@@ -1141,9 +999,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_comparator"
-                    },
+                    "component_type": "gen_comparator",
                     "name": "Comparator1",
                     "idopt": null,
                     "elements": null,
@@ -1157,9 +1013,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_logic_op"
-                    },
+                    "component_type": "gen_logic_op",
                     "name": "Logical operator1",
                     "idopt": null,
                     "elements": null,
@@ -1173,9 +1027,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_comparator"
-                    },
+                    "component_type": "gen_comparator",
                     "name": "Comparator2",
                     "idopt": null,
                     "elements": null,
@@ -1189,9 +1041,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "Constant7",
                     "idopt": null,
                     "elements": null,
@@ -1205,9 +1055,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_PQ_transform"
-                    },
+                    "component_type": "gen_PQ_transform",
                     "name": "Power Meter1",
                     "idopt": null,
                     "elements": null,
@@ -1221,9 +1069,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "Constant9",
                     "idopt": null,
                     "elements": null,
@@ -1237,9 +1083,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_comparator"
-                    },
+                    "component_type": "gen_comparator",
                     "name": "Comparator4",
                     "idopt": null,
                     "elements": null,
@@ -1253,9 +1097,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_c_function"
-                    },
+                    "component_type": "gen_c_function",
                     "name": "Averaging",
                     "idopt": null,
                     "elements": null,
@@ -1269,9 +1111,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_abs"
-                    },
+                    "component_type": "gen_abs",
                     "name": "Abs2",
                     "idopt": null,
                     "elements": null,
@@ -1285,17 +1125,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Notch filter fast a",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_z_domain_transfer"
-                          },
+                          "component_type": "gen_z_domain_transfer",
                           "name": "Filter TF",
                           "idopt": null,
                           "elements": null,
@@ -1318,17 +1154,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Notch filter fast b",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_z_domain_transfer"
-                          },
+                          "component_type": "gen_z_domain_transfer",
                           "name": "Filter TF",
                           "idopt": null,
                           "elements": null,
@@ -1351,17 +1183,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Notch filter fast c",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_z_domain_transfer"
-                          },
+                          "component_type": "gen_z_domain_transfer",
                           "name": "Filter TF",
                           "idopt": null,
                           "elements": null,
@@ -1384,9 +1212,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join13",
                     "idopt": null,
                     "elements": null,
@@ -1400,9 +1226,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "sys_signal_switch"
-                    },
+                    "component_type": "sys_signal_switch",
                     "name": "Signal switch8",
                     "idopt": null,
                     "elements": null,
@@ -1416,9 +1240,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum61",
                     "idopt": null,
                     "elements": null,
@@ -1432,25 +1254,19 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "DQ Integrator",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "Subsystem"
-                          },
+                          "component_type": "Subsystem",
                           "name": "Harmonic compenzator",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq1",
                                 "idopt": null,
                                 "elements": null,
@@ -1464,9 +1280,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum12",
                                 "idopt": null,
                                 "elements": null,
@@ -1480,9 +1294,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum16",
                                 "idopt": null,
                                 "elements": null,
@@ -1496,9 +1308,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
@@ -1512,9 +1322,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch2",
                                 "idopt": null,
                                 "elements": null,
@@ -1528,9 +1336,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination1",
                                 "idopt": null,
                                 "elements": null,
@@ -1544,9 +1350,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "src_constant"
-                                },
+                                "component_type": "src_constant",
                                 "name": "Constant2",
                                 "idopt": null,
                                 "elements": null,
@@ -1560,9 +1364,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "scaler",
                                 "idopt": null,
                                 "elements": null,
@@ -1576,9 +1378,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq3",
                                 "idopt": null,
                                 "elements": null,
@@ -1592,9 +1392,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split ref",
                                 "idopt": null,
                                 "elements": null,
@@ -1608,9 +1406,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split g",
                                 "idopt": null,
                                 "elements": null,
@@ -1624,9 +1420,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination3",
                                 "idopt": null,
                                 "elements": null,
@@ -1640,9 +1434,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_join"
-                                },
+                                "component_type": "gen_bus_join",
                                 "name": "Join Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -1656,9 +1448,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/dq to abc"
-                                },
+                                "component_type": "core/dq to abc",
                                 "name": "dq to abc Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -1672,9 +1462,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator1",
                                 "idopt": null,
                                 "elements": null,
@@ -1688,9 +1476,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain1",
                                 "idopt": null,
                                 "elements": null,
@@ -1704,9 +1490,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator2",
                                 "idopt": null,
                                 "elements": null,
@@ -1720,9 +1504,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain2",
                                 "idopt": null,
                                 "elements": null,
@@ -1745,9 +1527,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum1",
                           "idopt": null,
                           "elements": null,
@@ -1761,17 +1541,13 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "Subsystem"
-                          },
+                          "component_type": "Subsystem",
                           "name": "Harmonic compenzator1",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq1",
                                 "idopt": null,
                                 "elements": null,
@@ -1785,9 +1561,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum12",
                                 "idopt": null,
                                 "elements": null,
@@ -1801,9 +1575,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum16",
                                 "idopt": null,
                                 "elements": null,
@@ -1817,9 +1589,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
@@ -1833,9 +1603,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch2",
                                 "idopt": null,
                                 "elements": null,
@@ -1849,9 +1617,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination1",
                                 "idopt": null,
                                 "elements": null,
@@ -1865,9 +1631,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "src_constant"
-                                },
+                                "component_type": "src_constant",
                                 "name": "Constant2",
                                 "idopt": null,
                                 "elements": null,
@@ -1881,9 +1645,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "scaler",
                                 "idopt": null,
                                 "elements": null,
@@ -1897,9 +1659,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq3",
                                 "idopt": null,
                                 "elements": null,
@@ -1913,9 +1673,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split ref",
                                 "idopt": null,
                                 "elements": null,
@@ -1929,9 +1687,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split g",
                                 "idopt": null,
                                 "elements": null,
@@ -1945,9 +1701,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination3",
                                 "idopt": null,
                                 "elements": null,
@@ -1961,9 +1715,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_join"
-                                },
+                                "component_type": "gen_bus_join",
                                 "name": "Join Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -1977,9 +1729,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/dq to abc"
-                                },
+                                "component_type": "core/dq to abc",
                                 "name": "dq to abc Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -1993,9 +1743,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator1",
                                 "idopt": null,
                                 "elements": null,
@@ -2009,9 +1757,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain1",
                                 "idopt": null,
                                 "elements": null,
@@ -2025,9 +1771,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator2",
                                 "idopt": null,
                                 "elements": null,
@@ -2041,9 +1785,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain2",
                                 "idopt": null,
                                 "elements": null,
@@ -2066,17 +1808,13 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "Subsystem"
-                          },
+                          "component_type": "Subsystem",
                           "name": "Harmonic compenzator2",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq1",
                                 "idopt": null,
                                 "elements": null,
@@ -2090,9 +1828,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum12",
                                 "idopt": null,
                                 "elements": null,
@@ -2106,9 +1842,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum16",
                                 "idopt": null,
                                 "elements": null,
@@ -2122,9 +1856,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
@@ -2138,9 +1870,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch2",
                                 "idopt": null,
                                 "elements": null,
@@ -2154,9 +1884,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination1",
                                 "idopt": null,
                                 "elements": null,
@@ -2170,9 +1898,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "src_constant"
-                                },
+                                "component_type": "src_constant",
                                 "name": "Constant2",
                                 "idopt": null,
                                 "elements": null,
@@ -2186,9 +1912,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "scaler",
                                 "idopt": null,
                                 "elements": null,
@@ -2202,9 +1926,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq3",
                                 "idopt": null,
                                 "elements": null,
@@ -2218,9 +1940,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split ref",
                                 "idopt": null,
                                 "elements": null,
@@ -2234,9 +1954,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split g",
                                 "idopt": null,
                                 "elements": null,
@@ -2250,9 +1968,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination3",
                                 "idopt": null,
                                 "elements": null,
@@ -2266,9 +1982,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_join"
-                                },
+                                "component_type": "gen_bus_join",
                                 "name": "Join Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -2282,9 +1996,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/dq to abc"
-                                },
+                                "component_type": "core/dq to abc",
                                 "name": "dq to abc Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -2298,9 +2010,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator1",
                                 "idopt": null,
                                 "elements": null,
@@ -2314,9 +2024,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain1",
                                 "idopt": null,
                                 "elements": null,
@@ -2330,9 +2038,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator2",
                                 "idopt": null,
                                 "elements": null,
@@ -2346,9 +2052,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain2",
                                 "idopt": null,
                                 "elements": null,
@@ -2371,17 +2075,13 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "Subsystem"
-                          },
+                          "component_type": "Subsystem",
                           "name": "Harmonic compenzator3",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq1",
                                 "idopt": null,
                                 "elements": null,
@@ -2395,9 +2095,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum12",
                                 "idopt": null,
                                 "elements": null,
@@ -2411,9 +2109,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum16",
                                 "idopt": null,
                                 "elements": null,
@@ -2427,9 +2123,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
@@ -2443,9 +2137,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch2",
                                 "idopt": null,
                                 "elements": null,
@@ -2459,9 +2151,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination1",
                                 "idopt": null,
                                 "elements": null,
@@ -2475,9 +2165,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "src_constant"
-                                },
+                                "component_type": "src_constant",
                                 "name": "Constant2",
                                 "idopt": null,
                                 "elements": null,
@@ -2491,9 +2179,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "scaler",
                                 "idopt": null,
                                 "elements": null,
@@ -2507,9 +2193,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq3",
                                 "idopt": null,
                                 "elements": null,
@@ -2523,9 +2207,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split ref",
                                 "idopt": null,
                                 "elements": null,
@@ -2539,9 +2221,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split g",
                                 "idopt": null,
                                 "elements": null,
@@ -2555,9 +2235,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination3",
                                 "idopt": null,
                                 "elements": null,
@@ -2571,9 +2249,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_join"
-                                },
+                                "component_type": "gen_bus_join",
                                 "name": "Join Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -2587,9 +2263,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/dq to abc"
-                                },
+                                "component_type": "core/dq to abc",
                                 "name": "dq to abc Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -2603,9 +2277,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator1",
                                 "idopt": null,
                                 "elements": null,
@@ -2619,9 +2291,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain1",
                                 "idopt": null,
                                 "elements": null,
@@ -2635,9 +2305,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator2",
                                 "idopt": null,
                                 "elements": null,
@@ -2651,9 +2319,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain2",
                                 "idopt": null,
                                 "elements": null,
@@ -2676,17 +2342,13 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "Subsystem"
-                          },
+                          "component_type": "Subsystem",
                           "name": "Harmonic compenzator4",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq1",
                                 "idopt": null,
                                 "elements": null,
@@ -2700,9 +2362,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum12",
                                 "idopt": null,
                                 "elements": null,
@@ -2716,9 +2376,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum16",
                                 "idopt": null,
                                 "elements": null,
@@ -2732,9 +2390,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
@@ -2748,9 +2404,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch2",
                                 "idopt": null,
                                 "elements": null,
@@ -2764,9 +2418,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination1",
                                 "idopt": null,
                                 "elements": null,
@@ -2780,9 +2432,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "src_constant"
-                                },
+                                "component_type": "src_constant",
                                 "name": "Constant2",
                                 "idopt": null,
                                 "elements": null,
@@ -2796,9 +2446,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "scaler",
                                 "idopt": null,
                                 "elements": null,
@@ -2812,9 +2460,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq3",
                                 "idopt": null,
                                 "elements": null,
@@ -2828,9 +2474,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split ref",
                                 "idopt": null,
                                 "elements": null,
@@ -2844,9 +2488,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split g",
                                 "idopt": null,
                                 "elements": null,
@@ -2860,9 +2502,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination3",
                                 "idopt": null,
                                 "elements": null,
@@ -2876,9 +2516,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_join"
-                                },
+                                "component_type": "gen_bus_join",
                                 "name": "Join Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -2892,9 +2530,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/dq to abc"
-                                },
+                                "component_type": "core/dq to abc",
                                 "name": "dq to abc Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -2908,9 +2544,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator1",
                                 "idopt": null,
                                 "elements": null,
@@ -2924,9 +2558,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain1",
                                 "idopt": null,
                                 "elements": null,
@@ -2940,9 +2572,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator2",
                                 "idopt": null,
                                 "elements": null,
@@ -2956,9 +2586,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain2",
                                 "idopt": null,
                                 "elements": null,
@@ -2981,17 +2609,13 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "Subsystem"
-                          },
+                          "component_type": "Subsystem",
                           "name": "Harmonic compenzator5",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq1",
                                 "idopt": null,
                                 "elements": null,
@@ -3005,9 +2629,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum12",
                                 "idopt": null,
                                 "elements": null,
@@ -3021,9 +2643,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum16",
                                 "idopt": null,
                                 "elements": null,
@@ -3037,9 +2657,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
@@ -3053,9 +2671,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch2",
                                 "idopt": null,
                                 "elements": null,
@@ -3069,9 +2685,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination1",
                                 "idopt": null,
                                 "elements": null,
@@ -3085,9 +2699,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "src_constant"
-                                },
+                                "component_type": "src_constant",
                                 "name": "Constant2",
                                 "idopt": null,
                                 "elements": null,
@@ -3101,9 +2713,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "scaler",
                                 "idopt": null,
                                 "elements": null,
@@ -3117,9 +2727,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq3",
                                 "idopt": null,
                                 "elements": null,
@@ -3133,9 +2741,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split ref",
                                 "idopt": null,
                                 "elements": null,
@@ -3149,9 +2755,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split g",
                                 "idopt": null,
                                 "elements": null,
@@ -3165,9 +2769,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination3",
                                 "idopt": null,
                                 "elements": null,
@@ -3181,9 +2783,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_join"
-                                },
+                                "component_type": "gen_bus_join",
                                 "name": "Join Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -3197,9 +2797,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/dq to abc"
-                                },
+                                "component_type": "core/dq to abc",
                                 "name": "dq to abc Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -3213,9 +2811,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator1",
                                 "idopt": null,
                                 "elements": null,
@@ -3229,9 +2825,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain1",
                                 "idopt": null,
                                 "elements": null,
@@ -3245,9 +2839,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator2",
                                 "idopt": null,
                                 "elements": null,
@@ -3261,9 +2853,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain2",
                                 "idopt": null,
                                 "elements": null,
@@ -3286,17 +2876,13 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "Subsystem"
-                          },
+                          "component_type": "Subsystem",
                           "name": "Harmonic compenzator6",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq1",
                                 "idopt": null,
                                 "elements": null,
@@ -3310,9 +2896,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum12",
                                 "idopt": null,
                                 "elements": null,
@@ -3326,9 +2910,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum16",
                                 "idopt": null,
                                 "elements": null,
@@ -3342,9 +2924,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
@@ -3358,9 +2938,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch2",
                                 "idopt": null,
                                 "elements": null,
@@ -3374,9 +2952,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination1",
                                 "idopt": null,
                                 "elements": null,
@@ -3390,9 +2966,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "src_constant"
-                                },
+                                "component_type": "src_constant",
                                 "name": "Constant2",
                                 "idopt": null,
                                 "elements": null,
@@ -3406,9 +2980,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "scaler",
                                 "idopt": null,
                                 "elements": null,
@@ -3422,9 +2994,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq3",
                                 "idopt": null,
                                 "elements": null,
@@ -3438,9 +3008,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split ref",
                                 "idopt": null,
                                 "elements": null,
@@ -3454,9 +3022,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split g",
                                 "idopt": null,
                                 "elements": null,
@@ -3470,9 +3036,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination3",
                                 "idopt": null,
                                 "elements": null,
@@ -3486,9 +3050,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_join"
-                                },
+                                "component_type": "gen_bus_join",
                                 "name": "Join Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -3502,9 +3064,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/dq to abc"
-                                },
+                                "component_type": "core/dq to abc",
                                 "name": "dq to abc Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -3518,9 +3078,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator1",
                                 "idopt": null,
                                 "elements": null,
@@ -3534,9 +3092,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain1",
                                 "idopt": null,
                                 "elements": null,
@@ -3550,9 +3106,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator2",
                                 "idopt": null,
                                 "elements": null,
@@ -3566,9 +3120,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain2",
                                 "idopt": null,
                                 "elements": null,
@@ -3591,17 +3143,13 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "Subsystem"
-                          },
+                          "component_type": "Subsystem",
                           "name": "Harmonic compenzator7",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq1",
                                 "idopt": null,
                                 "elements": null,
@@ -3615,9 +3163,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum12",
                                 "idopt": null,
                                 "elements": null,
@@ -3631,9 +3177,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum16",
                                 "idopt": null,
                                 "elements": null,
@@ -3647,9 +3191,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
@@ -3663,9 +3205,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch2",
                                 "idopt": null,
                                 "elements": null,
@@ -3679,9 +3219,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination1",
                                 "idopt": null,
                                 "elements": null,
@@ -3695,9 +3233,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "src_constant"
-                                },
+                                "component_type": "src_constant",
                                 "name": "Constant2",
                                 "idopt": null,
                                 "elements": null,
@@ -3711,9 +3247,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "scaler",
                                 "idopt": null,
                                 "elements": null,
@@ -3727,9 +3261,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq3",
                                 "idopt": null,
                                 "elements": null,
@@ -3743,9 +3275,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split ref",
                                 "idopt": null,
                                 "elements": null,
@@ -3759,9 +3289,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split g",
                                 "idopt": null,
                                 "elements": null,
@@ -3775,9 +3303,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination3",
                                 "idopt": null,
                                 "elements": null,
@@ -3791,9 +3317,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_join"
-                                },
+                                "component_type": "gen_bus_join",
                                 "name": "Join Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -3807,9 +3331,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/dq to abc"
-                                },
+                                "component_type": "core/dq to abc",
                                 "name": "dq to abc Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -3823,9 +3345,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator1",
                                 "idopt": null,
                                 "elements": null,
@@ -3839,9 +3359,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain1",
                                 "idopt": null,
                                 "elements": null,
@@ -3855,9 +3373,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator2",
                                 "idopt": null,
                                 "elements": null,
@@ -3871,9 +3387,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain2",
                                 "idopt": null,
                                 "elements": null,
@@ -3896,17 +3410,13 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "Subsystem"
-                          },
+                          "component_type": "Subsystem",
                           "name": "Harmonic compenzator8",
                           "idopt": null,
                           "elements": [
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq1",
                                 "idopt": null,
                                 "elements": null,
@@ -3920,9 +3430,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum12",
                                 "idopt": null,
                                 "elements": null,
@@ -3936,9 +3444,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_sum"
-                                },
+                                "component_type": "gen_sum",
                                 "name": "Sum16",
                                 "idopt": null,
                                 "elements": null,
@@ -3952,9 +3458,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch1",
                                 "idopt": null,
                                 "elements": null,
@@ -3968,9 +3472,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "sys_signal_switch"
-                                },
+                                "component_type": "sys_signal_switch",
                                 "name": "Signal switch2",
                                 "idopt": null,
                                 "elements": null,
@@ -3984,9 +3486,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination1",
                                 "idopt": null,
                                 "elements": null,
@@ -4000,9 +3500,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "src_constant"
-                                },
+                                "component_type": "src_constant",
                                 "name": "Constant2",
                                 "idopt": null,
                                 "elements": null,
@@ -4016,9 +3514,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "scaler",
                                 "idopt": null,
                                 "elements": null,
@@ -4032,9 +3528,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/abc to dq"
-                                },
+                                "component_type": "core/abc to dq",
                                 "name": "abc to dq3",
                                 "idopt": null,
                                 "elements": null,
@@ -4048,9 +3542,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split ref",
                                 "idopt": null,
                                 "elements": null,
@@ -4064,9 +3556,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_split"
-                                },
+                                "component_type": "gen_bus_split",
                                 "name": "Split g",
                                 "idopt": null,
                                 "elements": null,
@@ -4080,9 +3570,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_terminator"
-                                },
+                                "component_type": "gen_terminator",
                                 "name": "Termination3",
                                 "idopt": null,
                                 "elements": null,
@@ -4096,9 +3584,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_bus_join"
-                                },
+                                "component_type": "gen_bus_join",
                                 "name": "Join Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -4112,9 +3598,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "Name": "core/dq to abc"
-                                },
+                                "component_type": "core/dq to abc",
                                 "name": "dq to abc Vref",
                                 "idopt": null,
                                 "elements": null,
@@ -4128,9 +3612,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator1",
                                 "idopt": null,
                                 "elements": null,
@@ -4144,9 +3626,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain1",
                                 "idopt": null,
                                 "elements": null,
@@ -4160,9 +3640,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_integrator"
-                                },
+                                "component_type": "gen_integrator",
                                 "name": "Integrator2",
                                 "idopt": null,
                                 "elements": null,
@@ -4176,9 +3654,7 @@
                             },
                             {
                               "Component": {
-                                "component_type": {
-                                  "ID": "gen_gain"
-                                },
+                                "component_type": "gen_gain",
                                 "name": "Gain2",
                                 "idopt": null,
                                 "elements": null,
@@ -4201,9 +3677,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain38",
                           "idopt": null,
                           "elements": null,
@@ -4226,9 +3700,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_split"
-                    },
+                    "component_type": "gen_bus_split",
                     "name": "Bus Split4",
                     "idopt": null,
                     "elements": null,
@@ -4242,9 +3714,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join15",
                     "idopt": null,
                     "elements": null,
@@ -4258,9 +3728,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join16",
                     "idopt": null,
                     "elements": null,
@@ -4274,9 +3742,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join17",
                     "idopt": null,
                     "elements": null,
@@ -4290,9 +3756,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum62",
                     "idopt": null,
                     "elements": null,
@@ -4306,9 +3770,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination5",
                     "idopt": null,
                     "elements": null,
@@ -4322,9 +3784,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum63",
                     "idopt": null,
                     "elements": null,
@@ -4338,9 +3798,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join18",
                     "idopt": null,
                     "elements": null,
@@ -4354,9 +3812,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_limiter"
-                    },
+                    "component_type": "gen_limiter",
                     "name": "Limit1",
                     "idopt": null,
                     "elements": null,
@@ -4370,9 +3826,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination6",
                     "idopt": null,
                     "elements": null,
@@ -4386,9 +3840,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination7",
                     "idopt": null,
                     "elements": null,
@@ -4402,9 +3854,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination8",
                     "idopt": null,
                     "elements": null,
@@ -4418,9 +3868,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_limiter"
-                    },
+                    "component_type": "gen_limiter",
                     "name": "Limit2",
                     "idopt": null,
                     "elements": null,
@@ -4434,9 +3882,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition8",
                     "idopt": null,
                     "elements": null,
@@ -4450,9 +3896,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition11",
                     "idopt": null,
                     "elements": null,
@@ -4466,9 +3910,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition12",
                     "idopt": null,
                     "elements": null,
@@ -4482,9 +3924,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition13",
                     "idopt": null,
                     "elements": null,
@@ -4498,9 +3938,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition14",
                     "idopt": null,
                     "elements": null,
@@ -4514,9 +3952,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination9",
                     "idopt": null,
                     "elements": null,
@@ -4530,9 +3966,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination10",
                     "idopt": null,
                     "elements": null,
@@ -4546,9 +3980,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination11",
                     "idopt": null,
                     "elements": null,
@@ -4562,9 +3994,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "Constant4",
                     "idopt": null,
                     "elements": null,
@@ -4578,17 +4008,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Voltage control loop",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum55",
                           "idopt": null,
                           "elements": null,
@@ -4602,9 +4028,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product4",
                           "idopt": null,
                           "elements": null,
@@ -4618,9 +4042,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain62",
                           "idopt": null,
                           "elements": null,
@@ -4634,9 +4056,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_pid_controller"
-                          },
+                          "component_type": "gen_pid_controller",
                           "name": "P d1",
                           "idopt": null,
                           "elements": null,
@@ -4650,9 +4070,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "Name": "core/dq to abc"
-                          },
+                          "component_type": "core/dq to abc",
                           "name": "dq to abc2",
                           "idopt": null,
                           "elements": null,
@@ -4666,9 +4084,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join12",
                           "idopt": null,
                           "elements": null,
@@ -4682,9 +4098,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product5",
                           "idopt": null,
                           "elements": null,
@@ -4698,9 +4112,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain63",
                           "idopt": null,
                           "elements": null,
@@ -4714,9 +4126,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "sys_signal_switch"
-                          },
+                          "component_type": "sys_signal_switch",
                           "name": "Signal switch4",
                           "idopt": null,
                           "elements": null,
@@ -4730,9 +4140,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain65",
                           "idopt": null,
                           "elements": null,
@@ -4746,9 +4154,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_limiter"
-                          },
+                          "component_type": "gen_limiter",
                           "name": "Limit1",
                           "idopt": null,
                           "elements": null,
@@ -4762,9 +4168,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "src_constant"
-                          },
+                          "component_type": "src_constant",
                           "name": "Constant6",
                           "idopt": null,
                           "elements": null,
@@ -4778,9 +4182,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product6",
                           "idopt": null,
                           "elements": null,
@@ -4803,17 +4205,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "P regulator",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split1",
                           "idopt": null,
                           "elements": null,
@@ -4827,9 +4225,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum12",
                           "idopt": null,
                           "elements": null,
@@ -4843,9 +4239,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum17",
                           "idopt": null,
                           "elements": null,
@@ -4859,9 +4253,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain14",
                           "idopt": null,
                           "elements": null,
@@ -4875,9 +4267,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum34",
                           "idopt": null,
                           "elements": null,
@@ -4891,9 +4281,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum42",
                           "idopt": null,
                           "elements": null,
@@ -4907,9 +4295,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum43",
                           "idopt": null,
                           "elements": null,
@@ -4923,9 +4309,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain19",
                           "idopt": null,
                           "elements": null,
@@ -4939,9 +4323,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum44",
                           "idopt": null,
                           "elements": null,
@@ -4955,9 +4337,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join5",
                           "idopt": null,
                           "elements": null,
@@ -4971,9 +4351,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum48",
                           "idopt": null,
                           "elements": null,
@@ -4987,9 +4365,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum49",
                           "idopt": null,
                           "elements": null,
@@ -5003,9 +4379,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain40",
                           "idopt": null,
                           "elements": null,
@@ -5019,9 +4393,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_sum"
-                          },
+                          "component_type": "gen_sum",
                           "name": "Sum50",
                           "idopt": null,
                           "elements": null,
@@ -5035,9 +4407,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain41",
                           "idopt": null,
                           "elements": null,
@@ -5051,9 +4421,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain42",
                           "idopt": null,
                           "elements": null,
@@ -5067,9 +4435,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain43",
                           "idopt": null,
                           "elements": null,
@@ -5083,9 +4449,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split2",
                           "idopt": null,
                           "elements": null,
@@ -5099,9 +4463,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split3",
                           "idopt": null,
                           "elements": null,
@@ -5115,9 +4477,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split4",
                           "idopt": null,
                           "elements": null,
@@ -5131,9 +4491,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_pid_controller"
-                          },
+                          "component_type": "gen_pid_controller",
                           "name": "P a",
                           "idopt": null,
                           "elements": null,
@@ -5147,9 +4505,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_pid_controller"
-                          },
+                          "component_type": "gen_pid_controller",
                           "name": "P b",
                           "idopt": null,
                           "elements": null,
@@ -5163,9 +4519,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_pid_controller"
-                          },
+                          "component_type": "gen_pid_controller",
                           "name": "P c",
                           "idopt": null,
                           "elements": null,
@@ -5188,9 +4542,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_sum"
-                    },
+                    "component_type": "gen_sum",
                     "name": "Sum64",
                     "idopt": null,
                     "elements": null,
@@ -5204,9 +4556,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition16",
                     "idopt": null,
                     "elements": null,
@@ -5220,9 +4570,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition17",
                     "idopt": null,
                     "elements": null,
@@ -5236,9 +4584,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition18",
                     "idopt": null,
                     "elements": null,
@@ -5252,9 +4598,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition22",
                     "idopt": null,
                     "elements": null,
@@ -5268,9 +4612,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition23",
                     "idopt": null,
                     "elements": null,
@@ -5284,9 +4626,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition24",
                     "idopt": null,
                     "elements": null,
@@ -5300,9 +4640,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition25",
                     "idopt": null,
                     "elements": null,
@@ -5316,9 +4654,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition26",
                     "idopt": null,
                     "elements": null,
@@ -5332,9 +4668,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition27",
                     "idopt": null,
                     "elements": null,
@@ -5348,9 +4682,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition28",
                     "idopt": null,
                     "elements": null,
@@ -5364,9 +4696,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Rate Transition"
-                    },
+                    "component_type": "core/Rate Transition",
                     "name": "Rate Transition29",
                     "idopt": null,
                     "elements": null,
@@ -5380,9 +4710,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_comparator"
-                    },
+                    "component_type": "gen_comparator",
                     "name": "Comparator5",
                     "idopt": null,
                     "elements": null,
@@ -5396,9 +4724,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "sys_signal_switch"
-                    },
+                    "component_type": "sys_signal_switch",
                     "name": "Signal switch9",
                     "idopt": null,
                     "elements": null,
@@ -5412,9 +4738,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_c_function"
-                    },
+                    "component_type": "gen_c_function",
                     "name": "C function2",
                     "idopt": null,
                     "elements": null,
@@ -5428,9 +4752,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "I_max",
                     "idopt": null,
                     "elements": null,
@@ -5444,9 +4766,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_digital_probe"
-                    },
+                    "component_type": "gen_digital_probe",
                     "name": "Imax_FLAG",
                     "idopt": null,
                     "elements": null,
@@ -5460,17 +4780,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "Subsystem1",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product5",
                           "idopt": null,
                           "elements": null,
@@ -5484,9 +4800,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product6",
                           "idopt": null,
                           "elements": null,
@@ -5500,9 +4814,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split2",
                           "idopt": null,
                           "elements": null,
@@ -5516,9 +4828,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
@@ -5532,9 +4842,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_product"
-                          },
+                          "component_type": "gen_product",
                           "name": "Product4",
                           "idopt": null,
                           "elements": null,
@@ -5557,9 +4865,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_split"
-                    },
+                    "component_type": "gen_bus_split",
                     "name": "Bus Split5",
                     "idopt": null,
                     "elements": null,
@@ -5573,9 +4879,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_rms_value"
-                    },
+                    "component_type": "gen_rms_value",
                     "name": "RMS value3",
                     "idopt": null,
                     "elements": null,
@@ -5589,9 +4893,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_logic_op"
-                    },
+                    "component_type": "gen_logic_op",
                     "name": "Logical operator2",
                     "idopt": null,
                     "elements": null,
@@ -5605,9 +4907,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "Limit_output",
                     "idopt": null,
                     "elements": null,
@@ -5621,9 +4921,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination12",
                     "idopt": null,
                     "elements": null,
@@ -5637,9 +4935,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination13",
                     "idopt": null,
                     "elements": null,
@@ -5662,17 +4958,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "Electric motor drive",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "pas_capacitor"
-                    },
+                    "component_type": "pas_capacitor",
                     "name": "C_DC",
                     "idopt": null,
                     "elements": null,
@@ -5686,9 +4978,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_product"
-                    },
+                    "component_type": "gen_product",
                     "name": "Product1",
                     "idopt": null,
                     "elements": null,
@@ -5702,9 +4992,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Three Phase Diode Rectifier"
-                    },
+                    "component_type": "core/Three Phase Diode Rectifier",
                     "name": "Three Phase Diode Rectifier",
                     "idopt": null,
                     "elements": null,
@@ -5718,9 +5006,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Variable Resistor"
-                    },
+                    "component_type": "core/Variable Resistor",
                     "name": "Rdc_load",
                     "idopt": null,
                     "elements": null,
@@ -5734,9 +5020,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Voltage Measurement"
-                    },
+                    "component_type": "core/Voltage Measurement",
                     "name": "Vdc",
                     "idopt": null,
                     "elements": null,
@@ -5750,9 +5034,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "Load power",
                     "idopt": null,
                     "elements": null,
@@ -5775,9 +5057,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Three-phase Meter"
-              },
+              "component_type": "core/Three-phase Meter",
               "name": "Three-phase Meter1",
               "idopt": null,
               "elements": null,
@@ -5791,9 +5071,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_constant"
-              },
+              "component_type": "src_constant",
               "name": "Enable",
               "idopt": null,
               "elements": null,
@@ -5807,9 +5085,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_constant"
-              },
+              "component_type": "src_constant",
               "name": "Q comp en",
               "idopt": null,
               "elements": null,
@@ -5823,9 +5099,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "src_constant"
-              },
+              "component_type": "src_constant",
               "name": "Har comp en",
               "idopt": null,
               "elements": null,
@@ -5839,9 +5113,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_probe"
-              },
+              "component_type": "gen_probe",
               "name": "Amp_source",
               "idopt": null,
               "elements": null,
@@ -5855,9 +5127,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_probe"
-              },
+              "component_type": "gen_probe",
               "name": "Amp_load",
               "idopt": null,
               "elements": null,
@@ -5871,9 +5141,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Harmonic Analyzer"
-              },
+              "component_type": "core/Harmonic Analyzer",
               "name": "Harmonic Analyzer source",
               "idopt": null,
               "elements": null,
@@ -5887,9 +5155,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Harmonic Analyzer"
-              },
+              "component_type": "core/Harmonic Analyzer",
               "name": "Harmonic Analyzer load",
               "idopt": null,
               "elements": null,
@@ -5903,9 +5169,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_terminator"
-              },
+              "component_type": "gen_terminator",
               "name": "Termination1",
               "idopt": null,
               "elements": null,
@@ -5919,9 +5183,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_terminator"
-              },
+              "component_type": "gen_terminator",
               "name": "Termination2",
               "idopt": null,
               "elements": null,
@@ -5935,9 +5197,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_terminator"
-              },
+              "component_type": "gen_terminator",
               "name": "Termination3",
               "idopt": null,
               "elements": null,
@@ -5951,9 +5211,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_terminator"
-              },
+              "component_type": "gen_terminator",
               "name": "Termination4",
               "idopt": null,
               "elements": null,
@@ -5967,9 +5225,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_terminator"
-              },
+              "component_type": "gen_terminator",
               "name": "Termination5",
               "idopt": null,
               "elements": null,
@@ -5983,9 +5239,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_terminator"
-              },
+              "component_type": "gen_terminator",
               "name": "Termination6",
               "idopt": null,
               "elements": null,
@@ -5999,9 +5253,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Is_b",
               "idopt": null,
               "elements": null,
@@ -6015,9 +5267,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Is_c",
               "idopt": null,
               "elements": null,
@@ -6031,9 +5281,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current Measurement"
-              },
+              "component_type": "core/Current Measurement",
               "name": "Ig_c",
               "idopt": null,
               "elements": null,
@@ -6047,9 +5295,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "gen_terminator"
-              },
+              "component_type": "gen_terminator",
               "name": "Termination7",
               "idopt": null,
               "elements": null,
@@ -6063,9 +5309,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Current RMS"
-              },
+              "component_type": "core/Current RMS",
               "name": "If_rms",
               "idopt": null,
               "elements": null,

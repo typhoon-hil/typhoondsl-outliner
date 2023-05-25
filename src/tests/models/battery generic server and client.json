@@ -17,17 +17,13 @@
   "elements": [
     {
       "Component": {
-        "component_type": {
-          "ID": "Subsystem"
-        },
+        "component_type": "Subsystem",
         "name": "Root",
         "idopt": null,
         "elements": [
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Grid"
-              },
+              "component_type": "core/Grid",
               "name": "Grid1",
               "idopt": null,
               "elements": null,
@@ -41,9 +37,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Constant Impedance Load"
-              },
+              "component_type": "core/Constant Impedance Load",
               "name": "Constant Impedance Load1",
               "idopt": null,
               "elements": null,
@@ -57,9 +51,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Triple Pole Single Throw Contactor"
-              },
+              "component_type": "core/Triple Pole Single Throw Contactor",
               "name": "S1",
               "idopt": null,
               "elements": null,
@@ -73,9 +65,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Grid UI"
-              },
+              "component_type": "core/Grid UI",
               "name": "Grid UI1",
               "idopt": null,
               "elements": null,
@@ -89,17 +79,13 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "Subsystem"
-              },
+              "component_type": "Subsystem",
               "name": "Battery ESS (Generic) UI1",
               "idopt": null,
               "elements": [
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Enable_fb",
                     "idopt": null,
                     "elements": null,
@@ -113,9 +99,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Reset alarms",
                     "idopt": null,
                     "elements": null,
@@ -129,9 +113,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Frequency droop offset",
                     "idopt": null,
                     "elements": null,
@@ -145,9 +127,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Max SOC",
                     "idopt": null,
                     "elements": null,
@@ -161,9 +141,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Min SOC",
                     "idopt": null,
                     "elements": null,
@@ -177,9 +155,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Voltage droop coeff",
                     "idopt": null,
                     "elements": null,
@@ -193,9 +169,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Frequency droop coeff",
                     "idopt": null,
                     "elements": null,
@@ -209,9 +183,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Qmeas_kVAr",
                     "idopt": null,
                     "elements": null,
@@ -225,9 +197,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Qa_meas_kVAr",
                     "idopt": null,
                     "elements": null,
@@ -241,9 +211,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "PFmeas",
                     "idopt": null,
                     "elements": null,
@@ -257,9 +225,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Smeas_kVA",
                     "idopt": null,
                     "elements": null,
@@ -273,9 +239,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Pa_meas_kW",
                     "idopt": null,
                     "elements": null,
@@ -289,9 +253,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Pc_meas_kW",
                     "idopt": null,
                     "elements": null,
@@ -305,9 +267,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Pnom_kW",
                     "idopt": null,
                     "elements": null,
@@ -321,9 +281,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Qref_fb_kVAr",
                     "idopt": null,
                     "elements": null,
@@ -337,9 +295,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Snom_kVA",
                     "idopt": null,
                     "elements": null,
@@ -353,9 +309,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Qb_meas_kVAr",
                     "idopt": null,
                     "elements": null,
@@ -369,9 +323,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Fmeas_Hz",
                     "idopt": null,
                     "elements": null,
@@ -385,9 +337,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Pref_fb_kW",
                     "idopt": null,
                     "elements": null,
@@ -401,9 +351,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Qnom_kVAr",
                     "idopt": null,
                     "elements": null,
@@ -417,9 +365,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Qc_meas_kVAr",
                     "idopt": null,
                     "elements": null,
@@ -433,9 +379,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/DER (Generic) Control Join"
-                    },
+                    "component_type": "core/DER (Generic) Control Join",
                     "name": "DER (Generic) Control Join1",
                     "idopt": null,
                     "elements": null,
@@ -449,9 +393,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vgrid_rms_meas_kV",
                     "idopt": null,
                     "elements": null,
@@ -465,9 +407,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Pb_meas_kW",
                     "idopt": null,
                     "elements": null,
@@ -481,9 +421,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Pmeas_kW",
                     "idopt": null,
                     "elements": null,
@@ -497,9 +435,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Fnom_Hz",
                     "idopt": null,
                     "elements": null,
@@ -513,9 +449,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vnom_LL_V",
                     "idopt": null,
                     "elements": null,
@@ -529,9 +463,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Converter_mode_fb",
                     "idopt": null,
                     "elements": null,
@@ -545,9 +477,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Fref_fb_Hz",
                     "idopt": null,
                     "elements": null,
@@ -561,9 +491,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vrms_ref_fb_V",
                     "idopt": null,
                     "elements": null,
@@ -577,9 +505,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "MCB_status",
                     "idopt": null,
                     "elements": null,
@@ -593,9 +519,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "SOH",
                     "idopt": null,
                     "elements": null,
@@ -609,9 +533,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "alarm_msg",
                     "idopt": null,
                     "elements": null,
@@ -625,9 +547,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "state",
                     "idopt": null,
                     "elements": null,
@@ -641,9 +561,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Ibatt_A",
                     "idopt": null,
                     "elements": null,
@@ -657,9 +575,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vbatt_V",
                     "idopt": null,
                     "elements": null,
@@ -673,9 +589,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "SOC",
                     "idopt": null,
                     "elements": null,
@@ -689,9 +603,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vconv_rms_meas_V",
                     "idopt": null,
                     "elements": null,
@@ -705,9 +617,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Vrms_ref rate of change",
                     "idopt": null,
                     "elements": null,
@@ -721,9 +631,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Fref rate of change",
                     "idopt": null,
                     "elements": null,
@@ -737,9 +645,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Initial SOC",
                     "idopt": null,
                     "elements": null,
@@ -753,9 +659,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Pref rate of change",
                     "idopt": null,
                     "elements": null,
@@ -769,9 +673,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Qref rate of change",
                     "idopt": null,
                     "elements": null,
@@ -785,9 +687,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Initial SOH",
                     "idopt": null,
                     "elements": null,
@@ -801,9 +701,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/DER (Generic) Output Split"
-                    },
+                    "component_type": "core/DER (Generic) Output Split",
                     "name": "DER (Generic) Output Split1",
                     "idopt": null,
                     "elements": null,
@@ -817,9 +715,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Batt_cap_nom_Ah",
                     "idopt": null,
                     "elements": null,
@@ -833,9 +729,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "LVRT enable",
                     "idopt": null,
                     "elements": null,
@@ -849,9 +743,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "LVRT Q contribution",
                     "idopt": null,
                     "elements": null,
@@ -865,9 +757,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "LVRT P set",
                     "idopt": null,
                     "elements": null,
@@ -881,9 +771,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "LVRT_active_status",
                     "idopt": null,
                     "elements": null,
@@ -897,9 +785,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/DER (Generic) External Join"
-                    },
+                    "component_type": "core/DER (Generic) External Join",
                     "name": "DER (Generic) External Join1",
                     "idopt": null,
                     "elements": null,
@@ -913,9 +799,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "V alarm upper limit",
                     "idopt": null,
                     "elements": null,
@@ -929,9 +813,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "V alarm lower limit",
                     "idopt": null,
                     "elements": null,
@@ -945,9 +827,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "F alarm upper limit",
                     "idopt": null,
                     "elements": null,
@@ -961,9 +841,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "F alarm lower limit",
                     "idopt": null,
                     "elements": null,
@@ -977,9 +855,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "S alarm upper limit",
                     "idopt": null,
                     "elements": null,
@@ -993,9 +869,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "I alarm upper limit",
                     "idopt": null,
                     "elements": null,
@@ -1009,9 +883,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "VoltVAr enable",
                     "idopt": null,
                     "elements": null,
@@ -1025,9 +897,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "HzWatt enable",
                     "idopt": null,
                     "elements": null,
@@ -1041,9 +911,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "VoltWatt enable",
                     "idopt": null,
                     "elements": null,
@@ -1057,9 +925,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Modbus",
                     "idopt": null,
                     "elements": null,
@@ -1073,9 +939,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_constant"
-                    },
+                    "component_type": "src_constant",
                     "name": "Constant1",
                     "idopt": null,
                     "elements": null,
@@ -1089,9 +953,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "In",
                     "idopt": null,
                     "elements": null,
@@ -1105,9 +967,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/ModBus Device"
-                    },
+                    "component_type": "core/ModBus Device",
                     "name": "ModBus Device1",
                     "idopt": null,
                     "elements": null,
@@ -1121,9 +981,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "sys_signal_switch"
-                    },
+                    "component_type": "sys_signal_switch",
                     "name": "Signal switch1",
                     "idopt": null,
                     "elements": null,
@@ -1137,17 +995,13 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "Subsystem"
-                    },
+                    "component_type": "Subsystem",
                     "name": "signal_selection1",
                     "idopt": null,
                     "elements": [
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_split"
-                          },
+                          "component_type": "gen_bus_split",
                           "name": "Bus Split4",
                           "idopt": null,
                           "elements": null,
@@ -1161,9 +1015,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_bus_join"
-                          },
+                          "component_type": "gen_bus_join",
                           "name": "Bus Join1",
                           "idopt": null,
                           "elements": null,
@@ -1177,9 +1029,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain1",
                           "idopt": null,
                           "elements": null,
@@ -1193,9 +1043,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain2",
                           "idopt": null,
                           "elements": null,
@@ -1209,9 +1057,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain3",
                           "idopt": null,
                           "elements": null,
@@ -1225,9 +1071,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain4",
                           "idopt": null,
                           "elements": null,
@@ -1241,9 +1085,7 @@
                       },
                       {
                         "Component": {
-                          "component_type": {
-                            "ID": "gen_gain"
-                          },
+                          "component_type": "gen_gain",
                           "name": "Gain5",
                           "idopt": null,
                           "elements": null,
@@ -1266,9 +1108,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain1",
                     "idopt": null,
                     "elements": null,
@@ -1282,9 +1122,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join2",
                     "idopt": null,
                     "elements": null,
@@ -1298,9 +1136,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain2",
                     "idopt": null,
                     "elements": null,
@@ -1314,9 +1150,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain3",
                     "idopt": null,
                     "elements": null,
@@ -1330,9 +1164,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain4",
                     "idopt": null,
                     "elements": null,
@@ -1346,9 +1178,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain5",
                     "idopt": null,
                     "elements": null,
@@ -1362,9 +1192,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain6",
                     "idopt": null,
                     "elements": null,
@@ -1378,9 +1206,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_split"
-                    },
+                    "component_type": "gen_bus_split",
                     "name": "Bus Split1",
                     "idopt": null,
                     "elements": null,
@@ -1394,9 +1220,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Converter mode",
                     "idopt": null,
                     "elements": null,
@@ -1410,9 +1234,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Vrms_ref",
                     "idopt": null,
                     "elements": null,
@@ -1426,9 +1248,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Fref",
                     "idopt": null,
                     "elements": null,
@@ -1442,9 +1262,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Pref",
                     "idopt": null,
                     "elements": null,
@@ -1458,9 +1276,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Qref",
                     "idopt": null,
                     "elements": null,
@@ -1474,9 +1290,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join3",
                     "idopt": null,
                     "elements": null,
@@ -1490,9 +1304,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "on-set",
                     "idopt": null,
                     "elements": null,
@@ -1506,9 +1318,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "PQref_fb-mult_read",
                     "idopt": null,
                     "elements": null,
@@ -1522,9 +1332,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "state-client",
                     "idopt": null,
                     "elements": null,
@@ -1538,9 +1346,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join1",
                     "idopt": null,
                     "elements": null,
@@ -1554,9 +1360,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "vi-set",
                     "idopt": null,
                     "elements": null,
@@ -1570,9 +1374,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "vrms-set",
                     "idopt": null,
                     "elements": null,
@@ -1586,9 +1388,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "f-set",
                     "idopt": null,
                     "elements": null,
@@ -1602,9 +1402,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "p-set",
                     "idopt": null,
                     "elements": null,
@@ -1618,9 +1416,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "q-set",
                     "idopt": null,
                     "elements": null,
@@ -1634,9 +1430,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join4",
                     "idopt": null,
                     "elements": null,
@@ -1650,9 +1444,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain7",
                     "idopt": null,
                     "elements": null,
@@ -1666,9 +1458,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain8",
                     "idopt": null,
                     "elements": null,
@@ -1682,9 +1472,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain9",
                     "idopt": null,
                     "elements": null,
@@ -1698,9 +1486,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain10",
                     "idopt": null,
                     "elements": null,
@@ -1714,9 +1500,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain11",
                     "idopt": null,
                     "elements": null,
@@ -1730,9 +1514,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain12",
                     "idopt": null,
                     "elements": null,
@@ -1746,9 +1528,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain13",
                     "idopt": null,
                     "elements": null,
@@ -1762,9 +1542,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain14",
                     "idopt": null,
                     "elements": null,
@@ -1778,9 +1556,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain15",
                     "idopt": null,
                     "elements": null,
@@ -1794,9 +1570,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain16",
                     "idopt": null,
                     "elements": null,
@@ -1810,9 +1584,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain17",
                     "idopt": null,
                     "elements": null,
@@ -1826,9 +1598,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain18",
                     "idopt": null,
                     "elements": null,
@@ -1842,9 +1612,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain19",
                     "idopt": null,
                     "elements": null,
@@ -1858,9 +1626,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain20",
                     "idopt": null,
                     "elements": null,
@@ -1874,9 +1640,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain21",
                     "idopt": null,
                     "elements": null,
@@ -1890,9 +1654,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain22",
                     "idopt": null,
                     "elements": null,
@@ -1906,9 +1668,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_gain"
-                    },
+                    "component_type": "gen_gain",
                     "name": "Gain23",
                     "idopt": null,
                     "elements": null,
@@ -1922,9 +1682,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "sys_hil_sp_marker"
-                    },
+                    "component_type": "sys_hil_sp_marker",
                     "name": "Signal Device Marker1",
                     "idopt": null,
                     "elements": null,
@@ -1938,9 +1696,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "sys_hil_sp_marker"
-                    },
+                    "component_type": "sys_hil_sp_marker",
                     "name": "Signal Device Marker2",
                     "idopt": null,
                     "elements": null,
@@ -1954,9 +1710,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "Name": "core/Modbus Client"
-                    },
+                    "component_type": "core/Modbus Client",
                     "name": "Modbus Client1",
                     "idopt": null,
                     "elements": null,
@@ -1970,9 +1724,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Fnom_hz_read",
                     "idopt": null,
                     "elements": null,
@@ -1986,9 +1738,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vrmsref_fb_read",
                     "idopt": null,
                     "elements": null,
@@ -2002,9 +1752,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Fref_fb_read",
                     "idopt": null,
                     "elements": null,
@@ -2018,9 +1766,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vgridmeas_read",
                     "idopt": null,
                     "elements": null,
@@ -2034,9 +1780,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Fmeas_read",
                     "idopt": null,
                     "elements": null,
@@ -2050,9 +1794,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "PQmeas-mult_read",
                     "idopt": null,
                     "elements": null,
@@ -2066,9 +1808,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "PFmeas_read",
                     "idopt": null,
                     "elements": null,
@@ -2082,9 +1822,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vconv_read",
                     "idopt": null,
                     "elements": null,
@@ -2098,9 +1836,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "SOC_read",
                     "idopt": null,
                     "elements": null,
@@ -2114,9 +1850,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vbatt_read",
                     "idopt": null,
                     "elements": null,
@@ -2130,9 +1864,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "mode_read",
                     "idopt": null,
                     "elements": null,
@@ -2146,9 +1878,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "state_read",
                     "idopt": null,
                     "elements": null,
@@ -2162,9 +1892,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "alarm_read",
                     "idopt": null,
                     "elements": null,
@@ -2178,9 +1906,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "Vgrid-enable-fb_read",
                     "idopt": null,
                     "elements": null,
@@ -2194,9 +1920,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "MCBstat_read",
                     "idopt": null,
                     "elements": null,
@@ -2210,9 +1934,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_probe"
-                    },
+                    "component_type": "gen_probe",
                     "name": "writeclient",
                     "idopt": null,
                     "elements": null,
@@ -2226,9 +1948,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_join"
-                    },
+                    "component_type": "gen_bus_join",
                     "name": "Bus Join5",
                     "idopt": null,
                     "elements": null,
@@ -2242,9 +1962,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "Enable",
                     "idopt": null,
                     "elements": null,
@@ -2258,9 +1976,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_terminator"
-                    },
+                    "component_type": "gen_terminator",
                     "name": "Termination1",
                     "idopt": null,
                     "elements": null,
@@ -2274,9 +1990,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "src_scada_input"
-                    },
+                    "component_type": "src_scada_input",
                     "name": "alarmrs-set",
                     "idopt": null,
                     "elements": null,
@@ -2290,9 +2004,7 @@
                 },
                 {
                   "Component": {
-                    "component_type": {
-                      "ID": "gen_bus_split"
-                    },
+                    "component_type": "gen_bus_split",
                     "name": "Bus Split2",
                     "idopt": null,
                     "elements": null,
@@ -2315,9 +2027,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "Name": "core/Battery ESS (Generic)"
-              },
+              "component_type": "core/Battery ESS (Generic)",
               "name": "Battery ESS (Generic)1",
               "idopt": null,
               "elements": null,
@@ -2331,9 +2041,7 @@
           },
           {
             "Component": {
-              "component_type": {
-                "ID": "sys_hil_marker"
-              },
+              "component_type": "sys_hil_marker",
               "name": "Device Marker1",
               "idopt": null,
               "elements": null,

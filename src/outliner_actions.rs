@@ -128,7 +128,7 @@ pub fn element1_element(_ctx: &Context, element: Element) -> Element1 {
 }
 #[derive(Debug, Clone, Serialize)]
 pub struct Component {
-    pub component_type: TypeName,
+    pub component_type: String,
     pub name: Name,
     pub idopt: IDOpt,
     pub elements: Box<Element0>,
@@ -145,7 +145,7 @@ pub fn component_c1(
     _cbrace: CBrace,
 ) -> Component {
     Component {
-        component_type,
+        component_type: component_type.into(),
         name,
         idopt,
         elements: Box::new(elements),
@@ -207,6 +207,15 @@ pub fn till_end_code_kwopt_empty(_ctx: &Context) -> TillEndCodeKWOpt {}
 pub enum TypeName {
     Name(Name),
     ID(ID),
+}
+
+impl From<TypeName> for String {
+    fn from(value: TypeName) -> Self {
+        match value {
+            TypeName::Name(s) => s,
+            TypeName::ID(s) => s,
+        }
+    }
 }
 pub fn type_name_name(_ctx: &Context, name: Name) -> TypeName {
     TypeName::Name(name)
