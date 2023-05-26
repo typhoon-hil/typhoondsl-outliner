@@ -14,6 +14,7 @@ use rustemo::{
 pub type Input = str;
 
 lazy_static! {
+    static ref RE_WS: Regex = Regex::new(r"^\s+").unwrap();
     static ref RE_ID: Regex = Regex::new(r"^[^\d\W]\w*\b").unwrap();
     static ref RE_NAME: Regex =
         Regex::new(r#"^("(\\"|[^"])*")|^('(\\'|[^'])*')|^(\w|\+|-)+"#).unwrap();
@@ -175,6 +176,17 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                             None
                         }
                     }
+                    TokenKind::CommentName => RE_ID
+                        .find(&context.input[context.position..])
+                        .and_then(|name| {
+                            let name = name.as_str();
+                            if name == "START" {
+                                None
+                            } else {
+                                Some(name)
+                            }
+                        })
+                        .map(|m| (TokenKind::CommentName, m)),
                     TokenKind::OComment => {
                         str_recognize("/*").map(|value| (TokenKind::OComment, value))
                     }
@@ -189,6 +201,9 @@ impl Lexer<Input, TokenRecognizer> for OutlinerLexer {
                     TokenKind::ConfigurationProperty => RE_CONFIGURATION_PROPERTY
                         .find(&context.input[context.position..])
                         .map(|m| (TokenKind::ConfigurationProperty, m.as_str())),
+                    TokenKind::WS => RE_WS
+                        .find(&context.input[context.position..])
+                        .map(|m| (TokenKind::WS, m.as_str())),
                     TokenKind::Anything => consume_until(&[
                         "//",
                         "/*",

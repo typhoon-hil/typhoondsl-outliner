@@ -28,9 +28,9 @@ TypeName: Name | ID;
 
 // Comments and other stuff we are not capturing like properties
 Layout: LayoutItem*;
-LayoutItem: Comment | Anything | String | ModelComment | ModelProperty | ConfigurationProperty;
+LayoutItem: WS | Comment | Anything | String | ModelComment | ModelProperty | ConfigurationProperty;
 Comment: OComment Cornc* CComment | CommentLine;
-ModelComment: CommentKW ID StartCommentKW TillEndCommentKW? EndCommentKW;
+ModelComment: CommentKW CommentName? StartCommentKW TillEndCommentKW? EndCommentKW;
 Cornc: Comment | NotComment;
 
 
@@ -46,6 +46,7 @@ EndCodeKW:;
 ModelKW:;
 LibraryKW:;
 CommentKW:;
+CommentName:;
 StartCommentKW:;
 EndCommentKW:;
 TillEndCommentKW:;
@@ -59,6 +60,7 @@ String:;
 // /("(\\"|[^"])*")|(\'(\\\'|[^\'])*\')|(\w|\+|-)+/
 Name:;
 
+WS:;
 // Comments
 CommentLine:; //   /\/\/.*/
 OComment:; //  '/*'

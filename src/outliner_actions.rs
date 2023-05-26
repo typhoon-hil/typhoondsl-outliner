@@ -53,7 +53,10 @@ impl From<rustemo::location::Location> for Location {
                 panic!("Position must be line/column based.")
             }
         };
-        let (line_end, column_end) = match location.end.expect("End position must be set!") {
+        let (line_end, column_end) = match location
+            .end
+            .expect("End position must be set!")
+        {
             rustemo::location::Position::LineBased(lb) => (lb.line, lb.column),
             rustemo::location::Position::Position(_) => {
                 panic!("Position must be line/column based.")
@@ -113,7 +116,11 @@ pub fn element0_empty(_ctx: &Context) -> Element0 {
     None
 }
 pub type Element1 = Vec<Element>;
-pub fn element1_c1(_ctx: &Context, mut element1: Element1, element: Element) -> Element1 {
+pub fn element1_c1(
+    _ctx: &Context,
+    mut element1: Element1,
+    element: Element,
+) -> Element1 {
     if let Element::Component(_) | Element::Handler(_) = element {
         element1.push(element)
     }
@@ -176,7 +183,12 @@ pub fn configuration_c1(
 pub struct Block {
     pub element0: Element0,
 }
-pub fn block_c1(_ctx: &Context, _obrace: OBrace, element0: Element0, _cbrace: CBrace) -> Block {
+pub fn block_c1(
+    _ctx: &Context,
+    _obrace: OBrace,
+    element0: Element0,
+    _cbrace: CBrace,
+) -> Block {
     Block { element0 }
 }
 #[derive(Debug, Clone, Serialize)]
@@ -200,15 +212,13 @@ pub type TillEndCodeKWOpt = ();
 pub fn till_end_code_kwopt_till_end_code_kw(
     _ctx: &Context,
     _till_end_code_kw: TillEndCodeKW,
-) -> TillEndCodeKWOpt {
-}
+) -> TillEndCodeKWOpt {}
 pub fn till_end_code_kwopt_empty(_ctx: &Context) -> TillEndCodeKWOpt {}
 #[derive(Debug, Clone, Serialize)]
 pub enum TypeName {
     Name(Name),
     ID(ID),
 }
-
 impl From<TypeName> for String {
     fn from(value: TypeName) -> Self {
         match value {
@@ -237,4 +247,7 @@ pub fn configuration_opt_empty(_ctx: &Context) -> ConfigurationOpt {
 }
 pub type ModelOrLibrary = ();
 pub fn model_or_library_model_kw(_ctx: &Context, _model_kw: ModelKW) -> ModelOrLibrary {}
-pub fn model_or_library_library_kw(_ctx: &Context, _library_kw: LibraryKW) -> ModelOrLibrary {}
+pub fn model_or_library_library_kw(
+    _ctx: &Context,
+    _library_kw: LibraryKW,
+) -> ModelOrLibrary {}
