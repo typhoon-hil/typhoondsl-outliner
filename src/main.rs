@@ -29,8 +29,14 @@ struct Args {
 fn main() -> Result<(), std::io::Error> {
     let args = Args::parse();
 
-    let model_str = match args.model {
-        Some(model) => std::fs::read_to_string(model)?,
+    let model_str = match &args.model {
+        Some(model) => match std::fs::read_to_string(model) {
+            Ok(s) => s,
+            Err(e) => {
+                println!("failure! file: {model:?}");
+                return Err(e)
+            },
+        },
         None => {
             let mut piped = String::new();
             io::stdin().read_to_string(&mut piped)?;
@@ -49,7 +55,7 @@ fn main() -> Result<(), std::io::Error> {
                     println!("{}", serde_json::to_string(&model).unwrap());
                 }
             } else {
-                println!("Success!");
+                println!("success!");
             }
             std::process::exit(0);
         }
@@ -57,7 +63,10 @@ fn main() -> Result<(), std::io::Error> {
             if args.json {
                 println!(r#"{{ "error": true }}"#);
             } else {
-                println!("Failure!");
+                match args.model {
+                    Some(model) => println!("failure! file: {model:?}"),
+                    None => println!("failure!"),
+                }
                 println!("{e:#?}");
             }
             std::process::exit(1);
