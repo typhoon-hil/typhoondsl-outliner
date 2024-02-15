@@ -1,4 +1,5 @@
 #[allow(clippy::unit_arg)]
+#[allow(unused_imports)]
 mod outliner;
 #[allow(clippy::too_many_arguments)]
 mod outliner_actions;
@@ -6,6 +7,7 @@ mod outliner_lexer;
 #[cfg(test)]
 mod tests;
 
+use rustemo::Parser as RustemoParser;
 use clap::Parser;
 use outliner_lexer::OutlinerLexer;
 use std::io::{self, Read};

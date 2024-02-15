@@ -1,34 +1,35 @@
-use super::outliner::Context;
+//! This file is maintained by rustemo but can be modified manually.
+//! All manual changes will be preserved except non-doc comments.
+use rustemo::Context;
+use super::outliner::Context as OutlinerContext;
 use super::outliner::TokenKind;
-use super::outliner_lexer::Input;
-use rustemo::lexer;
-///! This file is maintained by rustemo but can be modified manually.
-///! All manual changes will be preserved except non-doc comments.
+use super::outliner_lexer::InputType;
+pub(crate) type Ctx<'i> = OutlinerContext<'i, str>;
 use serde::Serialize;
 #[allow(dead_code)]
-pub type Token<'i> = lexer::Token<'i, Input, TokenKind>;
+pub type Token<'i> = rustemo::Token<'i, InputType, TokenKind>;
 pub type OBrace = ();
-pub fn obrace<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> OBrace {}
+pub fn obrace<'i>(_ctx: &Ctx<'i>, _token: Token<'i>) -> OBrace {}
 pub type CBrace = ();
-pub fn cbrace<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> CBrace {}
+pub fn cbrace<'i>(_ctx: &Ctx<'i>, _token: Token<'i>) -> CBrace {}
 pub type ComponentKW = ();
-pub fn component_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> ComponentKW {}
+pub fn component_kw<'i>(_ctx: &Ctx<'i>, _token: Token<'i>) -> ComponentKW {}
 pub type ConfigurationKW = ();
-pub fn configuration_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> ConfigurationKW {}
+pub fn configuration_kw<'i>(_ctx: &Ctx<'i>, _token: Token<'i>) -> ConfigurationKW {}
 pub type CodeKW = ();
-pub fn code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> CodeKW {}
+pub fn code_kw<'i>(_ctx: &Ctx<'i>, _token: Token<'i>) -> CodeKW {}
 pub type EndCodeKW = ();
-pub fn end_code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> EndCodeKW {}
+pub fn end_code_kw<'i>(_ctx: &Ctx<'i>, _token: Token<'i>) -> EndCodeKW {}
 pub type ModelKW = ();
-pub fn model_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> ModelKW {}
+pub fn model_kw<'i>(_ctx: &Ctx<'i>, _token: Token<'i>) -> ModelKW {}
 pub type ID = String;
-pub fn id<'i>(_ctx: &Context<'i>, token: Token<'i>) -> ID {
+pub fn id<'i>(_ctx: &Ctx<'i>, token: Token<'i>) -> ID {
     token.value.into()
 }
 pub type TillEndCodeKW = ();
-pub fn till_end_code_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> TillEndCodeKW {}
+pub fn till_end_code_kw<'i>(_ctx: &Ctx<'i>, _token: Token<'i>) -> TillEndCodeKW {}
 pub type Name = String;
-pub fn name<'i>(_ctx: &Context<'i>, token: Token<'i>) -> Name {
+pub fn name<'i>(_ctx: &Ctx<'i>, token: Token<'i>) -> Name {
     if token.value.starts_with('"') || token.value.starts_with('\'') {
         let mut s = token.value.chars();
         s.next();
@@ -45,11 +46,11 @@ pub struct Location {
     line_end: usize,
     column_end: usize,
 }
-impl From<rustemo::location::Location> for Location {
-    fn from(location: rustemo::location::Location) -> Self {
+impl From<rustemo::Location> for Location {
+    fn from(location: rustemo::Location) -> Self {
         let (line_start, column_start) = match location.start {
-            rustemo::location::Position::LineBased(lb) => (lb.line, lb.column),
-            rustemo::location::Position::Position(_) => {
+            rustemo::Position::LineBased(lb) => (lb.line, lb.column),
+            rustemo::Position::Position(_) => {
                 panic!("Position must be line/column based.")
             }
         };
@@ -57,8 +58,8 @@ impl From<rustemo::location::Location> for Location {
             .end
             .expect("End position must be set!")
         {
-            rustemo::location::Position::LineBased(lb) => (lb.line, lb.column),
-            rustemo::location::Position::Position(_) => {
+            rustemo::Position::LineBased(lb) => (lb.line, lb.column),
+            rustemo::Position::Position(_) => {
                 panic!("Position must be line/column based.")
             }
         };
@@ -78,7 +79,7 @@ pub struct Model {
     pub elements: Element0,
 }
 pub fn model_c1(
-    ctx: &Context,
+    ctx: &Ctx,
     _model_kw: ModelKW,
     name: Name,
     _obrace: OBrace,
@@ -88,7 +89,7 @@ pub fn model_c1(
 ) -> Model {
     Model {
         name,
-        location: ctx.location.into(),
+        location: ctx.location().into(),
         configuration,
         elements,
     }
@@ -99,34 +100,30 @@ pub enum Element {
     Handler(Handler),
     Block,
 }
-pub fn element_component(_ctx: &Context, component: Component) -> Element {
+pub fn element_component(_ctx: &Ctx, component: Component) -> Element {
     Element::Component(component)
 }
-pub fn element_handler(_ctx: &Context, handler: Handler) -> Element {
+pub fn element_handler(_ctx: &Ctx, handler: Handler) -> Element {
     Element::Handler(handler)
 }
-pub fn element_block(_ctx: &Context, _block: Block) -> Element {
+pub fn element_block(_ctx: &Ctx, _block: Block) -> Element {
     Element::Block
 }
 pub type Element0 = Option<Element1>;
-pub fn element0_element1(_ctx: &Context, element1: Element1) -> Element0 {
+pub fn element0_element1(_ctx: &Ctx, element1: Element1) -> Element0 {
     Some(element1)
 }
-pub fn element0_empty(_ctx: &Context) -> Element0 {
+pub fn element0_empty(_ctx: &Ctx) -> Element0 {
     None
 }
 pub type Element1 = Vec<Element>;
-pub fn element1_c1(
-    _ctx: &Context,
-    mut element1: Element1,
-    element: Element,
-) -> Element1 {
+pub fn element1_c1(_ctx: &Ctx, mut element1: Element1, element: Element) -> Element1 {
     if let Element::Component(_) | Element::Handler(_) = element {
         element1.push(element)
     }
     element1
 }
-pub fn element1_element(_ctx: &Context, element: Element) -> Element1 {
+pub fn element1_element(_ctx: &Ctx, element: Element) -> Element1 {
     let mut v = vec![];
     if let Element::Component(_) | Element::Handler(_) = element {
         v.push(element)
@@ -142,7 +139,7 @@ pub struct Component {
     pub location: Location,
 }
 pub fn component_c1(
-    ctx: &Context,
+    ctx: &Ctx,
     _component_kw: ComponentKW,
     component_type: TypeName,
     name: Name,
@@ -156,14 +153,14 @@ pub fn component_c1(
         name,
         idopt,
         elements: Box::new(elements),
-        location: ctx.location.into(),
+        location: ctx.location().into(),
     }
 }
 pub type IDOpt = Option<ID>;
-pub fn idopt_id(_ctx: &Context, id: ID) -> IDOpt {
+pub fn idopt_id(_ctx: &Ctx, id: ID) -> IDOpt {
     Some(id)
 }
-pub fn idopt_empty(_ctx: &Context) -> IDOpt {
+pub fn idopt_empty(_ctx: &Ctx) -> IDOpt {
     None
 }
 #[derive(Debug, Clone, Serialize)]
@@ -171,12 +168,12 @@ pub struct Configuration {
     pub location: Location,
 }
 pub fn configuration_c1(
-    ctx: &Context,
+    ctx: &Ctx,
     _configuration_kw: ConfigurationKW,
     _block: Block,
 ) -> Configuration {
     Configuration {
-        location: ctx.location.into(),
+        location: ctx.location().into(),
     }
 }
 #[derive(Debug, Clone, Serialize)]
@@ -184,7 +181,7 @@ pub struct Block {
     pub element0: Element0,
 }
 pub fn block_c1(
-    _ctx: &Context,
+    _ctx: &Ctx,
     _obrace: OBrace,
     element0: Element0,
     _cbrace: CBrace,
@@ -197,7 +194,7 @@ pub struct Handler {
     pub location: Location,
 }
 pub fn handler_c1(
-    ctx: &Context,
+    ctx: &Ctx,
     _code_kw: CodeKW,
     name: ID,
     _till_end_code_kwopt: TillEndCodeKWOpt,
@@ -205,15 +202,15 @@ pub fn handler_c1(
 ) -> Handler {
     Handler {
         name,
-        location: ctx.location.into(),
+        location: ctx.location().into(),
     }
 }
 pub type TillEndCodeKWOpt = ();
 pub fn till_end_code_kwopt_till_end_code_kw(
-    _ctx: &Context,
+    _ctx: &Ctx,
     _till_end_code_kw: TillEndCodeKW,
 ) -> TillEndCodeKWOpt {}
-pub fn till_end_code_kwopt_empty(_ctx: &Context) -> TillEndCodeKWOpt {}
+pub fn till_end_code_kwopt_empty(_ctx: &Ctx) -> TillEndCodeKWOpt {}
 #[derive(Debug, Clone, Serialize)]
 pub enum TypeName {
     Name(Name),
@@ -227,27 +224,27 @@ impl From<TypeName> for String {
         }
     }
 }
-pub fn type_name_name(_ctx: &Context, name: Name) -> TypeName {
+pub fn type_name_name(_ctx: &Ctx, name: Name) -> TypeName {
     TypeName::Name(name)
 }
-pub fn type_name_id(_ctx: &Context, id: ID) -> TypeName {
+pub fn type_name_id(_ctx: &Ctx, id: ID) -> TypeName {
     TypeName::ID(id)
 }
 pub type LibraryKW = ();
-pub fn library_kw<'i>(_ctx: &Context<'i>, _token: Token<'i>) -> LibraryKW {}
+pub fn library_kw<'i>(_ctx: &Ctx<'i>, _token: Token<'i>) -> LibraryKW {}
 pub type ConfigurationOpt = Option<Configuration>;
 pub fn configuration_opt_configuration(
-    _ctx: &Context,
+    _ctx: &Ctx,
     configuration: Configuration,
 ) -> ConfigurationOpt {
     Some(configuration)
 }
-pub fn configuration_opt_empty(_ctx: &Context) -> ConfigurationOpt {
+pub fn configuration_opt_empty(_ctx: &Ctx) -> ConfigurationOpt {
     None
 }
 pub type ModelOrLibrary = ();
-pub fn model_or_library_model_kw(_ctx: &Context, _model_kw: ModelKW) -> ModelOrLibrary {}
+pub fn model_or_library_model_kw(_ctx: &Ctx, _model_kw: ModelKW) -> ModelOrLibrary {}
 pub fn model_or_library_library_kw(
-    _ctx: &Context,
+    _ctx: &Ctx,
     _library_kw: LibraryKW,
 ) -> ModelOrLibrary {}
