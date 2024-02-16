@@ -74,8 +74,7 @@ impl<'i> Lexer<'i, Ctx<'i>, State, TokenKind> for OutlinerLexer {
                             || (!is_word_char(
                                 input[..position]
                                     .chars()
-                                    .rev()
-                                    .next()
+                                    .next_back()
                                     .unwrap_or(' '),
                             ) && !is_word_char(
                                 input[position + s.len()..]
