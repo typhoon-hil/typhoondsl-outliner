@@ -35,6 +35,8 @@ fn test_models(#[case] model: &str) {
 #[rstest]
 #[case("User Library.tlib")]
 #[case("motor_lib.tlib")]
+#[case("communication.tlib")]
+#[case("relay_microgrid.tlib")]
 fn test_libraries(#[case] library: &str) {
     assert!(Path::new(&format!("src/tests/libraries/{library}")).exists());
     let result = Command::new("typhoondsl-outliner")

@@ -1,0 +1,3033 @@
+{
+  "name": "core",
+  "location": {
+    "line_start": 5,
+    "column_start": 0,
+    "line_end": 15503,
+    "column_end": 1
+  },
+  "configuration": null,
+  "elements": [
+    {
+      "Component": {
+        "component_type": "Root",
+        "name": "root",
+        "idopt": null,
+        "elements": [
+          {
+            "Component": {
+              "component_type": "Category",
+              "name": "Communication",
+              "idopt": null,
+              "elements": [
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "SFP Simulation Link",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "sfp_setup",
+                          "name": "SFP Setup",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 14,
+                            "column_start": 16,
+                            "line_end": 14,
+                            "column_end": 100
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "sfp_send_internal",
+                          "name": "SFP Send Internal",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 15,
+                            "column_start": 16,
+                            "line_end": 15,
+                            "column_end": 116
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "sfp_receive_internal",
+                          "name": "SFP Receive Internal",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 16,
+                            "column_start": 16,
+                            "line_end": 16,
+                            "column_end": 116
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "SFP Receive",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/SFP Receive Internal",
+                                "name": "SFP Receive Internal",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 22,
+                                  "column_start": 20,
+                                  "line_end": 27,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 17,
+                            "column_start": 16,
+                            "line_end": 262,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "SFP Send",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/SFP Send Internal",
+                                "name": "SFP Send Internal",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 273,
+                                  "column_start": 20,
+                                  "line_end": 277,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 268,
+                            "column_start": 16,
+                            "line_end": 819,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 11,
+                      "column_start": 12,
+                      "line_end": 825,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "Egston",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "egston_sfp_internal",
+                          "name": "Egston SFP Internal",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 829,
+                            "column_start": 20,
+                            "line_end": 829,
+                            "column_end": 120
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "Egston SFP Link",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "egston_sfp_internal",
+                                "name": "Egston SFP Internal1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 836,
+                                  "column_start": 24,
+                                  "line_end": 839,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "src_voltage",
+                                "name": "Vs1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 844,
+                                  "column_start": 24,
+                                  "line_end": 847,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "src_voltage",
+                                "name": "Vs2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 853,
+                                  "column_start": 24,
+                                  "line_end": 856,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Voltage Measurement",
+                                "name": "V1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 862,
+                                  "column_start": 24,
+                                  "line_end": 863,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Voltage Measurement",
+                                "name": "V2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 870,
+                                  "column_start": 24,
+                                  "line_end": 871,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "src_voltage",
+                                "name": "Vs4",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 878,
+                                  "column_start": 24,
+                                  "line_end": 881,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "src_voltage",
+                                "name": "Vs3",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 887,
+                                  "column_start": 24,
+                                  "line_end": 890,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Voltage Measurement",
+                                "name": "V3",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 896,
+                                  "column_start": 24,
+                                  "line_end": 897,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Voltage Measurement",
+                                "name": "V4",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 904,
+                                  "column_start": 24,
+                                  "line_end": 905,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "src_current",
+                                "name": "Is1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 912,
+                                  "column_start": 24,
+                                  "line_end": 915,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "src_current",
+                                "name": "Is2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 921,
+                                  "column_start": 24,
+                                  "line_end": 924,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "src_current",
+                                "name": "Is3",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 930,
+                                  "column_start": 24,
+                                  "line_end": 933,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "src_current",
+                                "name": "Is4",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 939,
+                                  "column_start": 24,
+                                  "line_end": 942,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Current Measurement",
+                                "name": "I1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 948,
+                                  "column_start": 24,
+                                  "line_end": 949,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Current Measurement",
+                                "name": "I4",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 956,
+                                  "column_start": 24,
+                                  "line_end": 957,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Current Measurement",
+                                "name": "I3",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 964,
+                                  "column_start": 24,
+                                  "line_end": 965,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Current Measurement",
+                                "name": "I2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 972,
+                                  "column_start": 24,
+                                  "line_end": 973,
+                                  "column_end": 25
+                                }
+                              }
+                            },
+                            {
+                              "Handler": {
+                                "name": "open",
+                                "location": {
+                                  "line_start": 1416,
+                                  "column_start": 28,
+                                  "line_end": 1426,
+                                  "column_end": 35
+                                }
+                              }
+                            },
+                            {
+                              "Handler": {
+                                "name": "init",
+                                "location": {
+                                  "line_start": 1428,
+                                  "column_start": 28,
+                                  "line_end": 1431,
+                                  "column_end": 35
+                                }
+                              }
+                            },
+                            {
+                              "Handler": {
+                                "name": "pre_compile",
+                                "location": {
+                                  "line_start": 1434,
+                                  "column_start": 28,
+                                  "line_end": 1445,
+                                  "column_end": 35
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 831,
+                            "column_start": 20,
+                            "line_end": 1447,
+                            "column_end": 21
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 827,
+                      "column_start": 16,
+                      "line_end": 1451,
+                      "column_end": 17
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "SPI",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "SPI Slave",
+                          "idopt": null,
+                          "elements": [],
+                          "location": {
+                            "line_start": 1457,
+                            "column_start": 16,
+                            "line_end": 1727,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 1454,
+                      "column_start": 12,
+                      "line_end": 1731,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "Ethernet Variable Exchange",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "eth_ve_setup",
+                          "name": "ETH VE Setup",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 1736,
+                            "column_start": 16,
+                            "line_end": 1736,
+                            "column_end": 61
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "ETH VE Send",
+                          "idopt": null,
+                          "elements": [],
+                          "location": {
+                            "line_start": 1738,
+                            "column_start": 16,
+                            "line_end": 2141,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "ETH VE Receive",
+                          "idopt": null,
+                          "elements": [],
+                          "location": {
+                            "line_start": 2146,
+                            "column_start": 16,
+                            "line_end": 2478,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 1733,
+                      "column_start": 12,
+                      "line_end": 2483,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "CAN",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Category",
+                          "name": "CAN Bus",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "CAN Setup",
+                                "idopt": null,
+                                "elements": [
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "can1_status_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 2495,
+                                        "column_start": 24,
+                                        "line_end": 2498,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "can2_status_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 2501,
+                                        "column_start": 24,
+                                        "line_end": 2504,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  }
+                                ],
+                                "location": {
+                                  "line_start": 2490,
+                                  "column_start": 20,
+                                  "line_end": 3383,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "CAN Bus Send",
+                                "idopt": null,
+                                "elements": [],
+                                "location": {
+                                  "line_start": 3388,
+                                  "column_start": 20,
+                                  "line_end": 3637,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "CAN Bus Receive",
+                                "idopt": null,
+                                "elements": [],
+                                "location": {
+                                  "line_start": 3642,
+                                  "column_start": 20,
+                                  "line_end": 3854,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 2488,
+                            "column_start": 16,
+                            "line_end": 3859,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Category",
+                          "name": "CAN FD",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "can_fd_setup",
+                                "name": "CAN FD Setup",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 3863,
+                                  "column_start": 20,
+                                  "line_end": 3863,
+                                  "column_end": 102
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "CAN FD Send",
+                                "idopt": null,
+                                "elements": [],
+                                "location": {
+                                  "line_start": 3865,
+                                  "column_start": 20,
+                                  "line_end": 4115,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "CAN FD Receive",
+                                "idopt": null,
+                                "elements": [],
+                                "location": {
+                                  "line_start": 4120,
+                                  "column_start": 20,
+                                  "line_end": 4332,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 3861,
+                            "column_start": 16,
+                            "line_end": 4336,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Category",
+                          "name": "J1939",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "J1939 Arbitration",
+                                "idopt": null,
+                                "elements": [
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP output",
+                                      "name": "preferred_addr_in",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 4345,
+                                        "column_start": 24,
+                                        "line_end": 4347,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Data Type Conversion",
+                                      "name": "data_conversion",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 4350,
+                                        "column_start": 24,
+                                        "line_end": 4352,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Limit",
+                                      "name": "limit",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 4355,
+                                        "column_start": 24,
+                                        "line_end": 4358,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "ecu_id_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 4361,
+                                        "column_start": 24,
+                                        "line_end": 4364,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  }
+                                ],
+                                "location": {
+                                  "line_start": 4340,
+                                  "column_start": 20,
+                                  "line_end": 4506,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "J1939 Send",
+                                "idopt": null,
+                                "elements": [],
+                                "location": {
+                                  "line_start": 4511,
+                                  "column_start": 20,
+                                  "line_end": 4759,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "J1939 Receive",
+                                "idopt": null,
+                                "elements": [],
+                                "location": {
+                                  "line_start": 4764,
+                                  "column_start": 20,
+                                  "line_end": 4997,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 4338,
+                            "column_start": 16,
+                            "line_end": 5002,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Category",
+                          "name": "CANopen",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "CANopen Slave",
+                                "idopt": null,
+                                "elements": [
+                                  {
+                                    "Handler": {
+                                      "name": "open",
+                                      "location": {
+                                        "line_start": 5123,
+                                        "column_start": 24,
+                                        "line_end": 5128,
+                                        "column_end": 31
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Handler": {
+                                      "name": "init",
+                                      "location": {
+                                        "line_start": 5130,
+                                        "column_start": 24,
+                                        "line_end": 5134,
+                                        "column_end": 31
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Handler": {
+                                      "name": "pre_compile",
+                                      "location": {
+                                        "line_start": 5136,
+                                        "column_start": 24,
+                                        "line_end": 5140,
+                                        "column_end": 31
+                                      }
+                                    }
+                                  }
+                                ],
+                                "location": {
+                                  "line_start": 5006,
+                                  "column_start": 20,
+                                  "line_end": 5141,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 5004,
+                            "column_start": 16,
+                            "line_end": 5146,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 2485,
+                      "column_start": 12,
+                      "line_end": 5148,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "EtherCAT",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "EtherCAT Slave",
+                          "idopt": null,
+                          "elements": [],
+                          "location": {
+                            "line_start": 5153,
+                            "column_start": 16,
+                            "line_end": 5220,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 5150,
+                      "column_start": 12,
+                      "line_end": 5226,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "IEC 61850",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Category",
+                          "name": "Sampled Values",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "comm_sv_setup",
+                                "name": "SV Setup",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 5233,
+                                  "column_start": 20,
+                                  "line_end": 5233,
+                                  "column_end": 61
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "SV Publisher",
+                                "idopt": null,
+                                "elements": [
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Gain",
+                                      "name": "I_scale",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5240,
+                                        "column_start": 24,
+                                        "line_end": 5242,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Gain",
+                                      "name": "V_scale",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5245,
+                                        "column_start": 24,
+                                        "line_end": 5247,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Data Type Conversion",
+                                      "name": "I_convert",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5250,
+                                        "column_start": 24,
+                                        "line_end": 5252,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Data Type Conversion",
+                                      "name": "V_convert",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5255,
+                                        "column_start": 24,
+                                        "line_end": 5257,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Byte Swap",
+                                      "name": "I_byte_swap",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5260,
+                                        "column_start": 24,
+                                        "line_end": 5262,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Byte Swap",
+                                      "name": "IQ_byte_swap",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5265,
+                                        "column_start": 24,
+                                        "line_end": 5267,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Byte Swap",
+                                      "name": "V_byte_swap",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5270,
+                                        "column_start": 24,
+                                        "line_end": 5272,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Byte Swap",
+                                      "name": "VQ_byte_swap",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5275,
+                                        "column_start": 24,
+                                        "line_end": 5277,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Split",
+                                      "name": "I_bus_split",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5280,
+                                        "column_start": 24,
+                                        "line_end": 5282,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Split",
+                                      "name": "IQ_bus_split",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5285,
+                                        "column_start": 24,
+                                        "line_end": 5287,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Split",
+                                      "name": "V_bus_split",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5290,
+                                        "column_start": 24,
+                                        "line_end": 5292,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Split",
+                                      "name": "VQ_bus_split",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5295,
+                                        "column_start": 24,
+                                        "line_end": 5297,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Join",
+                                      "name": "bus_join",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5300,
+                                        "column_start": 24,
+                                        "line_end": 5302,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP output",
+                                      "name": "SV_data",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 5305,
+                                        "column_start": 24,
+                                        "line_end": 5307,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Handler": {
+                                      "name": "on_dialog_open",
+                                      "location": {
+                                        "line_start": 6047,
+                                        "column_start": 20,
+                                        "line_end": 6063,
+                                        "column_end": 27
+                                      }
+                                    }
+                                  }
+                                ],
+                                "location": {
+                                  "line_start": 5235,
+                                  "column_start": 20,
+                                  "line_end": 6065,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "SV Subscriber",
+                                "idopt": null,
+                                "elements": [
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "SV_data",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6075,
+                                        "column_start": 24,
+                                        "line_end": 6078,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Split",
+                                      "name": "bus_split",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6081,
+                                        "column_start": 24,
+                                        "line_end": 6083,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Join",
+                                      "name": "I_bus_join",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6086,
+                                        "column_start": 24,
+                                        "line_end": 6088,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Join",
+                                      "name": "IQ_bus_join",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6091,
+                                        "column_start": 24,
+                                        "line_end": 6093,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Join",
+                                      "name": "V_bus_join",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6096,
+                                        "column_start": 24,
+                                        "line_end": 6098,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Bus Join",
+                                      "name": "VQ_bus_join",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6101,
+                                        "column_start": 24,
+                                        "line_end": 6103,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Byte Swap",
+                                      "name": "I_byte_swap",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6106,
+                                        "column_start": 24,
+                                        "line_end": 6106,
+                                        "column_end": 67
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Byte Swap",
+                                      "name": "IQ_byte_swap",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6109,
+                                        "column_start": 24,
+                                        "line_end": 6111,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Byte Swap",
+                                      "name": "V_byte_swap",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6114,
+                                        "column_start": 24,
+                                        "line_end": 6114,
+                                        "column_end": 67
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Byte Swap",
+                                      "name": "VQ_byte_swap",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6117,
+                                        "column_start": 24,
+                                        "line_end": 6119,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Gain",
+                                      "name": "I_scale",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6122,
+                                        "column_start": 24,
+                                        "line_end": 6124,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Gain",
+                                      "name": "V_scale",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6127,
+                                        "column_start": 24,
+                                        "line_end": 6129,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  }
+                                ],
+                                "location": {
+                                  "line_start": 6070,
+                                  "column_start": 20,
+                                  "line_end": 6379,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 5231,
+                            "column_start": 16,
+                            "line_end": 6383,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Category",
+                          "name": "GOOSE",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "GOOSE Publisher",
+                                "idopt": "iec_goose_publish",
+                                "elements": [
+                                  {
+                                    "Component": {
+                                      "component_type": "gen_sys_out",
+                                      "name": "goose_data_in",
+                                      "idopt": "gen_sys_out",
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6407,
+                                        "column_start": 24,
+                                        "line_end": 6407,
+                                        "column_end": 75
+                                      }
+                                    }
+                                  }
+                                ],
+                                "location": {
+                                  "line_start": 6387,
+                                  "column_start": 20,
+                                  "line_end": 6591,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "GOOSE Subscriber",
+                                "idopt": "iec_goose_subscr",
+                                "elements": [
+                                  {
+                                    "Component": {
+                                      "component_type": "src_sys_in",
+                                      "name": "goose_data_out",
+                                      "idopt": "src_sys_in",
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 6617,
+                                        "column_start": 24,
+                                        "line_end": 6617,
+                                        "column_end": 74
+                                      }
+                                    }
+                                  }
+                                ],
+                                "location": {
+                                  "line_start": 6597,
+                                  "column_start": 20,
+                                  "line_end": 6814,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 6385,
+                            "column_start": 16,
+                            "line_end": 6820,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Category",
+                          "name": "MMS",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "MMS Server",
+                                "idopt": "iec_mms_server",
+                                "elements": [],
+                                "location": {
+                                  "line_start": 6824,
+                                  "column_start": 20,
+                                  "line_end": 7140,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 6822,
+                            "column_start": 16,
+                            "line_end": 7146,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 5228,
+                      "column_start": 12,
+                      "line_end": 7148,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "Modbus",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "ModBus Device",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/SP input output",
+                                "name": "comp_coil_in_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 7159,
+                                  "column_start": 20,
+                                  "line_end": 7159,
+                                  "column_end": 110
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "comp_discrete_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 7160,
+                                  "column_start": 20,
+                                  "line_end": 7160,
+                                  "column_end": 69
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input output",
+                                "name": "comp_holding_in_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 7161,
+                                  "column_start": 20,
+                                  "line_end": 7161,
+                                  "column_end": 113
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "comp_reg_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 7162,
+                                  "column_start": 20,
+                                  "line_end": 7162,
+                                  "column_end": 64
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 7153,
+                            "column_start": 16,
+                            "line_end": 7738,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "Modbus Client",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "state_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 7747,
+                                  "column_start": 20,
+                                  "line_end": 7751,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "exception_code_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 7754,
+                                  "column_start": 20,
+                                  "line_end": 7758,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 7743,
+                            "column_start": 16,
+                            "line_end": 7976,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "SunSpec Modbus Device",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "gen_terminator",
+                                "name": "coi_outl_terminte",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 7986,
+                                  "column_start": 20,
+                                  "line_end": 7986,
+                                  "column_end": 65
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "src_constant",
+                                "name": "Constant1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 7991,
+                                  "column_start": 20,
+                                  "line_end": 7993,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/ModBus Device",
+                                "name": "ModBus Device",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 7998,
+                                  "column_start": 20,
+                                  "line_end": 8005,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 7981,
+                            "column_start": 16,
+                            "line_end": 8266,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 7150,
+                      "column_start": 12,
+                      "line_end": 8272,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "OPC",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "OPC UA Server",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "comp_nodes_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 8283,
+                                  "column_start": 20,
+                                  "line_end": 8285,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "comp_nodes_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 8290,
+                                  "column_start": 20,
+                                  "line_end": 8292,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 8277,
+                            "column_start": 16,
+                            "line_end": 8515,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 8274,
+                      "column_start": 12,
+                      "line_end": 8521,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "DNP3",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "DNP3 Outstation",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "comp_analog_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 8532,
+                                  "column_start": 20,
+                                  "line_end": 8534,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "comp_binary_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 8540,
+                                  "column_start": 20,
+                                  "line_end": 8542,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "comp_double_bit_binary_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 8548,
+                                  "column_start": 20,
+                                  "line_end": 8550,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "comp_analog_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 8555,
+                                  "column_start": 20,
+                                  "line_end": 8557,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "comp_binary_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 8562,
+                                  "column_start": 20,
+                                  "line_end": 8564,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 8526,
+                            "column_start": 16,
+                            "line_end": 8801,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 8523,
+                      "column_start": 12,
+                      "line_end": 8807,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "Serial",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "comm_serial_setup",
+                          "name": "Serial Setup",
+                          "idopt": null,
+                          "elements": null,
+                          "location": {
+                            "line_start": 8812,
+                            "column_start": 16,
+                            "line_end": 8812,
+                            "column_end": 66
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "Serial Send",
+                          "idopt": null,
+                          "elements": [],
+                          "location": {
+                            "line_start": 8814,
+                            "column_start": 16,
+                            "line_end": 9078,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "Serial Receive",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "Receive st",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9088,
+                                  "column_start": 20,
+                                  "line_end": 9090,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 9083,
+                            "column_start": 16,
+                            "line_end": 9365,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 8809,
+                      "column_start": 12,
+                      "line_end": 9370,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "C37_118",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "PMU Send",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/Data Type Conversion",
+                                "name": "freq_data_conversion",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9449,
+                                  "column_start": 20,
+                                  "line_end": 9451,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Data Type Conversion",
+                                "name": "dfreq_data_conversion",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9456,
+                                  "column_start": 20,
+                                  "line_end": 9458,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Data Type Conversion",
+                                "name": "phasor_data_conversion",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9463,
+                                  "column_start": 20,
+                                  "line_end": 9465,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Data Type Conversion",
+                                "name": "analog_data_conversion",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9470,
+                                  "column_start": 20,
+                                  "line_end": 9472,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Data Type Conversion",
+                                "name": "digital_data_conversion",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9477,
+                                  "column_start": 20,
+                                  "line_end": 9480,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "freq_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9485,
+                                  "column_start": 20,
+                                  "line_end": 9487,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "dfreq_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9492,
+                                  "column_start": 20,
+                                  "line_end": 9494,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "phasor_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9499,
+                                  "column_start": 20,
+                                  "line_end": 9502,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "analog_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9507,
+                                  "column_start": 20,
+                                  "line_end": 9509,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "digital_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 9514,
+                                  "column_start": 20,
+                                  "line_end": 9517,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 9375,
+                            "column_start": 16,
+                            "line_end": 10436,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "PMU Receive",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/Data Type Conversion",
+                                "name": "cmd_data_conversion",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 10549,
+                                  "column_start": 20,
+                                  "line_end": 10551,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP output",
+                                "name": "cmd_out",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 10556,
+                                  "column_start": 20,
+                                  "line_end": 10558,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "rdy_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 10563,
+                                  "column_start": 20,
+                                  "line_end": 10565,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "stat_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 10570,
+                                  "column_start": 20,
+                                  "line_end": 10572,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "freq_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 10577,
+                                  "column_start": 20,
+                                  "line_end": 10579,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "dfreq_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 10584,
+                                  "column_start": 20,
+                                  "line_end": 10586,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "phasor_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 10591,
+                                  "column_start": 20,
+                                  "line_end": 10594,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "analog_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 10599,
+                                  "column_start": 20,
+                                  "line_end": 10601,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/SP input",
+                                "name": "digital_in",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 10606,
+                                  "column_start": 20,
+                                  "line_end": 10608,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 10441,
+                            "column_start": 16,
+                            "line_end": 11009,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 9372,
+                      "column_start": 12,
+                      "line_end": 11014,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "PROFINET",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "IO Device",
+                          "idopt": null,
+                          "elements": [],
+                          "location": {
+                            "line_start": 11018,
+                            "column_start": 16,
+                            "line_end": 11166,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 11016,
+                      "column_start": 12,
+                      "line_end": 11171,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "IEC 60870",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "IEC 60870 Server",
+                          "idopt": null,
+                          "elements": [],
+                          "location": {
+                            "line_start": 11176,
+                            "column_start": 16,
+                            "line_end": 11268,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 11174,
+                      "column_start": 12,
+                      "line_end": 11273,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "EV Charging",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Category",
+                          "name": "ISO 15118",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "ISO 15118 EVCC",
+                                "idopt": null,
+                                "elements": [
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Data Type Conversion",
+                                      "name": "pp_data_conversion",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11287,
+                                        "column_start": 24,
+                                        "line_end": 11289,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Limit",
+                                      "name": "pp_limit",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11292,
+                                        "column_start": 24,
+                                        "line_end": 11295,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP output",
+                                      "name": "pp_in",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11298,
+                                        "column_start": 24,
+                                        "line_end": 11300,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Data Type Conversion",
+                                      "name": "cp_data_conversion",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11304,
+                                        "column_start": 24,
+                                        "line_end": 11306,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Limit",
+                                      "name": "cp_limit",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11309,
+                                        "column_start": 24,
+                                        "line_end": 11312,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP output",
+                                      "name": "cp_in",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11315,
+                                        "column_start": 24,
+                                        "line_end": 11317,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Data Type Conversion",
+                                      "name": "charge_complete_data_conversion",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11321,
+                                        "column_start": 24,
+                                        "line_end": 11323,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Limit",
+                                      "name": "charge_complete_limit",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11326,
+                                        "column_start": 24,
+                                        "line_end": 11329,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP output",
+                                      "name": "charge_complete_in",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11332,
+                                        "column_start": 24,
+                                        "line_end": 11334,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "session_active_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11388,
+                                        "column_start": 24,
+                                        "line_end": 11391,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "received_message_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11394,
+                                        "column_start": 24,
+                                        "line_end": 11397,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "response_code_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 11400,
+                                        "column_start": 24,
+                                        "line_end": 11403,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Handler": {
+                                      "name": "open",
+                                      "location": {
+                                        "line_start": 12944,
+                                        "column_start": 24,
+                                        "line_end": 12949,
+                                        "column_end": 31
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Handler": {
+                                      "name": "pre_compile",
+                                      "location": {
+                                        "line_start": 12951,
+                                        "column_start": 24,
+                                        "line_end": 12955,
+                                        "column_end": 31
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Handler": {
+                                      "name": "post_resolve",
+                                      "location": {
+                                        "line_start": 12957,
+                                        "column_start": 24,
+                                        "line_end": 12961,
+                                        "column_end": 31
+                                      }
+                                    }
+                                  }
+                                ],
+                                "location": {
+                                  "line_start": 11279,
+                                  "column_start": 20,
+                                  "line_end": 12962,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "ISO 15118 SECC",
+                                "idopt": null,
+                                "elements": [
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Data Type Conversion",
+                                      "name": "evse_notification_conversion",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 12973,
+                                        "column_start": 24,
+                                        "line_end": 12975,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Limit",
+                                      "name": "evse_notification_limit",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 12978,
+                                        "column_start": 24,
+                                        "line_end": 12981,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP output",
+                                      "name": "evse_notification_in",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 12984,
+                                        "column_start": 24,
+                                        "line_end": 12986,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Data Type Conversion",
+                                      "name": "pp_conversion",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 12989,
+                                        "column_start": 24,
+                                        "line_end": 12991,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Limit",
+                                      "name": "pp_limit",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 12994,
+                                        "column_start": 24,
+                                        "line_end": 12997,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP output",
+                                      "name": "pp_in",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 13000,
+                                        "column_start": 24,
+                                        "line_end": 13002,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Data Type Conversion",
+                                      "name": "cp_conversion",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 13006,
+                                        "column_start": 24,
+                                        "line_end": 13008,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/Limit",
+                                      "name": "cp_limit",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 13011,
+                                        "column_start": 24,
+                                        "line_end": 13014,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP output",
+                                      "name": "cp_in",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 13017,
+                                        "column_start": 24,
+                                        "line_end": 13019,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "session_active_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 13073,
+                                        "column_start": 24,
+                                        "line_end": 13076,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "received_message_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 13079,
+                                        "column_start": 24,
+                                        "line_end": 13082,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "requested_energy_transfer_mode_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 13085,
+                                        "column_start": 24,
+                                        "line_end": 13088,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Component": {
+                                      "component_type": "core/SP input",
+                                      "name": "departure_time_out",
+                                      "idopt": null,
+                                      "elements": null,
+                                      "location": {
+                                        "line_start": 13091,
+                                        "column_start": 24,
+                                        "line_end": 13094,
+                                        "column_end": 25
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Handler": {
+                                      "name": "open",
+                                      "location": {
+                                        "line_start": 14656,
+                                        "column_start": 24,
+                                        "line_end": 14661,
+                                        "column_end": 31
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Handler": {
+                                      "name": "pre_compile",
+                                      "location": {
+                                        "line_start": 14663,
+                                        "column_start": 24,
+                                        "line_end": 14667,
+                                        "column_end": 31
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "Handler": {
+                                      "name": "post_resolve",
+                                      "location": {
+                                        "line_start": 14669,
+                                        "column_start": 24,
+                                        "line_end": 14673,
+                                        "column_end": 31
+                                      }
+                                    }
+                                  }
+                                ],
+                                "location": {
+                                  "line_start": 12967,
+                                  "column_start": 20,
+                                  "line_end": 14674,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 11277,
+                            "column_start": 16,
+                            "line_end": 14678,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 11275,
+                      "column_start": 12,
+                      "line_end": 14679,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "CIP",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Category",
+                          "name": "EtherNET-IP",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "Subsystem",
+                                "name": "EtherNET-IP Server",
+                                "idopt": null,
+                                "elements": [],
+                                "location": {
+                                  "line_start": 14686,
+                                  "column_start": 20,
+                                  "line_end": 14768,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 14684,
+                            "column_start": 16,
+                            "line_end": 14772,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 14681,
+                      "column_start": 12,
+                      "line_end": 14773,
+                      "column_end": 13
+                    }
+                  }
+                },
+                {
+                  "Component": {
+                    "component_type": "Category",
+                    "name": "ABB",
+                    "idopt": null,
+                    "elements": [
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "DDCS",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/C function",
+                                "name": "C function1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14780,
+                                  "column_start": 20,
+                                  "line_end": 14795,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/C function",
+                                "name": "C function5",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14802,
+                                  "column_start": 20,
+                                  "line_end": 14816,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/C function",
+                                "name": "DataMerge1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14823,
+                                  "column_start": 20,
+                                  "line_end": 14837,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/C function",
+                                "name": "DataMerge2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14843,
+                                  "column_start": 20,
+                                  "line_end": 14863,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/C function",
+                                "name": "Merge5",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14869,
+                                  "column_start": 20,
+                                  "line_end": 14882,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/C function",
+                                "name": "Merge6",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14888,
+                                  "column_start": 20,
+                                  "line_end": 14906,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Constant",
+                                "name": "Constant1",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14912,
+                                  "column_start": 20,
+                                  "line_end": 14916,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Constant",
+                                "name": "Constant2",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14921,
+                                  "column_start": 20,
+                                  "line_end": 14925,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Constant",
+                                "name": "Constant3",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14930,
+                                  "column_start": 20,
+                                  "line_end": 14934,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Constant",
+                                "name": "Constant4",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14939,
+                                  "column_start": 20,
+                                  "line_end": 14943,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Advanced C function",
+                                "name": "FPGA Read",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14948,
+                                  "column_start": 20,
+                                  "line_end": 14970,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Advanced C function",
+                                "name": "FPGA Write",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 14976,
+                                  "column_start": 20,
+                                  "line_end": 14998,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Advanced C function",
+                                "name": "Configuration",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 15004,
+                                  "column_start": 20,
+                                  "line_end": 15044,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 14777,
+                            "column_start": 16,
+                            "line_end": 15324,
+                            "column_end": 17
+                          }
+                        }
+                      },
+                      {
+                        "Component": {
+                          "component_type": "Subsystem",
+                          "name": "PowerLink",
+                          "idopt": null,
+                          "elements": [
+                            {
+                              "Component": {
+                                "component_type": "core/Advanced C function",
+                                "name": "RxStatus",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 15347,
+                                  "column_start": 20,
+                                  "line_end": 15363,
+                                  "column_end": 21
+                                }
+                              }
+                            },
+                            {
+                              "Component": {
+                                "component_type": "core/Advanced C function",
+                                "name": "Reset",
+                                "idopt": null,
+                                "elements": null,
+                                "location": {
+                                  "line_start": 15384,
+                                  "column_start": 20,
+                                  "line_end": 15398,
+                                  "column_end": 21
+                                }
+                              }
+                            }
+                          ],
+                          "location": {
+                            "line_start": 15329,
+                            "column_start": 16,
+                            "line_end": 15491,
+                            "column_end": 17
+                          }
+                        }
+                      }
+                    ],
+                    "location": {
+                      "line_start": 14775,
+                      "column_start": 12,
+                      "line_end": 15496,
+                      "column_end": 13
+                    }
+                  }
+                }
+              ],
+              "location": {
+                "line_start": 9,
+                "column_start": 8,
+                "line_end": 15499,
+                "column_end": 9
+              }
+            }
+          }
+        ],
+        "location": {
+          "line_start": 7,
+          "column_start": 4,
+          "line_end": 15501,
+          "column_end": 5
+        }
+      }
+    }
+  ]
+}
