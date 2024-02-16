@@ -213,7 +213,7 @@ impl<'i> Lexer<'i, Ctx<'i>, State, TokenKind> for OutlinerLexer {
                                 r#"""#,
                                 r#"'"#,
                                 "component",
-                                //"model",
+                                "model",
                                 "library",
                                 //"configuration",
                                 "CODE",
