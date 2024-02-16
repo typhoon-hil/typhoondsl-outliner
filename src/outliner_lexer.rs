@@ -14,7 +14,7 @@ lazy_static! {
     static ref RE_ID: Regex = Regex::new(r"^[^\d\W]\w*\b").unwrap();
     static ref RE_NAME: Regex =
         Regex::new(r#"^("(\\"|[^"])*")|^('(\\'|[^'])*')|^(\w|\+|-)+"#).unwrap();
-    static ref RE_STRING: Regex = Regex::new(r#"^(("[^"]*")|('[^']*'))"#).unwrap();
+    static ref RE_STRING: Regex = Regex::new(r#"^(("(\\"|[^"])*")|('(\\'|[^'])*'))"#).unwrap();
     static ref RE_MODEL_PROPERTY: Regex = Regex::new(r#"^model\s+="#).unwrap();
     static ref RE_CONFIGURATION_PROPERTY: Regex = Regex::new(r#"^configuration\s+="#).unwrap();
 }
@@ -85,6 +85,8 @@ impl<'i> Lexer<'i, Ctx<'i>, State, TokenKind> for OutlinerLexer {
             }
         }
 
+        /// Consumes and returns a slice of string until one of until_words is
+        /// matched (not including until_word).
         fn consume_until<'i>(
             input: &'i str,
             context: &Ctx,
